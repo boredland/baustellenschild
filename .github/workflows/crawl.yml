@@ -2,7 +2,7 @@ name: Crawl Baustellen Data
 
 on:
   schedule:
-    - cron: '0 3 * * *'   # daily at 03:00 UTC
+    - cron: '*/30 * * * *'  # every 30 minutes
   workflow_dispatch:        # manual trigger for testing
 
 concurrency:
@@ -20,7 +20,7 @@ jobs:
       - run: uv run --no-cache python -u src/crawl.py
         env:
           PYTHONUNBUFFERED: "1"
-          CRAWL_CONCURRENCY: "50"
+          CRAWL_CONCURRENCY: "100"
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
