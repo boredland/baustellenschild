@@ -66,17 +66,23 @@ def parse_bauschild_html(html: str) -> Optional[dict]:
         return None
 
     result = {}
-    for de_key, en_key in [
+    # Map German field names to English keys
+    field_mapping = [
+        ("Aktenzeichen", "permit_number"),
+        ("Bauvorhaben", "description"),
         ("Straße/Hausnummer", "address"),
         ("Straße", "street"),
         ("Hausnummer", "house_number"),
         ("Postleitzahl", "postal_code"),
+        ("PLZ/Ort", "location"),
         ("Vorname und Name", "name"),
-        ("Aktenzeichen", "permit_number"),
-        ("Bauvorhaben", "description"),
         ("Datum", "permit_date"),
         ("Behörde", "authority"),
-    ]:
+        ("Gemarkung, Flur, Flurstück", "parcel_info"),
+        ("Vertreten durch", "represented_by"),
+    ]
+
+    for de_key, en_key in field_mapping:
         if de_key in fields:
             result[en_key] = fields[de_key]
 
@@ -120,41 +126,31 @@ async def scrape_liegenschaft_async(
                 soup = BeautifulSoup(html, "lxml")
                 list_table = soup.find("table", class_="baustellenschild-searchresults")
 
-                # Debug: log what we got
-                if "baustellenschild" in html:
-                    if list_table:
-                        rows = list_table.find_all("tr")
-                        print(f"[DEBUG] Found list table with {len(rows)} rows", flush=True)
-                    else:
-                        print(f"[DEBUG] Page contains 'baustellenschild' but no list table found", flush=True)
-                else:
-                    try:
-                        import os
-                        from pathlib import Path
-                        debug_dir = Path(os.path.dirname(__file__)).parent / "debug"
-                        debug_dir.mkdir(exist_ok=True)
-                        # Sanitize flurstueck for filename
-                        safe_flst = flurstueck.replace("/", "_")
-                        debug_file = debug_dir / f"unexpected_response_{gemarkung_id}_{flur}_{safe_flst}.html"
-                        with open(debug_file, "w", encoding="utf-8") as f:
-                            f.write(html)
-                        print(f"[DEBUG] Response doesn't contain 'baustellenschild' (saved to {debug_file}) - length: {len(html)}", flush=True)
-                    except Exception as e:
-                        print(f"[DEBUG] Error saving debug file: {e}", flush=True)
-                        print(f"[DEBUG] Response doesn't contain 'baustellenschild' - response length: {len(html)}", flush=True)
-
                 if list_table:
-                    # This is a list page - extract first permit's data
+                    # This is a list page - fetch detail page for first permit
                     first_row = list_table.find("tr")
                     if first_row:
-                        cells = first_row.find_all("td")
-                        if len(cells) >= 2:
-                            permit_link = first_row.find("a")
-                            if permit_link:
-                                result = {}
-                                result["permit_number"] = _normalize_field(permit_link.get_text())
-                                result["description"] = _normalize_field(cells[1].get_text())
-                                return result
+                        permit_link = first_row.find("a")
+                        if permit_link and permit_link.get("href"):
+                            detail_url = "https://www.bauaufsicht-frankfurt.de" + permit_link.get("href")
+                            try:
+                                async with session.get(
+                                    detail_url,
+                                    headers=headers,
+                                    timeout=aiohttp.ClientTimeout(total=15, connect=5)
+                                ) as detail_resp:
+                                    detail_resp.raise_for_status()
+                                    detail_html = await detail_resp.text()
+                                    parsed = parse_bauschild_html(detail_html)
+                                    return parsed if parsed else None
+                            except Exception:
+                                # Fallback: extract from list if detail fetch fails
+                                cells = first_row.find_all("td")
+                                if len(cells) >= 2:
+                                    result = {}
+                                    result["permit_number"] = _normalize_field(permit_link.get_text())
+                                    result["description"] = _normalize_field(cells[1].get_text())
+                                    return result
                     return None
 
                 # Otherwise try to parse as detail page (table-based structure)
