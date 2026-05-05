@@ -20,7 +20,8 @@ jobs:
       - run: uv run playwright install --with-deps chromium
       - run: uv run src/crawl.py
         env:
-          CRAWL_CONCURRENCY: "200"  # Higher concurrency on dedicated CI VM
+          PYTHONUNBUFFERED: "1"
+          CRAWL_CONCURRENCY: "200"
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
