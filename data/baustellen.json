@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-05T14:36:18.593305Z",
+    "last_updated": "2026-05-05T14:40:43.453823Z",
     "total": 1,
     "errors": 0,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -24,7 +24,8 @@
       "architect_location": "60385 Frankfurt am Main",
       "site_manager_name": "Waldeck Lars",
       "site_manager_address": "Löwenstraße  27L",
-      "site_manager_location": "60385 Frankfurt am Main"
+      "site_manager_location": "60385 Frankfurt am Main",
+      "url": "https://www.bauaufsicht-frankfurt.de/service/bauschild?tx_vierwdbafinfothek_constructionsign%5Baction%5D=bauschild&tx_vierwdbafinfothek_constructionsign%5Baktenzeichen%5D=B-2018-1590-3&tx_vierwdbafinfothek_constructionsign%5Bcontroller%5D=Main&cHash=a0515efa95bdcc0f72d34460cacdf7df"
     }
   ]
 }
