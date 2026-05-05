@@ -14,6 +14,7 @@ from scraper import scrape_liegenschaft_async, MAX_CONCURRENT
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 OUTPUT_FILE = DATA_DIR / "baustellen.json"
+PARCELS_CACHE_FILE = DATA_DIR / "parcels.json"
 
 GEMARKUNG_LABELS = {
     460: "Frankfurt Bezirk 01",
@@ -78,6 +79,23 @@ GEMARKUNG_LABELS = {
 }
 
 
+def load_or_enumerate_parcels(force_enumerate: bool = False) -> list[Tuple[int, str, str]]:
+    """Load cached parcels or enumerate them if cache doesn't exist."""
+    if PARCELS_CACHE_FILE.exists() and not force_enumerate:
+        print("Loading parcels from cache...")
+        with open(PARCELS_CACHE_FILE, "r", encoding="utf-8") as f:
+            return json.load(f)
+
+    print("Enumerating parcels...")
+    parcels = enumerate_all_parcels()
+
+    with open(PARCELS_CACHE_FILE, "w", encoding="utf-8") as f:
+        json.dump(parcels, f, indent=2)
+    print(f"Cached {len(parcels)} parcels to {PARCELS_CACHE_FILE}")
+
+    return parcels
+
+
 async def scrape_with_concurrency(
     parcels: Iterator[Tuple[int, str, str]], max_concurrent: int = MAX_CONCURRENT
 ) -> tuple[list, int]:
@@ -130,6 +148,11 @@ def main():
         action="store_true",
         help="Run quick test on a small subset",
     )
+    parser.add_argument(
+        "--force-enumerate",
+        action="store_true",
+        help="Force re-enumeration even if cache exists",
+    )
     args = parser.parse_args()
 
     DATA_DIR.mkdir(exist_ok=True)
@@ -139,8 +162,11 @@ def main():
     print(f"Starting {mode} crawl")
     print(f"{'='*60}\n")
 
-    print("Step 1: Enumerating parcels...")
-    parcels = enumerate_test() if args.test else enumerate_all_parcels()
+    print("Step 1: Getting parcels...")
+    if args.test:
+        parcels = enumerate_test()
+    else:
+        parcels = load_or_enumerate_parcels(force_enumerate=args.force_enumerate)
     print(f"✓ Found {len(parcels)} parcels to scrape\n")
 
     print("Step 2: Scraping parcels (concurrent)...")
