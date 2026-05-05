@@ -2,14 +2,15 @@
 import json
 import sys
 import argparse
+import asyncio
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Iterator, Tuple
 
-import requests
+import aiohttp
 
 from enumerator import enumerate_all_parcels, enumerate_test
-from scraper import scrape_liegenschaft
+from scraper import scrape_liegenschaft_async, MAX_CONCURRENT
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 OUTPUT_FILE = DATA_DIR / "baustellen.json"
@@ -77,6 +78,49 @@ GEMARKUNG_LABELS = {
 }
 
 
+async def scrape_with_concurrency(
+    parcels: Iterator[Tuple[int, str, str]], max_concurrent: int = MAX_CONCURRENT
+) -> tuple[list, int]:
+    """Scrape parcels concurrently with a semaphore to limit concurrency."""
+    sites = []
+    errors = 0
+    semaphore = asyncio.Semaphore(max_concurrent)
+
+    async def scrape_one(session: aiohttp.ClientSession, i: int, gemark: int, flur: str, flst: str):
+        nonlocal errors
+        async with semaphore:
+            try:
+                result = await scrape_liegenschaft_async(session, gemark, flur, flst)
+                if result:
+                    site = {
+                        "gemarkung_id": gemark,
+                        "gemarkung_label": GEMARKUNG_LABELS.get(gemark, f"Unknown ({gemark})"),
+                        "flur": flur,
+                        "flurstueck": flst,
+                    }
+                    site.update(result)
+                    sites.append(site)
+                    print(f"[{i}] Found: {gemark} {flur}/{flst}")
+            except Exception as e:
+                errors += 1
+
+            if i % 100 == 0:
+                print(f"[{i}] ({len(sites)} found, {errors} errors)")
+
+    async with aiohttp.ClientSession() as session:
+        session.headers.update({
+            "User-Agent": "Frankfurt-Bauschild-Crawler/1.0 (public data; contact: jo.strassel@gmail.com)"
+        })
+
+        tasks = [
+            scrape_one(session, i, gemark, flur, flst)
+            for i, (gemark, flur, flst) in enumerate(parcels, 1)
+        ]
+        await asyncio.gather(*tasks)
+
+    return sites, errors
+
+
 def main():
     parser = argparse.ArgumentParser(description="Crawl Frankfurt Baustellen data")
     parser.add_argument(
@@ -88,39 +132,12 @@ def main():
 
     DATA_DIR.mkdir(exist_ok=True)
 
-    session = requests.Session()
-    session.headers.update(
-        {
-            "User-Agent": "Frankfurt-Bauschild-Crawler/1.0 (public data; contact: jo.strassel@gmail.com)"
-        }
-    )
-
     parcels = enumerate_test() if args.test else enumerate_all_parcels()
 
-    sites = []
-    errors = 0
-
     mode = "TEST" if args.test else "FULL"
-    print(f"Starting {mode} enumeration and scraping...")
-    for i, (gemark, flur, flst) in enumerate(parcels, 1):
-        try:
-            result = scrape_liegenschaft(session, gemark, flur, flst)
-            if result:
-                site = {
-                    "gemarkung_id": gemark,
-                    "gemarkung_label": GEMARKUNG_LABELS.get(
-                        gemark, f"Unknown ({gemark})"
-                    ),
-                    "flur": flur,
-                    "flurstueck": flst,
-                }
-                site.update(result)
-                sites.append(site)
-                print(f"[{i}] Found: {gemark} {flur}/{flst}")
-        except Exception as e:
-            errors += 1
-            if i % 100 == 0:
-                print(f"[{i}] ({errors} errors so far)")
+    print(f"Starting {mode} enumeration and scraping (concurrent)...")
+
+    sites, errors = asyncio.run(scrape_with_concurrency(parcels))
 
     data = {
         "meta": {

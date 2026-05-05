@@ -1,16 +1,15 @@
-import time
+import asyncio
 from typing import Optional
-import requests
+import aiohttp
 from bs4 import BeautifulSoup
 
 BASE_URL = "https://www.bauaufsicht-frankfurt.de"
 LIEGENSCHAFT_URL = f"{BASE_URL}/service/bauschild/liegenschaft"
 
-DELAY_MS = 100  # 100ms between requests, more aggressive
-
-
-def _sleep():
-    time.sleep(DELAY_MS / 1000)
+DELAY_MS = 50  # Reduced since we're running concurrently
+MAX_CONCURRENT = 10  # Max concurrent requests
+MAX_RETRIES = 3
+RETRY_DELAY = 0.5  # seconds, increases exponentially
 
 
 def _normalize_field(value: str) -> Optional[str]:
@@ -60,10 +59,11 @@ def parse_bauschild_html(html: str) -> Optional[dict]:
     return result if result else None
 
 
-def scrape_liegenschaft(
-    session: requests.Session, gemarkung_id: int, flur: str, flurstueck: str
+async def scrape_liegenschaft_async(
+    session: aiohttp.ClientSession, gemarkung_id: int, flur: str, flurstueck: str
 ) -> Optional[dict]:
-    _sleep()
+    """Async scraper for a single parcel with retries."""
+    await asyncio.sleep(DELAY_MS / 1000)
 
     payload = {
         "tx_vierwdbafinfothek_constructionsign[GEMARK]": str(gemarkung_id),
@@ -72,10 +72,26 @@ def scrape_liegenschaft(
         "tx_vierwdbafinfothek_constructionsign[bauschild]": "1",
     }
 
-    resp = session.post(LIEGENSCHAFT_URL, data=payload)
-    resp.raise_for_status()
+    for attempt in range(MAX_RETRIES):
+        try:
+            async with session.post(LIEGENSCHAFT_URL, data=payload, timeout=aiohttp.ClientTimeout(total=10)) as resp:
+                resp.raise_for_status()
+                html = await resp.text()
+                parsed = parse_bauschild_html(html)
+                if parsed:
+                    parsed["raw_html"] = html
+                return parsed
+        except asyncio.TimeoutError:
+            if attempt < MAX_RETRIES - 1:
+                wait = RETRY_DELAY * (2 ** attempt)
+                await asyncio.sleep(wait)
+            continue
+        except aiohttp.ClientError:
+            if attempt < MAX_RETRIES - 1:
+                wait = RETRY_DELAY * (2 ** attempt)
+                await asyncio.sleep(wait)
+            continue
+        except Exception:
+            return None
 
-    parsed = parse_bauschild_html(resp.text)
-    if parsed:
-        parsed["raw_html"] = resp.text
-    return parsed
+    return None

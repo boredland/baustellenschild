@@ -63,16 +63,25 @@ async def enumerate_all_parcels_async() -> list[tuple[int, str, str]]:
     return parcels
 
 
-def enumerate_all_parcels() -> Iterator[tuple[int, str, str]]:
-    """Wrapper to run async enumeration and yield results."""
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
+def _run_async(coro):
+    """Helper to run async code in a non-async context."""
     try:
-        parcels = loop.run_until_complete(enumerate_all_parcels_async())
-        for parcel in parcels:
-            yield parcel
-    finally:
-        loop.close()
+        loop = asyncio.get_running_loop()
+    except RuntimeError:
+        loop = None
+
+    if loop is None:
+        return asyncio.run(coro)
+    else:
+        import concurrent.futures
+        with concurrent.futures.ThreadPoolExecutor() as pool:
+            future = pool.submit(asyncio.run, coro)
+            return future.result()
+
+
+def enumerate_all_parcels() -> list[tuple[int, str, str]]:
+    """Run async enumeration and return all parcels."""
+    return _run_async(enumerate_all_parcels_async())
 
 
 async def enumerate_test_async() -> list[tuple[int, str, str]]:
@@ -130,13 +139,6 @@ async def enumerate_test_async() -> list[tuple[int, str, str]]:
     return parcels
 
 
-def enumerate_test() -> Iterator[tuple[int, str, str]]:
-    """Wrapper to run async test and yield results."""
-    loop = asyncio.new_event_loop()
-    asyncio.set_event_loop(loop)
-    try:
-        parcels = loop.run_until_complete(enumerate_test_async())
-        for parcel in parcels:
-            yield parcel
-    finally:
-        loop.close()
+def enumerate_test() -> list[tuple[int, str, str]]:
+    """Run async test enumeration and return parcels."""
+    return _run_async(enumerate_test_async())
