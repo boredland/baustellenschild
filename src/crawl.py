@@ -85,6 +85,8 @@ async def scrape_with_concurrency(
     sites = []
     errors = 0
     semaphore = asyncio.Semaphore(max_concurrent)
+    parcels_list = list(parcels)
+    total_parcels = len(parcels_list)
 
     async def scrape_one(session: aiohttp.ClientSession, i: int, gemark: int, flur: str, flst: str):
         nonlocal errors
@@ -100,12 +102,12 @@ async def scrape_with_concurrency(
                     }
                     site.update(result)
                     sites.append(site)
-                    print(f"[{i}] Found: {gemark} {flur}/{flst}")
             except Exception as e:
                 errors += 1
 
-            if i % 100 == 0:
-                print(f"[{i}] ({len(sites)} found, {errors} errors)")
+            if i % 50 == 0:
+                progress = 100 * i / total_parcels
+                print(f"  [{i}/{total_parcels}] {progress:.1f}% - {len(sites)} sites, {errors} errors")
 
     async with aiohttp.ClientSession() as session:
         session.headers.update({
@@ -114,7 +116,7 @@ async def scrape_with_concurrency(
 
         tasks = [
             scrape_one(session, i, gemark, flur, flst)
-            for i, (gemark, flur, flst) in enumerate(parcels, 1)
+            for i, (gemark, flur, flst) in enumerate(parcels_list, 1)
         ]
         await asyncio.gather(*tasks)
 
@@ -132,13 +134,21 @@ def main():
 
     DATA_DIR.mkdir(exist_ok=True)
 
-    parcels = enumerate_test() if args.test else enumerate_all_parcels()
-
     mode = "TEST" if args.test else "FULL"
-    print(f"Starting {mode} enumeration and scraping (concurrent)...")
+    print(f"\n{'='*60}")
+    print(f"Starting {mode} crawl")
+    print(f"{'='*60}\n")
+
+    print("Step 1: Enumerating parcels...")
+    parcels = enumerate_test() if args.test else enumerate_all_parcels()
+    print(f"✓ Found {len(parcels)} parcels to scrape\n")
+
+    print("Step 2: Scraping parcels (concurrent)...")
 
     sites, errors = asyncio.run(scrape_with_concurrency(parcels))
+    print(f"\n✓ Scraping complete: {len(sites)} sites found, {errors} errors\n")
 
+    print("Step 3: Writing output...")
     data = {
         "meta": {
             "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -152,8 +162,13 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    print(f"\n✓ Done! {len(sites)} sites found, {errors} errors.")
-    print(f"Output: {OUTPUT_FILE}")
+    print(f"✓ Output written to {OUTPUT_FILE}")
+    print(f"\n{'='*60}")
+    print(f"✓ Crawl complete!")
+    print(f"  • Sites found: {len(sites)}")
+    print(f"  • Errors: {errors}")
+    print(f"  • Success rate: {100*len(sites)/(len(sites)+errors):.1f}%")
+    print(f"{'='*60}\n")
 
 
 if __name__ == "__main__":

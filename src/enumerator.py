@@ -11,15 +11,18 @@ async def enumerate_all_parcels_async() -> list[tuple[int, str, str]]:
     parcels = []
 
     async with async_playwright() as p:
+        print("Launching Chromium browser...")
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
 
+        print(f"Navigating to {FORM_URL}...")
         await page.goto(FORM_URL)
         await page.wait_for_timeout(2000)
 
         gemarkung_select = page.locator("#form-gemarkung")
+        print(f"Starting enumeration of {len(GEMARKUNGEN)} Gemarkungen...")
 
-        for gemark_id in GEMARKUNGEN:
+        for i, gemark_id in enumerate(GEMARKUNGEN, 1):
             # Select Gemarkung
             await gemarkung_select.select_option(str(gemark_id))
             await page.wait_for_timeout(500)
@@ -35,10 +38,10 @@ async def enumerate_all_parcels_async() -> list[tuple[int, str, str]]:
                     flur_values.append(value)
 
             if not flur_values:
-                print(f"✗ Gemarkung {gemark_id}: no Flur values")
+                print(f"  [{i}/{len(GEMARKUNGEN)}] ✗ Gemarkung {gemark_id}: no Flur values")
                 continue
 
-            print(f"Gemarkung {gemark_id}: {len(flur_values)} Flur values")
+            print(f"  [{i}/{len(GEMARKUNGEN)}] Gemarkung {gemark_id}: {len(flur_values)} Flur values")
 
             for flur in flur_values:
                 # Select Flur
@@ -60,6 +63,7 @@ async def enumerate_all_parcels_async() -> list[tuple[int, str, str]]:
 
         await browser.close()
 
+    print(f"Enumeration complete: {len(parcels)} total parcels found")
     return parcels
 
 
