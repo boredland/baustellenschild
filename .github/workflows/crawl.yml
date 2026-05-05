@@ -17,7 +17,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v4
-      - run: uv run src/crawl.py
+      - run: uv run --no-cache python -u src/crawl.py
         env:
           PYTHONUNBUFFERED: "1"
           CRAWL_CONCURRENCY: "200"
