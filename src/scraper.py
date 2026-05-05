@@ -1,9 +1,13 @@
 import asyncio
 import os
+import logging
 from typing import Optional
 import aiohttp
 from bs4 import BeautifulSoup
 import random
+
+logging.basicConfig(level=logging.WARNING)
+logger = logging.getLogger(__name__)
 
 BASE_URL = "https://www.bauaufsicht-frankfurt.de"
 LIEGENSCHAFT_URL = f"{BASE_URL}/service/bauschild/liegenschaft"
@@ -165,7 +169,8 @@ async def scrape_liegenschaft_async(
                                     if parsed:
                                         parsed["url"] = detail_url
                                     return parsed if parsed else None
-                            except Exception:
+                            except Exception as e:
+                                logger.warning(f"Detail page fetch failed for {gemarkung_id}:{flur}:{flurstueck}, using list fallback: {type(e).__name__}")
                                 # Fallback: extract from list if detail fetch fails
                                 cells = first_row.find_all("td")
                                 if len(cells) >= 2:
@@ -182,17 +187,21 @@ async def scrape_liegenschaft_async(
 
                 return None
 
-        except asyncio.TimeoutError:
+        except asyncio.TimeoutError as e:
+            logger.warning(f"Timeout on {gemarkung_id}:{flur}:{flurstueck} (attempt {attempt + 1}/{MAX_RETRIES})")
             if attempt < MAX_RETRIES - 1:
                 wait = RETRY_DELAY * (2 ** attempt)
                 await asyncio.sleep(wait)
             continue
-        except aiohttp.ClientError:
+        except aiohttp.ClientError as e:
+            logger.warning(f"ClientError on {gemarkung_id}:{flur}:{flurstueck}: {type(e).__name__} (attempt {attempt + 1}/{MAX_RETRIES})")
             if attempt < MAX_RETRIES - 1:
                 wait = RETRY_DELAY * (2 ** attempt)
                 await asyncio.sleep(wait)
             continue
-        except Exception:
+        except Exception as e:
+            logger.exception(f"Unexpected error on {gemarkung_id}:{flur}:{flurstueck}: {e}")
             return None
 
+    logger.warning(f"Failed after {MAX_RETRIES} retries: {gemarkung_id}:{flur}:{flurstueck}")
     return None
