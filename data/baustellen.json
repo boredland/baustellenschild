@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-05T14:32:54.726514Z",
+    "last_updated": "2026-05-05T14:33:58.869633Z",
     "total": 1,
     "errors": 0,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -13,9 +13,9 @@
       "flurstueck": "203",
       "permit_number": "B-2018-1590-3",
       "description": "Nutzungsänderung von 2 Lagern in 2 Läden, mit brandschutzrelevanten\nGrundrissänderungen, im EG eines Lagergebäudes mit 2 Läden",
-      "address": "Löwenstraße  27L",
-      "location": "60385 Frankfurt am Main",
-      "name": "Waldeck Lars",
+      "address": "Lindleystraße 7",
+      "location": "60314 Frankfurt am Main",
+      "name": "HFM Managementgesellschaft für Hafen und Markt mbH",
       "parcel_info": "Frankfurt Bezirk 26 (478), 414, 67/1",
       "represented_by": "vertr. d. Herrn Janicke"
     }
