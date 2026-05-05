@@ -167,7 +167,8 @@ def main():
     print(f"✓ Crawl complete!")
     print(f"  • Sites found: {len(sites)}")
     print(f"  • Errors: {errors}")
-    print(f"  • Success rate: {100*len(sites)/(len(sites)+errors):.1f}%")
+    if len(sites) + errors > 0:
+        print(f"  • Success rate: {100*len(sites)/(len(sites)+errors):.1f}%")
     print(f"{'='*60}\n")
 
 
