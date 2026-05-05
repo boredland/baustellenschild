@@ -13,7 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: astral-sh/setup-uv@v4
-      - uses: maxmilton/action-setup-playwright@v1
+      - run: uv run playwright install --with-deps chromium
       - run: uv run src/crawl.py
       - name: Commit updated data
         run: |
