@@ -3,16 +3,16 @@ import json
 import sys
 import argparse
 import asyncio
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterator, Tuple
-
-import aiohttp
+import os
 
 print("[DEBUG] Script started, importing modules...", flush=True)
 
 from enumerator import enumerate_all_parcels, enumerate_test
-from scraper import scrape_liegenschaft_async, MAX_CONCURRENT
+from scraper import scrape_liegenschaft_async
 
 print("[DEBUG] Modules imported successfully", flush=True)
 
@@ -106,66 +106,92 @@ def load_or_enumerate_parcels(force_enumerate: bool = False) -> list[Tuple[int, 
     return parcels
 
 
-async def scrape_with_concurrency(
-    parcels: Iterator[Tuple[int, str, str]], max_concurrent: int = MAX_CONCURRENT
+def scrape_with_concurrency(
+    parcels: Iterator[Tuple[int, str, str]], max_workers: int = None
 ) -> tuple[list, int]:
-    """Scrape parcels concurrently with a semaphore to limit concurrency."""
-    sites = []
-    errors = 0
-    semaphore = asyncio.Semaphore(max_concurrent)
+    """Scrape parcels with thread workers. Auto-determines worker count if not specified."""
     parcels_list = list(parcels)
     total_parcels = len(parcels_list)
 
-    last_log = [0]  # Track last logged index to avoid too much output
+    # Auto-determine worker count if not specified
+    if max_workers is None:
+        max_workers = int(os.getenv("CRAWL_CONCURRENCY", "50"))
+
+    # Determine actual worker count (don't exceed total parcels)
+    actual_workers = min(max_workers, total_parcels, 1000)  # Cap at 1000 to avoid resource exhaustion
+
+    sites = []
+    errors = 0
+    last_log = [0]
     start_time = datetime.now(timezone.utc)
 
-    async def scrape_one(session: aiohttp.ClientSession, i: int, gemark: int, flur: str, flst: str):
+    def scrape_one_sync(args):
+        """Synchronous wrapper for scraping a single parcel."""
         nonlocal errors
-        async with semaphore:
+        i, gemark, flur, flst = args
+
+        try:
+            # Run async scraper in a new event loop (thread-safe)
+            import aiohttp
+
+            async def run_scrape():
+                async with aiohttp.ClientSession() as session:
+                    session.headers.update({
+                        "User-Agent": "Frankfurt-Bauschild-Crawler/1.0 (public data; contact: jo.strassel@gmail.com)"
+                    })
+                    return await scrape_liegenschaft_async(session, gemark, flur, flst)
+
+            loop = asyncio.new_event_loop()
+            asyncio.set_event_loop(loop)
             try:
-                result = await scrape_liegenschaft_async(session, gemark, flur, flst)
-                if result:
-                    site = {
-                        "gemarkung_id": gemark,
-                        "gemarkung_label": GEMARKUNG_LABELS.get(gemark, f"Unknown ({gemark})"),
-                        "flur": flur,
-                        "flurstueck": flst,
-                    }
-                    site.update(result)
-                    sites.append(site)
-            except Exception as e:
-                errors += 1
+                result = loop.run_until_complete(run_scrape())
+            finally:
+                loop.close()
 
-            # Log progress every 20 parcels or more frequently for early batches
-            should_log = (i % 20 == 0) or (i <= 100 and i % 5 == 0)
-            if should_log and i > last_log[0]:
-                last_log[0] = i
-                progress = 100 * i / total_parcels
-                elapsed = datetime.now(timezone.utc) - start_time
-                elapsed_sec = elapsed.total_seconds()
+            if result:
+                site = {
+                    "gemarkung_id": gemark,
+                    "gemarkung_label": GEMARKUNG_LABELS.get(gemark, f"Unknown ({gemark})"),
+                    "flur": flur,
+                    "flurstueck": flst,
+                }
+                site.update(result)
+                sites.append(site)
+        except Exception as e:
+            errors += 1
 
-                # Calculate ETA
-                if i > 0 and elapsed_sec > 0:
-                    rate = i / elapsed_sec  # parcels per second
-                    remaining = total_parcels - i
-                    eta_sec = remaining / rate if rate > 0 else 0
-                    eta_time = datetime.now(timezone.utc) + timedelta(seconds=eta_sec)
-                    eta_str = eta_time.strftime("%H:%M:%S")
-                else:
-                    eta_str = "calculating..."
+        # Log progress
+        should_log = (i % 20 == 0) or (i <= 100 and i % 5 == 0)
+        if should_log and i > last_log[0]:
+            last_log[0] = i
+            progress = 100 * i / total_parcels
+            elapsed = datetime.now(timezone.utc) - start_time
+            elapsed_sec = elapsed.total_seconds()
 
-                log_progress(f"  [{i:6d}/{total_parcels}] {progress:5.1f}% | {len(sites):4d} sites | {errors:3d} errors | ETA {eta_str}")
+            if i > 0 and elapsed_sec > 0:
+                rate = i / elapsed_sec
+                remaining = total_parcels - i
+                eta_sec = remaining / rate if rate > 0 else 0
+                eta_time = datetime.now(timezone.utc) + timedelta(seconds=eta_sec)
+                eta_str = eta_time.strftime("%H:%M:%S")
+            else:
+                eta_str = "calculating..."
 
-    async with aiohttp.ClientSession() as session:
-        session.headers.update({
-            "User-Agent": "Frankfurt-Bauschild-Crawler/1.0 (public data; contact: jo.strassel@gmail.com)"
-        })
+            log_progress(f"  [{i:6d}/{total_parcels}] {progress:5.1f}% | {len(sites):4d} sites | {errors:3d} errors | ETA {eta_str}")
 
-        tasks = [
-            scrape_one(session, i, gemark, flur, flst)
+        return result
+
+    # Use ThreadPoolExecutor for worker management
+    with ThreadPoolExecutor(max_workers=actual_workers) as executor:
+        log_progress(f"Starting {actual_workers} worker threads...")
+        # Submit all tasks
+        futures = [
+            executor.submit(scrape_one_sync, (i, gemark, flur, flst))
             for i, (gemark, flur, flst) in enumerate(parcels_list, 1)
         ]
-        await asyncio.gather(*tasks)
+        # Wait for completion
+        for future in futures:
+            future.result()
 
     return sites, errors
 
@@ -198,9 +224,10 @@ def main():
         parcels = load_or_enumerate_parcels(force_enumerate=args.force_enumerate)
     log_progress(f"✓ Found {len(parcels)} parcels to scrape")
 
-    log_progress(f"Step 2: Scraping {len(parcels)} parcels (concurrency: {MAX_CONCURRENT})...")
+    max_workers = int(os.getenv("CRAWL_CONCURRENCY", "50"))
+    log_progress(f"Step 2: Scraping {len(parcels)} parcels (workers: {max_workers})...")
 
-    sites, errors = asyncio.run(scrape_with_concurrency(parcels))
+    sites, errors = scrape_with_concurrency(parcels, max_workers=max_workers)
     log_progress(f"✓ Scraping complete: {len(sites)} sites found, {errors} errors")
 
     log_progress("Step 3: Writing output...")
