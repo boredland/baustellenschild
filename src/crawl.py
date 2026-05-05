@@ -155,6 +155,31 @@ def update_parcels_metadata(scraped_parcels: dict, now_str: str):
         json.dump(metadata, f)
 
 
+def get_progress_stats():
+    """Calculate total scraped and past 24h stats from metadata."""
+    if not PARCELS_METADATA_FILE.exists():
+        return 0, 0
+
+    with open(PARCELS_METADATA_FILE, "r", encoding="utf-8") as f:
+        metadata = json.load(f)
+
+    now = datetime.now(timezone.utc)
+    twentyfour_hours_ago = now - timedelta(hours=24)
+
+    total_scraped = len(metadata)
+    scraped_past_24h = 0
+
+    for entry in metadata.values():
+        try:
+            last_updated = datetime.fromisoformat(entry["last_updated"].replace("Z", "+00:00"))
+            if last_updated > twentyfour_hours_ago:
+                scraped_past_24h += 1
+        except (ValueError, KeyError):
+            pass
+
+    return total_scraped, scraped_past_24h
+
+
 def load_existing_sites() -> dict:
     """Load existing baustellen.json and return sites indexed by parcel key."""
     if OUTPUT_FILE.exists():
@@ -371,6 +396,10 @@ def main():
     log_progress(f"  • Errors: {errors}")
     if len(sites) + errors > 0:
         log_progress(f"  • Success rate: {100*len(sites)/(len(sites)+errors):.1f}%")
+
+    total_scraped, scraped_past_24h = get_progress_stats()
+    log_progress(f"  • Total parcels scraped (all time): {total_scraped}")
+    log_progress(f"  • Parcels scraped past 24h: {scraped_past_24h}")
     log_progress(f"{'='*60}\n")
 
 
