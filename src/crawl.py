@@ -268,11 +268,35 @@ def main():
         action="store_true",
         help="Scrape all parcels instead of rotating through batch",
     )
+    parser.add_argument(
+        "--gemarkung",
+        type=int,
+        help="Gemarkung ID for manual parcel selection",
+    )
+    parser.add_argument(
+        "--flur",
+        type=str,
+        help="Flur for manual parcel selection (requires --gemarkung)",
+    )
+    parser.add_argument(
+        "--flurstueck",
+        type=str,
+        help="Flurstueck for manual parcel selection (requires --gemarkung and --flur)",
+    )
     args = parser.parse_args()
 
     DATA_DIR.mkdir(exist_ok=True)
 
-    mode = "TEST" if args.test else ("FULL" if args.full else "BATCH")
+    # Determine mode
+    if args.test:
+        mode = "TEST"
+    elif args.gemarkung:
+        mode = "MANUAL"
+    elif args.full:
+        mode = "FULL"
+    else:
+        mode = "BATCH"
+
     log_progress(f"\n{'='*60}")
     log_progress(f"Starting {mode} crawl")
     log_progress(f"{'='*60}")
@@ -280,13 +304,26 @@ def main():
     log_progress("Step 1: Getting parcels...")
     if args.test:
         parcels = enumerate_test()
+    elif args.gemarkung:
+        # Manual parcel selection via command-line args
+        if args.flurstueck:
+            parcels = [(args.gemarkung, args.flur, args.flurstueck)]
+            log_progress(f"✓ Selected 1 parcel: {args.gemarkung}:{args.flur}:{args.flurstueck}")
+        elif args.flur:
+            all_parcels = load_or_enumerate_parcels(force_enumerate=args.force_enumerate)
+            parcels = [p for p in all_parcels if p[0] == args.gemarkung and p[1] == args.flur]
+            log_progress(f"✓ Found {len(parcels)} parcels for gemarkung {args.gemarkung}, flur {args.flur}")
+        else:
+            all_parcels = load_or_enumerate_parcels(force_enumerate=args.force_enumerate)
+            parcels = [p for p in all_parcels if p[0] == args.gemarkung]
+            log_progress(f"✓ Found {len(parcels)} parcels for gemarkung {args.gemarkung}")
     else:
         all_parcels = load_or_enumerate_parcels(force_enumerate=args.force_enumerate)
         if args.full:
             parcels = all_parcels
         else:
             parcels = select_parcels_for_update(all_parcels, batch_size=5000)
-    log_progress(f"✓ Found {len(parcels)} parcels to scrape")
+        log_progress(f"✓ Found {len(parcels)} parcels to scrape")
 
     max_workers = int(os.getenv("CRAWL_CONCURRENCY", "50"))
     log_progress(f"Step 2: Scraping {len(parcels)} parcels (workers: {max_workers})...")
