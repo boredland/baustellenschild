@@ -120,6 +120,16 @@ async def scrape_liegenschaft_async(
                 soup = BeautifulSoup(html, "lxml")
                 list_table = soup.find("table", class_="baustellenschild-searchresults")
 
+                # Debug: log what we got
+                if "baustellenschild" in html:
+                    if list_table:
+                        rows = list_table.find_all("tr")
+                        print(f"[DEBUG] Found list table with {len(rows)} rows", flush=True)
+                    else:
+                        print(f"[DEBUG] Page contains 'baustellenschild' but no list table found", flush=True)
+                else:
+                    print(f"[DEBUG] Response doesn't contain 'baustellenschild' - response length: {len(html)}", flush=True)
+
                 if list_table:
                     # This is a list page - extract first permit's data
                     first_row = list_table.find("tr")
