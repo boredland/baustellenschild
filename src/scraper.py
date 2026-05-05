@@ -59,6 +59,27 @@ def parse_bauschild_html(html: str) -> Optional[dict]:
         result["description"] = project.get("Bauvorhaben")
         result["site_address"] = project.get("Straße/Hausnummer")
         result["parcel_info"] = project.get("Gemarkung, Flur, Flurstück")
+        result["permit_date"] = project.get("Datum")
+
+        # Look for date/timeline fields (various German naming conventions)
+        for key in project:
+            if key and project[key]:
+                key_lower = key.lower()
+                if "beginn" in key_lower or "start" in key_lower or "von" in key_lower:
+                    result["start_date"] = result.get("start_date") or project[key]
+                elif "ende" in key_lower or "bis" in key_lower or "fertigstellung" in key_lower:
+                    result.setdefault("end_date", project[key])
+                    if "geplante" in key_lower or "geplant" in key_lower:
+                        result["estimated_completion"] = project[key]
+                elif "status" in key_lower or "zustand" in key_lower:
+                    result["permit_status"] = project[key]
+                elif "gültig" in key_lower:
+                    if "bis" in key_lower:
+                        result["validity_end"] = project[key]
+                    elif "von" in key_lower:
+                        result["validity_start"] = project[key]
+                elif "kosten" in key_lower or "summe" in key_lower or "investition" in key_lower or "wert" in key_lower:
+                    result["estimated_cost"] = project[key]
 
     # Extract builder (Bauherrschaft) info
     if "builder" in section_data:
@@ -141,6 +162,8 @@ async def scrape_liegenschaft_async(
                                     detail_resp.raise_for_status()
                                     detail_html = await detail_resp.text()
                                     parsed = parse_bauschild_html(detail_html)
+                                    if parsed:
+                                        parsed["url"] = detail_url
                                     return parsed if parsed else None
                             except Exception:
                                 # Fallback: extract from list if detail fetch fails
