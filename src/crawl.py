@@ -25,6 +25,7 @@ def log_progress(msg: str):
 DATA_DIR = Path(__file__).parent.parent / "data"
 OUTPUT_FILE = DATA_DIR / "baustellen.json"
 PARCELS_CACHE_FILE = DATA_DIR / "parcels.json"
+PARCELS_METADATA_FILE = DATA_DIR / "parcels_metadata.json"
 
 GEMARKUNG_LABELS = {
     460: "Frankfurt Bezirk 01",
@@ -106,6 +107,58 @@ def load_or_enumerate_parcels(force_enumerate: bool = False) -> list[Tuple[int, 
     return parcels
 
 
+def select_parcels_for_update(all_parcels: list[Tuple[int, str, str]], batch_size: int = 1000) -> list[Tuple[int, str, str]]:
+    """Select parcels to update using LRU logic - return oldest/missing ones."""
+    if PARCELS_METADATA_FILE.exists():
+        with open(PARCELS_METADATA_FILE, "r", encoding="utf-8") as f:
+            metadata = json.load(f)
+    else:
+        metadata = {}
+
+    now = datetime.now(timezone.utc).isoformat()
+    parcel_keys = [f"{g}:{f}:{s}" for g, f, s in all_parcels]
+
+    # Sort by last_updated timestamp (oldest first, missing ones have None so come first)
+    sorted_parcels = sorted(
+        all_parcels,
+        key=lambda p: metadata.get(f"{p[0]}:{p[1]}:{p[2]}", {}).get("last_updated", "1970-01-01T00:00:00Z")
+    )
+
+    selected = sorted_parcels[:batch_size]
+    log_progress(f"Selected {len(selected)} parcels for update (oldest/missing first)")
+
+    return selected
+
+
+def update_parcels_metadata(scraped_parcels: dict, now_str: str):
+    """Update metadata file with last_updated timestamps."""
+    if PARCELS_METADATA_FILE.exists():
+        with open(PARCELS_METADATA_FILE, "r", encoding="utf-8") as f:
+            metadata = json.load(f)
+    else:
+        metadata = {}
+
+    for gemark, flur, flst in scraped_parcels.keys():
+        key = f"{gemark}:{flur}:{flst}"
+        metadata[key] = {"last_updated": now_str}
+
+    with open(PARCELS_METADATA_FILE, "w", encoding="utf-8") as f:
+        json.dump(metadata, f)
+
+
+def load_existing_sites() -> dict:
+    """Load existing baustellen.json and return sites indexed by parcel key."""
+    if OUTPUT_FILE.exists():
+        with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+            data = json.load(f)
+            sites_by_key = {}
+            for site in data.get("sites", []):
+                key = f"{site['gemarkung_id']}:{site['flur']}:{site['flurstueck']}"
+                sites_by_key[key] = site
+            return sites_by_key
+    return {}
+
+
 def scrape_with_concurrency(
     parcels: Iterator[Tuple[int, str, str]], max_workers: int = None
 ) -> tuple[list, int]:
@@ -113,12 +166,10 @@ def scrape_with_concurrency(
     parcels_list = list(parcels)
     total_parcels = len(parcels_list)
 
-    # Auto-determine worker count if not specified
     if max_workers is None:
         max_workers = int(os.getenv("CRAWL_CONCURRENCY", "50"))
 
-    # Determine actual worker count (don't exceed total parcels)
-    actual_workers = min(max_workers, total_parcels, 1000)  # Cap at 1000 to avoid resource exhaustion
+    actual_workers = min(max_workers, total_parcels, 1000)
 
     sites = []
     errors = 0
@@ -131,7 +182,6 @@ def scrape_with_concurrency(
         i, gemark, flur, flst = args
 
         try:
-            # Run async scraper in a new event loop (thread-safe)
             import aiohttp
 
             async def run_scrape():
@@ -160,7 +210,6 @@ def scrape_with_concurrency(
         except Exception as e:
             errors += 1
 
-        # Log progress
         should_log = (i % 20 == 0) or (i <= 100 and i % 5 == 0)
         if should_log and i > last_log[0]:
             last_log[0] = i
@@ -181,15 +230,12 @@ def scrape_with_concurrency(
 
         return result
 
-    # Use ThreadPoolExecutor for worker management
     with ThreadPoolExecutor(max_workers=actual_workers) as executor:
         log_progress(f"Starting {actual_workers} worker threads...")
-        # Submit all tasks
         futures = [
             executor.submit(scrape_one_sync, (i, gemark, flur, flst))
             for i, (gemark, flur, flst) in enumerate(parcels_list, 1)
         ]
-        # Wait for completion
         for future in futures:
             future.result()
 
@@ -208,11 +254,16 @@ def main():
         action="store_true",
         help="Force re-enumeration even if cache exists",
     )
+    parser.add_argument(
+        "--full",
+        action="store_true",
+        help="Scrape all parcels instead of rotating through batch",
+    )
     args = parser.parse_args()
 
     DATA_DIR.mkdir(exist_ok=True)
 
-    mode = "TEST" if args.test else "FULL"
+    mode = "TEST" if args.test else ("FULL" if args.full else "BATCH")
     log_progress(f"\n{'='*60}")
     log_progress(f"Starting {mode} crawl")
     log_progress(f"{'='*60}")
@@ -221,7 +272,11 @@ def main():
     if args.test:
         parcels = enumerate_test()
     else:
-        parcels = load_or_enumerate_parcels(force_enumerate=args.force_enumerate)
+        all_parcels = load_or_enumerate_parcels(force_enumerate=args.force_enumerate)
+        if args.full:
+            parcels = all_parcels
+        else:
+            parcels = select_parcels_for_update(all_parcels, batch_size=1000)
     log_progress(f"✓ Found {len(parcels)} parcels to scrape")
 
     max_workers = int(os.getenv("CRAWL_CONCURRENCY", "50"))
@@ -230,24 +285,42 @@ def main():
     sites, errors = scrape_with_concurrency(parcels, max_workers=max_workers)
     log_progress(f"✓ Scraping complete: {len(sites)} sites found, {errors} errors")
 
-    log_progress("Step 3: Writing output...")
+    log_progress("Step 3: Merging with existing data...")
+    existing_sites = load_existing_sites() if not args.full else {}
+
+    # Update with newly scraped sites
+    for site in sites:
+        key = f"{site['gemarkung_id']}:{site['flur']}:{site['flurstueck']}"
+        existing_sites[key] = site
+
+    # Convert back to list
+    all_sites = list(existing_sites.values())
+
+    log_progress("Step 4: Writing output...")
+    now_str = datetime.now(timezone.utc).isoformat().replace("+00:00", "Z")
     data = {
         "meta": {
-            "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
-            "total": len(sites),
+            "last_updated": now_str,
+            "total": len(all_sites),
             "errors": errors,
             "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild",
         },
-        "sites": sites,
+        "sites": all_sites,
     }
 
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
+    # Update metadata
+    if not args.test:
+        parcel_dict = {(p[0], p[1], p[2]): True for p in parcels}
+        update_parcels_metadata(parcel_dict, now_str)
+
     log_progress(f"✓ Output written to {OUTPUT_FILE}")
     log_progress(f"{'='*60}")
     log_progress(f"✓ Crawl complete!")
-    log_progress(f"  • Sites found: {len(sites)}")
+    log_progress(f"  • Sites found this run: {len(sites)}")
+    log_progress(f"  • Total sites in database: {len(all_sites)}")
     log_progress(f"  • Errors: {errors}")
     if len(sites) + errors > 0:
         log_progress(f"  • Success rate: {100*len(sites)/(len(sites)+errors):.1f}%")
