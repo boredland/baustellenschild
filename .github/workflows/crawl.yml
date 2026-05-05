@@ -20,7 +20,7 @@ jobs:
       - run: uv run --no-cache python -u src/crawl.py
         env:
           PYTHONUNBUFFERED: "1"
-          CRAWL_CONCURRENCY: "1000"
+          CRAWL_CONCURRENCY: "50"
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

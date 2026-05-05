@@ -3,6 +3,7 @@ import os
 from typing import Optional
 import aiohttp
 from bs4 import BeautifulSoup
+import random
 
 BASE_URL = "https://www.bauaufsicht-frankfurt.de"
 LIEGENSCHAFT_URL = f"{BASE_URL}/service/bauschild/liegenschaft"
@@ -105,6 +106,7 @@ async def scrape_liegenschaft_async(
 
     for attempt in range(MAX_RETRIES):
         try:
+            await asyncio.sleep(random.uniform(0.01, 0.05))
             async with session.post(
                 LIEGENSCHAFT_URL,
                 data=payload,
@@ -119,31 +121,17 @@ async def scrape_liegenschaft_async(
                 list_table = soup.find("table", class_="baustellenschild-searchresults")
 
                 if list_table:
-                    # This is a list page - extract first permit's detail link
+                    # This is a list page - extract first permit's data
                     first_row = list_table.find("tr")
                     if first_row:
-                        permit_link = first_row.find("a")
-                        if permit_link and permit_link.get("href"):
-                            detail_url = "https://www.bauaufsicht-frankfurt.de" + permit_link.get("href")
-                            # Fetch detail page with longer timeout
-                            try:
-                                async with session.get(
-                                    detail_url,
-                                    headers=headers,
-                                    timeout=aiohttp.ClientTimeout(total=30, connect=10)
-                                ) as detail_resp:
-                                    detail_resp.raise_for_status()
-                                    detail_html = await detail_resp.text()
-                                    parsed = parse_bauschild_html(detail_html)
-                                    return parsed if parsed else None
-                            except Exception:
-                                # Fallback to list summary if detail fetch fails
-                                cells = first_row.find_all("td")
-                                if len(cells) >= 2:
-                                    result = {}
-                                    result["permit_number"] = _normalize_field(permit_link.get_text())
-                                    result["description"] = _normalize_field(cells[1].get_text())
-                                    return result
+                        cells = first_row.find_all("td")
+                        if len(cells) >= 2:
+                            permit_link = first_row.find("a")
+                            if permit_link:
+                                result = {}
+                                result["permit_number"] = _normalize_field(permit_link.get_text())
+                                result["description"] = _normalize_field(cells[1].get_text())
+                                return result
                     return None
 
                 # Otherwise try to parse as detail page (table-based structure)
