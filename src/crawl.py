@@ -213,6 +213,7 @@ def scrape_with_concurrency(
                     "gemarkung_label": GEMARKUNG_LABELS.get(gemark, f"Unknown ({gemark})"),
                     "flur": flur,
                     "flurstueck": flst,
+                    "fetched_at": datetime.now(timezone.utc).isoformat(),
                 }
                 site.update(result)
                 sites.append(site)
