@@ -28,78 +28,62 @@ def parse_bauschild_html(html: str) -> Optional[dict]:
     if "nicht vorhanden" in html.lower() or "kein" in html.lower():
         return None
 
-    fields = {}
-
-    # Parse table-based structure (th/td pairs in tables)
-    # Extract from all tables but prioritize the first table (Bauvorhaben/project info)
+    # Parse all tables and track which section each field comes from
     tables = soup.find_all("table", class_="baustellenschild-table")
+    if not tables:
+        return None
 
-    # First pass: only extract from first table (project details)
-    if tables:
-        for row in tables[0].find_all("tr"):
-            th = row.find("th")
-            td = row.find("td")
-            if th and td:
-                label = _normalize_field(th.get_text())
-                value = _normalize_field(td.get_text())
-                if label and value:
-                    fields[label] = value
+    # Extract data from all tables, labeled by their section
+    section_data = {}
+    section_labels = ["project", "builder", "architect", "site_manager"]
 
-    # Second pass: add fields from other tables that don't exist yet
-    for table in tables[1:]:
+    for idx, table in enumerate(tables):
+        section = section_labels[idx] if idx < len(section_labels) else f"section_{idx}"
+        section_data[section] = {}
+
         for row in table.find_all("tr"):
             th = row.find("th")
             td = row.find("td")
             if th and td:
                 label = _normalize_field(th.get_text())
                 value = _normalize_field(td.get_text())
-                if label and value and label not in fields:
-                    fields[label] = value
-
-    # Fallback: Try to find dt/dd pairs (definition list format)
-    if not fields:
-        for dt in soup.find_all("dt"):
-            label = _normalize_field(dt.get_text())
-            dd = dt.find_next("dd")
-            if label and dd:
-                value = _normalize_field(dd.get_text())
-                if value:
-                    fields[label] = value
-
-    # Try alternative structure: divs with data attributes or class names
-    if not fields:
-        for div in soup.find_all("div", class_="vierwd-field") or soup.find_all("div", class_="field"):
-            label_elem = div.find(class_="vierwd-label") or div.find(class_="label")
-            value_elem = div.find(class_="vierwd-value") or div.find(class_="value")
-            if label_elem and value_elem:
-                label = _normalize_field(label_elem.get_text())
-                value = _normalize_field(value_elem.get_text())
                 if label and value:
-                    fields[label] = value
-
-    if not fields:
-        return None
+                    section_data[section][label] = value
 
     result = {}
-    # Map German field names to English keys
-    field_mapping = [
-        ("Aktenzeichen", "permit_number"),
-        ("Bauvorhaben", "description"),
-        ("Straße/Hausnummer", "address"),
-        ("Straße", "street"),
-        ("Hausnummer", "house_number"),
-        ("Postleitzahl", "postal_code"),
-        ("PLZ/Ort", "location"),
-        ("Vorname und Name", "name"),
-        ("Datum", "permit_date"),
-        ("Behörde", "authority"),
-        ("Gemarkung, Flur, Flurstück", "parcel_info"),
-        ("Vertreten durch", "represented_by"),
-    ]
 
-    for de_key, en_key in field_mapping:
-        if de_key in fields:
-            result[en_key] = fields[de_key]
+    # Extract project (Bauvorhaben) info
+    if "project" in section_data:
+        project = section_data["project"]
+        result["permit_number"] = project.get("Aktenzeichen")
+        result["description"] = project.get("Bauvorhaben")
+        result["site_address"] = project.get("Straße/Hausnummer")
+        result["parcel_info"] = project.get("Gemarkung, Flur, Flurstück")
+
+    # Extract builder (Bauherrschaft) info
+    if "builder" in section_data:
+        builder = section_data["builder"]
+        result["builder_name"] = builder.get("Vorname und Name")
+        result["builder_address"] = builder.get("Straße/Hausnummer")
+        result["builder_location"] = builder.get("PLZ/Ort")
+        result["represented_by"] = builder.get("Vertreten durch")
+
+    # Extract architect (Entwurfsverfasser) info
+    if "architect" in section_data:
+        architect = section_data["architect"]
+        result["architect_name"] = architect.get("Vorname und Name")
+        result["architect_address"] = architect.get("Straße/Hausnummer")
+        result["architect_location"] = architect.get("PLZ/Ort")
+
+    # Extract site manager (Bauleitung) info
+    if "site_manager" in section_data:
+        manager = section_data["site_manager"]
+        result["site_manager_name"] = manager.get("Vorname und Name")
+        result["site_manager_address"] = manager.get("Straße/Hausnummer")
+        result["site_manager_location"] = manager.get("PLZ/Ort")
+
+    # Clean up None values
+    result = {k: v for k, v in result.items() if v is not None}
 
     return result if result else None
 
