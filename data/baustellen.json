@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-05-05T14:29:20.334484Z",
+    "last_updated": "2026-05-05T14:32:54.726514Z",
     "total": 1,
     "errors": 0,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -12,7 +12,12 @@
       "flur": "414",
       "flurstueck": "203",
       "permit_number": "B-2018-1590-3",
-      "description": "Nutzungsänderung von 2 Lagern in 2 Läden, mit..."
+      "description": "Nutzungsänderung von 2 Lagern in 2 Läden, mit brandschutzrelevanten\nGrundrissänderungen, im EG eines Lagergebäudes mit 2 Läden",
+      "address": "Löwenstraße  27L",
+      "location": "60385 Frankfurt am Main",
+      "name": "Waldeck Lars",
+      "parcel_info": "Frankfurt Bezirk 26 (478), 414, 67/1",
+      "represented_by": "vertr. d. Herrn Janicke"
     }
   ]
 }
