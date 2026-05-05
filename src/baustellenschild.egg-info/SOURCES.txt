@@ -1,5 +1,6 @@
 pyproject.toml
 src/crawl.py
+src/crawl_debug.py
 src/enumerator.py
 src/scraper.py
 src/baustellenschild.egg-info/PKG-INFO
