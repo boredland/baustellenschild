@@ -194,7 +194,11 @@ async def scrape_liegenschaft_async(
                 await asyncio.sleep(wait)
             continue
         except aiohttp.ClientError as e:
-            logger.warning(f"ClientError on {gemarkung_id}:{flur}:{flurstueck}: {type(e).__name__} (attempt {attempt + 1}/{MAX_RETRIES})")
+            error_msg = f"ClientError on {gemarkung_id}:{flur}:{flurstueck}: {type(e).__name__}"
+            if hasattr(e, 'status'):
+                error_msg += f" (HTTP {e.status})"
+            error_msg += f" (attempt {attempt + 1}/{MAX_RETRIES})"
+            logger.warning(error_msg)
             if attempt < MAX_RETRIES - 1:
                 wait = RETRY_DELAY * (2 ** attempt)
                 await asyncio.sleep(wait)
