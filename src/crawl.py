@@ -108,24 +108,33 @@ def load_or_enumerate_parcels(force_enumerate: bool = False) -> list[Tuple[int, 
 
 
 def select_parcels_for_update(all_parcels: list[Tuple[int, str, str]], batch_size: int = 5000) -> list[Tuple[int, str, str]]:
-    """Select parcels to update using LRU logic - return oldest/missing ones."""
+    """Select parcels evenly distributed across all gemarkungen, choosing oldest/missing first."""
     if PARCELS_METADATA_FILE.exists():
         with open(PARCELS_METADATA_FILE, "r", encoding="utf-8") as f:
             metadata = json.load(f)
     else:
         metadata = {}
 
-    now = datetime.now(timezone.utc).isoformat()
-    parcel_keys = [f"{g}:{f}:{s}" for g, f, s in all_parcels]
+    # Group parcels by gemarkung
+    by_gemarkung = {}
+    for gemark, flur, flst in all_parcels:
+        if gemark not in by_gemarkung:
+            by_gemarkung[gemark] = []
+        by_gemarkung[gemark].append((gemark, flur, flst))
 
-    # Sort by last_updated timestamp (oldest first, missing ones have None so come first)
-    sorted_parcels = sorted(
-        all_parcels,
-        key=lambda p: metadata.get(f"{p[0]}:{p[1]}:{p[2]}", {}).get("last_updated", "1970-01-01T00:00:00Z")
-    )
+    # Sort each gemarkung's parcels by last_updated (oldest first)
+    for gemark in by_gemarkung:
+        by_gemarkung[gemark].sort(
+            key=lambda p: metadata.get(f"{p[0]}:{p[1]}:{p[2]}", {}).get("last_updated", "1970-01-01T00:00:00Z")
+        )
 
-    selected = sorted_parcels[:batch_size]
-    log_progress(f"Selected {len(selected)} parcels for update (oldest/missing first)")
+    # Distribute batch_size evenly across gemarkungen
+    parcels_per_gemarkung = batch_size // len(by_gemarkung)
+    selected = []
+    for gemark in sorted(by_gemarkung.keys()):
+        selected.extend(by_gemarkung[gemark][:parcels_per_gemarkung])
+
+    log_progress(f"Selected {len(selected)} parcels ({parcels_per_gemarkung} per gemarkung, distributed across {len(by_gemarkung)} districts)")
 
     return selected
 
