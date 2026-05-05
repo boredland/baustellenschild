@@ -5,6 +5,10 @@ on:
     - cron: '0 3 * * *'   # daily at 03:00 UTC
   workflow_dispatch:        # manual trigger for testing
 
+concurrency:
+  group: crawl
+  cancel-in-progress: true
+
 jobs:
   crawl:
     runs-on: ubuntu-latest
@@ -15,6 +19,8 @@ jobs:
       - uses: astral-sh/setup-uv@v4
       - run: uv run playwright install --with-deps chromium
       - run: uv run src/crawl.py
+        env:
+          CRAWL_CONCURRENCY: "200"  # Higher concurrency on dedicated CI VM
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
