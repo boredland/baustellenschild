@@ -9,8 +9,18 @@ from typing import Iterator, Tuple
 
 import aiohttp
 
+print("[DEBUG] Script started, importing modules...", flush=True)
+
 from enumerator import enumerate_all_parcels, enumerate_test
 from scraper import scrape_liegenschaft_async, MAX_CONCURRENT
+
+print("[DEBUG] Modules imported successfully", flush=True)
+
+
+def log_progress(msg: str):
+    """Log with timestamp and flush immediately."""
+    timestamp = datetime.now().strftime("%H:%M:%S")
+    print(f"[{timestamp}] {msg}", flush=True)
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 OUTPUT_FILE = DATA_DIR / "baustellen.json"
@@ -106,6 +116,8 @@ async def scrape_with_concurrency(
     parcels_list = list(parcels)
     total_parcels = len(parcels_list)
 
+    last_log = [0]  # Track last logged index to avoid too much output
+
     async def scrape_one(session: aiohttp.ClientSession, i: int, gemark: int, flur: str, flst: str):
         nonlocal errors
         async with semaphore:
@@ -123,9 +135,13 @@ async def scrape_with_concurrency(
             except Exception as e:
                 errors += 1
 
-            if i % 50 == 0:
+            # Log progress every 20 parcels or more frequently for early batches
+            should_log = (i % 20 == 0) or (i <= 100 and i % 5 == 0)
+            if should_log and i > last_log[0]:
+                last_log[0] = i
                 progress = 100 * i / total_parcels
-                print(f"  [{i}/{total_parcels}] {progress:.1f}% - {len(sites)} sites, {errors} errors")
+                elapsed = datetime.now(timezone.utc)
+                log_progress(f"  [{i:6d}/{total_parcels}] {progress:5.1f}% | {len(sites):4d} sites | {errors:3d} errors")
 
     async with aiohttp.ClientSession() as session:
         session.headers.update({
@@ -158,23 +174,23 @@ def main():
     DATA_DIR.mkdir(exist_ok=True)
 
     mode = "TEST" if args.test else "FULL"
-    print(f"\n{'='*60}")
-    print(f"Starting {mode} crawl")
-    print(f"{'='*60}\n")
+    log_progress(f"\n{'='*60}")
+    log_progress(f"Starting {mode} crawl")
+    log_progress(f"{'='*60}")
 
-    print("Step 1: Getting parcels...")
+    log_progress("Step 1: Getting parcels...")
     if args.test:
         parcels = enumerate_test()
     else:
         parcels = load_or_enumerate_parcels(force_enumerate=args.force_enumerate)
-    print(f"✓ Found {len(parcels)} parcels to scrape\n")
+    log_progress(f"✓ Found {len(parcels)} parcels to scrape")
 
-    print("Step 2: Scraping parcels (concurrent)...")
+    log_progress(f"Step 2: Scraping {len(parcels)} parcels (concurrency: {MAX_CONCURRENT})...")
 
     sites, errors = asyncio.run(scrape_with_concurrency(parcels))
-    print(f"\n✓ Scraping complete: {len(sites)} sites found, {errors} errors\n")
+    log_progress(f"✓ Scraping complete: {len(sites)} sites found, {errors} errors")
 
-    print("Step 3: Writing output...")
+    log_progress("Step 3: Writing output...")
     data = {
         "meta": {
             "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
@@ -188,14 +204,14 @@ def main():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
-    print(f"✓ Output written to {OUTPUT_FILE}")
-    print(f"\n{'='*60}")
-    print(f"✓ Crawl complete!")
-    print(f"  • Sites found: {len(sites)}")
-    print(f"  • Errors: {errors}")
+    log_progress(f"✓ Output written to {OUTPUT_FILE}")
+    log_progress(f"{'='*60}")
+    log_progress(f"✓ Crawl complete!")
+    log_progress(f"  • Sites found: {len(sites)}")
+    log_progress(f"  • Errors: {errors}")
     if len(sites) + errors > 0:
-        print(f"  • Success rate: {100*len(sites)/(len(sites)+errors):.1f}%")
-    print(f"{'='*60}\n")
+        log_progress(f"  • Success rate: {100*len(sites)/(len(sites)+errors):.1f}%")
+    log_progress(f"{'='*60}\n")
 
 
 if __name__ == "__main__":
