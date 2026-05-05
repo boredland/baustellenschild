@@ -137,7 +137,7 @@ def scrape_with_concurrency(
             async def run_scrape():
                 async with aiohttp.ClientSession() as session:
                     session.headers.update({
-                        "User-Agent": "Frankfurt-Bauschild-Crawler/1.0 (public data; contact: jo.strassel@gmail.com)"
+                        "User-Agent": "Frankfurt-Bauschild-Crawler/1.0 (public data; contact: info@jonas-strassel.de)"
                     })
                     return await scrape_liegenschaft_async(session, gemark, flur, flst)
 
