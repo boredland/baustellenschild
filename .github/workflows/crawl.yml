@@ -7,7 +7,6 @@ on:
 
 concurrency:
   group: crawl
-  cancel-in-progress: true
 
 jobs:
   crawl:
