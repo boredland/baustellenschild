@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+import json
+import sys
+import argparse
+from datetime import datetime, timezone
+from pathlib import Path
+from typing import Iterator, Tuple
+
+import requests
+
+from enumerator import enumerate_all_parcels, enumerate_test
+from scraper import scrape_liegenschaft
+
+DATA_DIR = Path(__file__).parent.parent / "data"
+OUTPUT_FILE = DATA_DIR / "baustellen.json"
+
+GEMARKUNG_LABELS = {
+    460: "Frankfurt Bezirk 01",
+    461: "Frankfurt Bezirk 09",
+    462: "Frankfurt Bezirk 10",
+    463: "Frankfurt Bezirk 11",
+    464: "Frankfurt Bezirk 12",
+    465: "Frankfurt Bezirk 13",
+    466: "Frankfurt Bezirk 14",
+    467: "Frankfurt Bezirk 15",
+    468: "Frankfurt Bezirk 16",
+    469: "Frankfurt Bezirk 17",
+    470: "Frankfurt Bezirk 18",
+    471: "Frankfurt Bezirk 19",
+    472: "Frankfurt Bezirk 20",
+    473: "Frankfurt Bezirk 21",
+    474: "Frankfurt Bezirk 22",
+    475: "Frankfurt Bezirk 23",
+    476: "Frankfurt Bezirk 24",
+    477: "Frankfurt Bezirk 25",
+    478: "Frankfurt Bezirk 26",
+    479: "Frankfurt Bezirk 27",
+    480: "Frankfurt Bezirk 28",
+    481: "Frankfurt Bezirk 29",
+    482: "Frankfurt Bezirk 30",
+    483: "Frankfurt Bezirk 31",
+    484: "Frankfurt Bezirk 32",
+    485: "Frankfurt Bezirk 33",
+    486: "Bergen-Enkheim Bezirk 68",
+    487: "Berkersheim Bezirk 50",
+    488: "Bockenheim Bezirk 34",
+    489: "Bonames Bezirk 49",
+    490: "Eckenheim Bezirk 46",
+    491: "Eschersheim Bezirk 45",
+    492: "Fechenheim Bezirk 51",
+    493: "Ginnheim Bezirk 44",
+    494: "Griesheim Bezirk 54",
+    495: "Harheim Bezirk 66",
+    496: "Hausen Bezirk 41",
+    497: "Heddernheim Bezirk 43",
+    498: "Höchst Bezirk 57",
+    499: "Kalbach Bezirk 65",
+    500: "Main Bezirk 70",
+    501: "Nied Bezirk 56",
+    502: "Niederrad Bezirk 37",
+    503: "Niederursel/F. Bezirk 48F",
+    504: "Niederursel/H. Bezirk 48H",
+    505: "Nieder-Erlenbach Bezirk 64",
+    506: "Nieder-Eschbach Bezirk 67",
+    507: "Oberrad Bezirk 38",
+    508: "Praunheim Bezirk 42",
+    509: "Preungesheim Bezirk 47",
+    510: "Rödelheim Bezirk 40",
+    511: "Schwanheim Bezirk 53",
+    512: "Seckbach Bezirk 39",
+    513: "Sindlingen Bezirk 60",
+    514: "Sossenheim Bezirk 63",
+    515: "Unterliederbach Bezirk 62",
+    516: "Wald Bezirk 71",
+    517: "Zeilsheim Bezirk 61",
+    518: "Flughafen Bezirk 72",
+}
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Crawl Frankfurt Baustellen data")
+    parser.add_argument(
+        "--test",
+        action="store_true",
+        help="Run quick test on a small subset",
+    )
+    args = parser.parse_args()
+
+    DATA_DIR.mkdir(exist_ok=True)
+
+    session = requests.Session()
+    session.headers.update(
+        {
+            "User-Agent": "Frankfurt-Bauschild-Crawler/1.0 (public data; contact: jo.strassel@gmail.com)"
+        }
+    )
+
+    parcels = enumerate_test() if args.test else enumerate_all_parcels()
+
+    sites = []
+    errors = 0
+
+    mode = "TEST" if args.test else "FULL"
+    print(f"Starting {mode} enumeration and scraping...")
+    for i, (gemark, flur, flst) in enumerate(parcels, 1):
+        try:
+            result = scrape_liegenschaft(session, gemark, flur, flst)
+            if result:
+                site = {
+                    "gemarkung_id": gemark,
+                    "gemarkung_label": GEMARKUNG_LABELS.get(
+                        gemark, f"Unknown ({gemark})"
+                    ),
+                    "flur": flur,
+                    "flurstueck": flst,
+                }
+                site.update(result)
+                sites.append(site)
+                print(f"[{i}] Found: {gemark} {flur}/{flst}")
+        except Exception as e:
+            errors += 1
+            if i % 100 == 0:
+                print(f"[{i}] ({errors} errors so far)")
+
+    data = {
+        "meta": {
+            "last_updated": datetime.now(timezone.utc).isoformat().replace("+00:00", "Z"),
+            "total": len(sites),
+            "errors": errors,
+            "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild",
+        },
+        "sites": sites,
+    }
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2, ensure_ascii=False)
+
+    print(f"\n✓ Done! {len(sites)} sites found, {errors} errors.")
+    print(f"Output: {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()

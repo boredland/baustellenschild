@@ -1,0 +1,10 @@
+pyproject.toml
+src/crawl.py
+src/enumerator.py
+src/scraper.py
+src/baustellenschild.egg-info/PKG-INFO
+src/baustellenschild.egg-info/SOURCES.txt
+src/baustellenschild.egg-info/dependency_links.txt
+src/baustellenschild.egg-info/entry_points.txt
+src/baustellenschild.egg-info/requires.txt
+src/baustellenschild.egg-info/top_level.txt

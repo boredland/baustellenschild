@@ -1,0 +1,8 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+.pytest_cache/
+debug_responses/
+debug_playwright.py
+test_chash.py
