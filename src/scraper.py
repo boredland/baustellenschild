@@ -31,14 +31,29 @@ def parse_bauschild_html(html: str) -> Optional[dict]:
     fields = {}
 
     # Parse table-based structure (th/td pairs in tables)
-    for table in soup.find_all("table", class_="baustellenschild-table"):
-        for row in table.find_all("tr"):
+    # Extract from all tables but prioritize the first table (Bauvorhaben/project info)
+    tables = soup.find_all("table", class_="baustellenschild-table")
+
+    # First pass: only extract from first table (project details)
+    if tables:
+        for row in tables[0].find_all("tr"):
             th = row.find("th")
             td = row.find("td")
             if th and td:
                 label = _normalize_field(th.get_text())
                 value = _normalize_field(td.get_text())
                 if label and value:
+                    fields[label] = value
+
+    # Second pass: add fields from other tables that don't exist yet
+    for table in tables[1:]:
+        for row in table.find_all("tr"):
+            th = row.find("th")
+            td = row.find("td")
+            if th and td:
+                label = _normalize_field(th.get_text())
+                value = _normalize_field(td.get_text())
+                if label and value and label not in fields:
                     fields[label] = value
 
     # Fallback: Try to find dt/dd pairs (definition list format)
