@@ -3,7 +3,7 @@ import json
 import sys
 import argparse
 import asyncio
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Iterator, Tuple
 
@@ -117,6 +117,7 @@ async def scrape_with_concurrency(
     total_parcels = len(parcels_list)
 
     last_log = [0]  # Track last logged index to avoid too much output
+    start_time = datetime.now(timezone.utc)
 
     async def scrape_one(session: aiohttp.ClientSession, i: int, gemark: int, flur: str, flst: str):
         nonlocal errors
@@ -140,8 +141,20 @@ async def scrape_with_concurrency(
             if should_log and i > last_log[0]:
                 last_log[0] = i
                 progress = 100 * i / total_parcels
-                elapsed = datetime.now(timezone.utc)
-                log_progress(f"  [{i:6d}/{total_parcels}] {progress:5.1f}% | {len(sites):4d} sites | {errors:3d} errors")
+                elapsed = datetime.now(timezone.utc) - start_time
+                elapsed_sec = elapsed.total_seconds()
+
+                # Calculate ETA
+                if i > 0 and elapsed_sec > 0:
+                    rate = i / elapsed_sec  # parcels per second
+                    remaining = total_parcels - i
+                    eta_sec = remaining / rate if rate > 0 else 0
+                    eta_time = datetime.now(timezone.utc) + timedelta(seconds=eta_sec)
+                    eta_str = eta_time.strftime("%H:%M:%S")
+                else:
+                    eta_str = "calculating..."
+
+                log_progress(f"  [{i:6d}/{total_parcels}] {progress:5.1f}% | {len(sites):4d} sites | {errors:3d} errors | ETA {eta_str}")
 
     async with aiohttp.ClientSession() as session:
         session.headers.update({
