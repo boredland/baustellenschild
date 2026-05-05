@@ -128,14 +128,20 @@ async def scrape_liegenschaft_async(
                     else:
                         print(f"[DEBUG] Page contains 'baustellenschild' but no list table found", flush=True)
                 else:
-                    import os
-                    from pathlib import Path
-                    debug_dir = Path(os.path.dirname(__file__)).parent / "debug"
-                    debug_dir.mkdir(exist_ok=True)
-                    debug_file = debug_dir / f"unexpected_response_{gemarkung_id}_{flur}_{flurstueck}.html"
-                    with open(debug_file, "w", encoding="utf-8") as f:
-                        f.write(html)
-                    print(f"[DEBUG] Response doesn't contain 'baustellenschild' (saved to {debug_file}) - length: {len(html)}", flush=True)
+                    try:
+                        import os
+                        from pathlib import Path
+                        debug_dir = Path(os.path.dirname(__file__)).parent / "debug"
+                        debug_dir.mkdir(exist_ok=True)
+                        # Sanitize flurstueck for filename
+                        safe_flst = flurstueck.replace("/", "_")
+                        debug_file = debug_dir / f"unexpected_response_{gemarkung_id}_{flur}_{safe_flst}.html"
+                        with open(debug_file, "w", encoding="utf-8") as f:
+                            f.write(html)
+                        print(f"[DEBUG] Response doesn't contain 'baustellenschild' (saved to {debug_file}) - length: {len(html)}", flush=True)
+                    except Exception as e:
+                        print(f"[DEBUG] Error saving debug file: {e}", flush=True)
+                        print(f"[DEBUG] Response doesn't contain 'baustellenschild' - response length: {len(html)}", flush=True)
 
                 if list_table:
                     # This is a list page - extract first permit's data
