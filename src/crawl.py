@@ -107,7 +107,7 @@ def load_or_enumerate_parcels(force_enumerate: bool = False) -> list[Tuple[int, 
     return parcels
 
 
-def select_parcels_for_update(all_parcels: list[Tuple[int, str, str]], batch_size: int = 1000) -> list[Tuple[int, str, str]]:
+def select_parcels_for_update(all_parcels: list[Tuple[int, str, str]], batch_size: int = 10000) -> list[Tuple[int, str, str]]:
     """Select parcels to update using LRU logic - return oldest/missing ones."""
     if PARCELS_METADATA_FILE.exists():
         with open(PARCELS_METADATA_FILE, "r", encoding="utf-8") as f:
@@ -276,7 +276,7 @@ def main():
         if args.full:
             parcels = all_parcels
         else:
-            parcels = select_parcels_for_update(all_parcels, batch_size=1000)
+            parcels = select_parcels_for_update(all_parcels, batch_size=10000)
     log_progress(f"✓ Found {len(parcels)} parcels to scrape")
 
     max_workers = int(os.getenv("CRAWL_CONCURRENCY", "50"))
