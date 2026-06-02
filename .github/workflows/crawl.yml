@@ -44,6 +44,8 @@ jobs:
         env:
           PYTHONUNBUFFERED: "1"
           CRAWL_CONCURRENCY: "300"
+          FETCH_PROXY_URL: ${{ secrets.FETCH_PROXY_URL }}
+          FETCH_PROXY_TOKEN: ${{ secrets.FETCH_PROXY_TOKEN }}
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
