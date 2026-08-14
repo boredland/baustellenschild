@@ -1,0 +1,9 @@
+{
+  "name": "baustellenschild",
+  "private": true,
+  "description": "Repo-root entry point so Cloudflare Workers Builds works from the default root directory",
+  "scripts": {
+    "build": "npm --prefix web ci && npm --prefix web run build",
+    "deploy": "npx wrangler deploy --config web/wrangler.jsonc"
+  }
+}
