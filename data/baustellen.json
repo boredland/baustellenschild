@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T20:19:39.243659Z",
+    "last_updated": "2026-08-14T21:11:10.482931Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23829,7 +23829,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "10",
       "flurstueck": "326/259",
-      "fetched_at": "2026-06-15T12:05:29.172124+00:00",
+      "fetched_at": "2026-08-14T21:03:15.844930+00:00",
       "permit_number": "B-2023-1020-3",
       "description": "Anbau von EG bis DG mit Dachterrasse an ein Einfamilienhaus \nzur Wohnraumerweiterung mit inneren Umbauten \nsowie Einbau von 2 Gauben",
       "site_address": "Leonhardsgasse 28",
