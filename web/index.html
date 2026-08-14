@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bauschild — Baustellen in Frankfurt am Main</title>
+    <meta
+      name="description"
+      content="Jede genehmigte Baustelle in Frankfurt am Main auf einer Katasterkarte. Bauvorhaben, Bauherr, Entwurfsverfasser und Bauleiter, so wie sie auf dem Bauschild stehen."
+    />
+    <meta name="theme-color" content="#efefea" />
+    <link rel="preconnect" href="https://sgx.geodatenzentrum.de" crossorigin />
+    <link rel="icon" href="/schild.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#board">Zum Bauschild springen</a>
+
+    <div class="layout">
+      <header class="masthead">
+        <h1 class="masthead__title">Bauschild</h1>
+        <p class="masthead__standfirst">
+          Wer in Frankfurt baut, muss es an den Bauzaun schreiben.
+          Hier stehen alle diese Schilder auf einer Karte.
+        </p>
+        <form class="search" role="search" autocomplete="off">
+          <label class="search__label" for="search">Suchen</label>
+          <input
+            id="search"
+            class="search__input"
+            type="search"
+            placeholder="Straße, Bauherr, Aktenzeichen"
+            spellcheck="false"
+          />
+        </form>
+        <p class="masthead__meta"><span id="tally"></span></p>
+      </header>
+
+      <main class="map" id="map" aria-label="Karte der Bauschilder"></main>
+
+      <aside class="column">
+        <div class="results" id="results" hidden></div>
+
+        <div class="mount">
+          <article class="board" id="board" tabindex="-1" aria-live="polite">
+            <div class="board__rail"><span class="board__rail-mark">Bauschild</span></div>
+            <div class="board__face" id="board-face"></div>
+          </article>
+          <div class="posts" aria-hidden="true"><span></span><span></span></div>
+        </div>
+
+        <footer class="colophon">
+          <p>
+            Bauschilder: <a href="https://www.bauaufsicht-frankfurt.de/service/bauschild">Bauaufsicht Frankfurt</a>.
+            Flurstücke: Stadtvermessungsamt Frankfurt am Main.
+            Karte: <a href="https://basemap.de">basemap.de</a> / BKG, CC BY 4.0.
+          </p>
+        </footer>
+      </aside>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

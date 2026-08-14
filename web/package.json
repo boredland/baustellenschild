@@ -1,0 +1,23 @@
+{
+  "name": "bauschild",
+  "version": "1.0.0",
+  "description": "Map of every construction sign (Bauschild) in Frankfurt am Main",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "vite build && wrangler deploy"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^8.2.1",
+    "wrangler": "^4.123.0"
+  },
+  "dependencies": {
+    "maplibre-gl": "^6.3.0"
+  },
+  "private": true,
+  "type": "module"
+}

@@ -1,0 +1,524 @@
+/* Kataster + Bauschild.
+   Paper and ink for everything; RAL 1023 Verkehrsgelb and RAL 3020 Verkehrsrot
+   only where a real construction sign would carry them. */
+
+@font-face {
+  font-family: "Fira Sans Condensed";
+  src: url("/fonts/fira-sans-condensed-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Sans Condensed";
+  src: url("/fonts/fira-sans-condensed-500.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Sans Condensed";
+  src: url("/fonts/fira-sans-condensed-700.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/atkinson-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Atkinson Hyperlegible";
+  src: url("/fonts/atkinson-700.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Fira Mono";
+  src: url("/fonts/fira-mono-400.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+:root {
+  --kataster: #efefea;
+  --tusche: #14140f;
+  --schild: #fbfbf7;
+  --gelb: #fcbb0a;
+  --rot: #cc0605;
+  --bauzaun: #9a9c93;
+  --hairline: color-mix(in srgb, var(--bauzaun) 55%, transparent);
+
+  --display: "Fira Sans Condensed", "Helvetica Neue", sans-serif;
+  --body: "Atkinson Hyperlegible", system-ui, sans-serif;
+  --mono: "Fira Mono", ui-monospace, monospace;
+
+  --column: 27.5rem;
+  --gap: 1.5rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--kataster);
+  color: var(--tusche);
+  font-family: var(--body);
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-underline-offset: 0.18em;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--bauzaun);
+}
+
+a:hover {
+  text-decoration-color: var(--tusche);
+}
+
+:focus-visible {
+  outline: 2px solid var(--tusche);
+  outline-offset: 2px;
+}
+
+.skip {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  z-index: 20;
+  padding: 0.6rem 1rem;
+  background: var(--gelb);
+  font-family: var(--display);
+}
+
+.skip:focus {
+  left: 0;
+}
+
+/* Layout ------------------------------------------------------------------ */
+
+.layout {
+  display: grid;
+  grid-template-columns: var(--column) 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "masthead map"
+    "column   map";
+  height: 100%;
+}
+
+.masthead {
+  grid-area: masthead;
+  padding: var(--gap) var(--gap) 0;
+}
+
+.column {
+  grid-area: column;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  padding: 1.25rem var(--gap) var(--gap);
+  gap: 1.25rem;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background: var(--kataster);
+}
+
+.masthead,
+.column {
+  border-right: 1px solid var(--hairline);
+}
+
+.map {
+  grid-area: map;
+  position: relative;
+  min-width: 0;
+  background: var(--kataster);
+}
+
+/* Masthead ---------------------------------------------------------------- */
+
+.masthead__title {
+  margin: 0;
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(2.6rem, 6vw, 3.4rem);
+  line-height: 0.86;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+}
+
+.masthead__standfirst {
+  margin: 0.85rem 0 0;
+  max-width: 34ch;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.masthead__meta {
+  margin: 0.85rem 0 0;
+  font-family: var(--mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.04em;
+  color: color-mix(in srgb, var(--tusche) 62%, transparent);
+}
+
+/* Search ------------------------------------------------------------------ */
+
+.search {
+  margin-top: 1.1rem;
+}
+
+.search__label {
+  display: block;
+  font-family: var(--display);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--tusche) 65%, transparent);
+}
+
+.search__input {
+  width: 100%;
+  margin-top: 0.35rem;
+  padding: 0.5rem 0;
+  border: 0;
+  border-bottom: 1.5px solid var(--tusche);
+  border-radius: 0;
+  background: transparent;
+  color: inherit;
+  font-family: var(--display);
+  font-size: 1.15rem;
+  -webkit-appearance: none;
+}
+
+.search__input::placeholder {
+  color: var(--bauzaun);
+}
+
+.search__input:focus {
+  outline: 0;
+  border-bottom-color: var(--rot);
+}
+
+/* The sign ---------------------------------------------------------------- */
+
+.mount {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.board {
+  position: relative;
+  background: var(--schild);
+  border: 1px solid var(--tusche);
+  box-shadow: 0 14px 24px -22px rgb(20 20 15 / 0.9);
+}
+
+.board:focus {
+  outline: 0;
+}
+
+.board__rail {
+  display: flex;
+  align-items: center;
+  height: 1.6rem;
+  padding-left: 0.7rem;
+  border-bottom: 1px solid var(--tusche);
+  background: repeating-linear-gradient(
+    -45deg,
+    var(--rot) 0 10px,
+    var(--schild) 10px 20px
+  );
+}
+
+.board__rail-mark {
+  padding: 0.1rem 0.45rem;
+  background: var(--schild);
+  font-family: var(--display);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.board__face {
+  padding: 1.15rem 1.15rem 1.35rem;
+}
+
+.posts {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2.5rem;
+  height: 1.6rem;
+}
+
+.posts span {
+  width: 7px;
+  background: linear-gradient(
+    to bottom,
+    var(--bauzaun),
+    color-mix(in srgb, var(--bauzaun) 35%, transparent)
+  );
+}
+
+/* Sign contents ----------------------------------------------------------- */
+
+.field + .field {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--hairline);
+}
+
+.field__label {
+  font-family: var(--display);
+  font-size: 0.63rem;
+  font-weight: 700;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--tusche) 60%, transparent);
+}
+
+.field__value {
+  margin: 0.3rem 0 0;
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* Permit prose runs from six words to sixty; the display size steps down so a
+   long Bauvorhaben still reads as one block instead of flooding the sign. */
+.field__value--display {
+  font-family: var(--display);
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.005em;
+}
+
+.field__value--display[data-length="long"] {
+  font-size: 1.15rem;
+  line-height: 1.24;
+}
+
+.field__value--display[data-length="epic"] {
+  font-size: 1rem;
+  line-height: 1.3;
+}
+
+.field__value--mono {
+  font-family: var(--mono);
+  font-size: 0.85rem;
+}
+
+.field__aside {
+  margin: 0.15rem 0 0;
+  font-size: 0.85rem;
+  color: color-mix(in srgb, var(--tusche) 70%, transparent);
+}
+
+.board__address {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.9rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 2px solid var(--tusche);
+}
+
+.board__street {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--display);
+  font-size: 1.75rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.015em;
+  text-transform: uppercase;
+  /* German street names are long compounds: hyphenate rather than snap a word
+     in half, and only break mid-word if nothing else fits. */
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.board__parcel {
+  flex: 0 1 auto;
+  font-family: var(--mono);
+  font-size: 0.68rem;
+  line-height: 1.35;
+  text-align: right;
+  text-wrap: balance;
+  color: color-mix(in srgb, var(--tusche) 62%, transparent);
+}
+
+.board__source {
+  display: inline-block;
+  margin-top: 1rem;
+  font-family: var(--display);
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+/* Empty state: the page's own construction sign. */
+
+.board--vacant .board__street {
+  font-size: 1.5rem;
+}
+
+.board__hint {
+  margin: 0.9rem 0 0;
+  font-size: 0.9rem;
+  color: color-mix(in srgb, var(--tusche) 72%, transparent);
+}
+
+/* Results ----------------------------------------------------------------- */
+
+/* flex: none, or the scroll container collapses to nothing beside the sign. */
+.results {
+  flex: none;
+  max-height: 40vh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  border-top: 1px solid var(--hairline);
+}
+
+.results__count {
+  padding: 0.7rem 0 0.5rem;
+  font-family: var(--display);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--tusche) 65%, transparent);
+}
+
+.result {
+  display: block;
+  width: 100%;
+  padding: 0.6rem 0;
+  border: 0;
+  border-top: 1px solid var(--hairline);
+  border-radius: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.result:hover,
+.result:focus-visible {
+  background: color-mix(in srgb, var(--gelb) 22%, transparent);
+}
+
+.result__street {
+  font-family: var(--display);
+  font-size: 1.05rem;
+  font-weight: 500;
+}
+
+.result__what {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 0.82rem;
+  color: color-mix(in srgb, var(--tusche) 70%, transparent);
+}
+
+.colophon {
+  margin-top: auto;
+  padding-top: 1rem;
+  border-top: 1px solid var(--hairline);
+  font-size: 0.72rem;
+  line-height: 1.4;
+  color: color-mix(in srgb, var(--tusche) 65%, transparent);
+}
+
+.colophon p {
+  margin: 0;
+}
+
+/* Map --------------------------------------------------------------------- */
+
+.maplibregl-map {
+  font-family: var(--body);
+}
+
+.maplibregl-ctrl-attrib {
+  font-family: var(--mono);
+  font-size: 10px;
+  background: color-mix(in srgb, var(--kataster) 88%, transparent);
+}
+
+.maplibregl-ctrl-group {
+  border-radius: 0;
+  border: 1px solid var(--tusche);
+  box-shadow: none;
+  background: var(--schild);
+}
+
+.maplibregl-ctrl-group button + button {
+  border-top: 1px solid var(--hairline);
+}
+
+/* Mobile ------------------------------------------------------------------ */
+
+@media (max-width: 56rem) {
+  html,
+  body {
+    height: auto;
+  }
+
+  /* One column, and the map comes before the sign: the map is what you act on,
+     the sign is what you get back. */
+  .layout {
+    display: block;
+  }
+
+  .masthead {
+    padding: var(--gap) var(--gap) 1.25rem;
+  }
+
+  .masthead,
+  .column {
+    border-right: 0;
+  }
+
+  .column {
+    overflow: visible;
+    padding-top: var(--gap);
+  }
+
+  .map {
+    height: 62vh;
+    border-block: 1px solid var(--tusche);
+  }
+
+  .results {
+    max-height: 50vh;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
