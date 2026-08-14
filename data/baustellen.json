@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T19:43:43.841328Z",
+    "last_updated": "2026-08-14T20:19:39.243659Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23788,7 +23788,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "10",
       "flurstueck": "37/0",
-      "fetched_at": "2026-06-15T05:17:57.684865+00:00",
+      "fetched_at": "2026-08-14T20:07:19.228504+00:00",
       "permit_number": "B-2024-337-3",
       "description": "Nutzungsänderung Fachwerkgebäude",
       "site_address": "Niedergasse 12",
@@ -23808,7 +23808,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "10",
       "flurstueck": "23/4",
-      "fetched_at": "2026-06-15T05:17:55.518600+00:00",
+      "fetched_at": "2026-08-14T20:05:55.154891+00:00",
       "permit_number": "B-2024-1164-6",
       "description": "Erweiterung der Zentgrafenschule durch \nErrichtung eines zweigeschossigen Gebäudes \nin Holzmodulbauweise mit 4 Klassenzimmern",
       "site_address": "Wilhelmshöher Straße 124",
