@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T18:31:05.762680Z",
+    "last_updated": "2026-08-14T19:43:43.841328Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23768,7 +23768,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "9",
       "flurstueck": "97/1",
-      "fetched_at": "2026-06-15T01:52:33.427478+00:00",
+      "fetched_at": "2026-08-14T19:30:58.023418+00:00",
       "permit_number": "B-2021-1313-3",
       "description": "Errichten eines Einfamilienwohnhauses \nund eines Carports mit zwei Stellplätzen",
       "site_address": "Wilhelmshöher Straße 180",
