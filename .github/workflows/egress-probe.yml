@@ -1,0 +1,37 @@
+name: Egress Probe
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Can a GitHub runner reach the Bauschild register directly?
+        run: |
+          echo "runner egress IP: $(curl -s --max-time 20 https://api.ipify.org || echo unknown)"
+          echo
+          echo "--- GET landing page (slashless, no proxy)"
+          curl -s -o /dev/null --max-time 30 -w "  status %{http_code}\n" \
+            -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
+            "https://www.bauaufsicht-frankfurt.de/service/bauschild"
+          echo
+          echo "--- POST search WITH trailing slash (what the fixed scraper does)"
+          curl -s -o /tmp/r.html --max-time 30 -w "  status %{http_code} size %{size_download}\n" \
+            -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
+            -H "Origin: https://www.bauaufsicht-frankfurt.de" \
+            -H "Referer: https://www.bauaufsicht-frankfurt.de/service/bauschild" \
+            --data-urlencode "tx_vierwdbafinfothek_constructionsign[SKZ]=" \
+            --data-urlencode "tx_vierwdbafinfothek_constructionsign[HAUSNR]=" \
+            --data-urlencode "tx_vierwdbafinfothek_constructionsign[bauschild]=" \
+            --data-urlencode "tx_vierwdbafinfothek_constructionsign[GEMARK]=478" \
+            --data-urlencode "tx_vierwdbafinfothek_constructionsign[FLUR]=414" \
+            --data-urlencode "tx_vierwdbafinfothek_constructionsign[FLST_ZAE;FLST_NEN]=67/1" \
+            "https://www.bauaufsicht-frankfurt.de/service/bauschild/liegenschaft/"
+          echo "  contains a result table: $(grep -c 'baustellenschild-searchresults\|baustellenschild-table' /tmp/r.html || true)"
+          echo "  contains Lindley:        $(grep -c 'Lindley' /tmp/r.html || true)"
+
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v4
+      - name: Run the real crawler with NO proxy configured
+        run: uv run --no-cache python -u src/crawl.py --gemarkung 478 --flur 414 --flurstueck 67/1
+        env:
+          PYTHONUNBUFFERED: "1"
+          CRAWL_CONCURRENCY: "4"
