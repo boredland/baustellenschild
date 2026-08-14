@@ -43,9 +43,12 @@ jobs:
           uv run --no-cache python -u src/crawl.py $ARGS
         env:
           PYTHONUNBUFFERED: "1"
-          # The register throttles with HTTP 500 well below this; 300 got every
-          # request rejected for two days straight.
+          # The register allows a burst of ten requests then throttles with HTTP
+          # 500, refilling about one every thirty seconds. src/scraper.py paces
+          # requests onto that interval, so concurrency only decides how many
+          # wait in line; the batch size is what keeps a run inside its budget.
           CRAWL_CONCURRENCY: "12"
+          CRAWL_BATCH_SIZE: "40"
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

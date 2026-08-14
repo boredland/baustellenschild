@@ -26,9 +26,34 @@ MAX_CONCURRENT = int(os.getenv("CRAWL_CONCURRENCY", "50"))  # Configurable via e
 MAX_RETRIES = 3
 RETRY_DELAY = 0.5  # seconds, increases exponentially
 
-# The register throttles by returning 500, not 429, and it stays angry for tens
-# of seconds. Back off far harder for those than for a transport hiccup.
-THROTTLE_DELAY = 8.0
+# Measured against the live register in August 2026: it allows a burst of ten
+# requests, then answers 500 (not 429) until the allowance refills at roughly
+# one request per thirty seconds. Concurrency is irrelevant - a strictly serial
+# caller hits the same wall - so the crawl is paced instead, and 5xx backs off
+# on the refill timescale rather than a transport-hiccup timescale.
+REQUEST_BUDGET = 10
+REFILL_SECONDS = 30.0
+THROTTLE_DELAY = 30.0
+
+
+_pace_lock = asyncio.Lock()
+_next_slot = 0.0
+
+
+async def _pace() -> None:
+    """Serialise requests onto the register's refill interval.
+
+    A burst of ten is allowed, so the first handful go straight through; after
+    that every caller waits its turn. Without this the crawl spends its whole
+    budget in the first second and then collects 500s.
+    """
+    global _next_slot
+    async with _pace_lock:
+        now = asyncio.get_running_loop().time()
+        wait = max(0.0, _next_slot - now)
+        _next_slot = max(now, _next_slot) + REFILL_SECONDS / REQUEST_BUDGET
+    if wait:
+        await asyncio.sleep(wait)
 
 
 def _normalize_field(value: str) -> Optional[str]:
@@ -165,7 +190,7 @@ async def scrape_liegenschaft_async(
 
     for attempt in range(MAX_RETRIES):
         try:
-            await asyncio.sleep(random.uniform(0.01, 0.05))
+            await _pace()
             async with session.post(
                 LIEGENSCHAFT_URL,
                 data=payload,
