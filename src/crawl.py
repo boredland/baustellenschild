@@ -3,6 +3,7 @@ import json
 import sys
 import argparse
 import asyncio
+import logging
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
@@ -12,9 +13,11 @@ import os
 print("[DEBUG] Script started, importing modules...", flush=True)
 
 from enumerator import enumerate_all_parcels, enumerate_test
-from scraper import scrape_liegenschaft_async
+from scraper import FetchFailed, scrape_liegenschaft_async
 
 print("[DEBUG] Modules imported successfully", flush=True)
+
+logger = logging.getLogger(__name__)
 
 
 def log_progress(msg: str):
@@ -206,6 +209,7 @@ def scrape_with_concurrency(
     actual_workers = min(max_workers, total_parcels, 1000)
 
     sites = []
+    scanned = []
     errors = 0
     last_log = [0]
     start_time = datetime.now(timezone.utc)
@@ -214,6 +218,7 @@ def scrape_with_concurrency(
         """Synchronous wrapper for scraping a single parcel."""
         nonlocal errors
         i, gemark, flur, flst = args
+        result = None
 
         try:
             import aiohttp
@@ -232,6 +237,10 @@ def scrape_with_concurrency(
             finally:
                 loop.close()
 
+            # Reached the register: an empty parcel is an answer, so record it as
+            # scanned. Only fetch failures leave the parcel due for a retry.
+            scanned.append((gemark, flur, flst))
+
             if result:
                 site = {
                     "gemarkung_id": gemark,
@@ -242,7 +251,10 @@ def scrape_with_concurrency(
                 }
                 site.update(result)
                 sites.append(site)
-        except Exception as e:
+        except FetchFailed:
+            errors += 1
+        except Exception:
+            logger.exception(f"Unexpected error on {gemark}:{flur}:{flst}")
             errors += 1
 
         should_log = (i % 20 == 0) or (i <= 100 and i % 5 == 0)
@@ -274,7 +286,7 @@ def scrape_with_concurrency(
         for future in futures:
             future.result()
 
-    return sites, errors
+    return sites, scanned, errors
 
 
 def main():
@@ -354,16 +366,23 @@ def main():
     max_workers = int(os.getenv("CRAWL_CONCURRENCY", "50"))
     log_progress(f"Step 2: Scraping {len(parcels)} parcels (workers: {max_workers})...")
 
-    sites, errors = scrape_with_concurrency(parcels, max_workers=max_workers)
-    log_progress(f"✓ Scraping complete: {len(sites)} sites found, {errors} errors")
+    sites, scanned, errors = scrape_with_concurrency(parcels, max_workers=max_workers)
+    log_progress(
+        f"✓ Scraping complete: {len(sites)} sites found, "
+        f"{len(scanned)}/{len(parcels)} parcels reached, {errors} errors"
+    )
 
     log_progress("Step 3: Merging with existing data...")
     existing_sites = load_existing_sites() if not args.full else {}
 
-    # Update with newly scraped sites
+    # Merge, never clobber: while the register's detail view is broken we only
+    # recover permit number and description, and a thin record must not erase the
+    # builder/architect/site-manager fields an earlier healthy crawl captured.
     for site in sites:
         key = f"{site['gemarkung_id']}:{site['flur']}:{site['flurstueck']}"
-        existing_sites[key] = site
+        merged = dict(existing_sites.get(key) or {})
+        merged.update({k: v for k, v in site.items() if v})
+        existing_sites[key] = merged
 
     # Convert back to list
     all_sites = list(existing_sites.values())
@@ -385,8 +404,7 @@ def main():
 
     # Update metadata
     if not args.test:
-        parcel_dict = {(p[0], p[1], p[2]): True for p in parcels}
-        update_parcels_metadata(parcel_dict, now_str)
+        update_parcels_metadata({parcel: True for parcel in scanned}, now_str)
 
     log_progress(f"✓ Output written to {OUTPUT_FILE}")
     log_progress(f"{'='*60}")
@@ -401,6 +419,12 @@ def main():
     log_progress(f"  • Total parcels scraped (all time): {total_scraped}")
     log_progress(f"  • Parcels scraped past 24h: {scraped_past_24h}")
     log_progress(f"{'='*60}\n")
+
+    # A run that reached nothing is a broken upstream, not an empty result. Fail
+    # loudly: a green run with zero sites hid a two-day outage once already.
+    if parcels and not scanned:
+        log_progress(f"✗ Every one of {len(parcels)} parcels failed to fetch.")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

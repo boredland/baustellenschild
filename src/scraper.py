@@ -10,8 +10,18 @@ import random
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger(__name__)
 
+class FetchFailed(Exception):
+    """The parcel could not be fetched, as opposed to carrying no Bauschild.
+
+    The difference matters: a parcel with no sign is a valid, final answer, while
+    a failed fetch must not be recorded as scanned or the rotation will skip it.
+    """
+
+
 BASE_URL = "https://www.bauaufsicht-frankfurt.de"
-LIEGENSCHAFT_URL = f"{BASE_URL}/service/bauschild/liegenschaft"
+# The trailing slash is load-bearing: since 2026-08-11 the site answers the
+# slashless form action with a bare Apache 403, while this route still works.
+LIEGENSCHAFT_URL = f"{BASE_URL}/service/bauschild/liegenschaft/"
 
 # Optional fetch-proxy passthrough (the museumsufer apps/fetch-proxy server).
 # bauaufsicht-frankfurt.de's WAF returns 403 for datacenter IPs and for our
@@ -33,6 +43,10 @@ MAX_CONCURRENT = int(os.getenv("CRAWL_CONCURRENCY", "50"))  # Configurable via e
 MAX_RETRIES = 3
 RETRY_DELAY = 0.5  # seconds, increases exponentially
 
+# The register throttles by returning 500, not 429, and it stays angry for tens
+# of seconds. Back off far harder for those than for a transport hiccup.
+THROTTLE_DELAY = 8.0
+
 
 def _normalize_field(value: str) -> Optional[str]:
     if not value:
@@ -41,6 +55,21 @@ def _normalize_field(value: str) -> Optional[str]:
     if cleaned:
         return cleaned
     return None
+
+
+def _parse_list_row(row) -> Optional[dict]:
+    """Salvage permit number and description from a search-results row."""
+    link = row.find("a")
+    cells = row.find_all("td")
+    if not link or len(cells) < 2:
+        return None
+
+    permit_number = _normalize_field(link.get_text())
+    description = _normalize_field(cells[1].get_text())
+    if not permit_number:
+        return None
+
+    return {"permit_number": permit_number, "description": description}
 
 
 def parse_bauschild_html(html: str) -> Optional[dict]:
@@ -187,16 +216,15 @@ async def scrape_liegenschaft_async(
                                     parsed = parse_bauschild_html(detail_html)
                                     if parsed:
                                         parsed["url"] = detail_url
-                                    return parsed if parsed else None
+                                        return parsed
                             except Exception as e:
-                                logger.warning(f"Detail page fetch failed for {gemarkung_id}:{flur}:{flurstueck}, using list fallback: {type(e).__name__}")
-                                # Fallback: extract from list if detail fetch fails
-                                cells = first_row.find_all("td")
-                                if len(cells) >= 2:
-                                    result = {}
-                                    result["permit_number"] = _normalize_field(permit_link.get_text())
-                                    result["description"] = _normalize_field(cells[1].get_text())
-                                    return result
+                                logger.warning(f"Detail page fetch failed for {gemarkung_id}:{flur}:{flurstueck}: {type(e).__name__}")
+
+                        # The detail view has been answering 200 with a TYPO3 "No
+                        # template was found" body since 2026-08, so a failure here
+                        # is not exceptional. Keep the two fields the list itself
+                        # carries rather than reporting the parcel as signless.
+                        return _parse_list_row(first_row)
                     return None
 
                 # Otherwise try to parse as detail page (table-based structure)
@@ -213,18 +241,18 @@ async def scrape_liegenschaft_async(
                 await asyncio.sleep(wait)
             continue
         except aiohttp.ClientError as e:
+            status = getattr(e, "status", None)
             error_msg = f"ClientError on {gemarkung_id}:{flur}:{flurstueck}: {type(e).__name__}"
-            if hasattr(e, 'status'):
-                error_msg += f" (HTTP {e.status})"
+            if status:
+                error_msg += f" (HTTP {status})"
             error_msg += f" (attempt {attempt + 1}/{MAX_RETRIES})"
             logger.warning(error_msg)
             if attempt < MAX_RETRIES - 1:
-                wait = RETRY_DELAY * (2 ** attempt)
-                await asyncio.sleep(wait)
+                base = THROTTLE_DELAY if status and status >= 500 else RETRY_DELAY
+                await asyncio.sleep(base * (2 ** attempt) * random.uniform(0.8, 1.2))
             continue
         except Exception as e:
             logger.exception(f"Unexpected error on {gemarkung_id}:{flur}:{flurstueck}: {e}")
             return None
 
-    logger.warning(f"Failed after {MAX_RETRIES} retries: {gemarkung_id}:{flur}:{flurstueck}")
-    return None
+    raise FetchFailed(f"{gemarkung_id}:{flur}:{flurstueck} after {MAX_RETRIES} retries")
