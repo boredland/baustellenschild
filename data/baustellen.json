@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T21:11:10.482931Z",
+    "last_updated": "2026-08-14T21:34:29.159492Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23846,7 +23846,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "12",
       "flurstueck": "180/6",
-      "fetched_at": "2026-06-08T18:21:23.128645+00:00",
+      "fetched_at": "2026-08-14T21:25:55.264063+00:00",
       "permit_number": "B-2020-1308-3",
       "description": "Errichtung eines Funkmastes (Höhe H = 46 m)",
       "site_address": "Am Galgen (Wohnplatz) 5",
