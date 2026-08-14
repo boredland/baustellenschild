@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T17:41:37.165715Z",
+    "last_updated": "2026-08-14T18:31:05.762680Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23689,7 +23689,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "4",
       "flurstueck": "99/1",
-      "fetched_at": "2026-06-14T22:32:12.793030+00:00",
+      "fetched_at": "2026-08-14T18:12:38.160412+00:00",
       "permit_number": "B-2018-1363-3",
       "description": "Nutzungsänderung mit Grundriss- und Fassadenänderungen\nmit Anbau von Balkonen von 2 Gewerbegebäuden in ein \nMehrfamilienhaus mit 7 Wohneinheiten und ein\nEinfamilienhaus sowie Abbruch eines Verwaltungsgebäudes",
       "site_address": "Wilhelmshöher Straße 106",
@@ -23751,7 +23751,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "8",
       "flurstueck": "76/1",
-      "fetched_at": "2026-06-15T00:41:41.048047+00:00",
+      "fetched_at": "2026-08-14T18:22:23.243778+00:00",
       "permit_number": "B-2020-484-3",
       "description": "Errichtung einer Einfriedung > 2.0 m und Vordächer \nsowie Errichtung von einer Balkonanlage an einem Einfamilienhaus",
       "site_address": "Hintergasse 11",
