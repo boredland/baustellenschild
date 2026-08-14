@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T16:29:47.844543Z",
+    "last_updated": "2026-08-14T17:41:37.165715Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23731,7 +23731,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "7",
       "flurstueck": "21/3",
-      "fetched_at": "2026-06-14T22:57:42.519189+00:00",
+      "fetched_at": "2026-08-14T17:29:12.878230+00:00",
       "permit_number": "B-2019-430-3",
       "description": "Aufteilung von 1 WE in 2 WE mit Nutzungsänderung von Scheune\nin Wohnraum mit Anbau eines Wintergartens und Errichten eines \nBalkons als Zugang der 2. WE an einem Zweifamilienhaus, \nsowie Nutzungsänderung des Wirtschaftsgebäudes in Atelier\nals freiberufliche Nutzung nach § 13 BauNVO",
       "site_address": "Hofgartenweg 3",
