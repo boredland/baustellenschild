@@ -3,6 +3,7 @@ import json
 import sys
 import argparse
 import asyncio
+import heapq
 import logging
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta, timezone
@@ -25,6 +26,8 @@ logger = logging.getLogger(__name__)
 # visited. Ask for what a run can actually fetch and let the rotation come back
 # for the rest: every parcel is still reached, just over more runs.
 BATCH_SIZE = int(os.getenv("CRAWL_BATCH_SIZE", "40"))
+
+NEVER_VISITED = "1970-01-01T00:00:00Z"
 
 
 def log_progress(msg: str):
@@ -118,43 +121,28 @@ def load_or_enumerate_parcels(force_enumerate: bool = False) -> list[Tuple[int, 
 
 
 def select_parcels_for_update(all_parcels: list[Tuple[int, str, str]], batch_size: int = BATCH_SIZE) -> list[Tuple[int, str, str]]:
-    """Select parcels evenly distributed across all gemarkungen, choosing oldest/missing first."""
+    """Select the parcels that have gone unvisited longest.
+
+    Strictly oldest-first, city-wide. Spreading the batch across districts was
+    the earlier policy and it starved: a batch of 40 cannot cover 58 districts,
+    so whichever districts sorted last were never reached at all. A single queue
+    ordered by last visit cannot starve - every parcel reaches the front after at
+    most one sweep - and it bounds how stale the worst record can get.
+    """
     if PARCELS_METADATA_FILE.exists():
         with open(PARCELS_METADATA_FILE, "r", encoding="utf-8") as f:
             metadata = json.load(f)
     else:
         metadata = {}
 
-    # Group parcels by gemarkung
-    by_gemarkung = {}
-    for gemark, flur, flst in all_parcels:
-        if gemark not in by_gemarkung:
-            by_gemarkung[gemark] = []
-        by_gemarkung[gemark].append((gemark, flur, flst))
+    def visited_at(parcel: Tuple[int, str, str]) -> str:
+        return metadata.get(f"{parcel[0]}:{parcel[1]}:{parcel[2]}", {}).get("last_updated", NEVER_VISITED)
 
-    # Sort each gemarkung's parcels by last_updated (oldest first)
-    for gemark in by_gemarkung:
-        by_gemarkung[gemark].sort(
-            key=lambda p: metadata.get(f"{p[0]}:{p[1]}:{p[2]}", {}).get("last_updated", "1970-01-01T00:00:00Z")
-        )
+    selected = heapq.nsmallest(batch_size, all_parcels, key=visited_at)
 
-    # Round-robin across districts rather than a fixed slice each: the budget is
-    # now smaller than the number of districts, and batch_size // 58 == 0 would
-    # select nothing at all. This keeps the spread while always filling the batch
-    # with the city's least recently visited parcels.
-    queues = [by_gemarkung[gemark] for gemark in sorted(by_gemarkung)]
-    selected = []
-    depth = 0
-    while len(selected) < batch_size and any(len(q) > depth for q in queues):
-        for queue in queues:
-            if len(queue) > depth:
-                selected.append(queue[depth])
-                if len(selected) == batch_size:
-                    break
-        depth += 1
-
-    districts = len({p[0] for p in selected})
-    log_progress(f"Selected {len(selected)} parcels across {districts} districts (oldest first)")
+    districts = len({parcel[0] for parcel in selected})
+    oldest = visited_at(selected[0]) if selected else "n/a"
+    log_progress(f"Selected {len(selected)} parcels across {districts} districts (oldest first, from {oldest})")
 
     return selected
 

@@ -17,6 +17,10 @@ on:
         description: 'Flurstueck (e.g. 1/3). Requires gemarkung and flur.'
         required: false
         type: string
+      batch_size:
+        description: 'Parcels to fetch this run. Empty uses the scheduled default.'
+        required: false
+        type: string
 
 concurrency:
   group: crawl
@@ -48,7 +52,7 @@ jobs:
           # requests onto that interval, so concurrency only decides how many
           # wait in line; the batch size is what keeps a run inside its budget.
           CRAWL_CONCURRENCY: "12"
-          CRAWL_BATCH_SIZE: "40"
+          CRAWL_BATCH_SIZE: ${{ inputs.batch_size || '40' }}
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
@@ -58,3 +62,12 @@ jobs:
           git stash
           git pull --rebase
           git push
+
+  # A push made with GITHUB_TOKEN never triggers another workflow, so the crawl's
+  # data commit cannot wake Refresh Map Data on its own - the map served 06:52
+  # data for hours while the crawler kept committing. Call it instead.
+  refresh-map:
+    needs: crawl
+    permissions:
+      contents: write
+    uses: ./.github/workflows/map-data.yml

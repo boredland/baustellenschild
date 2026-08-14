@@ -2,14 +2,14 @@ name: Refresh Map Data
 
 # Cloudflare deploys the Worker itself on every push, but its builder only runs
 # npm — it cannot resolve parcels against Frankfurt's ALKIS service. So this
-# workflow regenerates the map payload whenever the crawl data changes and
-# commits it; that commit is what triggers the Cloudflare build.
+# workflow regenerates the map payload and commits it; that commit is what
+# triggers the Cloudflare build.
 
 on:
+  workflow_call:
   push:
     branches: [main]
     paths:
-      - 'data/baustellen.json'
       - 'src/build_site_data.py'
   workflow_dispatch:
 
@@ -22,7 +22,11 @@ jobs:
     permissions:
       contents: write
     steps:
+      # The caller's SHA predates the data commit the crawl just pushed, so the
+      # payload has to be built from the tip rather than from the triggering ref.
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: astral-sh/setup-uv@v4
 
       - run: uv run --no-cache python -u src/build_site_data.py
