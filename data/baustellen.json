@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T12:14:12.351017Z",
+    "last_updated": "2026-08-14T13:00:44.670916Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23647,7 +23647,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "41",
       "flurstueck": "14/100",
-      "fetched_at": "2026-06-14T17:39:26.186339+00:00",
+      "fetched_at": "2026-08-14T12:44:55.564903+00:00",
       "permit_number": "B-2017-1027-3",
       "description": "Rückbau der Dachkonstruktion, Aufstockung um ein Vollgeschoss auf \nVerwaltungsgebäude als Archiv, Aufstockung von einem Vollgeschoss\nauf einem Staffelgeschoss auf gewerblich genutzter Halle als Beherbergungsbetrieb, \nsowie Nutzungsänderung von Werkstatt in eine Garage mit 2 Stellplätzen und 3 Außenstellplätzen",
       "site_address": "Flinschstraße 37",
