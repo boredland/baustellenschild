@@ -6,18 +6,19 @@ on:
 jobs:
   probe:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        attempt: [1, 2, 3, 4, 5, 6]
     steps:
-      - name: Can a GitHub runner reach the Bauschild register directly?
+      - name: Reachability from this runner
         run: |
-          echo "runner egress IP: $(curl -s --max-time 20 https://api.ipify.org || echo unknown)"
-          echo
-          echo "--- GET landing page (slashless, no proxy)"
-          curl -s -o /dev/null --max-time 30 -w "  status %{http_code}\n" \
+          IP=$(curl -s --max-time 15 https://api.ipify.org || echo unknown)
+          CODE=$(curl -s -o /dev/null --max-time 25 -w "%{http_code}" \
             -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
-            "https://www.bauaufsicht-frankfurt.de/service/bauschild"
-          echo
-          echo "--- POST search WITH trailing slash (what the fixed scraper does)"
-          curl -s -o /tmp/r.html --max-time 30 -w "  status %{http_code} size %{size_download}\n" \
+            "https://www.bauaufsicht-frankfurt.de/service/bauschild" || echo 000)
+          echo "RESULT ip=$IP landing=$CODE"
+          POST=$(curl -s -o /tmp/r.html --max-time 25 -w "%{http_code}" \
             -A "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" \
             -H "Origin: https://www.bauaufsicht-frankfurt.de" \
             -H "Referer: https://www.bauaufsicht-frankfurt.de/service/bauschild" \
@@ -27,14 +28,6 @@ jobs:
             --data-urlencode "tx_vierwdbafinfothek_constructionsign[GEMARK]=478" \
             --data-urlencode "tx_vierwdbafinfothek_constructionsign[FLUR]=414" \
             --data-urlencode "tx_vierwdbafinfothek_constructionsign[FLST_ZAE;FLST_NEN]=67/1" \
-            "https://www.bauaufsicht-frankfurt.de/service/bauschild/liegenschaft/"
-          echo "  contains a result table: $(grep -c 'baustellenschild-searchresults\|baustellenschild-table' /tmp/r.html || true)"
-          echo "  contains Lindley:        $(grep -c 'Lindley' /tmp/r.html || true)"
-
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v4
-      - name: Batch crawl, no proxy, to find a sustainable concurrency
-        run: uv run --no-cache python -u src/crawl.py --gemarkung 478 --flur 414
-        env:
-          PYTHONUNBUFFERED: "1"
-          CRAWL_CONCURRENCY: "8"
+            "https://www.bauaufsicht-frankfurt.de/service/bauschild/liegenschaft/" || echo 000)
+          HIT=$(grep -c "Lindley" /tmp/r.html || true)
+          echo "RESULT ip=$IP post=$POST lindley=$HIT"
