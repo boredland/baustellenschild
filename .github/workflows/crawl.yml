@@ -31,7 +31,12 @@ jobs:
     permissions:
       contents: write
     steps:
+      # A run queued behind another by the concurrency group still carries the SHA
+      # it was created with, so it would crawl against data the earlier run has
+      # already superseded and then conflict when rebasing its own commit onto it.
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: astral-sh/setup-uv@v4
       - run: |
           ARGS=""
