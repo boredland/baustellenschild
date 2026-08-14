@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T06:52:19.939940Z",
+    "last_updated": "2026-08-14T07:31:11.252740Z",
     "total": 1165,
-    "errors": 0,
+    "errors": 194,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11405,7 +11405,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "414",
       "flurstueck": "67/1",
-      "fetched_at": "2026-06-15T05:15:26.302436+00:00",
+      "fetched_at": "2026-08-14T07:26:21.629852+00:00",
       "permit_number": "B-2018-1590-3",
       "description": "Nutzungsänderung von 2 Lagern in 2 Läden, mit brandschutzrelevanten\nGrundrissänderungen, im EG eines Lagergebäudes mit 2 Läden",
       "site_address": "Lindleystraße 7",
@@ -12101,9 +12101,9 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "414",
       "flurstueck": "203/67",
-      "fetched_at": "2026-06-15T09:38:03.027466+00:00",
+      "fetched_at": "2026-08-14T07:30:53.049899+00:00",
       "permit_number": "B-2022-1181-3",
-      "description": "Errichtung einer Tiefgarage als Erweiterung der bestehenden Tiefgarage, \nHerstellen von 540 Stellplätzen, Lager- und Technikräumen sowie \nRückbau einer Bohrpfahlwand unter der südlichen Passage",
+      "description": "Errichtung einer Tiefgarage als Erweiterung der bestehenden...",
       "site_address": "Honsellstraße 0",
       "parcel_info": "Frankfurt Bezirk 26 (478), 414, 203/67",
       "builder_name": "B&L Hafenpark Quartier",
