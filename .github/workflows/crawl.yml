@@ -47,12 +47,14 @@ jobs:
           uv run --no-cache python -u src/crawl.py $ARGS
         env:
           PYTHONUNBUFFERED: "1"
-          # The register allows a burst of ten requests then throttles with HTTP
-          # 500, refilling about one every thirty seconds. src/scraper.py paces
-          # requests onto that interval, so concurrency only decides how many
-          # wait in line; the batch size is what keeps a run inside its budget.
+          # src/scraper.py paces requests three seconds apart, so concurrency only
+          # decides how many wait in line; the batch size sets the run's length.
+          # Measured on the runner: 250 parcels took 22m40s and lost 10% to the
+          # register's 500s, against 7.5% at 40 - a steady rate throughout, not a
+          # cliff. 200 keeps a run near 18 minutes, comfortably inside the
+          # half-hourly schedule, and failures are retried by a later run anyway.
           CRAWL_CONCURRENCY: "12"
-          CRAWL_BATCH_SIZE: ${{ inputs.batch_size || '40' }}
+          CRAWL_BATCH_SIZE: ${{ inputs.batch_size || '200' }}
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"
