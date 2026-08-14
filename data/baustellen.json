@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T21:34:29.159492Z",
+    "last_updated": "2026-08-14T22:03:54.244385Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23867,7 +23867,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "12",
       "flurstueck": "239/7",
-      "fetched_at": "2026-06-08T18:21:24.110978+00:00",
+      "fetched_at": "2026-08-14T21:49:03.537578+00:00",
       "permit_number": "B-2020-399-3",
       "description": "Errichten von zwei Technikgebäuden sowie \nHerstellen von 4 Stellplätzen für ein Umspannwerk",
       "site_address": "Am Galgen (Wohnplatz) 5",
