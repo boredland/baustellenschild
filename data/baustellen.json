@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T15:30:45.829281Z",
+    "last_updated": "2026-08-14T16:29:47.844543Z",
     "total": 1165,
     "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -23710,7 +23710,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "4",
       "flurstueck": "100/0",
-      "fetched_at": "2026-06-14T22:32:13.946731+00:00",
+      "fetched_at": "2026-08-14T16:26:44.913481+00:00",
       "permit_number": "B-2018-1316-3",
       "description": "Errichtung von 2 Mehrfamilienhäusern mit insgesamt \n23 Wohnungen auf einer Mittelgarage",
       "site_address": "Zeuläckerstraße 8a - 8b",
