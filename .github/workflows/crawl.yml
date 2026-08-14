@@ -46,8 +46,6 @@ jobs:
           # The register throttles with HTTP 500 well below this; 300 got every
           # request rejected for two days straight.
           CRAWL_CONCURRENCY: "12"
-          FETCH_PROXY_URL: ${{ secrets.FETCH_PROXY_URL }}
-          FETCH_PROXY_TOKEN: ${{ secrets.FETCH_PROXY_TOKEN }}
       - name: Commit updated data
         run: |
           git config user.name "github-actions[bot]"

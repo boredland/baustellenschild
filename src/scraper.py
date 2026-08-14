@@ -2,7 +2,6 @@ import asyncio
 import os
 import logging
 from typing import Optional
-from urllib.parse import quote
 import aiohttp
 from bs4 import BeautifulSoup
 import random
@@ -22,22 +21,6 @@ BASE_URL = "https://www.bauaufsicht-frankfurt.de"
 # The trailing slash is load-bearing: since 2026-08-11 the site answers the
 # slashless form action with a bare Apache 403, while this route still works.
 LIEGENSCHAFT_URL = f"{BASE_URL}/service/bauschild/liegenschaft/"
-
-# Optional fetch-proxy passthrough (the museumsufer apps/fetch-proxy server).
-# bauaufsicht-frankfurt.de's WAF returns 403 for datacenter IPs and for our
-# crawler User-Agent; routing through the proxy fetches from a residential IP
-# with a browser UA, which the proxy substitutes for us.
-PROXY_URL = os.getenv("FETCH_PROXY_URL")
-PROXY_TOKEN = os.getenv("FETCH_PROXY_TOKEN")
-
-
-def _via_proxy(url: str, headers: dict) -> tuple[str, dict]:
-    if not PROXY_URL:
-        return url, headers
-    proxied = dict(headers)
-    if PROXY_TOKEN:
-        proxied["Authorization"] = f"Bearer {PROXY_TOKEN}"
-    return f"{PROXY_URL}?url={quote(url, safe='')}", proxied
 
 MAX_CONCURRENT = int(os.getenv("CRAWL_CONCURRENCY", "50"))  # Configurable via env var
 MAX_RETRIES = 3
@@ -183,11 +166,10 @@ async def scrape_liegenschaft_async(
     for attempt in range(MAX_RETRIES):
         try:
             await asyncio.sleep(random.uniform(0.01, 0.05))
-            post_url, post_headers = _via_proxy(LIEGENSCHAFT_URL, headers)
             async with session.post(
-                post_url,
+                LIEGENSCHAFT_URL,
                 data=payload,
-                headers=post_headers,
+                headers=headers,
                 timeout=aiohttp.ClientTimeout(total=10)
             ) as resp:
                 resp.raise_for_status()
@@ -205,10 +187,9 @@ async def scrape_liegenschaft_async(
                         if permit_link and permit_link.get("href"):
                             detail_url = "https://www.bauaufsicht-frankfurt.de" + permit_link.get("href")
                             try:
-                                detail_target, detail_headers = _via_proxy(detail_url, headers)
                                 async with session.get(
-                                    detail_target,
-                                    headers=detail_headers,
+                                    detail_url,
+                                    headers=headers,
                                     timeout=aiohttp.ClientTimeout(total=15, connect=5)
                                 ) as detail_resp:
                                     detail_resp.raise_for_status()
