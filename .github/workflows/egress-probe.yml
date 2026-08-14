@@ -1,5 +1,8 @@
 name: Egress Probe
-on: workflow_dispatch
+on:
+  push:
+    branches: [probe-direct-egress]
+  workflow_dispatch:
 jobs:
   probe:
     runs-on: ubuntu-latest
