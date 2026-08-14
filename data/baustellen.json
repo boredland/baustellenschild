@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-14T09:36:46.430645Z",
+    "last_updated": "2026-08-14T10:53:53.530185Z",
     "total": 1165,
     "errors": 3,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -2103,7 +2103,7 @@
       "gemarkung_label": "Frankfurt Bezirk 10",
       "flur": "109",
       "flurstueck": "12/1",
-      "fetched_at": "2026-06-15T00:37:38.878150+00:00",
+      "fetched_at": "2026-08-14T10:49:45.045931+00:00",
       "permit_number": "B-2022-1132-4",
       "description": "Brandschutz-, statik- und lüftungsrelevante Grundsrissänderungen mit Änderung der Fassade und Außenanlage eines Büro- und Geschäftsgebäudes",
       "site_address": "Taunusanlage 21",
