@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T16:32:17.353612Z",
+    "last_updated": "2026-08-15T17:05:12.447996Z",
     "total": 1165,
-    "errors": 14,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16533,7 +16533,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "23",
       "flurstueck": "205/1",
-      "fetched_at": "2026-06-13T16:30:47.880301+00:00",
+      "fetched_at": "2026-08-15T16:50:37.653567+00:00",
       "permit_number": "B-2021-1296-3",
       "description": "Anbau zur Wohnraumerweiterung im EG und OG\neines Einfamilienhauses mit inneren Umbauten",
       "site_address": "Leopold-Ehrmann-Straße 2",
@@ -16573,7 +16573,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "24",
       "flurstueck": "14/1",
-      "fetched_at": "2026-06-13T16:30:51.499509+00:00",
+      "fetched_at": "2026-08-15T16:54:31.670935+00:00",
       "permit_number": "B-2024-913-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 3 Wohneinheiten sowie Herstellen von 2 Stellplätzen",
       "site_address": "Marktstraße 23",
@@ -16593,7 +16593,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "24",
       "flurstueck": "6/8",
-      "fetched_at": "2026-06-13T16:30:51.372243+00:00",
+      "fetched_at": "2026-08-15T16:53:55.746198+00:00",
       "permit_number": "B-2025-309-3",
       "description": "Nutzungsänderung einer Bankfiliale im UG und EG in ein Psychotraumatologisches Zentrum für Diagnostik und Therapie (PZDT)",
       "site_address": "Marktstraße 5",
