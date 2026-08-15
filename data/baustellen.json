@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T19:59:42.841814Z",
+    "last_updated": "2026-08-15T20:30:12.456643Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -6161,7 +6161,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "50",
       "flurstueck": "77/0",
-      "fetched_at": "2026-06-13T03:50:06.135614+00:00",
+      "fetched_at": "2026-08-15T20:24:59.477442+00:00",
       "permit_number": "B-2023-237-6",
       "description": "Anbau im EG, 1.OG und DG zur Wohnraumerweiterung, Herstellen einer Wohneinheit im DG, Zusammenlegen der Wohneinheiten im EG und UG zu einer Wohneinheit, Rückbau und Wiedererrichtung des Daches in veränderter Form an einem Mehrfamilienhaus",
       "site_address": "An der Herrenwiese 35",
@@ -21182,7 +21182,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "9",
       "flurstueck": "178/0",
-      "fetched_at": "2026-06-14T23:56:03.235038+00:00",
+      "fetched_at": "2026-08-15T20:21:17.564094+00:00",
       "permit_number": "B-2021-1070-4",
       "description": "Errichten von Anbauten zur Wohnraumerweiterung und eines Windfangs im EG eines Einfamilienhauses, sowie Legalisierung einer nachträglich größer ausgeführten Gaube",
       "site_address": "Im Kirschenwäldchen 7",
