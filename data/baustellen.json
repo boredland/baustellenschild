@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T19:34:15.254504Z",
+    "last_updated": "2026-08-15T19:59:42.841814Z",
     "total": 1165,
     "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -18391,7 +18391,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "25",
       "flurstueck": "68/3",
-      "fetched_at": "2026-06-13T19:34:14.885291+00:00",
+      "fetched_at": "2026-08-15T19:55:29.169202+00:00",
       "permit_number": "B-2022-523-3",
       "description": "Rückbau des Dachgeschosses und Aufstockung von einem \nVollgeschoss auf das bestehende Erdgeschoss und einem \nStaffelgeschoss auf das Obergeschoss eines Einfamilienhauses",
       "site_address": "Haingasse 25",
