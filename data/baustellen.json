@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T21:30:25.728442Z",
+    "last_updated": "2026-08-15T21:59:57.829512Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18957,7 +18957,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "27",
       "flurstueck": "125/0",
-      "fetched_at": "2026-06-13T21:29:16.350769+00:00",
+      "fetched_at": "2026-08-15T21:57:06.219196+00:00",
       "permit_number": "B-2019-1059-3",
       "description": "Rückbau Dach und Neuerrichtung in \ngeänderter Form als Vollgeschoss zur \nWohnraumerweiterung an einem Einfamilienhaus",
       "site_address": "Klingenweg 11a",
