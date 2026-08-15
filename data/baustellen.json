@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T23:29:26.464063Z",
+    "last_updated": "2026-08-15T23:59:36.358444Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19452,7 +19452,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "28",
       "flurstueck": "559/12",
-      "fetched_at": "2026-06-13T22:24:22.288975+00:00",
+      "fetched_at": "2026-08-15T23:53:34.165647+00:00",
       "permit_number": "B-2019-1556-3",
       "description": "Rückbau einer Doppelgarage und Errichtung eines Carports, \nAnbau zur Wohnraumerweiterung an einem Einfamilienhaus \nmit energetischer Sanierung der Fassade",
       "site_address": "Im Rosenträger 3",
