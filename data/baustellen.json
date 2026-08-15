@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T08:07:45.361719Z",
+    "last_updated": "2026-08-15T08:34:41.478549Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7396,9 +7396,9 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "48",
       "flurstueck": "3/87",
-      "fetched_at": "2026-06-12T17:51:02.473133+00:00",
+      "fetched_at": "2026-08-15T08:30:52.738574+00:00",
       "permit_number": "B-2017-1935-3",
-      "description": "Abbruch der Parkebenen Basement und Erdgeschoss sowie Errichtung\nvon 16 temporären Gerüsttreppenhäusern am  Hessen-Center Frankfurt",
+      "description": "Abbruch der Parkebenen Basement und Erdgeschoss sowie Errichtung...",
       "site_address": "Borsigallee 26",
       "parcel_info": "Bergen-Enkheim Bezirk 68 (486), 48, 3/87",
       "builder_name": "Kommanditgesellschaft Grundstücksgesellschaft Farmsen m.b.H. & Co.",
