@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T18:33:31.763402Z",
+    "last_updated": "2026-08-15T19:11:41.460057Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21016,7 +21016,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "9",
       "flurstueck": "96/1",
-      "fetched_at": "2026-06-14T23:29:47.632875+00:00",
+      "fetched_at": "2026-08-15T19:06:05.248669+00:00",
       "permit_number": "B-2018-1414-4",
       "description": "Brandschutzrelevante Grundrissänderungen und Neubau einer Stellplatzanlage für 94 PKW und 40 Fahrräder",
       "site_address": "Talstraße 112",
