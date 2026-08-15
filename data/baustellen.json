@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T17:31:24.074613Z",
+    "last_updated": "2026-08-15T18:00:03.754881Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17534,7 +17534,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "24",
       "flurstueck": "197/0",
-      "fetched_at": "2026-06-13T17:02:53.531384+00:00",
+      "fetched_at": "2026-08-15T17:43:26.260800+00:00",
       "permit_number": "B-2018-1360-3",
       "description": "Nutzungsänderung von Rathaus in Museum mit inneren Umbauten",
       "site_address": "Berger Rathausplatz 1",
