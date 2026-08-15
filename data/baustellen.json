@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T06:39:41.975123Z",
+    "last_updated": "2026-08-15T07:22:49.635539Z",
     "total": 1165,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -2659,9 +2659,9 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "46",
       "flurstueck": "254/5",
-      "fetched_at": "2026-06-12T13:06:34.889111+00:00",
+      "fetched_at": "2026-08-15T07:04:54.723603+00:00",
       "permit_number": "B-2017-408-3",
-      "description": "Nachtrag zu B-2010-79-3:\nBrandschutzrelevante Grundrissänderungen wegen Umbau der Betriebskantine zu einem Umkleidebereich\nim UG Gebäude K (frühere Bezeichnung: Gebäude A)",
+      "description": "Nachtrag zu B-2010-79-3:\nBrandschutzrelevante Grundrissänderungen...",
       "site_address": "Victor-Slotosch-Straße 20",
       "parcel_info": "Bergen-Enkheim Bezirk 68 (486), 46, 254/5",
       "builder_name": "Nord-Micro GmbH & Co. OHG",
@@ -5011,7 +5011,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "47",
       "flurstueck": "56/14",
-      "fetched_at": "2026-06-12T15:40:03.343905+00:00",
+      "fetched_at": "2026-08-15T07:22:30.142038+00:00",
       "permit_number": "B-2015-770-3",
       "description": "Teilweiser Rückbau einer Lagerhalle mit Fassadenänderungen und Neubau von Büroräumen mit Toiletten sowie brandschutzrelevanten Grundrissänderungen",
       "site_address": "Röntgenstraße 10",
