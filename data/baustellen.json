@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T06:06:05.429743Z",
+    "last_updated": "2026-08-15T06:39:41.975123Z",
     "total": 1165,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -3813,7 +3813,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "47",
       "flurstueck": "3/0",
-      "fetched_at": "2026-06-12T14:24:13.186895+00:00",
+      "fetched_at": "2026-08-15T06:36:46.522177+00:00",
       "permit_number": "B-2023-1292-3",
       "description": "Brandschutzrelevante Grundrissänderungen in einem Beherbergungsbetrieb, erhöhen der Zimmer von 37 auf 40 mit insgesamt 84 Betten, Nachweis je eines zusätzlichen PKW- und Fahrradabstellplatzes",
       "site_address": "Edisonstraße 13",
@@ -3833,7 +3833,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "47",
       "flurstueck": "16/4",
-      "fetched_at": "2026-06-12T14:24:14.215339+00:00",
+      "fetched_at": "2026-08-15T06:38:16.306839+00:00",
       "permit_number": "B-2022-34-3",
       "description": "Nutzungsänderung von Lagerhalle,\nBüro und drei Wohnungen in ein Bürogebäude",
       "site_address": "Victor-Slotosch-Straße 17",
@@ -3853,7 +3853,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "47",
       "flurstueck": "10/0",
-      "fetched_at": "2026-06-12T14:24:14.917923+00:00",
+      "fetched_at": "2026-08-15T06:37:34.252019+00:00",
       "permit_number": "B-2023-663-3",
       "description": "Aufteilen von einer in zwei Nutzungseinheiten Büro im 1. OG \nsowie innere Umbauten im EG eines Büro- und Lagergebäudes, \nAnbringung einer Aufdachdämmung am Hallen- und Bürogebäude, \nErrichten eines überdachten Fahrradabstellplatzes für 12 Fahrräder, \nHerstellen von 8 PKW-Stellplätzen, Ladestationen für 4 Straßenscooter und 28 Trikes, \n3 Ersatzplätze für KFZ sowie einem Mülltonnenabstellplatz",
       "site_address": "Borsigallee 35",
