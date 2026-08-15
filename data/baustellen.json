@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T20:30:12.456643Z",
+    "last_updated": "2026-08-15T21:03:43.726243Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18692,7 +18692,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "27",
       "flurstueck": "37/0",
-      "fetched_at": "2026-06-13T20:56:28.334589+00:00",
+      "fetched_at": "2026-08-15T21:03:06.854588+00:00",
       "permit_number": "B-2023-485-3",
       "description": "Errichten eines Einfamilienhauses mit einem\nCarport und einem offenen Stellplatz",
       "site_address": "Landgraben 21",
