@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T06:09:15.925592Z",
+    "last_updated": "2026-08-16T06:41:15.671017Z",
     "total": 1165,
-    "errors": 18,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14427,7 +14427,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "9",
       "flurstueck": "148/0",
-      "fetched_at": "2026-06-13T17:58:37.502970+00:00",
+      "fetched_at": "2026-08-16T06:36:29.936673+00:00",
       "permit_number": "B-2025-179-6",
       "description": "Innere Umbauten in einem Zweifamilienhaus, Errichten von Balkonen\nNutzungsänderung des Nebengebäudes in eine Maisonettewohnung mit inneren Umbauten, Herstellen von 2 Stellplätzen",
       "site_address": "Hainbuchenstraße 31",
