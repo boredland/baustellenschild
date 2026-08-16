@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T06:41:15.671017Z",
+    "last_updated": "2026-08-16T07:25:03.838679Z",
     "total": 1165,
-    "errors": 28,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5156,7 +5156,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "20",
       "flurstueck": "69/2",
-      "fetched_at": "2026-06-12T14:26:01.306008+00:00",
+      "fetched_at": "2026-08-16T07:19:29.154609+00:00",
       "permit_number": "X-2024-119-6",
       "description": "Abbruch eines Bürogebäudes inkl. zweigeschossiger Tiefgarage",
       "site_address": "Wilhelm-Fay-Straße 31",
