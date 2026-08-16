@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T17:05:29.343419Z",
+    "last_updated": "2026-08-16T17:30:04.250829Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17926,7 +17926,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "555",
       "flurstueck": "95/182",
-      "fetched_at": "2026-06-13T03:48:25.771887+00:00",
+      "fetched_at": "2026-08-16T17:22:58.214422+00:00",
       "permit_number": "B-2019-135-5",
       "description": "Errichtung eines Mehrfamilienhauses mit 4 Wohneinheiten und einer Tiefgarage mit 12 Stellplätzen und Autolift",
       "site_address": "Lerchesbergring 23",
@@ -18350,7 +18350,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "555",
       "flurstueck": "105/2",
-      "fetched_at": "2026-06-13T03:48:25.781414+00:00",
+      "fetched_at": "2026-08-16T17:25:58.220382+00:00",
       "permit_number": "B-2020-44-5",
       "description": "Änderung eines Zweifamilienhauses in ein Einfamilienhaus mit Anbau zur Wohnraumerweiterung im UG, EG, 1. OG sowie Aufstockung um ein Staffelgeschoss mit Nutzungsänderung der Doppelgarage in Wohnraum, Errichtung einer Doppelgarage, Terrassenerweiterung im EG, Balkon im 1. OG, Loggia und Dachterrasse im Staffelgeschoss",
       "site_address": "Sachsenhäuser Landwehrweg 273",
@@ -18371,7 +18371,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "555",
       "flurstueck": "107/0",
-      "fetched_at": "2026-06-13T03:48:26.150419+00:00",
+      "fetched_at": "2026-08-16T17:27:04.228194+00:00",
       "permit_number": "B-2024-510-5",
       "description": "Einrichten eines Anbaus zur Wohnraumerweiterung an einem Wohnhaus",
       "site_address": "Sachsenhäuser Landwehrweg 265",
@@ -21161,7 +21161,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "484",
       "flurstueck": "13/1",
-      "fetched_at": "2026-06-13T18:28:57.690570+00:00",
+      "fetched_at": "2026-08-16T17:22:22.214291+00:00",
       "permit_number": "X-2023-70-5",
       "description": "Abbruch einer Shell Tankstelle mit 1x Tankstellen-Dach, 1x Waschhalle / Pflegehalle, 4x Tanks, Abfüllanlagen, Abfüllfläche, 2x Abscheidern, 1x Shop-Gebäude, 1x Werkstatt / Pflegehalle in Massivbauweise mit Flachdach, 1x Metallschuppen und Oberflächenversiegelung",
       "site_address": "Mörfelder Landstraße 16",
