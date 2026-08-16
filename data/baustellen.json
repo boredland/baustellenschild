@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T16:01:12.174315Z",
+    "last_updated": "2026-08-16T16:31:51.421116Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22419,7 +22419,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "12",
       "flurstueck": "78/0",
-      "fetched_at": "2026-06-12T13:07:19.428000+00:00",
+      "fetched_at": "2026-08-16T16:27:17.939614+00:00",
       "permit_number": "B-2024-74-4",
       "description": "Brandschutzrelevante Grundrissänderungen im 1.OG - 6.OG mit inneren Umbauten in einem Bürogebäude, Trullo C (III)",
       "site_address": "Olof-Palme-Straße 35",
