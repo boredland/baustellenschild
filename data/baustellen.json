@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T09:12:40.866545Z",
+    "last_updated": "2026-08-16T09:36:54.585158Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14791,7 +14791,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "10",
       "flurstueck": "1830/6",
-      "fetched_at": "2026-06-13T18:59:09.397814+00:00",
+      "fetched_at": "2026-08-16T09:32:50.344595+00:00",
       "permit_number": "B-2021-1282-6",
       "description": "Nutzungsänderung mit baulichen Maßnahmen von Werkstatt und Lager im Hinterhof in ein Zweifamilienwohnhaus sowie Herstellen von einem PKW-Stellplatz und vier Fahrradstellplätzen",
       "site_address": "Blankenheimer Straße 10",
