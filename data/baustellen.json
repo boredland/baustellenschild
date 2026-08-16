@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T01:02:30.542599Z",
+    "last_updated": "2026-08-16T02:33:52.447856Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1808,7 +1808,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "19",
       "flurstueck": "12/4",
-      "fetched_at": "2026-06-15T09:40:45.517060+00:00",
+      "fetched_at": "2026-08-16T02:25:55.577990+00:00",
       "permit_number": "B-2022-1076-6",
       "description": "Errichten eines gewerblich genutzten Parkplatzes für 301 Stellplätze",
       "site_address": "Flurscheideweg 70",
