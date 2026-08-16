@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T08:35:43.834507Z",
+    "last_updated": "2026-08-16T09:12:40.866545Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17091,7 +17091,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "554",
       "flurstueck": "262/3",
-      "fetched_at": "2026-06-12T23:31:25.860368+00:00",
+      "fetched_at": "2026-08-16T09:06:57.164408+00:00",
       "permit_number": "B-2021-1003-5",
       "description": "Rückbau Dachgeschoss, Neuerrichtung Obergeschoss und Dachgeschoss, Anbau Überdachung mit Freiluftküche",
       "site_address": "Lerchesbergring 75",
