@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T11:03:52.359353Z",
+    "last_updated": "2026-08-16T11:30:20.783818Z",
     "total": 1165,
     "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -15096,7 +15096,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "10",
       "flurstueck": "1923/35",
-      "fetched_at": "2026-06-13T19:36:06.158246+00:00",
+      "fetched_at": "2026-08-16T11:13:29.542492+00:00",
       "permit_number": "B-2017-195-6",
       "description": "Aufzugsanbau mit WC-Anlage an der Schule, Einbau innen liegender Fluchttreppe und innere Umbauten",
       "site_address": "Gerolsteiner Straße 2",
