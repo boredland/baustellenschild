@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T09:36:54.585158Z",
+    "last_updated": "2026-08-16T10:06:46.984074Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7622,7 +7622,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "24",
       "flurstueck": "114/2",
-      "fetched_at": "2026-06-12T17:01:59.184186+00:00",
+      "fetched_at": "2026-08-16T10:04:36.371985+00:00",
       "permit_number": "B-2022-793-6",
       "description": "Errichtung eines Rechenzentrums sowie Herstellen von 30 Stellplätzen",
       "site_address": "Wilhelm-Fay-Straße 3 - 5",
@@ -14811,7 +14811,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "10",
       "flurstueck": "1851/1",
-      "fetched_at": "2026-06-13T18:59:12.599806+00:00",
+      "fetched_at": "2026-08-16T09:51:03.870491+00:00",
       "permit_number": "B-2024-984-6",
       "description": "Neubau eines Einfamilienhauses mit zwei Stellplätzen",
       "site_address": "Manderscheider Straße 25",
@@ -17111,7 +17111,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "554",
       "flurstueck": "279/0",
-      "fetched_at": "2026-06-12T23:31:25.796695+00:00",
+      "fetched_at": "2026-08-16T09:48:54.377761+00:00",
       "permit_number": "B-2024-27-5",
       "description": "Errichtung eines Zweifamilienhauses mit Doppelgarage",
       "site_address": "Lerchesbergring 62",
