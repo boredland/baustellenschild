@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T05:15:07.248652Z",
+    "last_updated": "2026-08-16T05:43:16.049638Z",
     "total": 1165,
-    "errors": 28,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14407,7 +14407,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "9",
       "flurstueck": "100/0",
-      "fetched_at": "2026-06-13T17:04:26.507005+00:00",
+      "fetched_at": "2026-08-16T05:35:30.168451+00:00",
       "permit_number": "B-2023-1239-6",
       "description": "Errichtung eines Gebäudes mit einem Laden (Apotheke) und einer Einheit zur freiberuflicher Nutzung gem. § 13 BauNVO (Arztpraxis), sowie Herstellen von 5 Stellplätzen",
       "site_address": "Vogesenstraße 29",
