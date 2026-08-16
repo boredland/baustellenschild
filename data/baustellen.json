@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-15T23:59:36.358444Z",
+    "last_updated": "2026-08-16T01:02:30.542599Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13530,7 +13530,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "8",
       "flurstueck": "1506/4",
-      "fetched_at": "2026-06-13T15:35:48.061287+00:00",
+      "fetched_at": "2026-08-16T00:57:49.657903+00:00",
       "permit_number": "B-2018-702-6",
       "description": "Brandschutzrelevante Grundrissänderungen und innere Umbauten in allen Geschossen \"Minna-Specht Schule\" in Frankfurt am Main",
       "site_address": "Lilo-Günzler-Straße 18",
