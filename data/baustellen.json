@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T10:06:46.984074Z",
+    "last_updated": "2026-08-16T10:32:08.639614Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17492,7 +17492,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "554",
       "flurstueck": "325/2",
-      "fetched_at": "2026-06-13T00:05:31.818683+00:00",
+      "fetched_at": "2026-08-16T10:24:15.825489+00:00",
       "permit_number": "B-2022-516-5",
       "description": "Aufteilen eines Zweifamilienhauses in zwei Wohnungen, Errichten von Anbauten, Errichten von Balkonen sowie Rückbau und Wiedererrichten des Dachgeschosses in geänderter Form, Abbruch einer Garage",
       "site_address": "Lerchesbergring 86a",
@@ -17513,7 +17513,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "554",
       "flurstueck": "334/0",
-      "fetched_at": "2026-06-13T00:05:33.484701+00:00",
+      "fetched_at": "2026-08-16T10:26:27.533270+00:00",
       "permit_number": "B-2020-460-5",
       "description": "Herstellen von 5 weiteren Gästewohnungen in einem Gästehaus der Goethe-Universität",
       "site_address": "Lerchesbergring 90",
