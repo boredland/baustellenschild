@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T11:59:49.576073Z",
+    "last_updated": "2026-08-16T12:38:19.684379Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20532,7 +20532,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "29",
       "flurstueck": "318/3",
-      "fetched_at": "2026-06-14T03:07:42.212220+00:00",
+      "fetched_at": "2026-08-16T12:28:10.760784+00:00",
       "permit_number": "B-2019-1161-3",
       "description": "Errichten eines Mehrfamilienhauses mit 5 Wohnungen \nsowie 9 Stellplätzen als Dreifachparker",
       "site_address": "Carl-Schultis-Straße 3",
