@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T07:25:03.838679Z",
+    "last_updated": "2026-08-16T08:10:03.137408Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5177,7 +5177,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "20",
       "flurstueck": "145/4",
-      "fetched_at": "2026-06-12T14:26:00.711213+00:00",
+      "fetched_at": "2026-08-16T07:52:54.117079+00:00",
       "permit_number": "B-2025-401-6",
       "description": "Änderungen sowie Nutzungsänderung von Büro zu Archiv und Lager im EG - 2.OG. Errichten einer Einfriedung höher 2,00 m in einem Bürohaus",
       "site_address": "Wilhelm-Fay-Straße 30 - 34",
