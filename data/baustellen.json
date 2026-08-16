@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T08:10:03.137408Z",
+    "last_updated": "2026-08-16T08:35:43.834507Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14771,7 +14771,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "10",
       "flurstueck": "1828/1",
-      "fetched_at": "2026-06-13T18:30:56.538408+00:00",
+      "fetched_at": "2026-08-16T08:28:10.557082+00:00",
       "permit_number": "B-2020-152-6",
       "description": "Rückbau und Wiederrichten des Daches in geänderter Form mit einem zusätzlichen Geschoss, Herstellen einer neuen Wohnung in einem Zweifamilienhaus",
       "site_address": "Blankenheimer Straße 9a",
