@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T21:41:43.838937Z",
+    "last_updated": "2026-08-17T22:09:24.165990Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5976,7 +5976,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "16",
       "flurstueck": "245/12",
-      "fetched_at": "2026-06-14T08:46:44.095310+00:00",
+      "fetched_at": "2026-08-17T22:02:27.839764+00:00",
       "permit_number": "B-2020-123-5",
       "description": "Brandschutztechnisch und statisch relevante Grundrissänderungen in allen Etagen eines bestehenden Bürogebäudes. Rückbau der Rolltreppen zwischen EG und 3. OG, Einbau einer Aufzugsanlage mit 6 Aufzügen und Einbau von 2 Verbindungstreppen.",
       "site_address": "Theodor-Heuss-Allee 44",
@@ -21406,7 +21406,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "492",
       "flurstueck": "1/9",
-      "fetched_at": "2026-06-13T21:55:09.162199+00:00",
+      "fetched_at": "2026-08-17T21:51:36.669791+00:00",
       "permit_number": "B-2024-211-5",
       "description": "Brandschutz- und statisch relevante Grundrissänderungen in einem Alten- und Pflegeheim und Rückbau der Parkebenen im KG",
       "site_address": "Darmstädter Landstraße 104",
