@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T01:00:51.559966Z",
+    "last_updated": "2026-08-17T02:32:14.033575Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -4993,7 +4993,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "579",
       "flurstueck": "540/4",
-      "fetched_at": "2026-06-14T10:11:47.910152+00:00",
+      "fetched_at": "2026-08-17T02:15:32.517801+00:00",
       "permit_number": "B-2024-97-3",
       "description": "Nutzungsänderung eines Großraumbüros und Montage- u. Lagerraumes in Räume für soziale und kulturelle Zwecke in Halle 1, sowie Nutzungserweiterung der Probebühne für soziale und kulturelle Zwecke in Halle 3; Rückbau von 17 auf 22 Stellplätzen und Errichtung von 104 Fahrradabstellplätzen",
       "site_address": "Offenbacher Landstraße 190",
@@ -19202,7 +19202,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "11",
       "flurstueck": "105/39",
-      "fetched_at": "2026-06-14T11:21:03.731494+00:00",
+      "fetched_at": "2026-08-17T02:26:29.023022+00:00",
       "permit_number": "B-2024-788-4",
       "description": "Rückbau Balkone, Kellertreppen und Kellereingänge sowie Errichtung von Balkonanlagen vom EG - 3. OG an einem Mehrfamilienhaus",
       "site_address": "Schliemannweg 25",
@@ -19223,7 +19223,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "11",
       "flurstueck": "103/21",
-      "fetched_at": "2026-06-14T11:21:03.589317+00:00",
+      "fetched_at": "2026-08-17T02:27:53.045279+00:00",
       "permit_number": "B-2021-214-4",
       "description": "Innerer Umbau eines Altenwohn- u. Pflegeheims mit Einbau von Bädern in die Bewohnerzimmer und Umnutzung der ehemaligen Gemeinschaftsbäder in 7 Kleinstwohnungen, Herstellung von 6 PKW-Stellplätzen und 15 Abstellplätzen für Fahrräder, Sanierung der Dachfläche und Anordnung einer Photovoltaik-Anlage",
       "site_address": "Gummersbergstraße 24",
