@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T18:42:28.065360Z",
+    "last_updated": "2026-08-17T19:23:34.752705Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9822,7 +9822,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "5",
       "flurstueck": "36/93",
-      "fetched_at": "2026-06-14T20:56:28.501894+00:00",
+      "fetched_at": "2026-08-17T19:09:13.617739+00:00",
       "permit_number": "B-2022-813-3",
       "description": "Herstellen von Aufschüttungen mit Recycling- und Erdmaterial > 30 m² \nsowie Aufstellen einer Brecheranlage",
       "site_address": "Hanauer Landstraße 473",
@@ -9843,7 +9843,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "5",
       "flurstueck": "36/109",
-      "fetched_at": "2026-06-14T20:56:29.078522+00:00",
+      "fetched_at": "2026-08-17T19:11:01.640811+00:00",
       "permit_number": "B-2024-123-3",
       "description": "Nutzungsänderung von Anlieferungs- und Lagerfläche \nin Verkaufsfläche sowie temporärer Entfall von 152 Stellplätzen\nund Herstellen einer Verkaufsfläche für den\nZeitraum 01.07.2023 bis 31.12.2030 an einem Bau- und Gartencenter",
       "site_address": "Hanauer Landstraße 477",
