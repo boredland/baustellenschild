@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T18:10:00.520748Z",
+    "last_updated": "2026-08-17T18:42:28.065360Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21672,7 +21672,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "30",
       "flurstueck": "1682/2",
-      "fetched_at": "2026-06-14T17:37:41.497272+00:00",
+      "fetched_at": "2026-08-17T18:25:33.066486+00:00",
       "permit_number": "B-2023-349-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 8 Wohneinheiten\nund einer Tiefgarage mit 12 PKW-Stellplätzen",
       "site_address": "Alfred-Göbel-Weg 14",
