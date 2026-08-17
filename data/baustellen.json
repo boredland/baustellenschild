@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T04:26:58.943879Z",
+    "last_updated": "2026-08-17T05:23:02.755077Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19120,7 +19120,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "556",
       "flurstueck": "112/3",
-      "fetched_at": "2026-06-13T09:38:11.133930+00:00",
+      "fetched_at": "2026-08-17T05:08:51.230065+00:00",
       "permit_number": "B-2016-1817-5",
       "description": "Nutzungsänderung von Büro-, Technik- u. Tiefgaragenflächen in einen Beherbergungsbetrieb (Hotel) mit 102 Zimmern und 204 Betten von Untergeschoss bis Staffelgeschoss in einem Wohn- und Bürogebäude mit KITA",
       "site_address": "Ziegelhüttenweg 43 - 43a",
