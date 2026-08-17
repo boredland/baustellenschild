@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T21:08:19.174987Z",
+    "last_updated": "2026-08-17T21:41:43.838937Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19889,7 +19889,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "120/12",
-      "fetched_at": "2026-06-13T14:45:03.009366+00:00",
+      "fetched_at": "2026-08-17T21:31:49.449659+00:00",
       "permit_number": "B-2023-67-5",
       "description": "Aufteilen eines Einfamilienhauses in ein Zweifamilienhaus und Bau einer Doppelgarage",
       "site_address": "Schützenhüttenweg 35",
