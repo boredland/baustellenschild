@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T16:05:31.267448Z",
+    "last_updated": "2026-08-17T16:35:30.462983Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13426,7 +13426,7 @@
       "gemarkung_label": "Nied Bezirk 56",
       "flur": "38",
       "flurstueck": "2877/5",
-      "fetched_at": "2026-06-13T12:35:56.504723+00:00",
+      "fetched_at": "2026-08-17T16:27:19.777582+00:00",
       "permit_number": "B-2024-40-6",
       "description": "Errichten eines Anbaus zur Wohnraumerweiterung sowie von 3 Wohnungen an einem Mehrfamilienhaus",
       "site_address": "Haselnußpfad 11",
@@ -18897,7 +18897,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "13",
       "flurstueck": "2980/191",
-      "fetched_at": "2026-06-14T05:11:48.444253+00:00",
+      "fetched_at": "2026-08-17T16:35:30.455161+00:00",
       "permit_number": "B-2021-242-6",
       "description": "Neubau eines Einfamilienhauses mit Garage sowie Herstellen eines Stellplatzes",
       "site_address": "Kauber Weg 8",
@@ -19306,7 +19306,7 @@
       "gemarkung_label": "Nied Bezirk 56",
       "flur": "22",
       "flurstueck": "1581/18",
-      "fetched_at": "2026-06-13T23:53:46.392263+00:00",
+      "fetched_at": "2026-08-17T16:20:43.668447+00:00",
       "permit_number": "B-2020-1399-6",
       "description": "Nutzungsänderung von Schutzräumen (Bunker) in Lagerräume im 1. UG eines Büro- und Verwaltungsgebäudes",
       "site_address": "Oeserstraße 111",
