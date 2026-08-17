@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-16T23:58:38.451364Z",
+    "last_updated": "2026-08-17T01:00:51.559966Z",
     "total": 1165,
-    "errors": 28,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18937,7 +18937,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "556",
       "flurstueck": "99/3",
-      "fetched_at": "2026-06-13T08:09:05.793717+00:00",
+      "fetched_at": "2026-08-17T00:53:36.342178+00:00",
       "permit_number": "B-2023-1167-5",
       "description": "Ausbau des Kellers und des Dachgeschosses zu Wohnzwecken sowie Aufteilung eines Einfamilienhauses in ein 3-Familienhaus",
       "site_address": "Esperantostraße 4",
