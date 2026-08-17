@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T19:23:34.752705Z",
+    "last_updated": "2026-08-17T20:06:07.821276Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18268,7 +18268,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "42",
       "flurstueck": "15/18",
-      "fetched_at": "2026-06-13T15:35:41.990823+00:00",
+      "fetched_at": "2026-08-17T19:58:10.043107+00:00",
       "permit_number": "B-2023-512-4",
       "description": "Errichten eines Anbaus als Erweiterung einer Betriebskantine (mit Fassadenänderung) mit Dachsanierung des Bestandsgebäudes",
       "site_address": "Guerickestraße 7",
