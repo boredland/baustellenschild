@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T11:34:44.920947Z",
+    "last_updated": "2026-08-17T12:05:35.354560Z",
     "total": 1165,
     "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -21572,7 +21572,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "30",
       "flurstueck": "1486/4",
-      "fetched_at": "2026-06-14T17:00:35.563255+00:00",
+      "fetched_at": "2026-08-17T11:54:22.470768+00:00",
       "permit_number": "B-2020-1059-3",
       "description": "Errichten eines Einfamillienhauses mit integrierter Doppelgarage \nund 2 Räumen zur Freiberuflichen Nutzung gem. § 13 BauNVO",
       "site_address": "Heinrich-Bingemer-Weg 31",
