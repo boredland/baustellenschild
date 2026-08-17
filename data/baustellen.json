@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T06:16:10.559101Z",
+    "last_updated": "2026-08-17T07:09:02.065727Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18330,7 +18330,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "13",
       "flurstueck": "165/0",
-      "fetched_at": "2026-06-14T00:39:42.244170+00:00",
+      "fetched_at": "2026-08-17T06:59:06.664561+00:00",
       "permit_number": "B-2024-1354-6",
       "description": "Rückbau und Wiedererrichten einer Terrasse in geänderter Form >1m sowie innere Umbauten in einem Zweifamilienhaus und Anbau zur Garagenerweiterung",
       "site_address": "An der Kreuzheck 15",
