@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T17:10:20.639565Z",
+    "last_updated": "2026-08-17T17:36:46.731677Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13551,7 +13551,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "18",
       "flurstueck": "364/81",
-      "fetched_at": "2026-06-13T12:37:00.812506+00:00",
+      "fetched_at": "2026-08-17T17:34:04.533196+00:00",
       "permit_number": "B-2024-1362-6",
       "description": "Ausbau des Dachgeschosses zu Wohnraumerweiterung mit Herstellen einer Loggia in einem Einfamilienhaus",
       "site_address": "Amselweg 6",
@@ -13571,7 +13571,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "18",
       "flurstueck": "623/3",
-      "fetched_at": "2026-06-13T12:37:02.998335+00:00",
+      "fetched_at": "2026-08-17T17:36:24.715350+00:00",
       "permit_number": "B-2025-214-6",
       "description": "Anbau zur Wohnraumerweiterung im EG und 1.OG sowie Umbauten an einem Mehrfamilienhaus",
       "site_address": "Hunsrückstraße 54",
