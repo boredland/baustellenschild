@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-17T15:12:03.930526Z",
+    "last_updated": "2026-08-17T15:35:37.980998Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21325,9 +21325,9 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "2",
       "flurstueck": "121/4",
-      "fetched_at": "2026-06-14T21:29:47.050266+00:00",
+      "fetched_at": "2026-08-17T15:33:19.278840+00:00",
       "permit_number": "B-2021-821-4",
-      "description": "Rückbau Dach und Errichtung eines Staffelgeschosses mit Pultdach; Vergrößerung der Terrasse im 1.OG eines Bürogebäudes mit Handwerksbetrieb im EG; Nutzungsänderung von Bürofläche zu Betriebswohnung im DG; Innere Umbauten, sowie Anbau eines Aufzuges",
+      "description": "Rückbau Dach und Errichtung eines Staffelgeschosses mit Pultdach;...",
       "site_address": "Karl-von-Drais-Straße 3",
       "parcel_info": "Eckenheim Bezirk 46 (490), 2, 121/4",
       "builder_name": "Meinhardt Marco",
