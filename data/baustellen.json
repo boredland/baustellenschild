@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T19:22:55.552386Z",
+    "last_updated": "2026-08-18T20:05:10.376493Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18613,7 +18613,7 @@
       "gemarkung_label": "Niederursel/F. Bezirk 48F",
       "flur": "12",
       "flurstueck": "35/21",
-      "fetched_at": "2026-06-14T20:57:07.905599+00:00",
+      "fetched_at": "2026-08-18T20:03:33.754753+00:00",
       "permit_number": "B-2015-33-4",
       "description": "Aufstockung eines Dachgeschosses als Wohnraumerweiterung für ein Einfamilienhaus",
       "site_address": "Rudolf-Hilferding-Straße 78",
