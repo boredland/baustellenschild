@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T02:28:00.617516Z",
+    "last_updated": "2026-08-18T03:31:55.952353Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8432,7 +8432,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "17",
       "flurstueck": "59/5",
-      "fetched_at": "2026-06-14T10:12:07.725540+00:00",
+      "fetched_at": "2026-08-18T03:28:06.975652+00:00",
       "permit_number": "B-2022-1019-5",
       "description": "Brandschutzrelevante Grundrissänderungen vom EG bis 7. OG mit Aufteilung in 400m² Einheiten und Einbau einer BOS-Anlage im 2. UG in einem Büro- und Verwaltungsgebäude",
       "site_address": "Voltastraße 84",
@@ -21468,7 +21468,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "3",
       "flurstueck": "33/3",
-      "fetched_at": "2026-06-14T22:56:31.127049+00:00",
+      "fetched_at": "2026-08-18T03:31:00.956582+00:00",
       "permit_number": "B-2023-1203-6",
       "description": "Neubau Kinderzentrum 56 als 5-gruppige Kita",
       "site_address": "Eckernförder Straße 67",
@@ -22174,7 +22174,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "31",
       "flurstueck": "180/2",
-      "fetched_at": "2026-06-14T19:34:32.847690+00:00",
+      "fetched_at": "2026-08-18T03:16:24.938441+00:00",
       "permit_number": "B-2022-1107-3",
       "description": "Rückbau und Errichten eines Wohnhauses (Haupthaus) an gleicher Stelle \nin Verbindung mit dem bestehenden Gebäudeteil zu einem Zweifamilienhaus",
       "site_address": "Neuer Weg 73",
