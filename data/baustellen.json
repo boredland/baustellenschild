@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T20:05:10.376493Z",
+    "last_updated": "2026-08-18T20:30:42.156566Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -863,7 +863,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "16",
       "flurstueck": "10/1",
-      "fetched_at": "2026-06-14T03:09:19.980143+00:00",
+      "fetched_at": "2026-08-18T20:28:00.447261+00:00",
       "permit_number": "X-2023-62-5",
       "description": "Abbruch von Werkstatt,- Lager- und Produktionsgebäuden, einschl. Tanklager und Benzinabscheider, Nebengebäuden und der Oberflächenversiegelung",
       "site_address": "Westerbachstraße 40",
