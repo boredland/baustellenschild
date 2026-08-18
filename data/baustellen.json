@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T18:15:43.763569Z",
+    "last_updated": "2026-08-18T18:41:46.350021Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9780,7 +9780,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "19",
       "flurstueck": "11/24",
-      "fetched_at": "2026-06-14T13:07:52.299223+00:00",
+      "fetched_at": "2026-08-18T18:27:49.031974+00:00",
       "permit_number": "B-2024-573-5",
       "description": "Nutzungsänderungen von Laden in Büro sowie Schank- und Speisegasstätte (Nebenräume) in einen Frühstücksraum und Empfang im KG und EG.  Errichten eines Außenaufzuges und einer Fluchttreppe in den Geschossen EG- SG, Rückbau und Wiedererrichten des Daches in veränderter Form mit Errichten von zwei Geschossen und einem Staffelgeschoss, Nutzungsänderung im 1.OG-2.OG von Büroräumen in einen Beherbergungsbetrieb, für einen Beherbergungsbetrieb mit 82 Gastbetten. Herstellen von 3 Stellplätzen.",
       "site_address": "Elbinger Straße 4",
