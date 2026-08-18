@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T08:18:07.560549Z",
+    "last_updated": "2026-08-18T08:59:30.474820Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8453,9 +8453,9 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "17",
       "flurstueck": "145/72",
-      "fetched_at": "2026-06-14T11:20:54.396529+00:00",
+      "fetched_at": "2026-08-18T08:49:03.640452+00:00",
       "permit_number": "B-2022-1098-5",
-      "description": "Brandschutzrelevante Grundrissänderungen in den Geschossen Erdgeschoss bis 6. Obergeschoss eines Bürogebäudes",
+      "description": "Brandschutzrelevante Grundrissänderungen in den Geschossen...",
       "site_address": "Franklinstraße 50",
       "parcel_info": "Bockenheim Bezirk 34 (488), 17, 145/72",
       "builder_name": "Officium GmbH & Co. Geschl. Investment-KG",
@@ -8496,7 +8496,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "17",
       "flurstueck": "145/74",
-      "fetched_at": "2026-06-14T11:20:52.152151+00:00",
+      "fetched_at": "2026-08-18T08:49:17.577749+00:00",
       "permit_number": "B-2023-13-5",
       "description": "Errichtung von Dachterrassen im 6. Obergeschoss, Entfall von Brandschutzanforderungen an Teeküchen und Kopierräume innerhalb der 400qm -Büro-Nutzungseinheiten, Neugestaltung Eingangsportal Foyer und Vorgarten mit Terrasse im Erdgeschoss eines Bürogebäudes",
       "site_address": "Franklinstraße 46",
