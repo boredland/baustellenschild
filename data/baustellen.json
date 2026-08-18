@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T10:13:37.543280Z",
+    "last_updated": "2026-08-18T10:38:15.428372Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18813,7 +18813,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "45",
       "flurstueck": "4/31",
-      "fetched_at": "2026-06-13T17:58:32.007729+00:00",
+      "fetched_at": "2026-08-18T10:30:09.648089+00:00",
       "permit_number": "B-2017-1395-5",
       "description": "Errichtung von 38 Lagereinheiten und 12 Handwerksbetrieben jeweils mit dienender Büronutzung in 4 Gebäuden, sowie Herstellung von 294 Stellplätzen",
       "site_address": "Gaugrafenstraße 24",
