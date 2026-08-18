@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T21:31:57.836109Z",
+    "last_updated": "2026-08-18T22:02:53.618957Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20839,7 +20839,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "526/59",
-      "fetched_at": "2026-06-13T18:28:53.717539+00:00",
+      "fetched_at": "2026-08-18T22:01:10.440949+00:00",
       "permit_number": "B-2018-680-5",
       "description": "Nachträgliche Legalisierung:\nAnbau zur Wohnraumerweiterung im KG und EG als Erweiterung der Wohnung im EG, Umbau von Zweifamilien- in ein Dreifamilienhaus durch Aufteilen einer Wohnung im 1. OG und DG mit Hinzunahme des Spitzbodens, Errichten einer Gaube und einer Dachterrasse im Spitzboden",
       "site_address": "Sachsenhäuser Landwehrweg 217",
@@ -20859,7 +20859,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "576/102",
-      "fetched_at": "2026-06-13T18:28:55.258701+00:00",
+      "fetched_at": "2026-08-18T22:01:52.432639+00:00",
       "permit_number": "B-2024-876-5",
       "description": "Errichtung von fünf Reihenhäusern und Herstellung von fünf Stellplätzen",
       "site_address": "Schützenhüttenweg 47a - 47e",
