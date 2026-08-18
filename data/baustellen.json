@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T11:34:26.944438Z",
+    "last_updated": "2026-08-18T12:05:42.640346Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20449,7 +20449,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "222/8",
-      "fetched_at": "2026-06-13T17:02:42.742456+00:00",
+      "fetched_at": "2026-08-18T11:52:51.432388+00:00",
       "permit_number": "B-2021-1058-5",
       "description": "Nachtrag zu Bauschein Nr. B-2019-1166-5\nNutzungsänderung von Kellerräumen als Wohnraumerweiterung der Wohnung im KG, Zusammenlegen von 2 Wohneinheiten im 2. OG, Fassadenänderungen, Innere Umbauten, veränderte Ausführung des Staffelgeschosses mit Loggia, sowie der Balkone an einem Mehrfamilienwohnhaus",
       "site_address": "Grethenweg 124",
@@ -20470,7 +20470,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "222/2",
-      "fetched_at": "2026-06-13T17:02:42.111933+00:00",
+      "fetched_at": "2026-08-18T11:54:57.451375+00:00",
       "permit_number": "B-2019-1166-5",
       "description": "Ausbau KG in eine Wohneinheit, Nutzungsänderung im EG von Gewerbe (Bankfiliale) in 2 Wohneinheiten, Aufteilung der 2 Wohneinheiten im 2. OG in 3 Wohneinheiten sowie Rückbau und Wiedererrichten des Daches in geänderter Form zu einer Wohneinheit mit Dachterrasse an einem Wohngebäude und Herstellen eines Stellplatzes",
       "site_address": "Grethenweg 124",
@@ -20511,7 +20511,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "246/16",
-      "fetched_at": "2026-06-13T17:02:45.073961+00:00",
+      "fetched_at": "2026-08-18T11:56:33.356528+00:00",
       "permit_number": "B-2018-906-5",
       "description": "Wiederherstellung eines Wohn- und Geschäftshochhauses mit 222 Wohneinheiten, Kita, Beherbergungsbetrieb, Läden und Tiefgarage mit 241 Stellplätzen unter Beibehaltung des Bestandsrohbaus",
       "site_address": "Darmstädter Landstraße 180",
