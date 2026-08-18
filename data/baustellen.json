@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T01:00:03.526393Z",
+    "last_updated": "2026-08-18T02:28:00.617516Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20106,7 +20106,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "171/2",
-      "fetched_at": "2026-06-13T15:33:50.974202+00:00",
+      "fetched_at": "2026-08-18T02:14:40.442628+00:00",
       "permit_number": "B-2017-1614-5",
       "description": "Rückbau des vorhandenen Walmdachstuhles und Aufstockung um ein Vollgeschoss mit eigenständiger Wohneinheit in dem Mehrfamilienhaus",
       "site_address": "Letzter Hasenpfad 113",
@@ -20126,7 +20126,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "181/25",
-      "fetched_at": "2026-06-13T15:33:52.623587+00:00",
+      "fetched_at": "2026-08-18T02:14:10.516633+00:00",
       "permit_number": "B-2021-1409-5",
       "description": "Brandschutzrelevante und energetische Fassadensanierung sowie Änderung der Lüftungsanlagen der Wohnhochhäuser 10 und 12",
       "site_address": "Mailänder Straße 10",
