@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T22:02:53.618957Z",
+    "last_updated": "2026-08-18T22:30:51.348673Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12249,7 +12249,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "594",
       "flurstueck": "48/0",
-      "fetched_at": "2026-06-14T18:58:20.149826+00:00",
+      "fetched_at": "2026-08-18T22:19:14.717137+00:00",
       "permit_number": "B-2025-357-5",
       "description": "Ausbau des Spitzbodens zu einer Wohneinheit sowie Errichten einer Balkonanlage (1. - 5.OG) an einem Mehrfamilienhaus mit Schank- und Speisewirtschaft",
       "site_address": "Dreieichstraße 11",
@@ -12656,7 +12656,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "595",
       "flurstueck": "48/0",
-      "fetched_at": "2026-06-14T18:58:22.966118+00:00",
+      "fetched_at": "2026-08-18T22:21:44.828531+00:00",
       "permit_number": "B-2025-491-5",
       "description": "Nutzungsänderung von zwei Läden in eine Einheit zur freiberuflichen Nutzung gem. §13 BauNVO  im EG eines Wohn- und Geschäftshauses",
       "site_address": "Walther-von-Cronberg-Platz 13",
@@ -22478,7 +22478,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "34",
       "flurstueck": "111/3",
-      "fetched_at": "2026-06-14T21:58:37.390716+00:00",
+      "fetched_at": "2026-08-18T22:28:26.740159+00:00",
       "permit_number": "B-2023-1265-3",
       "description": "Errichten eines Zweifamilienhauses mit einem Parksystem \nfür 2 Stellplätze sowie Herstellen von 1 Stellplatz",
       "site_address": "An der Pfaffenmauer 24",
