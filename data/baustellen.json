@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T14:21:34.432283Z",
+    "last_updated": "2026-08-18T15:17:21.153527Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11815,7 +11815,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "6",
       "flurstueck": "116/301",
-      "fetched_at": "2026-06-14T22:56:38.958931+00:00",
+      "fetched_at": "2026-08-18T14:59:28.134735+00:00",
       "permit_number": "B-2020-365-3",
       "description": "Errichtung eines Mehrfamilienhauses mit\n16 Wohneinheiten und einer Tiefgarage mit 9 Stellplätzen",
       "site_address": "Steinauer Straße 10",
