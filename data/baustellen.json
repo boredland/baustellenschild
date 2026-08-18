@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T15:17:21.153527Z",
+    "last_updated": "2026-08-18T15:51:24.361994Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8705,7 +8705,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "6",
       "flurstueck": "66/1",
-      "fetched_at": "2026-06-13T22:53:09.179038+00:00",
+      "fetched_at": "2026-08-18T15:38:06.155746+00:00",
       "permit_number": "B-2025-305-4",
       "description": "Errichtung eines Einfamilienwohnhauses mit Doppelgarage",
       "site_address": "Dietrichstraße 8",
@@ -19099,7 +19099,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "45",
       "flurstueck": "18/2",
-      "fetched_at": "2026-06-13T18:30:48.256563+00:00",
+      "fetched_at": "2026-08-18T15:45:18.242758+00:00",
       "permit_number": "B-2022-51-5",
       "description": "Rückbau eines Büro- und Lagergebäudes, Errichten eines Vereinsgebäudes mit einer Schank- und Speisewirtschaft, Seminarbereichen und einem Gebetsraum, Herstellen von 17 Stellplätzen",
       "site_address": "Westerbachstraße 58",
@@ -19663,7 +19663,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "18",
       "flurstueck": "11/18",
-      "fetched_at": "2026-06-15T07:19:11.001360+00:00",
+      "fetched_at": "2026-08-18T15:38:30.132573+00:00",
       "permit_number": "B-2021-736-4",
       "description": "Rückbau- und Wiedererrichten des Daches in geänderter Form,  Anbau im EG zur Wohnraumerweiterung,  Errichtung einer Terrasse, eines Balkons und Eingangsüberdachung an einem Einfamilienhaus, sowie Änderung der Kfz-Stellplatzaufstellung",
       "site_address": "Ludwig-Landmann-Straße 84f",
