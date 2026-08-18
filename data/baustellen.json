@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T21:04:11.341696Z",
+    "last_updated": "2026-08-18T21:31:57.836109Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12433,7 +12433,7 @@
       "gemarkung_label": "Sindlingen Bezirk 60",
       "flur": "7",
       "flurstueck": "38/1",
-      "fetched_at": "2026-06-14T23:30:55.655396+00:00",
+      "fetched_at": "2026-08-18T21:22:13.007619+00:00",
       "permit_number": "B-2024-661-6",
       "description": "Errichtung eines Mehrfamilienhauses mit 12 Wohnungen, Herstellen von 4 Außenstellplätzen sowie Nutzungsänderung einer Büroeinheit in eine Wohnung und einer Werkstatt/Lager in eine Garage mit 2 Stellplätzen im EG, Hinterhaus",
       "site_address": "Sindlinger Bahnstraße 42",
