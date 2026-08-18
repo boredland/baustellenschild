@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T12:05:42.640346Z",
+    "last_updated": "2026-08-18T12:43:12.518718Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15444,7 +15444,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "2",
       "flurstueck": "13/10",
-      "fetched_at": "2026-06-14T23:29:10.125734+00:00",
+      "fetched_at": "2026-08-18T12:37:25.722711+00:00",
       "permit_number": "B-2020-1028-5",
       "description": "Aufteilung eines Stehimbisses in Stehimbiss und einem Kiosk mit Wettannahme eines Wohn- und Geschäftshauses",
       "site_address": "Hessenplatz 1",
@@ -20491,7 +20491,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "557",
       "flurstueck": "239/12",
-      "fetched_at": "2026-06-13T17:02:43.667158+00:00",
+      "fetched_at": "2026-08-18T12:28:25.731062+00:00",
       "permit_number": "B-2025-135-5",
       "description": "Errichtung eines Mehrfamilienhauses mit 9 Wohneinheiten und einer Tiefgarage mit 7 Stellplätzen",
       "site_address": "Großer Hasenpfad 109",
@@ -22337,7 +22337,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "32",
       "flurstueck": "93/7",
-      "fetched_at": "2026-06-14T20:55:53.320973+00:00",
+      "fetched_at": "2026-08-18T12:30:56.031530+00:00",
       "permit_number": "B-2017-272-3",
       "description": "Errichtung eines Einfamilienwohnhauses (Haus 2) mit 2 PKW-Stellplätzen",
       "site_address": "Riedstraße 26",
