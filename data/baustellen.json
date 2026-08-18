@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-18T07:31:49.130682Z",
+    "last_updated": "2026-08-18T08:18:07.560549Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11029,7 +11029,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "587",
       "flurstueck": "34/2",
-      "fetched_at": "2026-06-14T17:00:30.226673+00:00",
+      "fetched_at": "2026-08-18T08:06:11.543664+00:00",
       "permit_number": "B-2022-1151-5",
       "description": "Nutzungsänderung von Büro in eine Einheit zur freiberuflichen Nutzung gem. § 13 BauNVO im Souterrain eines Wohngebäudes mit freiberuflicher Nutzung, Neubeordnung von zwei und Entfall von neun Stellplätzen",
       "site_address": "Siemensstraße 1",
@@ -11050,7 +11050,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "587",
       "flurstueck": "24/9",
-      "fetched_at": "2026-06-14T17:00:29.123321+00:00",
+      "fetched_at": "2026-08-18T08:06:29.221079+00:00",
       "permit_number": "B-2024-574-5",
       "description": "Errichtung eines Mehrfamilienhauses mit 25 Wohneinheiten und einer Büroeinheit im EG, eines Mehrfamilienhauses mit 3 Wohneinheiten, eines Mehrfamilienhauses mit 4 Wohneinheiten sowie Errichtung einer Tiefgarage mit 15 Stellplätzen",
       "site_address": "Siemensstraße 7",
@@ -11071,7 +11071,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "588",
       "flurstueck": "10/0",
-      "fetched_at": "2026-06-14T17:00:30.393855+00:00",
+      "fetched_at": "2026-08-18T08:07:35.345478+00:00",
       "permit_number": "B-2024-362-5",
       "description": "Rückbau und Wiedererrichten des Daches, inkl. Decke über 4.OG, in veränderter Form, innere Umbauten im 4.OG sowie Ausbau des DG als Wohnraumerweiterung zur Wohnung im 4.OG in einem Mehrfamilienhaus",
       "site_address": "Teichstraße 7",
@@ -11511,7 +11511,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "588",
       "flurstueck": "43/0",
-      "fetched_at": "2026-06-14T17:00:31.263104+00:00",
+      "fetched_at": "2026-08-18T08:10:17.230266+00:00",
       "permit_number": "B-2020-844-5",
       "description": "1. Nutzungsänderung im KG von Nebenräumen in Aufenthaltsraum für den Beherbergungsbetrieb \n2. Nachträgliche Legalisierung eines unterirdischen Sicherheits-Panikraums",
       "site_address": "Heisterstraße 28",
