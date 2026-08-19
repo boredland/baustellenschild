@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T10:14:02.636936Z",
+    "last_updated": "2026-08-19T10:38:33.666152Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20329,7 +20329,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "30",
       "flurstueck": "13/9",
-      "fetched_at": "2026-06-14T15:15:33.423762+00:00",
+      "fetched_at": "2026-08-19T10:23:31.677861+00:00",
       "permit_number": "B-2022-867-6",
       "description": "Errichtung eines Betriebsgebäudes (G09), Errichtung eines Gebäudes zur Aufnahme einer gasisolierten Schaltanlage (G10), Errichtung von einem Lager G11 zur Unterbringung von Erdungsstangen und Betriebsmittelzubehör, Rückbau und Wiedererrichten des Anlagezauns in veränderter Form",
       "site_address": "Unbenannte Straße 0",
