@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T20:50:23.409178Z",
+    "last_updated": "2026-08-19T21:20:57.501222Z",
     "total": 1165,
     "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -20032,7 +20032,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "1",
       "flurstueck": "1/4",
-      "fetched_at": "2026-06-14T18:59:45.864269+00:00",
+      "fetched_at": "2026-08-19T21:10:57.304106+00:00",
       "permit_number": "B-2023-758-3",
       "description": "Ausbau von Ställen und Schuppen in Nebenräume\n(Bad, Technik- und Abstellraum) im EG; \nInnere Umbauten im 1. OG; Anbringen eines \nWärmedämmverbundsystems, Fassadenänderungen, \nsowie Herstellen einer Photovoltaikanlage",
       "site_address": "Heinrich-Becker-Straße 4",
@@ -20052,7 +20052,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "1",
       "flurstueck": "38/14",
-      "fetched_at": "2026-06-14T18:59:48.408075+00:00",
+      "fetched_at": "2026-08-19T21:16:11.977575+00:00",
       "permit_number": "B-2024-267-3",
       "description": "Errichtung eines Zweifamilienhauses mit 3 Stellplätzen",
       "site_address": "Deuil-La-Barre-Straße 83",
