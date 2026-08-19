@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T15:17:43.611332Z",
+    "last_updated": "2026-08-19T15:58:11.625423Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3977,7 +3977,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "13",
       "flurstueck": "153/0",
-      "fetched_at": "2026-06-13T09:39:08.771118+00:00",
+      "fetched_at": "2026-08-19T15:40:52.215248+00:00",
       "permit_number": "B-2022-251-4",
       "description": "Neubau eines Einfamilienwohnhauses mit Garage und Pool",
       "site_address": "Habichtsweg 3",
@@ -10577,7 +10577,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "7",
       "flurstueck": "83/33",
-      "fetched_at": "2026-06-14T01:50:04.490889+00:00",
+      "fetched_at": "2026-08-19T15:56:57.917923+00:00",
       "permit_number": "B-2025-157-4",
       "description": "Errichten eines Anbaus zur Wohnraumerweiterung im EG - 2. OG, Rückbau und Wiedererrichten von zwei Außentreppen in veränderter Form, innerer Umbau und Fassadenänderungen in einem Einfamilienhaus",
       "site_address": "Alt-Praunheim 83",
@@ -10587,7 +10587,10 @@
       "builder_location": "60488 Frankfurt am Main",
       "architect_name": "Ehlers Horst",
       "architect_address": "Rudolf-Hilferding-Straße 74",
-      "architect_location": "60439 Frankfurt am Main"
+      "architect_location": "60439 Frankfurt am Main",
+      "site_manager_name": "Ehlers Horst",
+      "site_manager_address": "Rudolf-Hilferding-Straße 74",
+      "site_manager_location": "60439 Frankfurt am Main"
     },
     {
       "gemarkung_id": 510,
