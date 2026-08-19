@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T08:58:01.183761Z",
+    "last_updated": "2026-08-19T09:41:36.835266Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19079,7 +19079,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "7",
       "flurstueck": "809/0",
-      "fetched_at": "2026-06-14T16:04:10.391044+00:00",
+      "fetched_at": "2026-08-19T09:32:03.057099+00:00",
       "permit_number": "B-2022-569-3",
       "description": "Errichtung eines Anbaus im EG zur Wohnraumerweiterung mit Rückbau von 2 Balkonen \nan einem Einfamilienhaus sowie die Erneuerung der Dachkonstruktion",
       "site_address": "Narzissenstraße 18",
