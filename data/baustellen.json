@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T22:32:39.021948Z",
+    "last_updated": "2026-08-19T23:06:01.814385Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21492,7 +21492,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "495",
       "flurstueck": "3/12",
-      "fetched_at": "2026-06-13T22:51:18.956257+00:00",
+      "fetched_at": "2026-08-19T22:56:05.447965+00:00",
       "permit_number": "B-2023-1122-5",
       "description": "Brandschutzrelevante Grundrissänderungen (Herstellung von 400qm- Einheiten) im 1. - 6.OG sowie brandschutzrelevante Nutzungsänderung von Büro in Versammlungsstätte (private Hochschule) im EG und brandschutzrelevante Änderung im 1.-2. UG eines Büro- und Verwaltungsgebäudes sowie Herstellen einer Außentreppe im EG-2.OG. Bauteil 2.",
       "site_address": "Darmstädter Landstraße 110 - 114",
