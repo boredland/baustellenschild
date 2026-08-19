@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T05:17:42.861529Z",
+    "last_updated": "2026-08-19T05:50:08.172595Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22559,7 +22559,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "34",
       "flurstueck": "291/0",
-      "fetched_at": "2026-06-14T22:30:16.644616+00:00",
+      "fetched_at": "2026-08-19T05:49:02.142364+00:00",
       "permit_number": "B-2019-167-3",
       "description": "Errichten eines Mehrfamilienhauses mit 6 Wohneinheiten\nund 7 Tiefgaragenstellplätze",
       "site_address": "Heinrich-Bingemer-Weg 62",
