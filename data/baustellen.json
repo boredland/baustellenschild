@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T09:41:36.835266Z",
+    "last_updated": "2026-08-19T10:14:02.636936Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2964,9 +2964,9 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "17",
       "flurstueck": "45/25",
-      "fetched_at": "2026-06-14T07:04:55.507834+00:00",
+      "fetched_at": "2026-08-19T10:08:11.128226+00:00",
       "permit_number": "B-2022-255-5",
-      "description": "Zusammenlegung von 2 Doppelhaushälften in ein Wohnheim mit 11 Zimmern,  Herstellen eines Kfz-Stellplatzes, sowie Neuordnung eines Kfz-Stellplatzes",
+      "description": "Zusammenlegung von 2 Doppelhaushälften in ein Wohnheim mit 11...",
       "site_address": "Gaugrafenstraße 16",
       "parcel_info": "Rödelheim Bezirk 40 (510), 17, 45/25",
       "builder_name": "Singh Jagjit",
@@ -10556,7 +10556,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "7",
       "flurstueck": "46/27",
-      "fetched_at": "2026-06-14T00:39:29.752715+00:00",
+      "fetched_at": "2026-08-19T09:58:46.235910+00:00",
       "permit_number": "B-2024-222-4",
       "description": "Nutzungsänderung von Laden (Bankfiliale) in eine Einrichtung für soziale Zwecke (Tagespflege) in einem Wohn- und Geschäftshaus",
       "site_address": "Alt-Praunheim 46a",
