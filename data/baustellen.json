@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T17:36:32.226677Z",
+    "last_updated": "2026-08-19T18:05:50.123235Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21144,7 +21144,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "558",
       "flurstueck": "132/6",
-      "fetched_at": "2026-06-13T20:29:14.918239+00:00",
+      "fetched_at": "2026-08-19T17:54:00.893726+00:00",
       "permit_number": "B-2023-25-5",
       "description": "Rückbau des Daches und Wiedererrichten in geänderter Form, Errichtung eines Staffelgeschosses mit einer Wohneinheit und 3 Dachterrassen, Rückbau Wintergarten sowie Anbau zur Wohnraumerweiterung mit inneren Umbauten und  Anbau eines Aufzuges an einem Mehrfamilienhaus",
       "site_address": "Bischofsweg 55",
