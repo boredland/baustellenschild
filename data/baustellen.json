@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T12:43:26.255504Z",
+    "last_updated": "2026-08-19T13:41:43.157823Z",
     "total": 1165,
-    "errors": 30,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12963,7 +12963,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "6",
       "flurstueck": "118/30",
-      "fetched_at": "2026-06-15T01:51:15.427128+00:00",
+      "fetched_at": "2026-08-19T13:34:03.056476+00:00",
       "permit_number": "B-2025-433-3",
       "description": "Brandschutz- und statisch relevante Grundrissänderungen \ndurch Einbau einer Galerie in einer Lagerhalle",
       "site_address": "Cassellastraße 32",
