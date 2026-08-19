@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T19:54:52.125630Z",
+    "last_updated": "2026-08-19T20:28:00.905039Z",
     "total": 1165,
-    "errors": 29,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19185,7 +19185,7 @@
       "gemarkung_label": "Bonames Bezirk 49",
       "flur": "4",
       "flurstueck": "136/19",
-      "fetched_at": "2026-06-14T22:30:36.214144+00:00",
+      "fetched_at": "2026-08-19T20:11:49.599426+00:00",
       "permit_number": "B-2025-276-3",
       "description": "Rückbau eines Schuppens. \nVorderhaus: \nAnbau zur Wohnraumerweiterung im EG - OG\nRückbau und Wiedereinrichten des Daches in veränderter Form, \ninnere Umbauten und Fassadenänderung an einem Einfamilienhaus\nHinterhaus:\nEinrichten eines Anbaus als Treppenhaus",
       "site_address": "Homburger Landstraße 664 - 664a",
