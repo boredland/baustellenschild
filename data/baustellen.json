@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T23:06:01.814385Z",
+    "last_updated": "2026-08-19T23:32:32.934594Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22665,7 +22665,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "35",
       "flurstueck": "110/2",
-      "fetched_at": "2026-06-14T23:55:17.534451+00:00",
+      "fetched_at": "2026-08-19T23:25:00.596370+00:00",
       "permit_number": "B-2021-1077-3",
       "description": "Rückbau- und Wiedererrichtung des Daches in \ngeänderter Form mit zusätzlicher Wohneinheit, \nErrichtung einer Außentreppe als Zugang an einem Mehrfamilienhaus",
       "site_address": "Am Bienenstock 17",
