@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T02:31:18.056252Z",
+    "last_updated": "2026-08-19T03:41:14.136350Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1787,7 +1787,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "17",
       "flurstueck": "26/5",
-      "fetched_at": "2026-06-14T05:11:40.022094+00:00",
+      "fetched_at": "2026-08-19T03:28:59.441182+00:00",
       "permit_number": "B-2022-483-5",
       "description": "Errichtung eines Umspannwerkes, sowie Herstellen von 2 Stellplätzen",
       "site_address": "Seegewann 17",
@@ -20249,7 +20249,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "29",
       "flurstueck": "4/41",
-      "fetched_at": "2026-06-14T14:18:25.976725+00:00",
+      "fetched_at": "2026-08-19T03:36:29.335037+00:00",
       "permit_number": "B-2024-59-6",
       "description": "Errichtung von 2 eingeschossigen Trafogebäuden, sowie Errichtung von sieben Mastleuchten mit mehr als 30m Höhe (Reg.-Nr.: F 339/001, F 341/001)",
       "site_address": "Brüningstraße 50",
