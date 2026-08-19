@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T11:11:00.140702Z",
+    "last_updated": "2026-08-19T11:34:25.839931Z",
     "total": 1165,
-    "errors": 18,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22824,7 +22824,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "28",
       "flurstueck": "656/24",
-      "fetched_at": "2026-06-12T17:52:39.204978+00:00",
+      "fetched_at": "2026-08-19T11:16:29.921407+00:00",
       "permit_number": "B-2017-254-3",
       "description": "Nachträgliche Legalisierung:\nRückbau und Wiedererrichten Dachgeschoss in geänderter Form \nsowie Anbau von KG bis DG als Wohnraumerweiterung für ein Einfamilienhaus",
       "site_address": "Wilhelmshöher Straße 199",
