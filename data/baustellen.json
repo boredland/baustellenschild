@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T21:20:57.501222Z",
+    "last_updated": "2026-08-19T21:43:46.121545Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11159,7 +11159,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "7",
       "flurstueck": "194/16",
-      "fetched_at": "2026-06-14T03:09:15.131172+00:00",
+      "fetched_at": "2026-08-19T21:30:28.027136+00:00",
       "permit_number": "B-2024-1175-4",
       "description": "Teilausbau Kellergeschoss zu einer Wohneinheit, Ausbau Dachgeschoss als Wohnraumerweiterung zur Wohnung im 1.OG, Herstellen von Dachterrassen im 1.OG und DG, Errichten von einer Gaube und einem Zwerchhaus sowie Errichtung eines Anbaus im KG und EG zur Erweiterung eines Wohngebäudes.\nNutzungsänderung von Büro in freiberufliche Nutzung gemäß §13 BauNVO",
       "site_address": "Am Alten Schloß 23",
