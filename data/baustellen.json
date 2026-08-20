@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T17:49:37.726303Z",
+    "last_updated": "2026-08-20T18:43:17.723089Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -6014,7 +6014,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "4",
       "flurstueck": "278/5",
-      "fetched_at": "2026-06-15T12:03:55.705396+00:00",
+      "fetched_at": "2026-08-20T18:24:59.310083+00:00",
       "permit_number": "B-2022-707-4",
       "description": "Ausbau Spitzboden zur Wohnraumerweiterung mit der Errichtung einer Gaube, Änderungen der Nordfassade, der Südgaube, sowie der Terrasse an einem Einfamilienhaus",
       "site_address": "Marbachweg 324",
