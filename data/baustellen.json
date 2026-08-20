@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T06:47:38.089437Z",
+    "last_updated": "2026-08-20T07:41:20.021639Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16989,9 +16989,9 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "23",
       "flurstueck": "122/0",
-      "fetched_at": "2026-06-13T20:58:29.864109+00:00",
+      "fetched_at": "2026-08-20T07:38:02.883889+00:00",
       "permit_number": "B-2015-1968-6",
-      "description": "Umbau und Erweitergung der Stallungen, Gebäude 1/4, Umbau und Erweiterung der Reithalle, Gebäude 8; Neubau einer Maschinen- und Fahrzeughalle, Gebäude 8A; Überdachung des bestehenden Longierplatzes, Gebäude 9",
+      "description": "Umbau und Erweitergung der Stallungen, Gebäude 1/4, Umbau und...",
       "site_address": "Am Naßgewann (Liederbach) 2",
       "parcel_info": "Unterliederbach Bezirk 62 (515), 23, 122/0",
       "builder_name": "RHL Grundstücksverwaltungs GmbH & Co. KG",
@@ -21513,7 +21513,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "497",
       "flurstueck": "1/16",
-      "fetched_at": "2026-06-13T22:51:19.018135+00:00",
+      "fetched_at": "2026-08-20T07:38:14.021976+00:00",
       "permit_number": "B-2025-42-5",
       "description": "Ausbau des KG in eine Wohneinheit, Nutzungsänderung von Büro in eine Wohneinheit im EG, Einbau eines Aufzuges, Errichten einer Balkonanlage sowie Anbau zur Wohnraumerweiterung im 1.OG, 2.OG und 1.DG, Rückbau und Wiederrichten des Daches in veränderter Form mit Wohnraumnutzung, Innere Umbauten und Fassadenänderungen an einem Mehrfamilienhaus, Herstellen von 3 Stellplätzen",
       "site_address": "Grethenweg 82",
