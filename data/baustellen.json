@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T04:22:58.291381Z",
+    "last_updated": "2026-08-20T05:19:04.297472Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14712,7 +14712,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "8",
       "flurstueck": "505/0",
-      "fetched_at": "2026-06-14T20:30:49.022298+00:00",
+      "fetched_at": "2026-08-20T05:07:33.101919+00:00",
       "permit_number": "B-2024-623-3",
       "description": "Errichtung eines Mehrfamilienwohnhauses mit 10 Wohneinheiten, \n1 ebenerdigen Pkw-Stellplatz und einer Tiefgarage mit 7 Pkw-Stellplätzen",
       "site_address": "Wehrstraße 16",
