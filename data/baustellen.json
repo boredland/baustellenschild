@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T12:08:15.215872Z",
+    "last_updated": "2026-08-20T12:46:53.113288Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15365,7 +15365,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "10",
       "flurstueck": "32/0",
-      "fetched_at": "2026-06-14T20:57:30.399799+00:00",
+      "fetched_at": "2026-08-20T12:31:26.724330+00:00",
       "permit_number": "B-2024-306-3",
       "description": "Anbau zur Wohnraumerweiterung und Anhebung des Daches sowie Errichtung von zwei Gauben an einem Einfamilienhaus",
       "site_address": "Hansenweg 56",
