@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T16:14:45.320387Z",
+    "last_updated": "2026-08-20T16:44:32.133987Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21715,7 +21715,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "501",
       "flurstueck": "16/2",
-      "fetched_at": "2026-06-13T23:52:41.708261+00:00",
+      "fetched_at": "2026-08-20T16:26:30.541394+00:00",
       "permit_number": "B-2024-67-6",
       "description": "Nutzungsänderung von einem Bürogebäude in eine fünfzügige Grundschule und eine sechszügige Oberstufe einer kooperativen Gesamtschule; Errichtung von 2 Fluchttreppenhäusern, sowie Entfall von 132 Stellplätzen in der Tiefgarage",
       "site_address": "Großer Hasenpfad 44",
@@ -22705,7 +22705,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "35",
       "flurstueck": "307/1",
-      "fetched_at": "2026-06-15T01:50:45.998003+00:00",
+      "fetched_at": "2026-08-20T16:29:15.853554+00:00",
       "permit_number": "B-2020-1152-3",
       "description": "Errichtung eines Mehrfamilienhauses mit \n10 Wohneinheiten und einer Tiefgarage mit 18 Stellplätzen",
       "site_address": "Am Bächelchen 33",
