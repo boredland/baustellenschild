@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T03:40:33.012793Z",
+    "last_updated": "2026-08-20T04:22:58.291381Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19645,7 +19645,7 @@
       "gemarkung_label": "Niederursel/F. Bezirk 48F",
       "flur": "15",
       "flurstueck": "40/73",
-      "fetched_at": "2026-06-14T23:30:04.938182+00:00",
+      "fetched_at": "2026-08-20T04:14:05.388753+00:00",
       "permit_number": "B-2022-463-4",
       "description": "Brandschutzrelevante Änderungen und Rückbau der Fassade des Foyers sowie Rückbau des Müllschachts mit Erweiterung der Freifläche an einem Wohnhochhaus mit Anlage für soziale Zwecke",
       "site_address": "Thomas-Mann-Straße 18",
@@ -20211,7 +20211,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "1",
       "flurstueck": "81/0",
-      "fetched_at": "2026-06-14T19:35:49.212128+00:00",
+      "fetched_at": "2026-08-20T04:17:41.386732+00:00",
       "permit_number": "B-2015-715-3",
       "description": "Nutzungsänderung von einer Ladeneinheit im EG in Wohnräume \nzur Wohnraumerweiterung eines Einfamilienwohnhauses, \nErrichtung eines Balkons im 1.OG",
       "site_address": "Alt-Niedereschbach 15",
