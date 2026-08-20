@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T08:21:10.000165Z",
+    "last_updated": "2026-08-20T09:21:15.342850Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19603,7 +19603,7 @@
       "gemarkung_label": "Bonames Bezirk 49",
       "flur": "5",
       "flurstueck": "48/2",
-      "fetched_at": "2026-06-14T23:29:16.039873+00:00",
+      "fetched_at": "2026-08-20T09:20:01.747639+00:00",
       "permit_number": "B-2023-187-3",
       "description": "Brandschutzrelevante Grundrissänderungen\nim UG + EG, KITA - Im Storchenhain 21 und\nNutzungsänderung von Wohnen in Kindergarten (U3)",
       "site_address": "Im Storchenhain 21",
