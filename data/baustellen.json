@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T07:41:20.021639Z",
+    "last_updated": "2026-08-20T08:21:10.000165Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21534,7 +21534,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "498",
       "flurstueck": "9/3",
-      "fetched_at": "2026-06-13T23:26:07.880155+00:00",
+      "fetched_at": "2026-08-20T08:08:06.217935+00:00",
       "permit_number": "B-2025-26-5",
       "description": "Nutzungsänderung von einer Büroeinheit in eine Wohnung im Gartengeschoss eines Mehrfamilienhauses sowie Erstellen von 2 Fahrradabstellplätzen",
       "site_address": "Großer Hasenpfad 68",
@@ -21554,7 +21554,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "498",
       "flurstueck": "8/3",
-      "fetched_at": "2026-06-13T23:26:08.738292+00:00",
+      "fetched_at": "2026-08-20T08:09:21.615186+00:00",
       "permit_number": "B-2024-673-5",
       "description": "Erweiterung und Neuaufteilung des Wohnhauses in ein Mehrfamilienwohnhaus mit 10 Wohneinheiten, einem Fahrradkeller und drei Kfz-Stellplätzen, sowie Herstellung von fünf Balkonen am Bestandsgebäude",
       "site_address": "Großer Hasenpfad 66",
@@ -21616,7 +21616,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "499",
       "flurstueck": "2/13",
-      "fetched_at": "2026-06-13T23:26:09.721437+00:00",
+      "fetched_at": "2026-08-20T08:09:30.193315+00:00",
       "permit_number": "B-2022-1195-5",
       "description": "Brandschutzrelevante Grundrissänderung, Zusammenlegen von zwei Wohnungen im 3. OG eines Wohnhochhauses",
       "site_address": "Letzter Hasenpfad 13",
@@ -22685,7 +22685,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "35",
       "flurstueck": "194/5",
-      "fetched_at": "2026-06-14T23:55:21.203363+00:00",
+      "fetched_at": "2026-08-20T08:20:27.802932+00:00",
       "permit_number": "B-2025-153-3",
       "description": "Herstellen eines Dachausschnittes sowie \nErweiterung des Balkons an einem Mehrfamilienhaus",
       "site_address": "Am Bienenstock 17a",
