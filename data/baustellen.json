@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T10:14:58.997667Z",
+    "last_updated": "2026-08-20T10:44:11.487550Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5032,7 +5032,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "4",
       "flurstueck": "180/51",
-      "fetched_at": "2026-06-15T09:39:03.033715+00:00",
+      "fetched_at": "2026-08-20T10:26:46.419069+00:00",
       "permit_number": "B-2020-506-4",
       "description": "Errichtung von zwei Gauben und Dachgeschossausbau zur Wohnraumerweiterung eines Reihenmittelhauses",
       "site_address": "Carl-Goerdeler-Straße 12",
