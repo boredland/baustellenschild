@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T20:36:41.901266Z",
+    "last_updated": "2026-08-20T21:11:16.213983Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7520,7 +7520,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "21",
       "flurstueck": "25/13",
-      "fetched_at": "2026-06-14T12:14:04.363442+00:00",
+      "fetched_at": "2026-08-20T21:00:58.917717+00:00",
       "permit_number": "B-2024-231-6",
       "description": "Erweiterung der Metropolitan School Frankfurt durch Rückbau der Nebengebäude und Anbau im EG sowie durch 2-geschossige Aufstockung des Nordriegels",
       "site_address": "Eschborner Landstraße 134 - 138",
@@ -7541,7 +7541,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "21",
       "flurstueck": "24/15",
-      "fetched_at": "2026-06-14T12:14:04.243859+00:00",
+      "fetched_at": "2026-08-20T21:01:37.823942+00:00",
       "permit_number": "B-2025-358-5",
       "description": "Errichten einer Lagerhalle mit Verkauf",
       "site_address": "Stützeläckerweg 6",
@@ -8643,7 +8643,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "21",
       "flurstueck": "123/1",
-      "fetched_at": "2026-06-14T13:09:35.694077+00:00",
+      "fetched_at": "2026-08-20T21:03:58.494590+00:00",
       "permit_number": "B-2015-1477-5",
       "description": "Aufteilung in 400m² - Einheiten im EG. - 4. OG. des Bürogebäudes (nachträgliche Legalisierung), Veränderte Raumaufteilung sowie Nutzungsänderung von Lager in gewerbliche Anlage (Großhandel) im Erdgeschoss und von 5 Stellplätzen im Archiv im Untergeschoss",
       "site_address": "Stützeläckerweg 12 - 14",
