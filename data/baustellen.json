@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T15:20:35.850296Z",
+    "last_updated": "2026-08-20T16:14:45.320387Z",
     "total": 1165,
-    "errors": 18,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21636,7 +21636,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "500",
       "flurstueck": "17/1",
-      "fetched_at": "2026-06-13T23:26:11.982024+00:00",
+      "fetched_at": "2026-08-20T16:00:44.720646+00:00",
       "permit_number": "B-2023-1135-5",
       "description": "Brandschutzrelevante Grundrissänderungen durch Einbau eines Kältetechnikraumes und Nutzungserweiterung der Anlieferung mit einem nicht abgetrennten Warenlager (183 qm)",
       "site_address": "Mörfelder Landstraße 129",
