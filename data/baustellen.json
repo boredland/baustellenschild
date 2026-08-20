@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-19T23:32:32.934594Z",
+    "last_updated": "2026-08-20T00:02:29.647199Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 17,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12272,7 +12272,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "20",
       "flurstueck": "61/1",
-      "fetched_at": "2026-06-14T17:37:50.515895+00:00",
+      "fetched_at": "2026-08-19T23:48:16.635867+00:00",
       "permit_number": "B-2020-1177-5",
       "description": "Containeraufstellung für temporären Nutzung (bis 31.05.2021) als Besprechungsraum",
       "site_address": "Friedrich-Wilhelm-von-Steuben-Straße 2",
