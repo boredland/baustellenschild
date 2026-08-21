@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T15:18:58.629086Z",
+    "last_updated": "2026-08-21T16:14:22.787658Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22156,7 +22156,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "509",
       "flurstueck": "8/0",
-      "fetched_at": "2026-06-14T01:48:28.046154+00:00",
+      "fetched_at": "2026-08-21T16:10:59.994988+00:00",
       "permit_number": "B-2024-392-5",
       "description": "Nutzungsänderung von Bäckerei (Backstube) in Massagepraxis im EG und 1.OG und Herstellen einer Wohneinheit im 2.OG eines Hinterhauses sowie Nutzungsänderung von Bäckerei (Backstube) in Garage und überdachte Freifläche sowie Errichtung einer Dachterrasse im Zwischenbau",
       "site_address": "Mörfelder Landstraße 68",
