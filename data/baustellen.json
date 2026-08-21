@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T16:14:22.787658Z",
+    "last_updated": "2026-08-21T16:42:06.120058Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22238,7 +22238,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "511",
       "flurstueck": "129/13",
-      "fetched_at": "2026-06-14T03:07:29.407082+00:00",
+      "fetched_at": "2026-08-21T16:29:29.933760+00:00",
       "permit_number": "B-2023-958-5",
       "description": "Nutzungsänderung von Büro- und Verwaltung in Hochschule im UG, EG, Zwischengeschoss, 3.OG und Dachgeschoss",
       "site_address": "Diesterwegstraße 34",
