@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T17:16:50.426957Z",
+    "last_updated": "2026-08-21T17:47:52.624095Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 17,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8517,9 +8517,9 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "5",
       "flurstueck": "183/5",
-      "fetched_at": "2026-06-13T08:09:31.572353+00:00",
+      "fetched_at": "2026-08-21T17:39:09.009838+00:00",
       "permit_number": "B-2015-1051-4",
-      "description": "Nachtrag zu B-2011-2205-4:\nBrandschutzrelevante Grundrissänderungen in allen Geschossen eines Altenheims und Aufbringen einer Aufsparrendämmung",
+      "description": "Nachtrag zu B-2011-2205-4:\nBrandschutzrelevante...",
       "site_address": "Hügelstraße 67 - 69",
       "parcel_info": "Eckenheim Bezirk 46 (490), 5, 183/5",
       "builder_name": "Gesellschaft zur Förderung anthropos.",
