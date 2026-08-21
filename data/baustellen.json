@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T08:21:34.325325Z",
+    "last_updated": "2026-08-21T09:23:34.026099Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13802,7 +13802,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "22",
       "flurstueck": "188/18",
-      "fetched_at": "2026-06-14T20:29:34.223775+00:00",
+      "fetched_at": "2026-08-21T09:18:46.447338+00:00",
       "permit_number": "B-2023-146-4",
       "description": "Errichten eines Anbaus (Erweiterung der Strahlentherapie) sowie innere Umbauten am Haus E des Agaplesion Markus Krankenhaus",
       "site_address": "Wilhelm-Epstein-Straße 2",
