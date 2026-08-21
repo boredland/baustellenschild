@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T16:42:06.120058Z",
+    "last_updated": "2026-08-21T17:16:50.426957Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14148,7 +14148,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "22",
       "flurstueck": "655/50",
-      "fetched_at": "2026-06-14T20:56:04.747952+00:00",
+      "fetched_at": "2026-08-21T17:08:18.223294+00:00",
       "permit_number": "B-2018-133-5",
       "description": "Rückbau des Walmdaches und Wiedererrichtung eines Staffelgeschosses mit einer Wohnung zur Wohnraumerweiterung, internen Umbauten und Fassadenänderungen sowie Errichtung von 2 Balkonen EG / OG. Verlegung eines Stellplatzes auf eine bisherige Garagenabfahrt ins KG.",
       "site_address": "Frauenlobstraße 63",
@@ -14168,7 +14168,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "22",
       "flurstueck": "654/50",
-      "fetched_at": "2026-06-14T20:56:06.148285+00:00",
+      "fetched_at": "2026-08-21T17:07:21.125822+00:00",
       "permit_number": "B-2023-106-5",
       "description": "Umbau, Sanierung sowie Anbau zur Wohnraumerweiterung im EG, 1. OG und DG an einem Einfamilienhaus",
       "site_address": "Franz-Rücker-Allee 94",
@@ -14188,7 +14188,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "23",
       "flurstueck": "27/24",
-      "fetched_at": "2026-06-14T20:56:04.422722+00:00",
+      "fetched_at": "2026-08-21T17:07:32.997315+00:00",
       "permit_number": "B-2021-1073-4",
       "description": "Errichten von 2 Rückkühlwerken und einer Wartungsbühne auf der Hauptkasse (Gebäude 05), eines Abgaskamins (H = 20 m ü. OK Gelände) sowie von 5 Containern mit Haustechnik als dienende Nebenanlage für die Hauptkasse mit den entsprechenden Leitungsführungen und Rohrbrücken",
       "site_address": "Wilhelm-Epstein-Straße 14",
@@ -14209,7 +14209,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "23",
       "flurstueck": "123/0",
-      "fetched_at": "2026-06-14T20:56:08.859463+00:00",
+      "fetched_at": "2026-08-21T17:12:15.105018+00:00",
       "permit_number": "B-2022-678-4",
       "description": "Brandschutzrelevante Grundrissänderungen im Basisgebäude des Europaturmes",
       "site_address": "Ginnheimer Stadtweg 90",
