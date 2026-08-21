@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T02:36:12.127315Z",
+    "last_updated": "2026-08-21T03:45:50.411265Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20822,7 +20822,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "1",
       "flurstueck": "286/1",
-      "fetched_at": "2026-06-14T21:30:42.520071+00:00",
+      "fetched_at": "2026-08-21T03:41:19.703856+00:00",
       "permit_number": "B-2022-55-3",
       "description": "Rückbau des Daches und Wiedererrichten\nin veränderter Form mit 2 Gauben, \nErweiterung der Dachterrasse, \nFassadenänderung und innere Umbauten mit Nutzungsänderung\nvon Laden im EG in eine Wohneinheit an einem Mehrfamilienhaus",
       "site_address": "Deuil-La-Barre-Straße 96",
