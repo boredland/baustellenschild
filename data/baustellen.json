@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T20:33:03.889506Z",
+    "last_updated": "2026-08-21T21:03:51.453610Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20291,7 +20291,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "18",
       "flurstueck": "122/11",
-      "fetched_at": "2026-06-13T17:58:23.831603+00:00",
+      "fetched_at": "2026-08-21T20:47:41.254546+00:00",
       "permit_number": "B-2021-614-4",
       "description": "Errichtung eines Anbaus zur Wohnraumerweiterung und Rückbau des Wintergartens an einem Reihenhaus",
       "site_address": "Messelweg 81",
