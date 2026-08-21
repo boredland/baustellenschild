@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T07:41:14.003344Z",
+    "last_updated": "2026-08-21T08:21:34.325325Z",
     "total": 1165,
-    "errors": 34,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15182,7 +15182,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "597",
       "flurstueck": "714/6",
-      "fetched_at": "2026-06-14T23:28:57.964086+00:00",
+      "fetched_at": "2026-08-21T08:19:16.600821+00:00",
       "permit_number": "X-2024-121-5",
       "description": "Abbruch eines Bürogebäudes mit Heizungskeller, von zwei 1-stöckigen Lagergebäuden, eines Wagenschuppens mit offener Halle sowie einer Fahrzeugpflegestation (ehemalige Tankstelle) mit zwei Bodentanks und einer Tankstelle (ehemalige Schlosserei) mit zwei Bodentanks",
       "site_address": "Gerbermühlstraße 38",
