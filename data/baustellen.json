@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T06:48:13.429131Z",
+    "last_updated": "2026-08-21T07:41:14.003344Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 34,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15549,7 +15549,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "7",
       "flurstueck": "3/1",
-      "fetched_at": "2026-06-14T10:14:18.761392+00:00",
+      "fetched_at": "2026-08-21T07:34:40.036993+00:00",
       "permit_number": "B-2022-361-6",
       "description": "Anbau zur Wohnraumerweiterung an eine Doppelhaushälfte",
       "site_address": "Pfaffenwiese 42",
