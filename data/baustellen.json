@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T19:24:30.391371Z",
+    "last_updated": "2026-08-21T20:02:26.044909Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16213,7 +16213,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "11",
       "flurstueck": "9/3",
-      "fetched_at": "2026-06-14T22:57:19.997047+00:00",
+      "fetched_at": "2026-08-21T19:59:11.509895+00:00",
       "permit_number": "B-2023-346-3",
       "description": "Ausbau des Dachgeschosses mit 2 Wohneinheiten \nsowie Errichtung von 4 Gauben und Neubau eines \nEinfamilienhauses und Herstellen von 4 Stellplätzen",
       "site_address": "Offenbacher Landstraße 304a",
@@ -16233,7 +16233,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "11",
       "flurstueck": "29/0",
-      "fetched_at": "2026-06-14T22:57:20.965742+00:00",
+      "fetched_at": "2026-08-21T20:00:35.506160+00:00",
       "permit_number": "B-2022-209-3",
       "description": "Nutzungsänderung von Werkstatt und Büro in drei Wohneinheiten \nim EG eines Mehrfamilienhauses sowie Herstellen von 2 Stellplätzen",
       "site_address": "Mathildenstraße 12",
