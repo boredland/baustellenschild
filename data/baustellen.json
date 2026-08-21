@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T01:03:14.133673Z",
+    "last_updated": "2026-08-21T02:36:12.127315Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20719,7 +20719,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "1",
       "flurstueck": "125/0",
-      "fetched_at": "2026-06-14T21:30:03.609551+00:00",
+      "fetched_at": "2026-08-21T02:19:21.948120+00:00",
       "permit_number": "B-2020-1329-6",
       "description": "Abbruch Garage, Errichtung eines gartenseitigen Anbaus an einem bestehenden Wohnhaus (DHH), Errichtung einer Garage mit Lagerraum und Dachterrasse an Grenze.",
       "site_address": "Kattowitzer Straße 44",
@@ -20739,7 +20739,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "1",
       "flurstueck": "136/6",
-      "fetched_at": "2026-06-14T21:30:04.229172+00:00",
+      "fetched_at": "2026-08-21T02:23:03.941350+00:00",
       "permit_number": "B-2025-504-6",
       "description": "Rückbau von Anbauten, Errichten von 2 Außentreppen, Nutzungsänderung von Berufsbildungszentrum in Büro im 1. - 3.OG, innere Umbauten und Fassadenänderungen, Errichten eines Containers, Herstellen von 4 neuen und Neuanordnung von 2 bestehenden Stellplätzen",
       "site_address": "An der Zingelswiese 21",
