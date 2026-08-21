@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T20:02:26.044909Z",
+    "last_updated": "2026-08-21T20:33:03.889506Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11838,7 +11838,7 @@
       "gemarkung_label": "Preungesheim Bezirk 47",
       "flur": "7",
       "flurstueck": "522/176",
-      "fetched_at": "2026-06-14T07:04:51.462459+00:00",
+      "fetched_at": "2026-08-21T20:24:50.884111+00:00",
       "permit_number": "B-2024-655-3",
       "description": "Einbau einer Dachdämmung\nRückbau und Wiedererrichten von Teilen des Daches in veränderter Form \nsowie Rückbau und Wiedererrichten von 2 Gauben in veränderter Form \nund innere Umbauten in allen Geschossen einer Doppelhaushälfte",
       "site_address": "Kullmannstraße 22",
