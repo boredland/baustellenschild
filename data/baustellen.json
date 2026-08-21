@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T22:03:39.491052Z",
+    "last_updated": "2026-08-21T22:32:15.132252Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -4058,7 +4058,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "11",
       "flurstueck": "370/31",
-      "fetched_at": "2026-06-15T03:10:52.563439+00:00",
+      "fetched_at": "2026-08-21T22:17:38.823402+00:00",
       "permit_number": "B-2020-297-6",
       "description": "Rückbau und Wiedererrichten des Daches in geänderter Form, Anbau zur Wohnraumerweiterung im EG und Nutzungsänderung von Schmiede und Stall in ein Einfamilienhaus sowie Herstellen von einem Stellplatz",
       "site_address": "Saalfelder Straße 12a",
@@ -15848,7 +15848,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "7",
       "flurstueck": "3/60",
-      "fetched_at": "2026-06-14T11:22:55.894245+00:00",
+      "fetched_at": "2026-08-21T22:15:14.892799+00:00",
       "permit_number": "B-2023-253-6",
       "description": "Errichtung eines Anbaus zur Wohnraumerweiterung an einer Doppelhaushälfte (Einfamilienhaus)",
       "site_address": "Hildburghäuser Weg 5",
