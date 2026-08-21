@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-20T23:35:19.104639Z",
+    "last_updated": "2026-08-21T00:05:50.816148Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 17,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15949,7 +15949,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "13",
       "flurstueck": "211/3",
-      "fetched_at": "2026-06-15T09:39:06.289164+00:00",
+      "fetched_at": "2026-08-21T00:00:18.233824+00:00",
       "permit_number": "B-2020-1093-4",
       "description": "Spitzbodenausbau zur Wohnflächenerweiterung mit Herstellung des 2. Rettungsweges in einem Einfamilienhaus (Reihenendhaus)\n\nverlängert bis zum 05.10.2025",
       "site_address": "Bonameser Straße 4",
