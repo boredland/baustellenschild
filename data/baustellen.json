@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T21:03:55.505588Z",
+    "last_updated": "2026-08-22T21:30:54.022754Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15203,7 +15203,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "25",
       "flurstueck": "535/220",
-      "fetched_at": "2026-06-14T22:56:21.586960+00:00",
+      "fetched_at": "2026-08-22T21:16:32.118990+00:00",
       "permit_number": "B-2023-788-5",
       "description": "Anbau eines Treppenhauses im UG - DG, Rückbau und Wiedererrichten eines Balkones im 1. OG in veränderter Form und Lage mit inneren Umbauten an einem Mehrfamilienhaus",
       "site_address": "Cretzschmarstraße 15a",
@@ -15220,7 +15220,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "25",
       "flurstueck": "581/220",
-      "fetched_at": "2026-06-14T22:56:22.253322+00:00",
+      "fetched_at": "2026-08-22T21:18:38.183151+00:00",
       "permit_number": "B-2022-886-5",
       "description": "Errichtung eines Poolhauses mit Gästebereich und eines Schwimmbades < 100 cbm sowie Nutzungsänderung von Kellerräumen in eine Wohneinheit und Wohnräume im UG, Herstellen von 3 Gauben, Erweiterung eines Balkons und Errichten eines Balkons im EG sowie innere Umbauten an einem Zweifamilienwohnhaus.",
       "site_address": "Ditmarstraße 7",
