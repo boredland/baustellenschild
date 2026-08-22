@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T08:36:27.028429Z",
+    "last_updated": "2026-08-22T09:12:35.720580Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19950,7 +19950,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "4",
       "flurstueck": "19/33",
-      "fetched_at": "2026-06-14T01:48:57.852692+00:00",
+      "fetched_at": "2026-08-22T08:57:26.101131+00:00",
       "permit_number": "B-2024-152-4",
       "description": "Vergrößerung der Balkone; Fassadenveränderungen, sowie Austausch der Heizungsanlage und Errichten einer Wärmepumpe an einem Wohnhochhaus",
       "site_address": "Eleonore-Sterling-Straße 24",
