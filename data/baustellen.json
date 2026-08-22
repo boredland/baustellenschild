@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T20:01:50.206026Z",
+    "last_updated": "2026-08-22T20:31:01.037005Z",
     "total": 1165,
-    "errors": 17,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7643,7 +7643,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "12",
       "flurstueck": "81/4",
-      "fetched_at": "2026-06-15T09:41:02.033556+00:00",
+      "fetched_at": "2026-08-22T20:20:33.858806+00:00",
       "permit_number": "B-2020-860-6",
       "description": "Rückbau und Wiedererrichten des Daches in geänderter Form mit Dachflächenfenstern und Loggia sowie Nutzungsänderung eines  Werkstattgebäudes mit Anbau in ein Einfamilienhaus mit Herstellen von 2 Stellplätzen und Fahrradstellplätzen und Neuordnung des vorhandenen Stellplatzes (Abriss der vorh. Garage)",
       "site_address": "Bartholomäusgasse 17",
@@ -7663,7 +7663,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "12",
       "flurstueck": "127/3",
-      "fetched_at": "2026-06-15T09:41:01.839848+00:00",
+      "fetched_at": "2026-08-22T20:22:15.795507+00:00",
       "permit_number": "B-2024-328-6",
       "description": "Errichten eines Wohn- und Bürogebäudes mit 7 Wohneinheiten und einer Büroeinheit, sowie Herstellen von 7 Stellplätzen",
       "site_address": "Alt-Zeilsheim 31 - 31a",
@@ -7683,7 +7683,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "12",
       "flurstueck": "86/0",
-      "fetched_at": "2026-06-15T09:40:59.617043+00:00",
+      "fetched_at": "2026-08-22T20:20:16.187671+00:00",
       "permit_number": "B-2022-437-6",
       "description": "Nutzungsänderung der Scheune in ein Mehrfamilienwohnhaus (3WE/Hinterhaus), Rückbau des Daches und Wiedererrichten in veränderter Form mit Herstellen einer Dachterrasse (Zwischenbau) sowie Ausbau des Dachgeschosses mit 2 Gauben (Vorderhaus) zu einer Wohneinheit an einem Mehrfamilienhaus",
       "site_address": "Bartholomäusgasse 25",
@@ -22460,7 +22460,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "519",
       "flurstueck": "14/3",
-      "fetched_at": "2026-06-14T10:11:45.780928+00:00",
+      "fetched_at": "2026-08-22T20:28:33.891697+00:00",
       "permit_number": "B-2022-96-5",
       "description": "Ausbau des Spitzbodens zu zwei neuen Wohnungen, Erstellen von zwei Dachloggien in einem Wohn- und Geschäftshaus",
       "site_address": "Schweizer Straße 54",
