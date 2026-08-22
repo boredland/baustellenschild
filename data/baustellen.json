@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T22:01:20.633594Z",
+    "last_updated": "2026-08-22T22:30:32.290084Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12701,10 +12701,10 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "5",
       "flurstueck": "120/3",
-      "fetched_at": "2026-06-14T23:29:37.848736+00:00",
+      "fetched_at": "2026-08-22T22:27:04.607921+00:00",
       "permit_number": "B-2023-130-4",
       "description": "Neubau von zwei Doppelhaushälften als zwei Einfamilienhäuser, sowie Herstellen von 2 PKW-Stellplätzen",
-      "site_address": "Ginnheimer Landstraße 196",
+      "site_address": "Ginnheimer Landstraße 186a",
       "parcel_info": "Ginnheim Bezirk 44 (493), 5, 120/3",
       "builder_name": "dakini Investments GmbH",
       "builder_address": "Inckusstraße 14",
