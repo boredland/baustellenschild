@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T22:30:32.290084Z",
+    "last_updated": "2026-08-22T23:02:25.123259Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -6076,7 +6076,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "3",
       "flurstueck": "17/4",
-      "fetched_at": "2026-06-15T00:40:29.721521+00:00",
+      "fetched_at": "2026-08-22T22:49:16.408104+00:00",
       "permit_number": "B-2023-570-5",
       "description": "Wiedererrichtung eines Sportfunktionsgebäudes auf der Sportanlage Mainzer Landstraße",
       "site_address": "Mainzer Landstraße 480",
@@ -15282,7 +15282,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "14",
       "flurstueck": "219/908",
-      "fetched_at": "2026-06-14T10:12:41.116856+00:00",
+      "fetched_at": "2026-08-22T22:57:58.415127+00:00",
       "permit_number": "B-2017-915-6",
       "description": "Schaffung eines weiteren Fluchtweges und Einrichtung eines notwendigen Treppenhauses über ein Geschoss, Brandschutzsanierung und Dachsanierung",
       "site_address": "Luciusstraße 2",
@@ -15303,7 +15303,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "14",
       "flurstueck": "359/876",
-      "fetched_at": "2026-06-14T10:12:41.244257+00:00",
+      "fetched_at": "2026-08-22T22:59:46.388873+00:00",
       "permit_number": "B-2024-417-6",
       "description": "Rückbau und Wiedererrichtung des Spitzbodens in veränderter Form, als Erweiterung des Wohnraumes der darunterliegenden Wohnung im Dachgeschoss in einem Mehrfamilienhaus",
       "site_address": "Raugasse 5",
@@ -16110,7 +16110,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "2",
       "flurstueck": "163/132",
-      "fetched_at": "2026-06-14T03:08:25.822813+00:00",
+      "fetched_at": "2026-08-22T22:55:46.388149+00:00",
       "permit_number": "B-2025-120-6",
       "description": "Nutzungsänderung eines Ladens (UG + EG) in eine Schank-und Speisewirtschaft (EG) sowie Abstellräume (UG) in einem Wohn- und Geschäftshaus",
       "site_address": "Emmerich-Josef-Straße 11",
