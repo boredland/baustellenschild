@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-21T23:32:50.394263Z",
+    "last_updated": "2026-08-22T00:03:09.957190Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16315,7 +16315,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "13",
       "flurstueck": "439/194",
-      "fetched_at": "2026-06-15T12:04:01.149100+00:00",
+      "fetched_at": "2026-08-21T23:58:22.714639+00:00",
       "permit_number": "B-2021-1088-4",
       "description": "Nutzungsänderung einer Scheune in 4 Wohneinheiten, eines Nebengebäudes in einen Laden mit Abstellraum und WC, eines Lagers in eine Garage mit 5 Stellplätzen, Errichten einer Außentreppe, sowie eines Mehrfamilienwohnhauses mit 3 Wohneinheiten und einer Tiefgarage mit 6 Stellplätzen",
       "site_address": "Am Weigelsgarten 2a",
@@ -20980,9 +20980,9 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "13",
       "flurstueck": "584/6",
-      "fetched_at": "2026-06-14T21:29:45.273425+00:00",
+      "fetched_at": "2026-08-21T23:52:44.325332+00:00",
       "permit_number": "B-2021-725-4",
-      "description": "Errichtung eines Mehrfamilienhauses mit 7 Wohneinheiten, einer Tiefgarage mit 6 Stellplätzen und einer Garage",
+      "description": "Errichtung eines Mehrfamilienhauses mit 7 Wohneinheiten, einer...",
       "site_address": "Mechtildstraße 38",
       "parcel_info": "Eckenheim Bezirk 46 (490), 13, 584/6",
       "builder_name": "Eckert Wilfried Willi",
