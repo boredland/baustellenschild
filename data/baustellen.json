@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T01:00:11.826958Z",
+    "last_updated": "2026-08-22T02:27:24.622593Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11138,7 +11138,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "13",
       "flurstueck": "243/1",
-      "fetched_at": "2026-06-13T17:03:33.329897+00:00",
+      "fetched_at": "2026-08-22T02:20:22.417366+00:00",
       "permit_number": "B-2023-299-6",
       "description": "Brandschutzrelevante Grundrissänderungen, sowie Änderung des Fluchtweges mit Anbau einer Außentreppe im 1.OG, Errichtung einer Rampe im EG und Änderung der Fassade Ost, KiZ 6",
       "site_address": "Magda-Spiegel-Weg 10",
