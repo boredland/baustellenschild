@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T17:05:03.330680Z",
+    "last_updated": "2026-08-22T17:30:04.092208Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15038,7 +15038,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "16",
       "flurstueck": "53/33",
-      "fetched_at": "2026-06-14T08:47:39.179440+00:00",
+      "fetched_at": "2026-08-22T17:13:44.920231+00:00",
       "permit_number": "B-2024-241-5",
       "description": "Brandschutzrelevante Grundrissänderungen in allen Geschossen eines Bürogebäudes",
       "site_address": "Hahnstraße 38",
@@ -15079,7 +15079,7 @@
       "gemarkung_label": "Nieder-Erlenbach Bezirk 64",
       "flur": "1",
       "flurstueck": "734/2",
-      "fetched_at": "2026-06-14T08:47:54.036045+00:00",
+      "fetched_at": "2026-08-22T17:29:34.307085+00:00",
       "permit_number": "B-2020-771-3",
       "description": "Errichtung einer Doppelhaushälfte mit Carport und Stellplatz DHH 25",
       "site_address": "Am Ohlenstück 38",
