@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T21:30:54.022754Z",
+    "last_updated": "2026-08-22T22:01:20.633594Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14958,7 +14958,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "9",
       "flurstueck": "113/4",
-      "fetched_at": "2026-06-13T11:38:05.726710+00:00",
+      "fetched_at": "2026-08-22T22:00:04.005582+00:00",
       "permit_number": "B-2024-304-3",
       "description": "Aufstellen eines Imbisscontainers befristet auf 2 Jahre und \nErrichten eines Vordaches und einer Überdachung sowie \nHerstellen von 2 Stellplätzen",
       "site_address": "Cassellastraße 39",
@@ -21246,7 +21246,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "13",
       "flurstueck": "691/6",
-      "fetched_at": "2026-06-14T22:56:27.887525+00:00",
+      "fetched_at": "2026-08-22T21:51:02.526964+00:00",
       "permit_number": "B-2024-823-4",
       "description": "Rückbau und Wiedererrichtung der Hauseingangstreppe und einer Terrassentreppe in veränderter Form, Errichten einer Kellertreppe, Verbreiterung einer vorhandenen Gaube, Einbau von Dachflächenfenstern",
       "site_address": "Mechtildstraße 22",
