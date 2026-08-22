@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T05:14:49.117855Z",
+    "last_updated": "2026-08-22T05:38:44.461135Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 29,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10597,7 +10597,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "26",
       "flurstueck": "1/19",
-      "fetched_at": "2026-06-14T16:04:27.831675+00:00",
+      "fetched_at": "2026-08-22T05:22:53.844790+00:00",
       "permit_number": "B-2022-1032-5",
       "description": "Brandschutzrelevante Grundrissänderung mit Nutzungsänderung von Lager in Schulungsraum IT, Technikraum Büro und Umkleideräume im 2.OG eines Rechenzentrums, Bauteil C",
       "site_address": "Eschborner Landstraße 100",
