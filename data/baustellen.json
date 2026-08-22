@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T14:07:53.923938Z",
+    "last_updated": "2026-08-22T14:30:44.950915Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14917,7 +14917,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "25",
       "flurstueck": "392/220",
-      "fetched_at": "2026-06-14T22:30:30.570406+00:00",
+      "fetched_at": "2026-08-22T14:28:52.832404+00:00",
       "permit_number": "B-2016-270-5",
       "description": "Ausbau von Teilen des Kellergeschosses als Wohnraumerweiterung, Verlegung der Kellertreppe, Errichtung einer Außentreppe gartenseitig und Errichtung eines Stellplatzes, mit baulichen Änderungen an dem Einfamilienhaus",
       "site_address": "Am Leonhardsbrunn 5",
@@ -22381,7 +22381,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "517",
       "flurstueck": "48/14",
-      "fetched_at": "2026-06-14T08:46:25.743586+00:00",
+      "fetched_at": "2026-08-22T14:13:40.829381+00:00",
       "permit_number": "B-2015-59-5",
       "description": "Rückbau des Daches und Wiedererrichtung in geänderter Form, Errichtung  4.OG und Dachgeschoss zu einer Wohneinheit, Errichtung einer Dachloggia sowie Errichtung eines Aufzuges an einem Mehrfamilienhaus",
       "site_address": "Schwanthalerstraße 16",
@@ -22787,7 +22787,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "36",
       "flurstueck": "509/0",
-      "fetched_at": "2026-06-15T12:03:39.188725+00:00",
+      "fetched_at": "2026-08-22T14:20:23.087226+00:00",
       "permit_number": "B-2021-756-3",
       "description": "Schließen der Terrasse im EG zur \nWohnraumerweiterung eines Zweifamilienhauses",
       "site_address": "An der Ruhbank 3",
