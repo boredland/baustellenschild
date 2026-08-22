@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T06:40:30.202924Z",
+    "last_updated": "2026-08-22T07:25:22.531094Z",
     "total": 1165,
-    "errors": 29,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5198,7 +5198,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "12",
       "flurstueck": "4/2",
-      "fetched_at": "2026-06-15T05:18:19.298796+00:00",
+      "fetched_at": "2026-08-22T07:11:30.224125+00:00",
       "permit_number": "X-2025-68-6",
       "description": "Abbruch eines Wohn- und Geschäftshauses mit einem Nebengebäude und einer Überdachung für Stellplätze",
       "site_address": "Pfaffenwiese 3",
@@ -22300,7 +22300,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "513",
       "flurstueck": "112/20",
-      "fetched_at": "2026-06-14T05:09:44.535782+00:00",
+      "fetched_at": "2026-08-22T07:12:54.588469+00:00",
       "permit_number": "B-2023-421-5",
       "description": "Errichtung eines Außenaufzuges an einem Mehrfamilienhaus",
       "site_address": "Oppenheimer Landstraße 67",
@@ -22320,7 +22320,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "514",
       "flurstueck": "4/2",
-      "fetched_at": "2026-06-14T05:09:43.614572+00:00",
+      "fetched_at": "2026-08-22T07:12:42.504825+00:00",
       "permit_number": "B-2022-852-5",
       "description": "Nutzungsänderung im EG von Laden in eine Einheit zur freiberuflichen Nutzung gem. § 13 BauNVO, Nutzungsänderung im 2.OG von einer Einheit zur freiberuflichen Nutzung in eine Wohneinheit, Rückbau und Wiedererrichten des Daches in veränderter Form, Ausbau des Dachgeschosses zur Wohnraumerweiterung zur Wohneinheit im 2.OG, Errichten eines Balkons im 2.OG, sowie Errichten einer Dachterrasse im 1.OG an einem Wohn- und Geschäftshaus mit freiberuflicher Nutzung",
       "site_address": "Schwanthalerstraße 59a",
