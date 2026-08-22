@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T12:38:14.138329Z",
+    "last_updated": "2026-08-22T13:25:26.027900Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -6181,7 +6181,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "12",
       "flurstueck": "22/3",
-      "fetched_at": "2026-06-15T07:19:47.636324+00:00",
+      "fetched_at": "2026-08-22T13:24:00.829846+00:00",
       "permit_number": "X-2019-1-6",
       "description": "Abbruch einer Scheune",
       "site_address": "Alt-Zeilsheim 40",
@@ -19413,7 +19413,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "46",
       "flurstueck": "85/4",
-      "fetched_at": "2026-06-13T22:26:15.813190+00:00",
+      "fetched_at": "2026-08-22T13:10:48.823418+00:00",
       "permit_number": "B-2025-396-6",
       "description": "Nutzungsänderung im 2. OG von Büro in Räume für ein Rehazentrum als Erweiterung der Nutzung im EG und 1. OG eines Büro- und Verwaltungsgebäudes mit Laden und Rehazentrum",
       "site_address": "Westerbachstraße 110",
@@ -19434,7 +19434,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "46",
       "flurstueck": "34/3",
-      "fetched_at": "2026-06-13T21:57:30.782452+00:00",
+      "fetched_at": "2026-08-22T13:09:31.220252+00:00",
       "permit_number": "B-2020-947-6",
       "description": "Aufstellung von 12 Containern, einer Doppelgarage und Lagerfläche für einen Gartenbaubetrieb, sowie Herstellen von einem Stellplatz",
       "site_address": "Heinrich-Hopf-Straße 10",
