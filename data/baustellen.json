@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T15:30:12.753358Z",
+    "last_updated": "2026-08-22T16:00:53.592077Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12313,7 +12313,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "4",
       "flurstueck": "265/99",
-      "fetched_at": "2026-06-14T22:56:40.470183+00:00",
+      "fetched_at": "2026-08-22T15:48:03.184068+00:00",
       "permit_number": "X-2025-39-4",
       "description": "Abbruch eines Wohnhauses, vier Lagergebäude, zwei Garagenanlagen und eines Werkstattgebäudes",
       "site_address": "Ginnheimer Mühlgasse 12",
