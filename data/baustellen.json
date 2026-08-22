@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T16:00:53.592077Z",
+    "last_updated": "2026-08-22T16:30:39.696309Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14996,7 +14996,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "13",
       "flurstueck": "823/42",
-      "fetched_at": "2026-06-14T08:47:19.017134+00:00",
+      "fetched_at": "2026-08-22T16:16:44.494656+00:00",
       "permit_number": "B-2024-534-6",
       "description": "Errichten eines Wohn- und Geschäftshauses mit zwei Büroeinheiten/ Räume für freiberufliche Nutzung gem. §13 BauNVO, einer Ladeneinheit, einer Sanitäranlage für die städt. Betriebe und 20 PKW-Stellplätze im EG sowie 48 Wohneinheiten in den Obergeschossen.",
       "site_address": "Adolf-Haeuser-Straße 2 - 8a",
