@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T10:31:49.225529Z",
+    "last_updated": "2026-08-22T11:04:25.534407Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20801,7 +20801,7 @@
       "gemarkung_label": "Niederursel/F. Bezirk 48F",
       "flur": "18",
       "flurstueck": "119/6",
-      "fetched_at": "2026-06-15T07:18:48.361789+00:00",
+      "fetched_at": "2026-08-22T10:46:55.206958+00:00",
       "permit_number": "B-2024-1163-4",
       "description": "Brandschutz- und lüftungsrelevante Grundrissänderung im 1. - 4.OG in einem Büro und Geschäftshaus mit Flächen für kulturelle Zwecke (Bildungszentrum für Pflegeberufe für Erwachsene)",
       "site_address": "Olof-Palme-Straße 13",
