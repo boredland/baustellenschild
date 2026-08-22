@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T03:30:19.731298Z",
+    "last_updated": "2026-08-22T04:20:26.746918Z",
     "total": 1165,
     "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -2924,7 +2924,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "1",
       "flurstueck": "476/4",
-      "fetched_at": "2026-06-14T22:57:18.767444+00:00",
+      "fetched_at": "2026-08-22T04:05:51.027853+00:00",
       "permit_number": "B-2024-182-3",
       "description": "Errichten eines Anbaus zur Wohnraumerweiterung\nan einem Zweifamilienhaus",
       "site_address": "Niedereschbacher Stadtweg 15",
