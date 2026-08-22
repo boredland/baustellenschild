@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T07:25:22.531094Z",
+    "last_updated": "2026-08-22T08:09:45.807842Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14630,7 +14630,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "24",
       "flurstueck": "75/54",
-      "fetched_at": "2026-06-14T21:58:44.463650+00:00",
+      "fetched_at": "2026-08-22T08:04:26.529627+00:00",
       "permit_number": "B-2024-973-5",
       "description": "Errichtung eines Mehrfamilienhauses mit 5 Wohneinheiten mit Tiefgarage (4 Stellplätze)",
       "site_address": "Frauenlobstraße 20a",
