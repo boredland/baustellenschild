@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T14:30:44.950915Z",
+    "last_updated": "2026-08-22T15:02:22.607767Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14938,7 +14938,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "25",
       "flurstueck": "446/220",
-      "fetched_at": "2026-06-14T22:30:32.056249+00:00",
+      "fetched_at": "2026-08-22T14:46:46.032312+00:00",
       "permit_number": "B-2022-43-5",
       "description": "Rückbau und Wiedererrichten eines Dachgeschosses in geänderter Form, Herstellen einer Wohneinheit,\nZusammenlegung der Wohneinheiten im EG und OG in eine Wohneinheit mit inneren Umbauten sowie Errichten einer Terrasse im Erdgeschoss an einem Zweifamilienhaus",
       "site_address": "Ditmarstraße 5",
