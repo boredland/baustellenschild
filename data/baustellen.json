@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T17:30:04.092208Z",
+    "last_updated": "2026-08-22T18:01:09.201384Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15059,7 +15059,7 @@
       "gemarkung_label": "Nieder-Erlenbach Bezirk 64",
       "flur": "1",
       "flurstueck": "734/3",
-      "fetched_at": "2026-06-14T08:47:54.174711+00:00",
+      "fetched_at": "2026-08-22T17:45:36.512105+00:00",
       "permit_number": "B-2020-772-3",
       "description": "Errichtung einer Doppelhaushälfte mit Carport und Stellplatz DHH 26",
       "site_address": "Am Ohlenstück 36",
