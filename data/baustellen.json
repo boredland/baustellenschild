@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T00:03:09.957190Z",
+    "last_updated": "2026-08-22T01:00:11.826958Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11554,7 +11554,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "4",
       "flurstueck": "82/1",
-      "fetched_at": "2026-06-14T21:59:11.733190+00:00",
+      "fetched_at": "2026-08-22T00:55:08.241092+00:00",
       "permit_number": "B-2022-648-4",
       "description": "Erweiterung der Diesterwegschule durch Anbau eines 4-geschoss. Erweiterungsbaus mit Mensa im EG, 2 Turnhallen, einer Hausmeisterwohnung im 4.OG und Aufstockung des Bestandsgebäudes sowie Herstellen von 3 Stellplätzen und Richtungsänderung einer Fluchttreppe der Kita",
       "site_address": "Am Mühlgarten 3 - 7",
@@ -16294,7 +16294,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "13",
       "flurstueck": "355/61",
-      "fetched_at": "2026-06-15T12:04:01.140059+00:00",
+      "fetched_at": "2026-08-22T00:43:44.247735+00:00",
       "permit_number": "B-2018-416-4",
       "description": "Vorderhaus: Rückbau und Wiedererrichten Treppenhaus sowie Anbau mit zwei Wohnungen an einem vorhandenen Mehrfamilienwohnhaus\nHinterhaus: Nutzungsänderung von einem Handwerksbetrieb in ein Zweifamilienhaus, eingeschossiger Anbau mit  Außentreppe sowie Neubau eines Zweifamilienhauses",
       "site_address": "Maybachstraße 28",
