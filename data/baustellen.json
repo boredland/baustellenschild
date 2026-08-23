@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T23:29:44.189083Z",
+    "last_updated": "2026-08-23T23:59:36.354492Z",
     "total": 1165,
     "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -16031,7 +16031,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "14",
       "flurstueck": "858/1",
-      "fetched_at": "2026-06-14T13:08:27.027450+00:00",
+      "fetched_at": "2026-08-23T23:45:46.911118+00:00",
       "permit_number": "B-2018-846-6",
       "description": "brandschutzrelevante Grundrissänderung, Aufteilung von einer in 3 Nutzungseinheiten im EG und 1. OG und Fassadenänderungen in einem Wohn- und Geschäftshaus",
       "site_address": "Hostatostraße 19",
@@ -16049,7 +16049,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "14",
       "flurstueck": "870/891",
-      "fetched_at": "2026-06-14T13:08:29.756521+00:00",
+      "fetched_at": "2026-08-23T23:48:35.025195+00:00",
       "permit_number": "B-2022-304-6",
       "description": "Nutzungsänderung von Neben- in Wohnräume im Dachgeschoss in zwei Wohneinheiten mit  Ausbau des Speichers als Wohnraumerweiterung einer Wohnung im DG sowie Herstellen einer Gaube an einem Mehrfamilienwohnhaus",
       "site_address": "Leunastraße 24",
@@ -16069,7 +16069,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "14",
       "flurstueck": "871/9",
-      "fetched_at": "2026-06-14T13:08:29.854030+00:00",
+      "fetched_at": "2026-08-23T23:47:52.906936+00:00",
       "permit_number": "B-2021-987-6",
       "description": "Änderung von Groß- in Mittelgarage im 1. und 2. UG mit 19 Stellplätzen und Neuordnung der Stellplätze im EG/Außenbereich mit 6 Stellplätzen sowie Änderung der Lüftungsanlage im 1. UG in einem Wohn- und Geschäftshaus",
       "site_address": "Dalbergstraße 14",
