@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T18:33:57.034051Z",
+    "last_updated": "2026-08-23T19:12:31.924853Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15827,7 +15827,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "1",
       "flurstueck": "28/0",
-      "fetched_at": "2026-06-14T23:56:48.519918+00:00",
+      "fetched_at": "2026-08-23T19:05:40.335040+00:00",
       "permit_number": "B-2024-153-5",
       "description": "Brandschutz- und statisch relevante Änderung durch Erneuerung der Dacheindeckung und Attikaerhöhung mit Aufbringen einer Aufsparrendämmung, von Dachbegrünungen, einer PV- und einer Solarthermieanlage, sowie Fassadensanierung mit Anbringen eines WDVS, teilweiser Erneuerung der Türen und Fenster inkl. Sonnenschutz; Erneuerung von Balkongeländern, sowie Nutzungsänderung einer Wohnung im 1.OG; Nutzungsänderung von Räumen und Anbringen einer Fassadenbegrünung an einem Kinderwohnheim und einer Kindertagesstätte",
       "site_address": "Kleemannstraße 1",
@@ -19330,7 +19330,7 @@
       "gemarkung_label": "Preungesheim Bezirk 47",
       "flur": "16",
       "flurstueck": "16/0",
-      "fetched_at": "2026-06-15T03:10:14.574385+00:00",
+      "fetched_at": "2026-08-23T19:05:58.202590+00:00",
       "permit_number": "B-2024-1160-3",
       "description": "Nutzungsänderung von Lager in einen Seminarraum (Anlage für kulturelle Zwecke) im EG sowie brandschutzrelevante Grundrissänderungen eines Gebäudes mit Verkauf, Lager,  Büro, Verwaltung und Seminarbetrieb.",
       "site_address": "August-Schanz-Straße 12",
