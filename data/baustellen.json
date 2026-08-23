@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T05:47:39.445985Z",
+    "last_updated": "2026-08-23T06:13:24.642721Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22542,7 +22542,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "519",
       "flurstueck": "42/0",
-      "fetched_at": "2026-06-14T10:11:46.363440+00:00",
+      "fetched_at": "2026-08-23T06:05:31.450736+00:00",
       "permit_number": "B-2017-1780-5",
       "description": "Rückbau und Wiedererrichtung des Daches in anderer Form.  Ausbau des DG mit einer Wohneinheit, Errichtung einer Loggia und Gauben, Balkonanlage 2.OG - 4. OG  an einem Wohn- und Geschäftshaus",
       "site_address": "Gartenstraße 31",
