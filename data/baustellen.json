@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T08:36:48.955551Z",
+    "last_updated": "2026-08-23T09:13:17.649634Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16375,7 +16375,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "2",
       "flurstueck": "183/134",
-      "fetched_at": "2026-06-14T05:10:39.607906+00:00",
+      "fetched_at": "2026-08-23T09:03:32.042746+00:00",
       "permit_number": "B-2023-750-6",
       "description": "Nutzungsänderung von Laden (Bäckerei) in eine Schank- und Speisewirtschaft (Imbiss) im EG eines Wohn- und Geschäftshauses",
       "site_address": "Königsteiner Straße 14",
@@ -16395,7 +16395,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "2",
       "flurstueck": "181/470",
-      "fetched_at": "2026-06-14T05:10:38.979716+00:00",
+      "fetched_at": "2026-08-23T09:01:08.140419+00:00",
       "permit_number": "B-2023-406-6",
       "description": "Ausbau Spitzboden zu einer Wohneinheit mit einer Loggia und Anbau von zwei Loggien im Erdgeschoss an einem Mehrfamilienwohnhaus (Vorderhaus), sowie Nutzungsänderung von Nebengebäude in 2 Wohneinheiten (Hinterhaus)",
       "site_address": "Kasinostraße 21",
@@ -16416,7 +16416,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "2",
       "flurstueck": "223/233",
-      "fetched_at": "2026-06-14T05:10:39.460915+00:00",
+      "fetched_at": "2026-08-23T09:02:56.085323+00:00",
       "permit_number": "B-2016-645-6",
       "description": "Nutzungsänderung von Austellungs-, Büro-und Lagerfläche in 4 WE im EG, Dachgeschossausbau zu einer Wohneinheit, sowie Nutzungsänderung von Schank- und Speisewirtschaft in Abstellräume im UG in einem Mehrfamilienhaus, Herstellen von 2 Stellplätzen, Anbau von 8 Balkonen",
       "site_address": "Kasinostraße 11b",
