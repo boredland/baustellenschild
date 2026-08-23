@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T22:30:08.850298Z",
+    "last_updated": "2026-08-23T23:03:08.529978Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15508,9 +15508,9 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "11",
       "flurstueck": "452/18",
-      "fetched_at": "2026-06-13T13:35:01.144123+00:00",
+      "fetched_at": "2026-08-23T22:55:10.007710+00:00",
       "permit_number": "B-2017-1375-3",
-      "description": "Nutzungsänderung von Laden mit Büro in 3 Wohneinheiten\nim EG eines Mehrfamilienhauses, \nSchließen eines offenen Anbaus zur Wohnraumerweiterung",
+      "description": "Nutzungsänderung von Laden mit Büro in 3 Wohneinheiten\nim EG...",
       "site_address": "Alt-Fechenheim 56",
       "parcel_info": "Fechenheim Bezirk 51 (492), 11, 452/18",
       "builder_name": "Sohbat Bibi Ruhksana",
