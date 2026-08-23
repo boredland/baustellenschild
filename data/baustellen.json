@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T07:27:55.844799Z",
+    "last_updated": "2026-08-23T08:12:45.132263Z",
     "total": 1165,
-    "errors": 15,
+    "errors": 18,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1669,7 +1669,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "4",
       "flurstueck": "384/64",
-      "fetched_at": "2026-06-14T07:04:07.749553+00:00",
+      "fetched_at": "2026-08-23T08:06:43.406000+00:00",
       "permit_number": "B-2018-1313-4",
       "description": "Neubau einer Gartenhütte für Gartengeräte",
       "site_address": "Nußzeil 53",
