@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T19:12:31.924853Z",
+    "last_updated": "2026-08-23T19:34:21.541565Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12415,7 +12415,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "30",
       "flurstueck": "11/16",
-      "fetched_at": "2026-06-14T19:00:09.794295+00:00",
+      "fetched_at": "2026-08-23T19:17:55.135461+00:00",
       "permit_number": "B-2023-1061-4",
       "description": "Nutzungsänderung von Pfarrhaus in eine Anlage für soziale Zwecke (Flüchtlingsunterkunft) mit Gemeinschaftsräumen im EG",
       "site_address": "Kollwitzstraße 5 - 7",
