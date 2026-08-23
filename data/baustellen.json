@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T01:03:34.525275Z",
+    "last_updated": "2026-08-23T02:37:33.546613Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -6139,7 +6139,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "1",
       "flurstueck": "511/53",
-      "fetched_at": "2026-06-15T00:41:17.198541+00:00",
+      "fetched_at": "2026-08-23T02:24:33.844901+00:00",
       "permit_number": "B-2023-1300-6",
       "description": "Aufstockung von 2 Klassenräumen im 1. OG der Michael-Grzimek-Schule",
       "site_address": "An der Walkmühle 10",
@@ -17395,7 +17395,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "12",
       "flurstueck": "52/0",
-      "fetched_at": "2026-06-15T00:41:17.161925+00:00",
+      "fetched_at": "2026-08-23T02:26:32.951081+00:00",
       "permit_number": "B-2025-460-3",
       "description": "Rückbau und Wiedererrichten des Daches \nin geänderter Form zur Wohnraumerweiterung\nErrichten einer Dachterrasse sowie\ninnere Umbauten in einem Zweifamilienhaus",
       "site_address": "An der Mannsfaust 3",
