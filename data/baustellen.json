@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T12:38:47.689928Z",
+    "last_updated": "2026-08-23T13:26:52.396378Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9406,7 +9406,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "3",
       "flurstueck": "199/52",
-      "fetched_at": "2026-06-14T03:05:38.851373+00:00",
+      "fetched_at": "2026-08-23T13:26:37.618901+00:00",
       "permit_number": "B-2018-1479-4",
       "description": "Nachtrag zu Baugenehmigung B 2017-819-4:\nMieterausbau Markt 16 und 18, Wirtshaus mit zwei Etagen",
       "site_address": "Markt 16 - 18",
