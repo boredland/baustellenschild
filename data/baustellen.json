@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T08:12:45.132263Z",
+    "last_updated": "2026-08-23T08:36:48.955551Z",
     "total": 1165,
-    "errors": 18,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10498,7 +10498,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "5",
       "flurstueck": "643/237",
-      "fetched_at": "2026-06-13T11:37:56.927213+00:00",
+      "fetched_at": "2026-08-23T08:19:01.621212+00:00",
       "permit_number": "B-2022-190-4",
       "description": "Errichtung einer gartenseitigen Außentreppe h > 1,00 m an einem Reihenmittelhaus",
       "site_address": "Heinrich-Rößler-Straße 6",
@@ -15241,7 +15241,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "10",
       "flurstueck": "33/0",
-      "fetched_at": "2026-06-13T12:35:29.625259+00:00",
+      "fetched_at": "2026-08-23T08:21:55.336599+00:00",
       "permit_number": "B-2023-60-3",
       "description": "Rückbau und Wiederrichten des Daches in veränderter Form, Erhöhung der Brandwand, \nErrichten einer Loggia im 1. OG und Herstellen eines Windfangs im EG, \nNutzungsänderung einer Schank- und Speisewirtschaft und Laden \nzu 2 Wohneinheiten im EG - 1. OG in einem Mehrfamilienhaus",
       "site_address": "Alt-Fechenheim 31",
