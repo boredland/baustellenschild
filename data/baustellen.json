@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T10:07:16.952050Z",
+    "last_updated": "2026-08-23T10:32:56.025222Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7478,9 +7478,9 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "1",
       "flurstueck": "513/6",
-      "fetched_at": "2026-06-15T01:52:06.696124+00:00",
+      "fetched_at": "2026-08-23T10:27:48.527597+00:00",
       "permit_number": "B-2015-506-3",
-      "description": "Errichtung eines zweigeschossigen Anbaus an ein Werkstattgebäude, Herstellen von 3 Stellplätzen (hiervon 1 Stellplatz innerhalb des Gebäudes), Rückbau  des Daches des Bestandshauses bei Neuerrichtung eines Flachdaches",
+      "description": "Errichtung eines zweigeschossigen Anbaus an ein Werkstattgebäude,...",
       "site_address": "Deuil-La-Barre-Straße 9",
       "parcel_info": "Nieder-Eschbach Bezirk 67 (506), 1, 513/6",
       "builder_name": "Grgic Luka",
