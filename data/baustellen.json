@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T20:29:58.653470Z",
+    "last_updated": "2026-08-23T21:03:05.438907Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2146,7 +2146,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "32",
       "flurstueck": "29/0",
-      "fetched_at": "2026-06-14T05:07:45.617847+00:00",
+      "fetched_at": "2026-08-23T20:54:11.912921+00:00",
       "permit_number": "B-2023-16-4",
       "description": "Nutzungsänderung von einem Laden in eine Schank- und Speisewirtschaft im EG eines Büro- und Geschäftshauses, Einrichtung eines Wirtschaftsgarten befristet auf 5 Jahre",
       "site_address": "Neue Mainzer Straße 74",
@@ -10005,7 +10005,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "4",
       "flurstueck": "2/12",
-      "fetched_at": "2026-06-14T05:07:46.791339+00:00",
+      "fetched_at": "2026-08-23T20:51:36.016610+00:00",
       "permit_number": "B-2022-265-4",
       "description": "Brandschutzrelevante Grundrissänderungen in allen Geschossen mit Fassadenänderungen und Umbau eines Schulungsbereiches in einen Veranstaltungsraum im 3.OG des Personal- und Organisationsamts",
       "site_address": "Alte Mainzer Gasse 4 - 6",
@@ -19871,7 +19871,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "10",
       "flurstueck": "14/2",
-      "fetched_at": "2026-06-14T08:48:41.128348+00:00",
+      "fetched_at": "2026-08-23T20:46:57.417538+00:00",
       "permit_number": "B-2021-1447-6",
       "description": "Errichtung eines Mehrfamilienhauses mit 8 WE inkl. Tiefgarage mit 8 Stellplätzen",
       "site_address": "Teutonenweg 38a",
