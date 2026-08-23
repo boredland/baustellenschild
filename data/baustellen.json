@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-22T23:29:17.298766Z",
+    "last_updated": "2026-08-23T00:00:04.990696Z",
     "total": 1165,
-    "errors": 30,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15344,7 +15344,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "17",
       "flurstueck": "27/4",
-      "fetched_at": "2026-06-14T10:13:01.679564+00:00",
+      "fetched_at": "2026-08-22T23:45:27.317389+00:00",
       "permit_number": "B-2023-1192-5",
       "description": "Errichtung eines Mehrfamilienhauses mit 39 Wohneinheiten und einer Tiefgarage mit 14 Stellplätze und Herstellen von einem Stellplatz im Außenbereich",
       "site_address": "Melibocusstraße 48 - 48d",
@@ -16090,7 +16090,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "2",
       "flurstueck": "143/240",
-      "fetched_at": "2026-06-14T03:08:23.654176+00:00",
+      "fetched_at": "2026-08-22T23:41:57.621313+00:00",
       "permit_number": "B-2020-587-6",
       "description": "Aufbringung einer Aufsparrendämmung, Errichten einer Balkonanlage vom EG - 2. OG an einem Mehrfamilienhaus",
       "site_address": "Andreasstraße 11",
