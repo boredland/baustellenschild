@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T13:26:52.396378Z",
+    "last_updated": "2026-08-23T14:09:04.593469Z",
     "total": 1165,
     "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -1091,7 +1091,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "30",
       "flurstueck": "34/24",
-      "fetched_at": "2026-06-14T03:05:36.587344+00:00",
+      "fetched_at": "2026-08-23T13:54:39.292457+00:00",
       "permit_number": "B-2018-296-4",
       "description": "Brandschutzrelevante Grundrissänderungen mit Eingriffen in die Statik, Änderung der Lüftungsanlage, Herstellen einer Rampenanlage zur barrierefreien Erschließung an der Alten Oper",
       "site_address": "Opernplatz 1",
