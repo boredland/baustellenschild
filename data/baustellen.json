@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T15:04:36.997279Z",
+    "last_updated": "2026-08-23T15:31:50.515973Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2740,7 +2740,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "5",
       "flurstueck": "1/4",
-      "fetched_at": "2026-06-14T08:46:57.957872+00:00",
+      "fetched_at": "2026-08-23T15:20:37.610744+00:00",
       "permit_number": "B-2021-873-4",
       "description": "Rückbau und Wiedererrichtung des Daches in veränderter Form, Herstellen einer neuen Dachgeschosswohnung, sowie Errichten einer Außentreppe und eines Balkon",
       "site_address": "Amöneburger Straße 16",
@@ -2760,7 +2760,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "5",
       "flurstueck": "1/97",
-      "fetched_at": "2026-06-14T08:47:00.171887+00:00",
+      "fetched_at": "2026-08-23T15:23:49.612730+00:00",
       "permit_number": "B-2021-720-4",
       "description": "Ausbau des Dachgeschoss zur Wohnraumerweiterung mit 2 Gauben an einem Reihenmittelhaus",
       "site_address": "Allendorfer Straße 55",
@@ -2780,7 +2780,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "5",
       "flurstueck": "1/96",
-      "fetched_at": "2026-06-14T08:47:00.938342+00:00",
+      "fetched_at": "2026-08-23T15:24:31.630022+00:00",
       "permit_number": "B-2021-722-4",
       "description": "Ausbau des Dachgeschoss zur Wohnraumerweiterung mit 2 Gauben an einem Reihenmittelhaus",
       "site_address": "Allendorfer Straße 57",
