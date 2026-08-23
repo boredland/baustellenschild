@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T23:03:08.529978Z",
+    "last_updated": "2026-08-23T23:29:44.189083Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17292,9 +17292,9 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "3",
       "flurstueck": "151/2",
-      "fetched_at": "2026-06-14T08:47:24.426784+00:00",
+      "fetched_at": "2026-08-23T23:28:31.608457+00:00",
       "permit_number": "B-2017-461-6",
-      "description": "Nutzungsänderung von Teilflächen des Verwaltungsgebäudes in Büroeinheiten, Räume für kulturelle und soziale Nutzung, Ausstellungs- und Versammlungsräume und eine Schank-und Speisewirtschaft mit Wirtschaftsgarten, brandschutzrelevante bauliche Änderungen und Änderungen der haustechnischen Anlagen",
+      "description": "Nutzungsänderung von Teilflächen des Verwaltungsgebäudes in...",
       "site_address": "Bolongarostraße 109",
       "parcel_info": "Höchst Bezirk 57 (498), 3, 151/2",
       "builder_name": "Stadt Frankfurt am Main, der Magistrat",
