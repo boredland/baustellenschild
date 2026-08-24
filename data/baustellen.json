@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T06:18:02.324022Z",
+    "last_updated": "2026-08-24T07:24:10.799959Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9365,7 +9365,7 @@
       "gemarkung_label": "Sindlingen Bezirk 60",
       "flur": "21",
       "flurstueck": "166/65",
-      "fetched_at": "2026-06-14T22:57:42.495783+00:00",
+      "fetched_at": "2026-08-24T07:08:39.226019+00:00",
       "permit_number": "B-2024-594-6",
       "description": "Nutzungsänderung von einem Rehabilitationshaus in 2 Büro- und 6 Wohneinheiten sowie Neuanordnung von 10 PKW-Stellplätzen und Neuerrichtung eines behindertengerechten Stellplatzes.",
       "site_address": "Weinbergstraße 9",
