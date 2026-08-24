@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T23:08:00.912773Z",
+    "last_updated": "2026-08-24T23:33:43.931766Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14373,7 +14373,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "39",
       "flurstueck": "364/1",
-      "fetched_at": "2026-06-13T21:56:10.923275+00:00",
+      "fetched_at": "2026-08-24T23:32:11.590837+00:00",
       "permit_number": "B-2024-629-4",
       "description": "Errichten eines Zwerchhauses mit vorgestelltem Balkon, Errichten einer Gaube sowie Einbau von Dachflächenfenstern im Dachgeschoss zur Wohnraumerweiterung an einem Wohn- und Geschäftshaus",
       "site_address": "Talstraße 48",
@@ -17868,7 +17868,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "4",
       "flurstueck": "175/1",
-      "fetched_at": "2026-06-14T11:21:27.999586+00:00",
+      "fetched_at": "2026-08-24T23:19:53.496926+00:00",
       "permit_number": "B-2022-605-6",
       "description": "Statisch- und brandschutzrelevante Grundrissänderungen im Dachgeschoss an der Robert-Koch-Schule",
       "site_address": "Justinusplatz 7",
