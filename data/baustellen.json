@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-23T23:59:36.354492Z",
+    "last_updated": "2026-08-24T01:02:26.430686Z",
     "total": 1165,
-    "errors": 28,
+    "errors": 17,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16192,7 +16192,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "20",
       "flurstueck": "55/2",
-      "fetched_at": "2026-06-14T13:08:51.164632+00:00",
+      "fetched_at": "2026-08-24T00:57:00.739415+00:00",
       "permit_number": "B-2020-1453-5",
       "description": "Rückbau Dach und Wiedererrichten in geänderter Form auf dem Nebengebäude, Rückbau Dachgeschoss und Aufstockung von einem 1. OG und DG als Wohnraumerweiterung für ein Einfamilienhaus",
       "site_address": "Goldsteinstraße 7",
