@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T21:14:03.339902Z",
+    "last_updated": "2026-08-24T21:39:09.312351Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 31,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17579,7 +17579,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "5",
       "flurstueck": "90/12",
-      "fetched_at": "2026-06-15T07:17:52.667380+00:00",
+      "fetched_at": "2026-08-24T21:39:09.304724+00:00",
       "permit_number": "B-2025-48-5",
       "description": "brandschutz-, statisch- und lüftungstechnisch relevante Grundrissänderungen in allen Geschossen, sowie Rückbau und Wiedererrichten der Wintergärten im EG in veränderter Form an einem Verwaltungsgebäude.",
       "site_address": "Ederstraße 12",
