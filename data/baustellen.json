@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T10:26:21.820287Z",
+    "last_updated": "2026-08-24T11:18:40.044802Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17135,7 +17135,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "4",
       "flurstueck": "469/129",
-      "fetched_at": "2026-06-15T03:08:42.270903+00:00",
+      "fetched_at": "2026-08-24T11:03:41.620927+00:00",
       "permit_number": "B-2024-1103-5",
       "description": "Rückbau des Kirchturmspitze (Turmhelm) und Wiedererrichtung in veränderter Form\nPfarrkirche St. Elisabeth",
       "site_address": "Elisabethenplatz 5",
