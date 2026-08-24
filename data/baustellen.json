@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T20:40:00.714795Z",
+    "last_updated": "2026-08-24T21:14:03.339902Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3751,7 +3751,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "526",
       "flurstueck": "87/47",
-      "fetched_at": "2026-06-14T15:14:01.654527+00:00",
+      "fetched_at": "2026-08-24T21:05:50.217185+00:00",
       "permit_number": "B-2023-1287-5",
       "description": "Errichten einer Aufstockung als Erweiterung der Büronutzung; Errichten von Überdachungen für Stellplätze; Rückbau und Wiederanbringen der Fassade in veränderter Form, sowie innere Umbauten in einem Bürogebäude",
       "site_address": "Schaumainkai (Museumsufer) 47",
@@ -3772,7 +3772,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "526",
       "flurstueck": "134/54",
-      "fetched_at": "2026-06-14T15:14:02.283599+00:00",
+      "fetched_at": "2026-08-24T21:06:38.236063+00:00",
       "permit_number": "B-2022-653-5",
       "description": "Nutzungsänderung von freiberuflicher Nutzung im EG, Büroflächen im UG in Wohnflächen, Einbau von Dachflächenfenstern und innere Umbauten an einem Einfamilienwohnhaus",
       "site_address": "Städelstraße 6",
@@ -3792,7 +3792,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "526",
       "flurstueck": "145/54",
-      "fetched_at": "2026-06-14T15:14:02.239466+00:00",
+      "fetched_at": "2026-08-24T21:08:20.232855+00:00",
       "permit_number": "B-2021-427-5",
       "description": "Brandschutz- und lüftungsrelevante Grundrissänderungen,\nHerstellung eines Fluchttunnels im KG und\nenergetischer Sanierung der Wand-/ und Dachflächen des Architekturmuseums",
       "site_address": "Schaumainkai (Museumsufer) 43",
