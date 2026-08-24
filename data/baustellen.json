@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T07:24:10.799959Z",
+    "last_updated": "2026-08-24T08:28:04.132354Z",
     "total": 1165,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -3089,7 +3089,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "33",
       "flurstueck": "26/0",
-      "fetched_at": "2026-06-14T07:02:44.429402+00:00",
+      "fetched_at": "2026-08-24T08:25:36.046065+00:00",
       "permit_number": "B-2024-954-4",
       "description": "Nutzungsänderung von Büro in Laden im 1.OG zur Erweiterung der Ladenfläche im EG, Einbau einer Verbindungstreppe EG/1.OG und Fassadenänderung in einem Büro- und Geschäftshaus",
       "site_address": "Goethestraße 7",
@@ -3196,7 +3196,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "33",
       "flurstueck": "29/0",
-      "fetched_at": "2026-06-14T07:02:37.777206+00:00",
+      "fetched_at": "2026-08-24T08:26:06.110155+00:00",
       "permit_number": "B-2021-483-4",
       "description": "brandschutzrelevante Grundrissänderungen, Nutzungsänderung von freiberunflicher Nutzung gem. §13 BauNVO (Praxis) in Büroflächen im 6.OG Bauteil B eines Büro- und Geschäftshauses",
       "site_address": "Goetheplatz 9",
@@ -3256,7 +3256,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "33",
       "flurstueck": "4/0",
-      "fetched_at": "2026-06-14T07:02:37.321931+00:00",
+      "fetched_at": "2026-08-24T08:23:06.118532+00:00",
       "permit_number": "B-2023-1279-4",
       "description": "Errichtung eines Außenaufzuges, Fassadenänderungen, innere Umbauten mit Errichtung eines inneren Aufzuges vom 1.UG bis zum 3.OG, Nutzungsänderung von Büro in Verkaufsraum im 2.OG sowie Errichtung einer haustechnischen Anlage auf dem Dach",
       "site_address": "Goethestraße 11",
