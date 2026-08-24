@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T20:09:45.721260Z",
+    "last_updated": "2026-08-24T20:40:00.714795Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11240,7 +11240,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "4",
       "flurstueck": "75/1",
-      "fetched_at": "2026-06-14T08:44:39.843946+00:00",
+      "fetched_at": "2026-08-24T20:29:17.325373+00:00",
       "permit_number": "B-2023-1136-4",
       "description": "Rückbau und Wiedererrichtung des Turmaufbaus in veränderter Form am Südflügel des Römers (\"Langer Franz\").",
       "site_address": "Bethmannstraße 3",
