@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T18:13:19.812439Z",
+    "last_updated": "2026-08-24T19:00:44.818174Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22134,7 +22134,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "37",
       "flurstueck": "8506/34",
-      "fetched_at": "2026-06-15T01:52:28.411246+00:00",
+      "fetched_at": "2026-08-24T18:52:26.292236+00:00",
       "permit_number": "B-2021-1107-5",
       "description": "Errichten eines Technikgebäudes (EP-Station) auf der Abwasserreinigungsanlage Niederrad",
       "site_address": "Goldsteinstraße 160",
