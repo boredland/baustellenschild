@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T04:38:36.706637Z",
+    "last_updated": "2026-08-24T05:26:34.720993Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21800,7 +21800,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "37",
       "flurstueck": "8500/77",
-      "fetched_at": "2026-06-15T00:41:36.972774+00:00",
+      "fetched_at": "2026-08-24T05:24:49.913714+00:00",
       "permit_number": "B-2024-161-5",
       "description": "Brandschutz-, lüftungs- und statischrelevante Änderungen eines Bürogebäudes im UG - 17.OG mit Fassadenänderungen; Nutzungsänderung von Büro in ein Studierendenwohnheim mit 236 Plätzen und Gemeinschaftsräumen im 1.OG - 17. OG; Nutzungsänderung im EG von zwei Läden in Räume für das Studierendenwohnheim (Waschsalon + Arbeiten), von 3 Läden in Büro; Aufteilen von einer Bürofläche in zwei Einheiten und Nutzungsänderung von Büro in eine Schank- und Speisewirtschaft; sowie einem Beherbergungsbetrieb mit 288 Gastbetten in 144 Zimmern im 5.- 17.OG (Hotel) und einer Schank- und Speisewirtschaft im 17.OG; Errichten eines Wirtschaftsgartens befristet auf 5 Jahre und eines Verbindungsganges im EG; Rückbau des Parkdecks; Errichten einer Kindertagesstätte im EG und 1.OG, sowie 12 Wohneinheiten",
       "site_address": "Lyoner Straße 14",
@@ -22069,7 +22069,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "37",
       "flurstueck": "8500/112",
-      "fetched_at": "2026-06-15T00:41:38.361408+00:00",
+      "fetched_at": "2026-08-24T05:25:59.308544+00:00",
       "permit_number": "B-2023-975-5",
       "description": "Erneuerung der Stromversorgung mit Eingriffen in den Brandschutz im UG eines Büro- und Geschäftshauses sowie temporäre Errichtung einer Trafostation, befristet auf 12 Monate.",
       "site_address": "Lyoner Straße 22",
