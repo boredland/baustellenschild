@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T21:39:09.312351Z",
+    "last_updated": "2026-08-24T22:08:37.251643Z",
     "total": 1165,
-    "errors": 31,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17558,7 +17558,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "5",
       "flurstueck": "13/12",
-      "fetched_at": "2026-06-15T05:16:19.075091+00:00",
+      "fetched_at": "2026-08-24T21:52:30.328134+00:00",
       "permit_number": "B-2022-1140-5",
       "description": "Errichtung einer Feuer- und Rettungswache mit Betriebshof, 14 Wohneinheiten im 2.-3. OG und einer Tiefgarage mit 32 Stellplätzen",
       "site_address": "Schwälmer Straße 24 - 26",
