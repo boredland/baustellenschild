@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T02:35:50.634058Z",
+    "last_updated": "2026-08-24T03:47:04.518170Z",
     "total": 1165,
-    "errors": 17,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18209,7 +18209,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "14",
       "flurstueck": "15/0",
-      "fetched_at": "2026-06-15T05:17:32.501513+00:00",
+      "fetched_at": "2026-08-24T03:46:24.247860+00:00",
       "permit_number": "B-2024-44-3",
       "description": "Rückbau und Wiedererrichten des Daches in geänderter Form, Ausbau des Spitzbodens zur Wohnraumerweiterung der Wohnungen im 2. OG sowie Errichtung von Balkonen an einem Mehrfamilienwohnhaus",
       "site_address": "Offenbacher Landstraße 398",
