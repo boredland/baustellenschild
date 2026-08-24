@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T13:48:16.859313Z",
+    "last_updated": "2026-08-24T14:50:21.313776Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13388,7 +13388,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "38",
       "flurstueck": "3248/5",
-      "fetched_at": "2026-06-13T20:57:15.902983+00:00",
+      "fetched_at": "2026-08-24T14:35:41.908761+00:00",
       "permit_number": "B-2025-39-4",
       "description": "Errichtung einer Doppelhaushälfte mit einer Wohnung und Herstellen von 2 KFZ-Stellplätzen",
       "site_address": "An der Wellenburg 3",
@@ -13409,7 +13409,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "38",
       "flurstueck": "3583/6",
-      "fetched_at": "2026-06-13T21:29:57.837200+00:00",
+      "fetched_at": "2026-08-24T14:37:53.914403+00:00",
       "permit_number": "B-2022-1227-4",
       "description": "Neubau eines Mehrfamilienhauses mit 3 Wohneinheiten und Herstellen von 6 freien Stellplätzen",
       "site_address": "An der Bergstraße 1",
@@ -16336,7 +16336,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "14",
       "flurstueck": "885/1",
-      "fetched_at": "2026-06-14T14:17:13.348741+00:00",
+      "fetched_at": "2026-08-24T14:35:36.050301+00:00",
       "permit_number": "B-2017-1922-6",
       "description": "Anbau zur Erweiterung der Hostatoschule sowie brandschutz- und statisch relevanten inneren Umbauten, sowie Teilrückbau eines Unterführungsbauwerks und Herstellen einer Stahlbetonplatte",
       "site_address": "Hostatostraße 38",
