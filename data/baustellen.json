@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T11:18:40.044802Z",
+    "last_updated": "2026-08-24T12:08:19.628170Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11736,7 +11736,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "6",
       "flurstueck": "216/33",
-      "fetched_at": "2026-06-13T13:34:50.512180+00:00",
+      "fetched_at": "2026-08-24T11:56:43.496256+00:00",
       "permit_number": "B-2020-1347-4",
       "description": "Neubau eines Mehrfamilienhauses mit 7 Wohneinheiten und einer Tiefgarage mit 8 Stellplätzen",
       "site_address": "Lichtenbergstraße 27",
