@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T12:08:19.628170Z",
+    "last_updated": "2026-08-24T12:46:58.603361Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14313,7 +14313,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "6",
       "flurstueck": "115/16",
-      "fetched_at": "2026-06-15T03:09:04.092499+00:00",
+      "fetched_at": "2026-08-24T12:43:40.019691+00:00",
       "permit_number": "B-2023-493-4",
       "description": "Abbruch des Daches und Wiedererrichtung in anderer Form, Erweiterung der bestehenden Wohnfläche im Dachgeschoss, sowie energetische Sanierung",
       "site_address": "Am Mühlgarten 11a",
