@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T12:46:58.603361Z",
+    "last_updated": "2026-08-24T13:48:16.859313Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16357,7 +16357,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "14",
       "flurstueck": "882/3",
-      "fetched_at": "2026-06-14T14:17:13.219191+00:00",
+      "fetched_at": "2026-08-24T13:41:57.654915+00:00",
       "permit_number": "B-2017-747-6",
       "description": "Nutzungsänderung im Erdgeschoss:  Werkstatt in Wohnen sowie Errichtung einer Gaube und Ausbau DG zur Wohnraumerweiterung im Hinterhaus,\nHerstellen von zwei Stellplätzen sowie nachträgliche Legalisierung einer Dachterrasse am Vorderhaus",
       "site_address": "Ludwigshafener Straße 47",
@@ -17640,7 +17640,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "4",
       "flurstueck": "152/7",
-      "fetched_at": "2026-06-14T10:12:43.280522+00:00",
+      "fetched_at": "2026-08-24T13:40:03.823445+00:00",
       "permit_number": "B-2022-894-6",
       "description": "Nutzungsänderung von einer Schank- und Speisewirtschaft in Räume für freiberufliche Nutzung (Arztpraxis) gem. §13 BauNVO im EG",
       "site_address": "Bolongarostraße 115",
@@ -17660,7 +17660,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "4",
       "flurstueck": "171/5",
-      "fetched_at": "2026-06-14T10:12:44.957631+00:00",
+      "fetched_at": "2026-08-24T13:42:15.913628+00:00",
       "permit_number": "B-2023-960-6",
       "description": "Brandschutzrelevante Umbaumaßnahmen, Einbau von Raumlufttechnischen Alagen im Serverraum und Kellergeschoss sowie Fachwerksanierung im 2.OG an der Robert-Koch-Schule",
       "site_address": "Justinusplatz 7",
