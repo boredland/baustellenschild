@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T19:26:17.815304Z",
+    "last_updated": "2026-08-24T20:09:45.721260Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20273,7 +20273,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "10",
       "flurstueck": "84/5",
-      "fetched_at": "2026-06-14T11:22:45.860328+00:00",
+      "fetched_at": "2026-08-24T20:00:44.227915+00:00",
       "permit_number": "B-2024-197-6",
       "description": "Nutzungsänderung von Lager /Abstellraum im EG eines Mehrfamilienwohnhauses und 2 Garagenanlagen in 9 Wohneinheiten + Entfall von 10 Garagenstellplätzen + Errichtung von 10 offenen Stellplätzen",
       "site_address": "Königsteiner Straße 132",
@@ -20284,7 +20284,10 @@
       "represented_by": "v.d.d. Herrn Dr. Toufik Karroum",
       "architect_name": "Ronalter Karin",
       "architect_address": "Marktstraße 25",
-      "architect_location": "60388 Frankfurt am Main"
+      "architect_location": "60388 Frankfurt am Main",
+      "site_manager_name": "Errejouai Aissa",
+      "site_manager_address": "Königsteiner Straße  106",
+      "site_manager_location": "65929 Frankfurt am Main"
     },
     {
       "gemarkung_id": 508,
