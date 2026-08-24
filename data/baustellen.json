@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T05:26:34.720993Z",
+    "last_updated": "2026-08-24T06:18:02.324022Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22090,9 +22090,9 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "37",
       "flurstueck": "8500/142",
-      "fetched_at": "2026-06-15T00:41:39.858414+00:00",
+      "fetched_at": "2026-08-24T06:03:23.210367+00:00",
       "permit_number": "B-2018-1820-5",
-      "description": "Brandschutzrelevante Grundrissänderungen (Aufteilung 400m²-Einheiten) im EG, 3.OG, 5.OG, 6.OG., 7.OG und 8.OG sowie Nutzungsänderung im EG und 5.OG in einem Büro- und Geschäftshaus",
+      "description": "Brandschutzrelevante Grundrissänderungen (Aufteilung...",
       "site_address": "Lyoner Straße 15",
       "parcel_info": "Schwanheim Bezirk 53 (511), 37, 8500/142",
       "builder_name": "N2 Propco 1 S.à r.l.",
@@ -22112,9 +22112,9 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "37",
       "flurstueck": "8500/158",
-      "fetched_at": "2026-06-15T00:41:41.275489+00:00",
+      "fetched_at": "2026-08-24T06:03:46.798906+00:00",
       "permit_number": "B-2020-828-5",
-      "description": "Brandschutzrelevante Grundrissänderungen  in den Geschossen EG bis 16. OG, Rückbau des Vordaches und Wiedererrichtung in geänderter Form",
+      "description": "Brandschutzrelevante Grundrissänderungen  in den Geschossen EG...",
       "site_address": "Herriotstraße 4",
       "parcel_info": "Schwanheim Bezirk 53 (511), 37, 8500/158",
       "builder_name": "WealthCap Spezial-AIF 5 GmbH & Co. geschlossene Investment KG",
