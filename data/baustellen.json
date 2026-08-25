@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T16:24:26.406879Z",
+    "last_updated": "2026-08-25T17:21:31.823098Z",
     "total": 1165,
     "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -11200,7 +11200,7 @@
       "gemarkung_label": "Sindlingen Bezirk 60",
       "flur": "23",
       "flurstueck": "20/1",
-      "fetched_at": "2026-06-15T00:41:46.960448+00:00",
+      "fetched_at": "2026-08-25T17:15:22.400317+00:00",
       "permit_number": "B-2021-1072-6",
       "description": "Errichtung eines Gebäudes mit landwirtschaftlich genutztem Lager im EG und einer Wohneinheit in OG und DG, sowie Errichtung zweier Stellplätze",
       "site_address": "Alt-Sindlingen 18a",
@@ -22930,7 +22930,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "32",
       "flurstueck": "369/14",
-      "fetched_at": "2026-06-13T12:36:49.154670+00:00",
+      "fetched_at": "2026-08-25T17:06:22.033787+00:00",
       "permit_number": "B-2023-879-3",
       "description": "Nutzungsänderung von Blumenstand in Schank- und Speisewirtschaft (Bistro) in Achse 3/4; \nEinbau einer Lüftungsanlage in der neuen Halle (Galerie 2/7 - G); \nEinbau von 2 Kühlzellen (Achsen 14/15-C und 4-A), \nsowie brandschutzrelevante Änderungen in der Blumengroßmarkthalle",
       "site_address": "An der Festeburg 31",
