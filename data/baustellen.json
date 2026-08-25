@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T22:36:15.509709Z",
+    "last_updated": "2026-08-25T23:09:23.309893Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 29,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7458,7 +7458,7 @@
       "gemarkung_label": "Niederursel/F. Bezirk 48F",
       "flur": "24",
       "flurstueck": "93/40",
-      "fetched_at": "2026-06-13T19:35:25.794182+00:00",
+      "fetched_at": "2026-08-25T23:00:52.562012+00:00",
       "permit_number": "B-2024-719-4",
       "description": "Neubau eines Einfamilienhauses sowie Herstellung eines Stellplatzes",
       "site_address": "Erbsengasse 19",
@@ -17701,7 +17701,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "23",
       "flurstueck": "100/0",
-      "fetched_at": "2026-06-14T17:01:47.019263+00:00",
+      "fetched_at": "2026-08-25T22:55:40.517089+00:00",
       "permit_number": "B-2023-728-5",
       "description": "Rückbau und Wiedererrichtung des Daches in geänderter Form; Aufteilen des Mansardgeschosses in zwei Wohneinheiten und Ausbau des Spitzbodens zur Wohnraumerweiterung der Mansardwohnungen; Herstellen von zwei Balkonen und zwei Dachterrassen, sowie Vergrößerung der straßenseitigen Dachgauben und Errichten von zwei hofseitigen Balkonanlagen für EG - 2.OG an einem Mehrfamilienhaus",
       "site_address": "Königslacher Straße 39",
