@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T10:49:59.024508Z",
+    "last_updated": "2026-08-25T11:36:33.424943Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18132,7 +18132,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "5",
       "flurstueck": "202/0",
-      "fetched_at": "2026-06-14T12:13:16.815011+00:00",
+      "fetched_at": "2026-08-25T11:31:17.518900+00:00",
       "permit_number": "B-2024-1019-6",
       "description": "Errichtung eines Tores (H = 3,15m) an einem Wohn- und Geschäftshaus",
       "site_address": "Höchster Schloßplatz 14",
