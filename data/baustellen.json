@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T06:13:53.399741Z",
+    "last_updated": "2026-08-25T06:48:15.952623Z",
     "total": 1165,
-    "errors": 18,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11616,7 +11616,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "7",
       "flurstueck": "70/1",
-      "fetched_at": "2026-06-14T10:10:01.217344+00:00",
+      "fetched_at": "2026-08-25T06:46:21.846853+00:00",
       "permit_number": "B-2020-707-4",
       "description": "Brandschutzrelevante bauliche Änderungen in 2 Schank- und Speisegaststätten im EG eines Büro- und Geschäftshauses, sowie Herstellen von zwei Wirtschaftsgärten befristet auf 5 Jahre",
       "site_address": "Neue Mainzer Straße 6 - 10",
@@ -20438,7 +20438,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "10",
       "flurstueck": "134/7",
-      "fetched_at": "2026-06-14T12:14:25.113040+00:00",
+      "fetched_at": "2026-08-25T06:36:21.940470+00:00",
       "permit_number": "B-2018-583-6",
       "description": "Anbau einer Terrassenüberdachung an ein Reihenmittelhaus",
       "site_address": "Alemannenweg 76",
