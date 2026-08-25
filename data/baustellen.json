@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T12:09:47.111588Z",
+    "last_updated": "2026-08-25T12:47:46.030222Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17333,9 +17333,9 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "23",
       "flurstueck": "35/0",
-      "fetched_at": "2026-06-14T16:03:57.470372+00:00",
+      "fetched_at": "2026-08-25T12:38:56.705374+00:00",
       "permit_number": "B-2019-1621-5",
-      "description": "Dachgeschossausbau zu 2 Wohneinheiten sowie Errichtung von 2 Gauben an einem Mehrfamilienhaus",
+      "description": "Dachgeschossausbau zu 2 Wohneinheiten sowie Errichtung von 2...",
       "site_address": "Herzogstraße 24",
       "parcel_info": "Niederrad Bezirk 37 (502), 23, 35/",
       "builder_name": "Selle Thomas",
