@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T21:37:44.920752Z",
+    "last_updated": "2026-08-25T22:08:29.494724Z",
     "total": 1165,
-    "errors": 30,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -759,7 +759,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "5",
       "flurstueck": "206/1",
-      "fetched_at": "2026-06-14T13:08:31.593773+00:00",
+      "fetched_at": "2026-08-25T21:54:09.526587+00:00",
       "permit_number": "B-2021-1354-6",
       "description": "Nutzungsänderung von Laden in eine Schank-und Speisewirtschaft und Fahrrad-Abstellraum im EG eines Wohn- und Geschäftshauses",
       "site_address": "Bolongarostraße 175",
@@ -14671,7 +14671,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "39",
       "flurstueck": "3449/1",
-      "fetched_at": "2026-06-13T22:52:21.387475+00:00",
+      "fetched_at": "2026-08-25T22:08:20.605204+00:00",
       "permit_number": "B-2022-670-4",
       "description": "Anbau eines Treppenhauses zur Verbindung Vorder- und Hinterhaus mit Nutzungsaufteilung von 2 Wohneinheiten zu 3 Wohneinheiten, sowie Errichtung einer Gaube an einem Mehrfamilienhaus mit Rückbau von Nebenanlagen und Herstellen von 2 Stellplätzen",
       "site_address": "Kalbacher Hauptstraße 68",
