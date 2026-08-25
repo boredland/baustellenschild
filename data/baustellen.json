@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T15:29:57.939721Z",
+    "last_updated": "2026-08-25T16:24:26.406879Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17412,7 +17412,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "4",
       "flurstueck": "23/1",
-      "fetched_at": "2026-06-15T05:17:48.814880+00:00",
+      "fetched_at": "2026-08-25T16:10:48.207828+00:00",
       "permit_number": "B-2022-1183-5",
       "description": "Nutzungsänderung von Räumen der Stadtbibliothek in Räume zur freiberuflichen Nutzung gem. § 13 Bau NVO sowie Erweiterung der Bibliothek im 2.OG eines Wohn- und Geschäftshauses",
       "site_address": "Radilostraße 17 - 19",
@@ -22262,7 +22262,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "39",
       "flurstueck": "8679/24",
-      "fetched_at": "2026-06-15T05:17:49.911645+00:00",
+      "fetched_at": "2026-08-25T16:15:00.496764+00:00",
       "permit_number": "B-2023-561-6",
       "description": "Errichtung eines Anbaus am Betriebsgebäude der Revierförsterei Schwanheim",
       "site_address": "Schwanheimer Bahnstraße 51",
