@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T11:36:33.424943Z",
+    "last_updated": "2026-08-25T12:09:47.111588Z",
     "total": 1165,
     "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -17272,7 +17272,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "14",
       "flurstueck": "1663/0",
-      "fetched_at": "2026-06-14T16:03:39.686345+00:00",
+      "fetched_at": "2026-08-25T11:53:10.605422+00:00",
       "permit_number": "B-2022-46-6",
       "description": "Nutzungsänderung im EG von freiberuflicher Nutzung nach §13 BauNVO (Praxis) in eine Wohneinheit sowie Ausbau Dachgeschoss in zwei Wohneinheiten mit Errichten von 2 Gauben in einem Mehrfamilienwohnhaus",
       "site_address": "Gersthofer Straße 6",
