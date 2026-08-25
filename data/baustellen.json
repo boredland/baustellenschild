@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T10:16:49.424270Z",
+    "last_updated": "2026-08-25T10:49:59.024508Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15969,7 +15969,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "11",
       "flurstueck": "1169/208",
-      "fetched_at": "2026-06-13T15:34:28.342288+00:00",
+      "fetched_at": "2026-08-25T10:38:49.490237+00:00",
       "permit_number": "B-2022-1009-3",
       "description": "Rückbau Terrassen und Errichtung von vier Balkonen und zwei Terrassen pro Gebäude, \nRückbau der Beton-Vordächer und Wiedererrichten in geänderter Form sowie\nAnbringen eines Wärmedämmverbundsysthems an vier Mehrfamilienhäusern",
       "site_address": "Am Rütschlehen 2 - 8",
@@ -15990,7 +15990,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "11",
       "flurstueck": "1163/75",
-      "fetched_at": "2026-06-13T15:34:30.403007+00:00",
+      "fetched_at": "2026-08-25T10:38:43.490820+00:00",
       "permit_number": "B-2022-1008-3",
       "description": "Rückbau Terrassen und Errichtung von vier Balkonen\nund zwei Terrassen pro Gebäude, Rückbau der Beton-Vordächer \nund Wiedererrichten in geänderter Form sowie \nAnbringen eines Wärmedämmverbundsystems an acht Mehrfamilienhäusern",
       "site_address": "Am Rütschlehen 10 - 24",
