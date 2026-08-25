@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T07:43:46.430531Z",
+    "last_updated": "2026-08-25T08:23:37.526031Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -4972,7 +4972,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "527",
       "flurstueck": "41/2",
-      "fetched_at": "2026-06-14T16:02:55.281306+00:00",
+      "fetched_at": "2026-08-25T08:10:27.939409+00:00",
       "permit_number": "B-2023-827-5",
       "description": "Aufteilung einer Wohneinheit in zwei Wohneinheiten im 3. OG mit Rückbau des Wintergartens und Herstellen von zwei Dachterrassen, sowie Aufstockung als Wohnraumerweiterung der zwei Wohnungen im 3. OG an einem Mehrfamilienwohnhaus",
       "site_address": "Morgensternstraße 8",
