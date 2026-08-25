@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T21:11:01.641196Z",
+    "last_updated": "2026-08-25T21:37:44.920752Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 30,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14978,7 +14978,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "7",
       "flurstueck": "22/8",
-      "fetched_at": "2026-06-15T09:39:18.460219+00:00",
+      "fetched_at": "2026-08-25T21:26:18.427814+00:00",
       "permit_number": "B-2023-645-4",
       "description": "Umbau eines EFH  und Anbau zur Wohnraumerweiterung im Erdgeschoss, Errichtung von 2 Dachgauben, Teilrückbau einer Doppelgarage und Herstellung von 2 PKW- Stellplätzen sowie Aufstellung einer Luftwärmepumpe und einer Fahrradstellplatzanlage",
       "site_address": "Gottfried-Keller-Straße 92",
