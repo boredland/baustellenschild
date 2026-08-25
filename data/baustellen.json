@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T02:31:13.904794Z",
+    "last_updated": "2026-08-25T03:41:25.124731Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2944,7 +2944,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "18",
       "flurstueck": "473/11",
-      "fetched_at": "2026-06-13T22:53:06.698900+00:00",
+      "fetched_at": "2026-08-25T03:39:47.098722+00:00",
       "permit_number": "B-2020-53-4",
       "description": "Anbau zur Wohnraumerweiterung im Erdgeschoss eines Einfamilienhauses\n\nVerlängert bis 25.10.24",
       "site_address": "Heinrich-Tessenow-Weg 99",
@@ -14528,7 +14528,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "11",
       "flurstueck": "14/2",
-      "fetched_at": "2026-06-14T16:04:18.416890+00:00",
+      "fetched_at": "2026-08-25T03:36:35.133526+00:00",
       "permit_number": "B-2021-1503-4",
       "description": "Erweiterung eines bestehenden gartenseitigen Anbaus sowie dessen Aufstockung zur Wohnraumerweiterung an einer Doppelhaushälfte",
       "site_address": "Am Treutengraben 54",
@@ -14548,7 +14548,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "11",
       "flurstueck": "13/14",
-      "fetched_at": "2026-06-14T16:04:18.027058+00:00",
+      "fetched_at": "2026-08-25T03:34:47.099003+00:00",
       "permit_number": "B-2021-60-4",
       "description": "Errichten eines Anbaus zur Wohnraumerweiterung sowie Aufstockung einer Doppelhaushälfte",
       "site_address": "Am Treutengraben 8",
@@ -18636,7 +18636,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "18",
       "flurstueck": "106/2",
-      "fetched_at": "2026-06-15T09:40:10.746118+00:00",
+      "fetched_at": "2026-08-25T03:28:29.306581+00:00",
       "permit_number": "B-2024-992-3",
       "description": "Wohnraumerweiterung der erdgeschossigen Wohnung \ndurch Zusammenlegung mit der Einliegerwohnung\nErrichtung eines Freisitzes im EG und Überdachung der vorh. Terrasse im OG\nsowie Errichtung eines Anbaus zur Wohnraumerweiterung im EG und OG",
       "site_address": "Im Teller 5",
