@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T05:20:09.115284Z",
+    "last_updated": "2026-08-25T06:13:53.399741Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 18,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20398,7 +20398,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "10",
       "flurstueck": "100/1",
-      "fetched_at": "2026-06-14T11:22:48.904127+00:00",
+      "fetched_at": "2026-08-25T06:11:03.015795+00:00",
       "permit_number": "B-2020-1163-6",
       "description": "Errichten eines Mehrfamilienwohnhauses mit 7 Wohneinheiten und 4 Stellplätzen im Untergeschoss, Errichten einer Doppelgarage sowie Herstellen von 2 Außenstellplätzen",
       "site_address": "Königsteiner Straße 196a",
