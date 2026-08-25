@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T23:09:23.309893Z",
+    "last_updated": "2026-08-25T23:35:10.490443Z",
     "total": 1165,
-    "errors": 29,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2883,7 +2883,7 @@
       "gemarkung_label": "Nieder-Erlenbach Bezirk 64",
       "flur": "5",
       "flurstueck": "331/0",
-      "fetched_at": "2026-06-14T22:31:38.007834+00:00",
+      "fetched_at": "2026-08-25T23:25:53.796225+00:00",
       "permit_number": "B-2024-1187-3",
       "description": "Errichten eines Einfamilienhauses mit Garage und einem Stellplatz",
       "site_address": "An den Bergen 18",
