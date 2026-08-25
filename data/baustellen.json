@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-24T23:33:43.931766Z",
+    "last_updated": "2026-08-25T00:00:49.715000Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16969,7 +16969,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "22",
       "flurstueck": "19/0",
-      "fetched_at": "2026-06-14T15:14:56.392424+00:00",
+      "fetched_at": "2026-08-24T23:56:25.912119+00:00",
       "permit_number": "B-2022-234-5",
       "description": "Nutzungsaufteilung eines Einfamilienhauses in ein Mehrfamilienhaus mit drei Wohneinheiten, Anbau zur Erschließung und Rückbau einer Garage, sowie Errichtung von zwei Doppelhaushälften mit je zwei Wohneinheiten und Herstellen von zwei Stellplätzen",
       "site_address": "Güntherstraße 40",
@@ -17889,7 +17889,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "4",
       "flurstueck": "177/4",
-      "fetched_at": "2026-06-14T11:21:27.831900+00:00",
+      "fetched_at": "2026-08-24T23:43:20.183782+00:00",
       "permit_number": "B-2017-1-6",
       "description": "Neuaufteilung der Wohneinheiten von 5 in 6 mit inneren Umbauten eines Mehrfamilienhauses",
       "site_address": "Allmeygang 1",
