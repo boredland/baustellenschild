@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T06:48:15.952623Z",
+    "last_updated": "2026-08-25T07:43:46.430531Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5261,7 +5261,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "36",
       "flurstueck": "2/2",
-      "fetched_at": "2026-06-14T10:09:59.735258+00:00",
+      "fetched_at": "2026-08-25T07:30:04.512696+00:00",
       "permit_number": "B-2018-778-4",
       "description": "Brandschutz- und statisch relevante Grundrissänderungen im EG und 1.OG, Änderung der Lüftungsanlage und Schaffung einer Versammlungsstätte im 1. OG des Bürogebäudes Deutsche Börse",
       "site_address": "Börsenplatz 2 - 4",
@@ -5281,7 +5281,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "36",
       "flurstueck": "7/1",
-      "fetched_at": "2026-06-14T10:09:58.125988+00:00",
+      "fetched_at": "2026-08-25T07:29:10.117318+00:00",
       "permit_number": "B-2023-186-4",
       "description": "Errichtung eines Büro- und Geschäftshauses mit 4 Ladeneinheiten im EG und Zwischengeschoss sowie Büronutzung vom 1.OG - 6.OG",
       "site_address": "Schillerstraße 16",
@@ -20418,7 +20418,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "10",
       "flurstueck": "124/1",
-      "fetched_at": "2026-06-14T12:14:22.940344+00:00",
+      "fetched_at": "2026-08-25T07:25:46.604587+00:00",
       "permit_number": "B-2022-1077-6",
       "description": "Rückbau- und Wiedererrichten einer Doppelgarage, des Daches des Kiosks und der Schank- und Speisewirtschaft in geänderter Form",
       "site_address": "Gotenstraße 118",
