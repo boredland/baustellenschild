@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T01:01:23.239998Z",
+    "last_updated": "2026-08-25T02:31:13.904794Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10536,7 +10536,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "1",
       "flurstueck": "680/0",
-      "fetched_at": "2026-06-15T09:40:06.471225+00:00",
+      "fetched_at": "2026-08-25T02:23:28.994954+00:00",
       "permit_number": "B-2024-1182-3",
       "description": "Errichtung eines Anbaus zur Wohnraumerweiterung an einem Reihenendhaus",
       "site_address": "Albert-Schweitzer-Straße 17",
