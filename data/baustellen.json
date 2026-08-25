@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T03:41:25.124731Z",
+    "last_updated": "2026-08-25T04:24:34.922812Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18777,7 +18777,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "22",
       "flurstueck": "11/2",
-      "fetched_at": "2026-06-15T09:40:12.369597+00:00",
+      "fetched_at": "2026-08-25T04:07:31.800749+00:00",
       "permit_number": "B-2022-173-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 7 Wohneinheiten \nsowie Herstellen zweier Doppelparker",
       "site_address": "Wiener Straße 28",
