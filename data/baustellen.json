@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T19:25:14.531019Z",
+    "last_updated": "2026-08-25T20:11:07.024667Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17971,9 +17971,9 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "6",
       "flurstueck": "74/7",
-      "fetched_at": "2026-06-15T09:38:55.068929+00:00",
+      "fetched_at": "2026-08-25T20:07:29.402614+00:00",
       "permit_number": "B-2016-1319-5",
-      "description": "Rückbau des Daches und Neuerrichtung in anderer Form mit einer Wohneinheit",
+      "description": "Rückbau des Daches und Neuerrichtung in anderer Form mit einer...",
       "site_address": "Kleine Seestraße 5",
       "parcel_info": "Bockenheim Bezirk 34 (488), 6, 74/7",
       "builder_name": "Panteliadou Dr. Nicoletta",
