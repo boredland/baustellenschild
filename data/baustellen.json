@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T18:10:52.449552Z",
+    "last_updated": "2026-08-25T18:45:24.840682Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -6496,7 +6496,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "36",
       "flurstueck": "72/42",
-      "fetched_at": "2026-06-14T11:18:46.183929+00:00",
+      "fetched_at": "2026-08-25T18:37:00.419454+00:00",
       "permit_number": "B-2023-212-4",
       "description": "Brandschutzrelevante Grundrissänderungen im 2.OG eines Büro- und Geschäftshauses",
       "site_address": "Börsenstraße 2 - 4",
@@ -6602,7 +6602,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "37",
       "flurstueck": "27/2",
-      "fetched_at": "2026-06-14T11:18:51.434165+00:00",
+      "fetched_at": "2026-08-25T18:39:48.521876+00:00",
       "permit_number": "B-2020-112-4",
       "description": "Brandschutztechnische Grundrissänderung im 1. UG des Bürohochhauses durch Umverlegung des NSHV Raunes innerhalb des 1. Untergeschosses",
       "site_address": "Börsenstraße 7 - 11",
