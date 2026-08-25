@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-25T20:11:07.024667Z",
+    "last_updated": "2026-08-25T20:36:41.332583Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 18,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17992,7 +17992,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "7",
       "flurstueck": "50/1",
-      "fetched_at": "2026-06-15T12:03:48.849351+00:00",
+      "fetched_at": "2026-08-25T20:21:20.417923+00:00",
       "permit_number": "B-2021-806-5",
       "description": "Errichtung von 2 Mehrfamilienwohnhäusern mit 32 Wohneinheiten und einer Tiefgarage mit 24 Stellplätzen",
       "site_address": "Fritzlarer Straße 30",
