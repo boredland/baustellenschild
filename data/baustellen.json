@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T09:50:15.634568Z",
+    "last_updated": "2026-08-26T10:43:10.239352Z",
     "total": 1165,
-    "errors": 17,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15261,7 +15261,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "7",
       "flurstueck": "28/53",
-      "fetched_at": "2026-06-15T12:04:14.083152+00:00",
+      "fetched_at": "2026-08-26T10:25:20.407829+00:00",
       "permit_number": "B-2024-318-4",
       "description": "Erweiterung im Eg +Og zur Wohnraumerweiterung und Verglasung der Loggia sowie Neubau eines Balkons an einem Einfamilienhaus",
       "site_address": "Fontanestraße 64",
