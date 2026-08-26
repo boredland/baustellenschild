@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T18:28:02.298125Z",
+    "last_updated": "2026-08-26T20:41:00.331161Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8742,7 +8742,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "39",
       "flurstueck": "38/2",
-      "fetched_at": "2026-06-14T13:05:38.182833+00:00",
+      "fetched_at": "2026-08-26T20:35:51.328211+00:00",
       "permit_number": "B-2022-349-4",
       "description": "Brandschutzrelevante Grundrissänderungen in allen Geschossen, Aufstockung um 4 Geschosse eines Teilbereiches (Bauteil 1) sowie energetische und konstruktive Sanierung der Gesamtfassade der Landwirtschaftlichen Rentenbank und Neubau einer Tiefgarage mit 31 Stellplätzen unter dem Gelände des Wirtschaftshofs und 2 Stellplätzen im Wirtschaftshof",
       "site_address": "Hochstraße 2",
@@ -12826,7 +12826,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "9",
       "flurstueck": "15/7",
-      "fetched_at": "2026-06-14T13:05:34.965367+00:00",
+      "fetched_at": "2026-08-26T20:33:15.139220+00:00",
       "permit_number": "B-2024-972-4",
       "description": "Nutzungsänderung von 17 Wohneinheiten im 4.+ 5.OG in Büro sowie Herstellen von Nutzungseinheiten < 400qm vom 1. - 5.OG in einem Büro- und Geschäftshaus",
       "site_address": "Berliner Straße 60",
