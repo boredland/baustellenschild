@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T14:03:19.809945Z",
+    "last_updated": "2026-08-26T14:53:05.443871Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22443,7 +22443,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "46",
       "flurstueck": "131/0",
-      "fetched_at": "2026-06-15T09:40:32.143497+00:00",
+      "fetched_at": "2026-08-26T14:49:19.712020+00:00",
       "permit_number": "B-2021-899-6",
       "description": "Ausbau Dachgeschoss in Wohneinheit, inkl. Nutzungsänderung: Dachboden in Wohnen, Neubau von 3 Dachgauben, energetische Dachsanierung in MFH",
       "site_address": "An der Schwarzbachmühle 54",
