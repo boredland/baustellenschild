@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T07:56:28.840841Z",
+    "last_updated": "2026-08-26T08:50:42.031987Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9180,7 +9180,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "6",
       "flurstueck": "31/6",
-      "fetched_at": "2026-06-14T15:14:28.367916+00:00",
+      "fetched_at": "2026-08-26T08:35:40.626302+00:00",
       "permit_number": "B-2022-733-4",
       "description": "Anbau zur Wohnraumerweiterung im EG, Schließen der Loggia zu Wohnraumerweiterung im 1.OG sowie Errichten einer Terrasse an einem Einfamilienhaus",
       "site_address": "Klarastraße 16",
