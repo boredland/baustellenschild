@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T06:15:21.216002Z",
+    "last_updated": "2026-08-26T06:59:45.221309Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18414,7 +18414,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "7",
       "flurstueck": "178/11",
-      "fetched_at": "2026-06-13T12:35:11.764739+00:00",
+      "fetched_at": "2026-08-26T06:51:41.347791+00:00",
       "permit_number": "B-2024-1152-5",
       "description": "Wiedererrichten eines Dachstuhls , Errichtung von zwei Balkonen im DG sowie Errichtung einer Brandwand an einem Mehrfamilienwohnhaus",
       "site_address": "Fröbelstraße 1",
