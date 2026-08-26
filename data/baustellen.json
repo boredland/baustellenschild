@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T10:43:10.239352Z",
+    "last_updated": "2026-08-26T11:17:14.506333Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1707,7 +1707,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "3",
       "flurstueck": "6/3",
-      "fetched_at": "2026-06-14T14:17:37.835637+00:00",
+      "fetched_at": "2026-08-26T11:03:19.354486+00:00",
       "permit_number": "B-2023-460-5",
       "description": "Rückbau und Wiedererrichten in geänderter Form des Anbaus für die Aula im EG eines Büro- und Geschäftsgebäudes mit Beherbergungsbetrieb",
       "site_address": "Heinrich-Hoffmann-Straße 3",
@@ -15017,9 +15017,9 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "40",
       "flurstueck": "3418/2",
-      "fetched_at": "2026-06-13T23:27:13.122666+00:00",
+      "fetched_at": "2026-08-26T11:00:34.907604+00:00",
       "permit_number": "B-2018-414-4",
-      "description": "Errichtung eines Zweifamilienhauses in zweiter Reihe mit 3 Stellplätzen",
+      "description": "Errichtung eines Zweifamilienhauses in zweiter Reihe mit 3...",
       "site_address": "Talstraße 67a",
       "parcel_info": "Kalbach Bezirk 65 (499), 40, 3418/2",
       "builder_name": "Garcia-Tome Jose Ramon",
