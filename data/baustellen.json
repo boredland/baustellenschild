@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T03:48:47.787746Z",
+    "last_updated": "2026-08-26T04:48:43.434391Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7701,7 +7701,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "3",
       "flurstueck": "62/6",
-      "fetched_at": "2026-06-14T23:31:12.765230+00:00",
+      "fetched_at": "2026-08-26T04:42:29.501227+00:00",
       "permit_number": "B-2025-156-6",
       "description": "Rückbau und Wiedererrichten der Außentreppe in veränderter Form im KG, Anbau im KG (Nebenräume) und EG (Wohnräume), Errichten einer Dachterrasse sowie innere Umbauten in einem Mehrfamilienhaus",
       "site_address": "Pfortengartenweg 75",
@@ -22951,7 +22951,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "32",
       "flurstueck": "512/346",
-      "fetched_at": "2026-06-13T13:36:26.568312+00:00",
+      "fetched_at": "2026-08-26T04:30:32.937774+00:00",
       "permit_number": "B-2019-916-3",
       "description": "Aufstockung im 1. OG und Anbau als \nWohnraumerweiterung für ein Einfamilienhaus",
       "site_address": "An der Festeburg 7",
