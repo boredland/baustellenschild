@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T16:28:43.705149Z",
+    "last_updated": "2026-08-26T18:28:02.298125Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20963,7 +20963,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "11",
       "flurstueck": "6/7",
-      "fetched_at": "2026-06-14T15:15:45.706737+00:00",
+      "fetched_at": "2026-08-26T18:23:08.122462+00:00",
       "permit_number": "B-2023-927-6",
       "description": "Errichtung eines Beherbergungsbetriebes mit 36 Gastbetten sowie Herstellen von 5 Stellplätzen",
       "site_address": "Königsteiner Straße 118",
