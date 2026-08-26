@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T05:43:05.843156Z",
+    "last_updated": "2026-08-26T06:15:21.216002Z",
     "total": 1165,
     "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -7975,7 +7975,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "38",
       "flurstueck": "22/1",
-      "fetched_at": "2026-06-14T12:11:04.876984+00:00",
+      "fetched_at": "2026-08-26T05:57:30.386440+00:00",
       "permit_number": "B-2023-896-4",
       "description": "Aufstockung um ein 5.OG und ein Staffelgeschoss, innere Umbauten und Rückbau und Wiedererrichten der Fassade in geänderter Form in einem Büro- und Geschäftshaus",
       "site_address": "Große Eschenheimer Straße 39",
