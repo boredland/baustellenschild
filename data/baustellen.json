@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-26T20:41:00.331161Z",
+    "last_updated": "2026-08-27T00:10:47.645498Z",
     "total": 1165,
-    "errors": 28,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7376,7 +7376,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "529",
       "flurstueck": "284/34",
-      "fetched_at": "2026-06-14T17:37:31.749586+00:00",
+      "fetched_at": "2026-08-27T00:03:35.701430+00:00",
       "permit_number": "B-2024-918-5",
       "description": "Zusammenlegen der Wohnung im EG und 1. OG zu einer Maisonettewohnung, Anbau zur Wohnraumerweiterung im EG und 1. OG mit Herstellen einer Außentreppe und Fassadenänderungen an einem Mehrfamilienhaus",
       "site_address": "Passavantstraße 29",
