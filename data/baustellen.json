@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-27T06:12:40.452961Z",
+    "last_updated": "2026-08-27T17:26:35.445241Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7356,7 +7356,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "529",
       "flurstueck": "275/25",
-      "fetched_at": "2026-06-14T17:37:30.918653+00:00",
+      "fetched_at": "2026-08-27T17:08:19.228264+00:00",
       "permit_number": "B-2024-1302-5",
       "description": "Anbau zur Wohnraumerweiterung, Dachgeschossausbau zu Wohnraum mit inneren Umbauten in einer Doppelhaushälfte sowie Errichtung einer Garage",
       "site_address": "Burnitzstraße 24",
@@ -9159,7 +9159,7 @@
       "gemarkung_label": "Bonames Bezirk 49",
       "flur": "15",
       "flurstueck": "229/5",
-      "fetched_at": "2026-06-13T20:56:44.046850+00:00",
+      "fetched_at": "2026-08-27T17:23:55.240784+00:00",
       "permit_number": "B-2025-248-3",
       "description": "Errichtung eines Einfamilienhauses mit Garage, Carport, \nEingangs- und Terrassenüberdachung",
       "site_address": "Wickenweg 73",
