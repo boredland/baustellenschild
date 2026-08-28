@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-28T13:53:48.503760Z",
+    "last_updated": "2026-08-28T23:36:29.633569Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2842,7 +2842,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "6",
       "flurstueck": "278/1",
-      "fetched_at": "2026-06-14T15:14:43.584835+00:00",
+      "fetched_at": "2026-08-28T23:27:32.140941+00:00",
       "permit_number": "X-2022-128-6",
       "description": "Abbruch eines Einfamilienhauses",
       "site_address": "Emmerich-Josef-Straße 43",
@@ -18111,7 +18111,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "16",
       "flurstueck": "1222/8",
-      "fetched_at": "2026-06-14T18:29:30.379778+00:00",
+      "fetched_at": "2026-08-28T23:27:40.742890+00:00",
       "permit_number": "B-2024-1140-6",
       "description": "Errichtung eines Pavillons als überdachter Aufenthaltsbereich",
       "site_address": "Schützenbleiche 3",
