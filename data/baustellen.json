@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-29T11:32:46.625693Z",
+    "last_updated": "2026-08-29T16:00:28.838646Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12395,7 +12395,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "2",
       "flurstueck": "196/14",
-      "fetched_at": "2026-06-13T18:30:31.474414+00:00",
+      "fetched_at": "2026-08-29T16:00:22.706281+00:00",
       "permit_number": "B-2023-202-3",
       "description": "Einbau eines neuen Treppenhauses, Umbauarbeiten vom KG bis DG, \nAbriss des vorhandenen Daches und Wiederaufbau in anderer Form \nmit einer eigenständigen Wohneinheit an einem Zweifamilienhaus",
       "site_address": "Arnoldstraße 9",
