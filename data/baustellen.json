@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-29T04:32:30.732683Z",
+    "last_updated": "2026-08-29T11:32:46.625693Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9324,7 +9324,7 @@
       "gemarkung_label": "Niederursel/F. Bezirk 48F",
       "flur": "25",
       "flurstueck": "187/25",
-      "fetched_at": "2026-06-13T20:57:31.194318+00:00",
+      "fetched_at": "2026-08-29T11:22:15.917762+00:00",
       "permit_number": "B-2021-768-4",
       "description": "Ausbau des Dachgeschosses in Wohnen und Nutzungsänderung von landwirtschaftlich genutzten Nebengebäuden (Stallungen,  Scheune, Lager, Garage) in insgesamt 5 Wohneinheiten in 2 Mehrfamilienhäusern sowie Neuordnung der Stellplätze mit 8 Stellplätzen, Rückbau eines überdachten Landmaschinenabstellplatzes (Renaturierung)",
       "site_address": "Alt-Niederursel 18",
