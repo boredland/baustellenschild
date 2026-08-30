@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-30T14:25:12.211980Z",
+    "last_updated": "2026-08-30T18:24:28.017159Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9119,7 +9119,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "532",
       "flurstueck": "111/5",
-      "fetched_at": "2026-06-14T18:58:19.189139+00:00",
+      "fetched_at": "2026-08-30T18:13:35.312479+00:00",
       "permit_number": "B-2024-526-5",
       "description": "Errichten eines Carports, Verlegen des Mülltonnenstellplatzes sowie Zusammenlegen von drei in eine Wohneinheit mit inneren Umbauten, Fassadenänderungen, Aufbringen einer Aufsparrendämmung und Änderung der Freiflächen an einem Einfamilienwohnhaus",
       "site_address": "Schaubstraße 9",
@@ -9139,7 +9139,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "532",
       "flurstueck": "117/7",
-      "fetched_at": "2026-06-14T18:58:20.710947+00:00",
+      "fetched_at": "2026-08-30T18:13:59.288094+00:00",
       "permit_number": "B-2024-488-5",
       "description": "Errichtung eines Mehrfamilienhauses mit 10 Wohneinheiten mit Tiefgarage (15 Stellplätze)",
       "site_address": "Steinlestraße 24 - 28",
