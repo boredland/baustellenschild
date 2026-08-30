@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-29T22:08:56.301249Z",
+    "last_updated": "2026-08-30T00:01:47.225209Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18292,7 +18292,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "5",
       "flurstueck": "66/1",
-      "fetched_at": "2026-06-15T12:05:23.094500+00:00",
+      "fetched_at": "2026-08-29T23:45:18.427661+00:00",
       "permit_number": "B-2018-1612-5",
       "description": "Errichtung eines Mehrfamilienhauses mit 14 Wohneinheiten mit einer Ladenfläche  im EG, Herstellen von 3 Stellplätzen",
       "site_address": "Radilostraße 28",
@@ -22505,7 +22505,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "46",
       "flurstueck": "168/0",
-      "fetched_at": "2026-06-15T12:05:23.365486+00:00",
+      "fetched_at": "2026-08-29T23:46:21.512680+00:00",
       "permit_number": "B-2020-1225-6",
       "description": "Anbau eines Wintergartens und Balkon im OG eines Einfamilienhauses",
       "site_address": "An der Schwarzbachmühle 77",
@@ -22525,7 +22525,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "46",
       "flurstueck": "206/0",
-      "fetched_at": "2026-06-15T12:05:26.583048+00:00",
+      "fetched_at": "2026-08-29T23:49:42.610842+00:00",
       "permit_number": "B-2022-176-6",
       "description": "Errichtung eines Einfamilienhauses, sowie Herstellen von zwei Stellplätzen mit einem Carport",
       "site_address": "An der Schwarzbachmühle 5",
@@ -23238,7 +23238,7 @@
       "gemarkung_label": "Seckbach Bezirk 39",
       "flur": "33",
       "flurstueck": "406/3",
-      "fetched_at": "2026-06-13T16:32:52.834216+00:00",
+      "fetched_at": "2026-08-30T00:00:18.790410+00:00",
       "permit_number": "B-2019-258-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 5 Wohneinheiten\nund Tiefgarage mit 9 Kfz.-Stellplätzen",
       "site_address": "Im Staffel 99",
