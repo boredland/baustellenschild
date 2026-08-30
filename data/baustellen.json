@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-08-30T02:54:24.212981Z",
+    "last_updated": "2026-08-30T09:02:06.912756Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9386,7 +9386,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "3",
       "flurstueck": "94/13",
-      "fetched_at": "2026-06-15T00:42:06.847491+00:00",
+      "fetched_at": "2026-08-30T08:52:47.730480+00:00",
       "permit_number": "B-2022-68-6",
       "description": "Errichtung eines Mehrfamilienhauses mit 5 Wohnungen und 4 Stellplätzen",
       "site_address": "Pfortengartenweg 51a",
