@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-30T18:24:28.017159Z",
+    "last_updated": "2026-08-30T21:35:30.115615Z",
     "total": 1165,
     "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -9426,7 +9426,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "40",
       "flurstueck": "46/8",
-      "fetched_at": "2026-06-14T14:14:31.799657+00:00",
+      "fetched_at": "2026-08-30T21:17:25.315765+00:00",
       "permit_number": "B-2022-1234-4",
       "description": "Brandschutzrelevante Grundrissänderungen im 1. UG und 1. - 7. OG eines Bürohochhauses",
       "site_address": "Stephanstraße 14",
@@ -18716,7 +18716,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "8",
       "flurstueck": "354/34",
-      "fetched_at": "2026-06-13T14:45:23.891353+00:00",
+      "fetched_at": "2026-08-30T21:30:22.089195+00:00",
       "permit_number": "B-2023-1293-5",
       "description": "Herstellen einer eigenen Stromversorgung im Altenpflegeheim St. Josefshaus",
       "site_address": "Ginnheimer Straße 11",
@@ -22848,7 +22848,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "40",
       "flurstueck": "730/4",
-      "fetched_at": "2026-06-11T02:21:22.770944+00:00",
+      "fetched_at": "2026-08-30T21:22:40.412283+00:00",
       "permit_number": "B-2020-1047-6",
       "description": "Schule am Ried, Erweiterungsbau mit Aula und Cafeteria",
       "site_address": "Barbarossastraße 65",
