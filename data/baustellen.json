@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-30T21:35:30.115615Z",
+    "last_updated": "2026-08-30T23:56:19.115954Z",
     "total": 1165,
     "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -13329,7 +13329,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "7",
       "flurstueck": "193/35",
-      "fetched_at": "2026-06-13T17:57:22.689365+00:00",
+      "fetched_at": "2026-08-30T23:50:16.708263+00:00",
       "permit_number": "B-2024-1292-4",
       "description": "Aufbringen einer Aufsparrendämmung, Einbau von zwei Gauben, Rückbau und Wiedererrichten der Ost-und Südfassade in geänderter Form zur Wohnraumerweiterung eines Einfamilienhauses",
       "site_address": "Ziegenhainer Straße 201",
@@ -13347,7 +13347,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "7",
       "flurstueck": "193/31",
-      "fetched_at": "2026-06-13T17:57:20.135000+00:00",
+      "fetched_at": "2026-08-30T23:49:10.717949+00:00",
       "permit_number": "B-2020-632-4",
       "description": "Aufteilung von einem Einfamilienhaus in zwei Einfamilienhäuser und Errichtung von 2 Gauben\n\nVerlängert bis 29.06.25",
       "site_address": "Ziegenhainer Straße 193",
@@ -13823,7 +13823,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "7",
       "flurstueck": "213/14",
-      "fetched_at": "2026-06-13T17:57:22.840747+00:00",
+      "fetched_at": "2026-08-30T23:52:28.688533+00:00",
       "permit_number": "B-2024-618-4",
       "description": "Nutzungsänderung von einer gewerblichen Küche für soziale und kulturelle Einrichtungen in 4 Wohneinheiten im EG",
       "site_address": "Waldecker Straße 11",
@@ -13843,7 +13843,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "7",
       "flurstueck": "222/13",
-      "fetched_at": "2026-06-13T17:57:22.055699+00:00",
+      "fetched_at": "2026-08-30T23:52:58.714267+00:00",
       "permit_number": "B-2024-455-4",
       "description": "Errichten eines Anbaus und zwei Zwerchhäusern sowie Dachgeschossausbau als Wohnraumerweiterung für ein Einfamilienhaus",
       "site_address": "Ziegenhainer Straße 157",
