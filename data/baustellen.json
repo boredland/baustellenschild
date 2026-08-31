@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-08-31T02:48:16.334901Z",
+    "last_updated": "2026-08-31T09:08:53.227583Z",
     "total": 1165,
     "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -3956,7 +3956,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "6",
       "flurstueck": "307/1",
-      "fetched_at": "2026-06-14T16:03:40.261673+00:00",
+      "fetched_at": "2026-08-31T09:05:56.093132+00:00",
       "permit_number": "B-2015-1379-6",
       "description": "Brandschutz- und statisch relevante Grundrissänderungen in einem Bürogebäude sowie Nutzungsänderung von Büro in Facharztzentrum und Anbau einer Außentreppe",
       "site_address": "Emmerich-Josef-Straße 40",
