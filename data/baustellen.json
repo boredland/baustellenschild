@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-01T21:48:36.724628Z",
+    "last_updated": "2026-09-01T23:59:02.841958Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21105,7 +21105,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "11",
       "flurstueck": "96/6",
-      "fetched_at": "2026-06-14T16:04:48.168383+00:00",
+      "fetched_at": "2026-09-01T23:53:11.912735+00:00",
       "permit_number": "B-2024-1200-6",
       "description": "Brandschutzrelevante Grundrissänderung und Instandsetzen der Rabitzdecke sowie \nErrichten eines 2. baulichen Rettungsweges, Gebäude A der Walter-Kolb-Schule",
       "site_address": "Sossenheimer Weg 50",
