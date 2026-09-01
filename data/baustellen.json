@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-01T15:37:49.430172Z",
+    "last_updated": "2026-09-01T18:58:31.004949Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22769,7 +22769,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "1",
       "flurstueck": "30/1",
-      "fetched_at": "2026-06-12T18:41:29.580042+00:00",
+      "fetched_at": "2026-09-01T18:55:08.712874+00:00",
       "permit_number": "B-2023-950-6",
       "description": "Errichtung eines Einfamilienhauses und eines Stellplatzes",
       "site_address": "Am Graben 9",
