@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-02T12:28:08.643614Z",
+    "last_updated": "2026-09-02T17:01:03.094255Z",
     "total": 1165,
-    "errors": 29,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10458,7 +10458,7 @@
       "gemarkung_label": "Bonames Bezirk 49",
       "flur": "15",
       "flurstueck": "366/0",
-      "fetched_at": "2026-06-13T21:55:33.298139+00:00",
+      "fetched_at": "2026-09-02T16:55:52.606616+00:00",
       "permit_number": "B-2023-1172-3",
       "description": "Errichtung eines Reihenendhauses und Herstellung von 2 KFZ-Stellplätzen",
       "site_address": "Rotdornweg 27",
@@ -10478,7 +10478,7 @@
       "gemarkung_label": "Bonames Bezirk 49",
       "flur": "15",
       "flurstueck": "390/0",
-      "fetched_at": "2026-06-13T21:55:34.412717+00:00",
+      "fetched_at": "2026-09-02T16:57:58.589196+00:00",
       "permit_number": "B-2024-951-3",
       "description": "Errichtung eines Windfanges sowie Anbau zur Wohnraumerweiterung \nund Errichtung einer Gaube an einem Einfamilienhaus",
       "site_address": "Ebereschenweg 72",
@@ -18980,7 +18980,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "9",
       "flurstueck": "183/8",
-      "fetched_at": "2026-06-13T15:34:09.823955+00:00",
+      "fetched_at": "2026-09-02T16:47:28.741291+00:00",
       "permit_number": "B-2020-1283-5",
       "description": "Errichtung eines Mehrfamilienwohnhauses mit 4 Wohneinheiten, 2 Stellplätzen und Tiefgarage mit 7 Stellplätzen",
       "site_address": "Zeppelinallee 113",
