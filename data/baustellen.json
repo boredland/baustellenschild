@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-02T19:51:40.642310Z",
+    "last_updated": "2026-09-02T22:28:43.416388Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13864,7 +13864,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "7",
       "flurstueck": "232/65",
-      "fetched_at": "2026-06-13T17:57:23.107171+00:00",
+      "fetched_at": "2026-09-02T22:10:56.998235+00:00",
       "permit_number": "B-2025-211-4",
       "description": "Anbau mit Dachterrasse und Dg-Ausbau mit 2 Gauben in einem Einfamilienhaus",
       "site_address": "Ziegenhainer Straße 135",
