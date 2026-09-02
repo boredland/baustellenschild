@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-01T23:59:02.841958Z",
+    "last_updated": "2026-09-02T02:23:41.922526Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9946,7 +9946,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "42",
       "flurstueck": "1/16",
-      "fetched_at": "2026-06-14T15:12:42.760319+00:00",
+      "fetched_at": "2026-09-02T02:23:27.630768+00:00",
       "permit_number": "B-2024-377-4",
       "description": "Nutzungsänderung von einer Schank- und Speisewirtschaft in Räume zur freiberuflichen Nutzung gem. §13BauNVO (Arztpraxis) im 2. OG",
       "site_address": "Große Eschenheimer Straße 12",
@@ -9984,7 +9984,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "42",
       "flurstueck": "1/17",
-      "fetched_at": "2026-06-14T15:12:40.786128+00:00",
+      "fetched_at": "2026-09-02T02:21:41.712852+00:00",
       "permit_number": "B-2022-1165-4",
       "description": "Herstellen eines Wirtschaftsgartens, brandschutz-, statisch- und lüftungsrelevante Grundrissänderungen im EG, 1. und 4. OG mit Erweiterung der Schank- und Speisewirtschaft im 1.OG durch Einzug einer Decke in einem Beherbergungsbetrieb",
       "site_address": "Große Eschenheimer Straße 10",
@@ -10026,7 +10026,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "41",
       "flurstueck": "30/16",
-      "fetched_at": "2026-06-14T15:12:42.480858+00:00",
+      "fetched_at": "2026-09-02T02:18:29.704521+00:00",
       "permit_number": "B-2023-980-4",
       "description": "Brandschutzrelevante Änderungen (Nachrüstung Feuerwehr-Noteinspeisung) im Erdgeschoss eines Bürogebäudes (BÜH)",
       "site_address": "Stiftstraße 29",
@@ -21126,7 +21126,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "11",
       "flurstueck": "148/3",
-      "fetched_at": "2026-06-14T17:02:54.155679+00:00",
+      "fetched_at": "2026-09-02T02:08:35.506840+00:00",
       "permit_number": "B-2017-446-6",
       "description": "Anbau eines Büros als Erweiterung des Vereinsheims einer Kleingartenanlage",
       "site_address": "Gotenstraße 0",
