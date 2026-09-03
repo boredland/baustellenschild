@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-03T00:42:40.730184Z",
+    "last_updated": "2026-09-03T05:05:48.836380Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15770,7 +15770,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "46",
       "flurstueck": "120/20",
-      "fetched_at": "2026-06-14T01:49:21.546106+00:00",
+      "fetched_at": "2026-09-03T04:54:34.417759+00:00",
       "permit_number": "B-2025-803-4",
       "description": "Errichtung eines Einfamilienhauses und einer Doppelgarage",
       "site_address": "Fritz-Wichert-Ring 7",
