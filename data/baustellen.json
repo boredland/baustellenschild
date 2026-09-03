@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-03T09:37:17.433185Z",
+    "last_updated": "2026-09-03T13:58:35.929470Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18149,7 +18149,7 @@
       "gemarkung_label": "Nieder-Erlenbach Bezirk 64",
       "flur": "4",
       "flurstueck": "143/0",
-      "fetched_at": "2026-06-14T19:35:46.931456+00:00",
+      "fetched_at": "2026-09-03T13:51:32.294500+00:00",
       "permit_number": "B-2024-994-3",
       "description": "Errichtung eines Einfamilienhauses \nmit einer Garage und einem Stellplatz",
       "site_address": "Am Eichbaum 15",
@@ -18159,7 +18159,10 @@
       "builder_location": "60437 Frankfurt am Main",
       "architect_name": "Erkmen Osman Ersin",
       "architect_address": "Schwarzbachstraße 20",
-      "architect_location": "60529 Frankfurt am Main"
+      "architect_location": "60529 Frankfurt am Main",
+      "site_manager_name": "Erkmen Osman Ersin",
+      "site_manager_address": "Schwarzbachstraße  20",
+      "site_manager_location": "60529 Frankfurt am Main"
     },
     {
       "gemarkung_id": 506,
