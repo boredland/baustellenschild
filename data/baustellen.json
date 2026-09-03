@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-03T17:41:21.324150Z",
+    "last_updated": "2026-09-03T20:16:43.318660Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18656,9 +18656,9 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "6",
       "flurstueck": "1/2",
-      "fetched_at": "2026-06-13T13:36:17.978324+00:00",
+      "fetched_at": "2026-09-03T20:14:40.920658+00:00",
       "permit_number": "B-2023-382-5",
-      "description": "Nutzungsänderung von Räumen für freiberufliche Nutzung §13 BauNVO (Arztpraxis) in eine Wohneinheit im 2.OG eines Wohn- und Geschäftshauses",
+      "description": "Nutzungsänderung von Räumen für freiberufliche Nutzung §13 BauNVO...",
       "site_address": "Lorscher Straße 8",
       "parcel_info": "Rödelheim Bezirk 40 (510), 6, 1/2",
       "builder_name": "DL78 Verwaltungs GmbH",
