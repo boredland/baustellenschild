@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-03T05:05:48.836380Z",
+    "last_updated": "2026-09-03T09:37:17.433185Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15730,7 +15730,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "46",
       "flurstueck": "120/10",
-      "fetched_at": "2026-06-14T01:49:21.086361+00:00",
+      "fetched_at": "2026-09-03T09:19:04.316264+00:00",
       "permit_number": "B-2018-1580-4",
       "description": "Errichtung eines Einfamilienhauses und einer Doppelgarage und einem Schwimmbecken",
       "site_address": "Fritz-Wichert-Ring 25",
