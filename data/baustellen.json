@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-03T13:58:35.929470Z",
+    "last_updated": "2026-09-03T17:41:21.324150Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12763,7 +12763,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "2",
       "flurstueck": "350/1",
-      "fetched_at": "2026-06-13T19:35:41.241126+00:00",
+      "fetched_at": "2026-09-03T17:26:28.027252+00:00",
       "permit_number": "B-2017-506-3",
       "description": "Nutzungsänderung vom EG bis DG von Lagergebäude in ein\nVerwaltungsgebäude für die muslimische Gemeinde mit Nebennutzungen\n(Ausstellungsfläche, 5 Beherbergungsräumen, Büro- und Lagerflächen, \ninterne Bibliotheksräume und Fitnessräume) mit inneren Umbauten sowie \ndie Zulässigkeit einer Betriebswohnung und das Herstellen von 6 Stellplätzen",
       "site_address": "Genfer Straße 12",
