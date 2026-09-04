@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-04T13:55:48.104051Z",
+    "last_updated": "2026-09-04T17:34:47.536388Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19147,7 +19147,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "9",
       "flurstueck": "742/242",
-      "fetched_at": "2026-06-13T16:30:58.620440+00:00",
+      "fetched_at": "2026-09-04T17:34:32.633623+00:00",
       "permit_number": "B-2015-768-5",
       "description": "Spitzbodenausbau zur Wohnraumerweiterung, Einbau einer Dachloggia in einem Mehrfamilienhaus",
       "site_address": "Sophienstraße 117",
