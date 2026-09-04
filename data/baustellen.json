@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-04T09:30:32.937521Z",
+    "last_updated": "2026-09-04T13:55:48.104051Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10680,7 +10680,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "43",
       "flurstueck": "24/4",
-      "fetched_at": "2026-06-14T16:01:26.870016+00:00",
+      "fetched_at": "2026-09-04T13:40:07.097283+00:00",
       "permit_number": "B-2023-1284-4",
       "description": "Nutzungsänderung von Verkaufs-, Lager- und Technikräumen in Tiefgarage mit 23 Stellplätzen, Sanitär-, Lager- und Technikräume im 1.UG; Nutzungsänderung von Verkaufsräumen in Eingangsbereich für Büroräume im EG; Nutzungsänderung von Verkaufsräumen und Nebenräumen in Büroräume im 2.OG bis 4.OG; Herstellen eines Innenhofes im 2.OG bis 5.OG; Abbruch- und Neubau eines Staffelgeschosses im 5.OG und mit Technikzentrale und Dachterrasse über 5.OG und Errichtung einer PV-Anlage, sowie brandschutz- statischrelevante Grundrissänderungen in allen Geschossen eines Büro- und Geschäftshauses",
       "site_address": "Zeil 121",
