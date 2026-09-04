@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-04T05:06:56.442916Z",
+    "last_updated": "2026-09-04T09:30:32.937521Z",
     "total": 1165,
-    "errors": 29,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10701,7 +10701,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "44",
       "flurstueck": "62/1",
-      "fetched_at": "2026-06-14T16:01:17.786122+00:00",
+      "fetched_at": "2026-09-04T09:25:19.997895+00:00",
       "permit_number": "B-2023-79-4",
       "description": "Ausbau von Lagerräumen im 1. Untergeschoss in einen Laden, Brandschutz- und statisch relevante Grundrissänderungen in den Geschossen UG bis 4. OG, Nutzungsänderung von einer Wohnung in Büro im 3. OG, Errichten einer Aufstockung mit Büroflächen in Büro- und Geschäftshaus, Herstellen von 5 Balkonen und 6 Dachterrassen",
       "site_address": "Brönnerstraße 5",
@@ -10722,7 +10722,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "43",
       "flurstueck": "23/3",
-      "fetched_at": "2026-06-14T16:01:31.314211+00:00",
+      "fetched_at": "2026-09-04T09:20:43.929691+00:00",
       "permit_number": "B-2024-145-4",
       "description": "Brandschutzrelevante Grundrissänderungen im EG und 1. OG; Aufteilen eines Ladens (EG+1. OG) in zwei Läden im EG und 1. OG, sowie Herstellen einer Eingangstür an einem Büro- und Geschäftshaus",
       "site_address": "Zeil 123",
@@ -14006,7 +14006,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "11",
       "flurstueck": "102/6",
-      "fetched_at": "2026-06-14T16:01:28.722792+00:00",
+      "fetched_at": "2026-09-04T09:19:14.133133+00:00",
       "permit_number": "B-2022-7-4",
       "description": "Brandschutzrelevante Grundrissänderungen in allen Geschossen des Museum für Moderne Kunst",
       "site_address": "Domstraße 10",
