@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-04T00:30:18.814274Z",
+    "last_updated": "2026-09-04T05:06:56.442916Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 29,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10660,7 +10660,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "3",
       "flurstueck": "126/6",
-      "fetched_at": "2026-06-15T03:10:54.850560+00:00",
+      "fetched_at": "2026-09-04T05:05:00.902399+00:00",
       "permit_number": "B-2022-634-6",
       "description": "Nutzungsänderung von 2 Gewerbeeinheiten zu einer Wohneinheit sowie innere Umbauten im EG eines Wohn- und Geschäftshauses",
       "site_address": "Pfaffenwiese 47b",
