@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-04T22:16:35.443634Z",
+    "last_updated": "2026-09-05T00:01:44.426892Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17807,7 +17807,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "12",
       "flurstueck": "2149/963",
-      "fetched_at": "2026-06-13T18:29:35.236924+00:00",
+      "fetched_at": "2026-09-04T23:47:29.417902+00:00",
       "permit_number": "B-2016-847-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 5 Wohneinheiten\nund 2 integrierten Doppelparkern sowie Herstellen eines Stellplatzes",
       "site_address": "Konstanzer Straße 62",
