@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-05T18:47:15.313165Z",
+    "last_updated": "2026-09-05T20:53:42.799107Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18861,7 +18861,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "6",
       "flurstueck": "93/1",
-      "fetched_at": "2026-06-13T14:47:11.183559+00:00",
+      "fetched_at": "2026-09-05T20:36:51.312639+00:00",
       "permit_number": "B-2022-213-5",
       "description": "Neubau eines Wohngebäudes mit  26 Wohnungen, 2 Ladeneinheiten und 2 Schank- und Speisewirtschaften (Cafe und Eisdiele) im EG und einer gemeinsamen Tiefgarage mit 15 Stellplätzen",
       "site_address": "Alt-Rödelheim 14 - 16",
@@ -20092,7 +20092,7 @@
       "gemarkung_label": "Preungesheim Bezirk 47",
       "flur": "16",
       "flurstueck": "32/0",
-      "fetched_at": "2026-06-13T22:25:52.662445+00:00",
+      "fetched_at": "2026-09-05T20:36:39.688744+00:00",
       "permit_number": "B-2023-1306-3",
       "description": "Brandschutz- und lüftungsrelevante Grundrissänderungen im EG und 1. OG,\nNutzungsänderung von einer Vergnügungsstätte (4 Spielhallen) und Lagerhalle \nin zwei Anlagen für sportliche Zwecke (Boxstudio, Bowling, Minigolf) im EG\nsowie Nutzungsänderung im 1. OG von einer Anlage für sportliche Zwecke (Boxstudio) in eine Anlage für soziale Zwecke (Übergangseinrichtung für von Obdachlosigkeit betroffene Menschen) zur Erweiterung der vorhandenen Einrichtung im 2. OG, Fassadenänderungen, Rückbau und Wiedererrichtung von einer Außentreppe in veränderter Form sowie Neuanordnung von 7 KFZ-Stellplätzen",
       "site_address": "August-Schanz-Straße 9",
@@ -22589,7 +22589,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "47",
       "flurstueck": "5/0",
-      "fetched_at": "2026-06-12T10:34:25.814908+00:00",
+      "fetched_at": "2026-09-05T20:39:39.416424+00:00",
       "permit_number": "B-2020-101-6",
       "description": "Aufstockung zur einer Wohneinheit und Anbau zu einer Wohnraumerweiterung mit inneren Umbauten an einem Zweifamilienhaus,\nsowie Herstellen von 2 PKW-Stellplätzen",
       "site_address": "Zur Frankenfurt 105",
