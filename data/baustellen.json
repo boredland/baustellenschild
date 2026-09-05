@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-05T14:14:29.225993Z",
+    "last_updated": "2026-09-05T16:45:03.609618Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20072,7 +20072,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "33",
       "flurstueck": "87/0",
-      "fetched_at": "2026-06-13T22:25:46.811575+00:00",
+      "fetched_at": "2026-09-05T16:34:26.589961+00:00",
       "permit_number": "B-2024-1260-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 5 Wohnungen\nHerstellen von 27 Fahrradabstellplätzen sowie \n7 Stellplätzen inklusive zweier Doppelparker und einer Garage",
       "site_address": "Kochstraße 69a",
