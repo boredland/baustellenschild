@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-05T16:45:03.609618Z",
+    "last_updated": "2026-09-05T18:47:15.313165Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18840,7 +18840,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "6",
       "flurstueck": "38/0",
-      "fetched_at": "2026-06-13T14:47:10.014668+00:00",
+      "fetched_at": "2026-09-05T18:38:31.887012+00:00",
       "permit_number": "B-2023-946-5",
       "description": "Rückbau und Wiedererrichten des Daches in gleicher Form, Ausbau des Spitzbodens zur Wohnraumerweiterung des 3. OGs, Herstellen einer Loggia in einem Mehrfamilienhaus",
       "site_address": "Trümpertstraße 17",
@@ -18882,7 +18882,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "6",
       "flurstueck": "93/0",
-      "fetched_at": "2026-06-13T14:47:11.648006+00:00",
+      "fetched_at": "2026-09-05T18:41:19.821479+00:00",
       "permit_number": "B-2022-213-5",
       "description": "Neubau eines Wohngebäudes mit  26 Wohnungen, 2 Ladeneinheiten und 2 Schank- und Speisewirtschaften (Cafe und Eisdiele) im EG und einer gemeinsamen Tiefgarage mit 15 Stellplätzen",
       "site_address": "Alt-Rödelheim 14 - 16",
