@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-06T20:54:58.386859Z",
+    "last_updated": "2026-09-06T22:52:13.609220Z",
     "total": 1165,
     "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -16151,7 +16151,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "46",
       "flurstueck": "244/8",
-      "fetched_at": "2026-06-14T03:08:29.998248+00:00",
+      "fetched_at": "2026-09-06T22:44:40.823456+00:00",
       "permit_number": "B-2017-1167-4",
       "description": "Errichtung eines Einfamilienhauses mit einer Doppelgarage und einem Schwimmbad mit Freisitz im Außenbereich",
       "site_address": "Hans-Herkommer-Ring 17",
