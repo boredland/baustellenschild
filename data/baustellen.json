@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-05T22:48:05.824535Z",
+    "last_updated": "2026-09-06T00:26:40.520189Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11261,7 +11261,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "45",
       "flurstueck": "32/0",
-      "fetched_at": "2026-06-14T16:58:20.729428+00:00",
+      "fetched_at": "2026-09-06T00:25:32.419252+00:00",
       "permit_number": "B-2024-1203-4",
       "description": "Brandschutzrelevante Grundrissänderungen in allen Etagen sowie Änderungen an den haustechnischen Anlagen auf dem Dach eines Geschäftshauses",
       "site_address": "Zeil 72 - 82",
@@ -16453,7 +16453,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "7",
       "flurstueck": "21/26",
-      "fetched_at": "2026-06-14T13:10:08.014470+00:00",
+      "fetched_at": "2026-09-06T00:18:32.456364+00:00",
       "permit_number": "B-2020-1543-6",
       "description": "Eingeschossiger Anbau zur Wohnraumerweiterung an eine Doppelhaushälfte",
       "site_address": "Greifswalder Weg 4",
@@ -21292,7 +21292,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "12",
       "flurstueck": "29/3",
-      "fetched_at": "2026-06-14T18:30:50.236128+00:00",
+      "fetched_at": "2026-09-06T00:11:02.519713+00:00",
       "permit_number": "B-2021-190-6",
       "description": "Errichtung einer Balkonanlage mit Aussentreppe an einem bestehenden Mehrfamilienhaus",
       "site_address": "Königsteiner Straße 147",
