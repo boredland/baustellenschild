@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-06T13:17:31.717600Z",
+    "last_updated": "2026-09-06T16:19:07.612612Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19479,7 +19479,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "9",
       "flurstueck": "867/276",
-      "fetched_at": "2026-06-13T17:02:59.260604+00:00",
+      "fetched_at": "2026-09-06T16:02:17.016871+00:00",
       "permit_number": "B-2024-941-5",
       "description": "Errichten von zwei Balkonanlagen (EG-5.OG), Rückbau und Wiedererrichten einer Außentreppe in veränderter Form, Ausbau von Abstellraum und Trockenboden (5. OG) und des Spitzbodens zu einer Wohneinheit sowie Errichten einer Dachloggia in einem Mehrfamilienhaus",
       "site_address": "Marburger Straße 9",
