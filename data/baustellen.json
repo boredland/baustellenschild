@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-06T00:26:40.520189Z",
+    "last_updated": "2026-09-06T05:12:55.994229Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 18,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -324,7 +324,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "188",
       "flurstueck": "84/19",
-      "fetched_at": "2026-06-14T23:53:54.515778+00:00",
+      "fetched_at": "2026-09-06T05:01:24.918513+00:00",
       "permit_number": "B-2022-623-5",
       "description": "Errichtung von einem Mehrfamilienhaus mit 32 Wohneinheiten und mit einer Tiefgarage mit 4 Doppelparkern (8 Stellplätze)",
       "site_address": "Heilbronner Straße 6",
@@ -345,7 +345,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "189",
       "flurstueck": "4/5",
-      "fetched_at": "2026-06-14T23:53:55.156235+00:00",
+      "fetched_at": "2026-09-06T05:03:24.921758+00:00",
       "permit_number": "B-2021-1482-5",
       "description": "Rückbau der vorhandenen Wandhydranten in allen Geschossen",
       "site_address": "Gutleutstraße 296",
@@ -11220,7 +11220,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "45",
       "flurstueck": "92/53",
-      "fetched_at": "2026-06-14T16:58:29.733943+00:00",
+      "fetched_at": "2026-09-06T04:58:04.288722+00:00",
       "permit_number": "B-2016-665-4",
       "description": "Erweiterung einer bestehenden Schank- und Speisewirtschaft durch Nutzungsänderung eines Ladens im EG und Galerie in einem Wohn- und Geschäftshauses",
       "site_address": "Große Friedberger Straße 19",
