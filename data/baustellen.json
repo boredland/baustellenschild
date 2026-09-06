@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-06T18:45:11.620977Z",
+    "last_updated": "2026-09-06T20:54:58.386859Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16697,7 +16697,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "8",
       "flurstueck": "566/2",
-      "fetched_at": "2026-06-13T20:57:01.145800+00:00",
+      "fetched_at": "2026-09-06T20:42:35.709152+00:00",
       "permit_number": "B-2023-1178-4",
       "description": "Aufteilung eines Zweifamilienhauses in ein Mehrfamilienhaus. Ausbau Kellergeschoss zur Wohnraumerweiterung im EG. Rückbau und Wiedererrichten des Daches in geändertes Form mit Herstellen einer Wohneinheit. Innere Umbauten und Fassadenänderungen an einem Mehrfamilienhaus",
       "site_address": "Wilhelm-Busch-Straße 14",
@@ -16718,7 +16718,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "8",
       "flurstueck": "705/77",
-      "fetched_at": "2026-06-13T20:57:01.325643+00:00",
+      "fetched_at": "2026-09-06T20:43:53.704602+00:00",
       "permit_number": "B-2023-53-4",
       "description": "Errichtung eines Anbaus mit Dachterrasse, Abriss und Wiederaufbau des Dachgeschosses mit zwei Dachgauben zur Wohnraumerweiterung sowie innere Umbauten in einem Einfamilienhaus sowie Herstellung eines Balkon und Herstellung von einem PKW-Stellplatz",
       "site_address": "Wildenbruchstraße 57",
