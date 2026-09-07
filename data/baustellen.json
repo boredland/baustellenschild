@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-06T22:52:13.609220Z",
+    "last_updated": "2026-09-07T00:49:43.729210Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16130,7 +16130,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "46",
       "flurstueck": "241/73",
-      "fetched_at": "2026-06-14T03:08:29.650089+00:00",
+      "fetched_at": "2026-09-07T00:33:42.633330+00:00",
       "permit_number": "B-2017-944-4",
       "description": "Errichtung eines Einfamilienhauses mit einer Doppelgarage",
       "site_address": "Hans-Herkommer-Ring 20",
