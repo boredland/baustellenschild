@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-07T23:12:46.398790Z",
+    "last_updated": "2026-09-08T01:06:55.494535Z",
     "total": 1165,
     "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -21375,7 +21375,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "12",
       "flurstueck": "52/2",
-      "fetched_at": "2026-06-14T19:00:32.104011+00:00",
+      "fetched_at": "2026-09-08T01:04:36.994857+00:00",
       "permit_number": "B-2017-1719-6",
       "description": "Anbau im KG und EG zur Wohnraumerweiterung im EG und einer Dachterrasse im 1. OG, Dachgeschossausbau zu einer Wohnung, Errichten von zwei Gauben und einer Dachterrasse bei einem Mehrfamilienhaus",
       "site_address": "Hunsrückstraße 9",
@@ -21436,7 +21436,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "7",
       "flurstueck": "8/5",
-      "fetched_at": "2026-06-14T15:15:44.511822+00:00",
+      "fetched_at": "2026-09-08T00:58:43.016691+00:00",
       "permit_number": "B-2015-863-6",
       "description": "Rückbau und Neuerrichtung zweier erdgeschossiger Anbauten, Nutzungsänderung mit inneren Umbauten im Erdgeschoss von Handwerksbetrieb (Bäckerei) in eine Wohnung eines Einfamilienhauses",
       "site_address": "Schaumburger Straße 40b",
