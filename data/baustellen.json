@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-08T01:06:55.494535Z",
+    "last_updated": "2026-09-08T05:46:42.723267Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14588,7 +14588,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "13",
       "flurstueck": "59/2",
-      "fetched_at": "2026-06-14T17:35:48.020701+00:00",
+      "fetched_at": "2026-09-08T05:43:03.827506+00:00",
       "permit_number": "B-2023-89-4",
       "description": "Errichten einer Aufstockung und eines Anbaus, Verschieben von Nutzungen und Herstellen von insgesamt 33 Zimmer mit 57  Betten, Entfall von 9 Stellplätzen, inneren Umbauten und Fassadenänderungen an einem Beherbergungsbetrieb mit 94 Betten",
       "site_address": "Dominikanergasse 3 - 5",
