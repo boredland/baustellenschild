@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-08T05:46:42.723267Z",
+    "last_updated": "2026-09-08T10:15:21.288873Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8100,7 +8100,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "180",
       "flurstueck": "16/0",
-      "fetched_at": "2026-06-14T20:27:56.119180+00:00",
+      "fetched_at": "2026-09-08T10:02:01.401024+00:00",
       "permit_number": "B-2023-356-5",
       "description": "Rückbau und Wiedererrichten Dachgeschoss in veränderter Form; Herstellen einer Wohnung im Spitzboden in einem Wohn- und Geschäftshaus",
       "site_address": "Pforzheimer Straße 5",
@@ -8121,7 +8121,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "180",
       "flurstueck": "17/0",
-      "fetched_at": "2026-06-14T20:27:56.084769+00:00",
+      "fetched_at": "2026-09-08T10:04:01.684507+00:00",
       "permit_number": "B-2018-1239-5",
       "description": "Rückbau und Wiederrichtung des Daches in geänderter Form zur Wohnraumerweiterung mit inneren Umbauten in allen Geschossen für 11 WE, Nutzungsänderung im EG von Schank- und Speisewirtschaft in Laden und Nutzungsänderung im EG von Anlage für soziale Zwecke in Schank- und Speisewirtschaft, teilweise Rückbau und Neuerrichtung der erdgeschossigen Anbauten an einem Wohn- und Geschäftshaus",
       "site_address": "Pforzheimer Straße 7",
