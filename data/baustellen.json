@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-08T14:23:11.393636Z",
+    "last_updated": "2026-09-08T18:16:31.799453Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11450,9 +11450,9 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "539",
       "flurstueck": "1/6",
-      "fetched_at": "2026-06-14T21:29:18.473394+00:00",
+      "fetched_at": "2026-09-08T17:59:22.134643+00:00",
       "permit_number": "B-2023-1003-5",
-      "description": "Brandschutz- und statisch relevante Grundrissänderungen mit Änderung der Lüftungsanlage, Verlegung des Haupteingangs und Herstellen einer neuen Zufahrtsregelung für die Tiefgaragenein- und ausfahrt, Nutzungsänderungen von einem Bankettsaal in eine Schank- und Speisewirtschaft sowie Errichtung eines Wirtschaftsgartens im Innenhof, Umgestaltung der Außenanlagen sowie Einbau einer Zisterne, Herstellung eines neuen Konferenzbereichs im 1. Obergeschoss, Reduzierung der Gästezimmer von 163 auf 147 Zimmer in einem Beherbergungsbetrieb.",
+      "description": "Brandschutz- und statisch relevante Grundrissänderungen mit...",
       "site_address": "Kennedyallee 70",
       "parcel_info": "Frankfurt Bezirk 32 (484), 539, 1/6",
       "builder_name": "Objektgesellschaft Hotel Frankfurt GmbH",
@@ -22872,7 +22872,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "41",
       "flurstueck": "245/0",
-      "fetched_at": "2026-06-11T09:28:40.887430+00:00",
+      "fetched_at": "2026-09-08T18:12:15.278039+00:00",
       "permit_number": "B-2023-1125-3",
       "description": "Aufteilen von 3 in 5 Wohnungen, Errichten eines Anbaus zur Wohnraumerweiterung, \nAusbau von Kellerräumen und Nutzungsänderung von einer Garage in Wohnräume \nsowie innere Umbauten in einem Mehrfamilienhaus, \nHerstellen von zwei PKW-Stellplätzen",
       "site_address": "Kreuzbergstraße 8",
