@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-08T10:15:21.288873Z",
+    "last_updated": "2026-09-08T14:23:11.393636Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14609,7 +14609,7 @@
       "gemarkung_label": "Frankfurt Bezirk 27",
       "flur": "444",
       "flurstueck": "34/29",
-      "fetched_at": "2026-06-14T17:37:05.012594+00:00",
+      "fetched_at": "2026-09-08T14:16:21.181545+00:00",
       "permit_number": "B-2020-1380-3",
       "description": "Ausbau Dachgeschoss zur Wohnraumerweiterung\neiner bestehenden Wohnung im 2. Obergeschoss \nin einem Mehrfamilienhaus",
       "site_address": "Eulengasse 58",
