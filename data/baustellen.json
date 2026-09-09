@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-09T01:38:23.106999Z",
+    "last_updated": "2026-09-09T06:30:35.790371Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11534,7 +11534,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "7",
       "flurstueck": "16/40",
-      "fetched_at": "2026-06-14T19:34:55.489935+00:00",
+      "fetched_at": "2026-09-09T06:12:23.873747+00:00",
       "permit_number": "B-2017-1128-4",
       "description": "Neubau eines Dreifamilienwohnhauses, Abbruch einer Garage mit 4 Einstellplätzen, Neuanordnung von 3 PKW-Stellplätzen und Herstellung von 2 PKW-Stellplätzen, Abbruch des Satteldaches und Neubau eines Staffelgeschosses mit zwei Wohneinheiten an einem Mehrfamilienwohnhaus",
       "site_address": "Haeberlinstraße 33",
@@ -14333,7 +14333,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "9",
       "flurstueck": "510/49",
-      "fetched_at": "2026-06-13T21:29:51.191866+00:00",
+      "fetched_at": "2026-09-09T06:19:44.695613+00:00",
       "permit_number": "B-2018-847-6",
       "description": "Rückbau des Daches und Wiedererrichten in geänderter Form, Aufstockung um ein Vollgeschoss,  Ausbau des Dachgeschoß als Wohnraumerweiterung mit inneren Umbauten in einem Mehrfamilienwohnhaus. Rückbau eines Schuppens und Errichtung einer Terrasse",
       "site_address": "Nathan-Trier-Straße 3",
