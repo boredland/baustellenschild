@@ -11,6 +11,11 @@ setWorkerUrl(workerUrl);
 const FRANKFURT = { center: [8.6821, 50.1109], zoom: 11.6 };
 const SIGN_ZOOM = 15;
 
+// A shared link names the permit by its Aktenzeichen, not by its position in
+// the payload: the crawler rewrites that payload every half hour, and an index
+// would then point at whichever sign happened to sort into the slot.
+const PARAM = "schild";
+
 const map = new Map({
   container: "map",
   style: basemap,
@@ -71,6 +76,7 @@ async function load() {
 
   renderVacantBoard(boardFace, siteData.count);
   addLayers();
+  applyUrl();
 }
 
 function addLayers() {
@@ -177,7 +183,7 @@ function addLayers() {
   }
 }
 
-function select(index, { from = "list" } = {}) {
+function select(index, { from = "list", record = true } = {}) {
   const site = sites[index];
   if (!site) return;
 
@@ -201,16 +207,62 @@ function select(index, { from = "list" } = {}) {
       : [],
   });
 
+  // Picking the sign that is already open must not stack a second identical
+  // entry, or Back would look like it did nothing.
+  if (record && new URLSearchParams(window.location.search).get(PARAM) !== site.permit_number) {
+    const url = new URL(window.location);
+    url.searchParams.set(PARAM, site.permit_number);
+    history.pushState(null, "", url);
+  }
+
+  // Clicking a sign in the map means you are already looking at where it
+  // stands; arriving from a list entry or a link means you are not.
   if (from === "list") {
     map.easeTo({
       center: [site.lon, site.lat],
       zoom: Math.max(map.getZoom(), 16.5),
       duration: prefersReducedMotion() ? 0 : 900,
     });
+  } else if (from === "url") {
+    map.jumpTo({ center: [site.lon, site.lat], zoom: Math.max(map.getZoom(), 16.5) });
   }
 
   revealBoard(from);
 }
+
+function deselect() {
+  selected = null;
+  renderVacantBoard(boardFace, sites.length);
+  map.setFilter("sites-selected", ["==", ["get", "index"], -1]);
+  map.getSource("parcel").setData({ type: "FeatureCollection", features: [] });
+}
+
+/**
+ * Two permits share an Aktenzeichen with a second record identical in every
+ * field, so the first match is the only sign either of them could show.
+ */
+function applyUrl() {
+  const permit = new URLSearchParams(window.location.search).get(PARAM);
+  const index = permit
+    ? sites.findIndex((site) => site.permit_number === permit)
+    : -1;
+
+  if (index !== -1) {
+    select(index, { from: "url", record: false });
+    return;
+  }
+
+  // A link to a permit the register has since dropped should still open the
+  // map, and should not go on offering that permit to whoever it is shared with.
+  if (permit) {
+    const url = new URL(window.location);
+    url.searchParams.delete(PARAM);
+    history.replaceState(null, "", url);
+  }
+  if (selected !== null) deselect();
+}
+
+window.addEventListener("popstate", applyUrl);
 
 const prefersReducedMotion = () =>
   window.matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -225,7 +277,7 @@ const isNarrow = () => window.matchMedia("(max-width: 56rem)").matches;
 function revealBoard(from) {
   const behavior = prefersReducedMotion() ? "auto" : "smooth";
 
-  if (isNarrow() && from === "map") {
+  if (isNarrow() && from !== "list") {
     const top = board.getBoundingClientRect().top + window.scrollY;
     window.scrollTo({ top: top - window.innerHeight * 0.32, behavior });
     return;
