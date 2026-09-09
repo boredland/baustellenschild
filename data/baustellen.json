@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-09T21:46:50.768421Z",
+    "last_updated": "2026-09-09T23:43:46.684090Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19378,7 +19378,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "7",
       "flurstueck": "18/0",
-      "fetched_at": "2026-06-13T16:32:42.369400+00:00",
+      "fetched_at": "2026-09-09T23:39:44.308062+00:00",
       "permit_number": "B-2024-958-5",
       "description": "Vorderhaus: Nutzungsänderung im EG von Einzelhandel zu Wohnen in einem Mehrfamilienhaus\nHinterhaus:  Nutzungsänderung von einer Wäscherei in ein Einfamilienhaus sowie Errichten eines Anbaus zur Wohnraumerweiterung",
       "site_address": "Lorscher Straße 26",
@@ -19399,7 +19399,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "7",
       "flurstueck": "33/0",
-      "fetched_at": "2026-06-13T16:32:43.993312+00:00",
+      "fetched_at": "2026-09-09T23:40:38.309981+00:00",
       "permit_number": "B-2022-1218-5",
       "description": "Zusammenlegen von 24 Einzimmerwohnungen in 3 Wohnungen, Errichten einer Balkonanlage an einem Mehrfamilienhaus",
       "site_address": "Am Alten See 19",
