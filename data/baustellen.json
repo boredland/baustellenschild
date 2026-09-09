@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-09T15:54:53.314230Z",
+    "last_updated": "2026-09-09T19:14:35.200938Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18520,7 +18520,7 @@
       "gemarkung_label": "Niederursel/H. Bezirk 48H",
       "flur": "2",
       "flurstueck": "359/1",
-      "fetched_at": "2026-06-14T20:57:16.713223+00:00",
+      "fetched_at": "2026-09-09T18:57:46.722454+00:00",
       "permit_number": "B-2019-1101-4",
       "description": "Nutzungsänderung eines landwirtschaftlichen Betriebes in eine Kindertagesstätte, Räume für soziale Zwecke und eine Hausmeisterwohnung, Rückbau Dachstuhl und Wiedererrichtung in gleicher Form, Errichtung eines Treppenhauses und 2 Außentreppen",
       "site_address": "Oberurseler Weg 11",
