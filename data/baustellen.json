@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-09T19:14:35.200938Z",
+    "last_updated": "2026-09-09T21:46:50.768421Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1728,7 +1728,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "35",
       "flurstueck": "31/1",
-      "fetched_at": "2026-06-13T23:27:51.626145+00:00",
+      "fetched_at": "2026-09-09T21:38:57.596958+00:00",
       "permit_number": "B-2022-449-3",
       "description": "Errichtung eines Mehrfamilienhauses mit\n10 Wohneinheiten auf einer Tiefgarage mit 10 Stellplätzen",
       "site_address": "Goldbergweg 83",
@@ -16436,7 +16436,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "14",
       "flurstueck": "95/1",
-      "fetched_at": "2026-06-14T20:30:55.530313+00:00",
+      "fetched_at": "2026-09-09T21:44:09.587978+00:00",
       "permit_number": "B-2022-600-4",
       "description": "Anbau zur Wohnraumerweiterung sowie Rückbau Windfang und Wiedererrichtung in geänderter Form an einem Reihenhaus",
       "site_address": "Damaschkeanger 150",
@@ -16446,7 +16446,10 @@
       "builder_location": "60488 Frankfurt am Main",
       "architect_name": "Primorac Dipl.-Ing. Michelle",
       "architect_address": "Thomas-Mann-Ring 26",
-      "architect_location": "63128 Dietzenbach"
+      "architect_location": "63128 Dietzenbach",
+      "site_manager_name": "Primorac-Sommer Michelle",
+      "site_manager_address": "Willy-Brandt-Weg 20",
+      "site_manager_location": "63128 Dietzenbach"
     },
     {
       "gemarkung_id": 517,
