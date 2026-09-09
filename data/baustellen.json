@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-09T06:30:35.790371Z",
+    "last_updated": "2026-09-09T11:55:10.527799Z",
     "total": 1165,
     "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -17313,7 +17313,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "1",
       "flurstueck": "59/2",
-      "fetched_at": "2026-06-14T08:47:26.470250+00:00",
+      "fetched_at": "2026-09-09T11:42:03.118664+00:00",
       "permit_number": "B-2017-1645-4",
       "description": "Nachträgliche Legalisierung von Teilen eines Nebengebäudes (Scheune) mit Anbau zur Wohnraumerweiterung einer Wohneinheit an einem Zweifamilienhaus. Herstellen von 2 Stellplätzen.\n\nVerlängert bis 26.01.23",
       "site_address": "Talstraße 5",
