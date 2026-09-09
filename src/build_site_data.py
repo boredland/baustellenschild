@@ -14,6 +14,7 @@ Output (``web/public/data/``):
 import json
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from pathlib import Path
@@ -26,6 +27,17 @@ WFS = "https://geowebdienste.frankfurt.de/SGK_Flurstuecke"
 TYPE_NAME = "Amt62_Flurstuecke:Flurstueck"
 BATCH_SIZE = 200
 PRECISION = 6
+
+# The service answers 503 for minutes at a time. Four attempts spend at most
+# ~105s on a batch, which outlasts the short outages; a batch still failing
+# after that is the service being down, not the batch being bad.
+ATTEMPTS = 4
+BACKOFF = 15
+
+# Some parcels are genuinely absent from ALKIS — the register lags splits and
+# demolitions — but a run that loses a twentieth of the city has lost the
+# service, not the parcels.
+MIN_RESOLVED = 0.95
 
 PARCEL_INFO = re.compile(r"^.*?\((\d+)\)\s*,\s*([^,]+),\s*(.+)$")
 PARCEL_NUMBER = re.compile(r"^(\d+)\s*/?\s*(\d*)$")
@@ -48,6 +60,8 @@ SITE_FIELDS = (
     "gemarkung_label",
     "url",
 )
+
+TRANSIENT = (urllib.error.URLError, TimeoutError, json.JSONDecodeError)
 
 
 def parcel_id(parcel_info: str) -> tuple[str, str, str, str] | None:
@@ -89,8 +103,16 @@ def post(query_body: str) -> list[dict]:
     request = urllib.request.Request(
         WFS, data=body.encode(), headers={"Content-Type": "text/xml"}
     )
-    with urllib.request.urlopen(request, timeout=120) as response:
-        return json.load(response)["features"]
+    for attempt in range(ATTEMPTS):
+        try:
+            with urllib.request.urlopen(request, timeout=120) as response:
+                return json.load(response)["features"]
+        except TRANSIENT as exc:
+            if attempt == ATTEMPTS - 1:
+                raise
+            delay = BACKOFF * 2**attempt
+            print(f"! {exc}; retrying in {delay}s", file=sys.stderr)
+            time.sleep(delay)
 
 
 def equals(field: str, value: str) -> str:
@@ -124,32 +146,27 @@ def batched(items: list, size: int = BATCH_SIZE):
 
 
 def resolve(parcels: list[tuple[str, str, str, str]]) -> dict[tuple, dict]:
+    """Raises on a batch that outlasts its retries: that is the service, not one query."""
     by_key = {parcel_key(parcel): parcel for parcel in parcels}
     resolved: dict[tuple, dict] = {}
 
     for batch in batched(sorted(by_key)):
-        try:
-            for feature in fetch_by_key(batch):
-                resolved[by_key[feature["properties"]["FSK"]]] = feature
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-            print(f"! key batch: {exc}", file=sys.stderr)
+        for feature in fetch_by_key(batch):
+            resolved[by_key[feature["properties"]["FSK"]]] = feature
 
     retry = [parcel for parcel in parcels if parcel not in resolved]
     by_number = {parcel[:3]: parcel for parcel in retry}
     for batch in batched(retry):
-        try:
-            for feature in fetch_by_number(batch):
-                properties = feature["properties"]
-                number = (
-                    properties["GMK"],
-                    str(int(properties["FLN"])),
-                    str(int(properties["ZAE"])),
-                )
-                parcel = by_number.get(number)
-                if parcel and parcel not in resolved:
-                    resolved[parcel] = feature
-        except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
-            print(f"! number batch: {exc}", file=sys.stderr)
+        for feature in fetch_by_number(batch):
+            properties = feature["properties"]
+            number = (
+                properties["GMK"],
+                str(int(properties["FLN"])),
+                str(int(properties["ZAE"])),
+            )
+            parcel = by_number.get(number)
+            if parcel and parcel not in resolved:
+                resolved[parcel] = feature
 
     print(f"resolved {len(resolved)}/{len(parcels)} parcels ({len(retry)} needed retry)")
     return resolved
@@ -205,7 +222,19 @@ def main() -> None:
         else:
             print(f"! unparseable parcel: {site['parcel_info']}", file=sys.stderr)
 
-    resolved = resolve(list(keyed))
+    # A payload built without the cadastre carries no parcels at all, and the map
+    # it publishes is empty. The one already on disk is a better answer than that,
+    # so leave it and fail the run.
+    try:
+        resolved = resolve(list(keyed))
+    except TRANSIENT as exc:
+        sys.exit(f"! ALKIS unreachable ({exc}); keeping the payload already on disk")
+
+    if len(resolved) < len(keyed) * MIN_RESOLVED:
+        sys.exit(
+            f"! only {len(resolved)}/{len(keyed)} parcels resolved; "
+            "keeping the payload already on disk"
+        )
 
     records = []
     parcels: dict[str, list] = {}
