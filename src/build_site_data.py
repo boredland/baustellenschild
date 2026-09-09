@@ -17,6 +17,7 @@ import sys
 import time
 import urllib.error
 import urllib.request
+from itertools import pairwise
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -179,12 +180,23 @@ def outer_rings(geometry: dict) -> list[list[list[float]]]:
 
 
 def centroid(geometry: dict) -> tuple[float, float]:
-    """Area-weighted centroid over the outer rings of a (Multi)Polygon."""
+    """Area-weighted centroid over the outer rings of a (Multi)Polygon.
+
+    The shoelace terms are taken about the first vertex. In raw WGS84 a city
+    parcel is a handful of metres wide around 8.7E/50.1N, so ``x0*y1 - x1*y0``
+    subtracts two numbers agreeing to fifteen digits and keeps almost none of
+    them; markers then land hundreds of metres to kilometres off their parcel.
+    Subtracting the origin first makes the coordinates small, and the terms
+    significant.
+    """
     rings = outer_rings(geometry)
+    origin_x, origin_y = rings[0][0]
     twice_area = sum_x = sum_y = 0.0
 
     for ring in rings:
-        for (x0, y0), (x1, y1) in zip(ring, ring[1:]):
+        for (px0, py0), (px1, py1) in pairwise(ring):
+            x0, y0 = px0 - origin_x, py0 - origin_y
+            x1, y1 = px1 - origin_x, py1 - origin_y
             cross = x0 * y1 - x1 * y0
             twice_area += cross
             sum_x += (x0 + x1) * cross
@@ -196,7 +208,10 @@ def centroid(geometry: dict) -> tuple[float, float]:
             sum(p[0] for p in points) / len(points),
             sum(p[1] for p in points) / len(points),
         )
-    return sum_x / (3 * twice_area), sum_y / (3 * twice_area)
+    return (
+        sum_x / (3 * twice_area) + origin_x,
+        sum_y / (3 * twice_area) + origin_y,
+    )
 
 
 def rounded_rings(geometry: dict) -> list[list[list[float]]]:
