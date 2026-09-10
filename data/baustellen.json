@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-10T11:53:38.991784Z",
+    "last_updated": "2026-09-10T15:50:27.797779Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8891,7 +8891,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "180",
       "flurstueck": "64/34",
-      "fetched_at": "2026-06-14T20:54:19.012557+00:00",
+      "fetched_at": "2026-09-10T15:45:24.425819+00:00",
       "permit_number": "B-2024-694-5",
       "description": "Brandschutzrelevante Grundrissänderungen von UG - 4.OG, Fassadenänderungen im Sockelbereich  sowie Austausch von Fensterlaibungen in einem Büro- und Verwaltungsgebäude",
       "site_address": "Gutleutstraße 110",
@@ -11899,7 +11899,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "48",
       "flurstueck": "15/9",
-      "fetched_at": "2026-06-14T18:26:58.007624+00:00",
+      "fetched_at": "2026-09-10T15:44:18.434386+00:00",
       "permit_number": "B-2022-997-4",
       "description": "Brandschutzrelevante Grundrissänderungen im UG und EG einer KITA",
       "site_address": "Bleichstraße 21",
@@ -17014,7 +17014,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "7",
       "flurstueck": "39/92",
-      "fetched_at": "2026-06-14T15:15:52.123237+00:00",
+      "fetched_at": "2026-09-10T15:35:00.529430+00:00",
       "permit_number": "B-2023-656-6",
       "description": "Aufstockung und Errichtung von 2 Wohneinheiten an einem Mehrfamilienwohnhaus",
       "site_address": "Bielefelder Straße 15",
