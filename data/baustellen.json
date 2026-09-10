@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-10T19:07:57.421613Z",
+    "last_updated": "2026-09-10T21:36:50.063925Z",
     "total": 1165,
     "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -11472,7 +11472,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "540",
       "flurstueck": "1/2",
-      "fetched_at": "2026-06-14T21:29:18.838400+00:00",
+      "fetched_at": "2026-09-10T21:22:43.355578+00:00",
       "permit_number": "B-2018-1131-5",
       "description": "Errichtung eines Beherbergungsbetriebes mit 364 Gästebetten in\n178 2-Bettzimmern, 2 4-Bettzimmern sowie weitere 40 Schlafplätze in Form von Schlafsofas,\n2 Tiefgaragengeschossen mit 65 Tiefgaragenstellplätzen und 77 Fahrradstellplätzen,\nsowie Schank- und Speisegastbetrieb mit 108 Sitzplätzen und\nHerstellung eines Wirtschaftsgartens befristet auf 5 Jahre mit 78 Außensitzplätzen.",
       "site_address": "Stresemannallee 28",
@@ -11493,7 +11493,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "540",
       "flurstueck": "18/4",
-      "fetched_at": "2026-06-14T21:29:20.504035+00:00",
+      "fetched_at": "2026-09-10T21:24:43.275218+00:00",
       "permit_number": "B-2022-414-5",
       "description": "Brandschutzrelevante Grundrissänderungen mit Eingriffen in die Lüftung und Entrauchung\nin einem Hochhaus mit Büroeinheiten, Kita und Grundschule",
       "site_address": "Stresemannallee 30",
