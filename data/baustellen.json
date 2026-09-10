@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-10T15:50:27.797779Z",
+    "last_updated": "2026-09-10T19:07:57.421613Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2284,7 +2284,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "191",
       "flurstueck": "4/62",
-      "fetched_at": "2026-06-15T01:49:21.638281+00:00",
+      "fetched_at": "2026-09-10T18:52:41.785915+00:00",
       "permit_number": "B-2021-296-5",
       "description": "Errichten eines Großhandels für Lebensmittel und Gastronomiebedarf mit Lager und Verkauf auf einer Tiefgarage mit 249 Stellplätzen",
       "site_address": "Gutleutstraße 358",
@@ -2305,7 +2305,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "191",
       "flurstueck": "4/61",
-      "fetched_at": "2026-06-15T01:49:21.722537+00:00",
+      "fetched_at": "2026-09-10T18:53:29.801448+00:00",
       "permit_number": "B-2022-1143-5",
       "description": "Errichtung eines Lagergebäudes und Herstellen von 12 Stellplätzen",
       "site_address": "Gutleutstraße 356",
@@ -11878,7 +11878,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "48",
       "flurstueck": "35/1",
-      "fetched_at": "2026-06-14T18:27:00.921998+00:00",
+      "fetched_at": "2026-09-10T18:51:23.793598+00:00",
       "permit_number": "B-2023-1054-4",
       "description": "Nutzungsänderung im 2. UG von 10 Stellplätzen in Abstellräume, im EG von Laden in eine Schank- und Speisewirtschaft und ein Büro, im 1.-7. OG von Büro in 66 Wohnungen, Errichten von Balkonanlagen und einer Photovoltaikanlage an einem Wohn- und Geschäftshaus",
       "site_address": "Schäfergasse 33",
