@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-10T21:36:50.063925Z",
+    "last_updated": "2026-09-10T23:35:24.974836Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9016,7 +9016,7 @@
       "gemarkung_label": "Frankfurt Bezirk 20",
       "flur": "313",
       "flurstueck": "16/0",
-      "fetched_at": "2026-06-14T20:54:43.691364+00:00",
+      "fetched_at": "2026-09-10T23:17:13.673589+00:00",
       "permit_number": "B-2017-1884-4",
       "description": "Wiedererrichtung einer Hauseingangstreppe in veränderter Form mit  Abstellraum im EG, Veränderung Ostfassade, Innere Umbauten im 1.OG an einem Mehrfamilienwohnhaus\n\nVerlängerung bis 16.3.2023",
       "site_address": "Hermannstraße 34",
@@ -19588,7 +19588,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "9",
       "flurstueck": "1095/183",
-      "fetched_at": "2026-06-13T17:57:12.734574+00:00",
+      "fetched_at": "2026-09-10T23:28:22.589475+00:00",
       "permit_number": "B-2021-1081-5",
       "description": "Errichten eines Einfamilienwohnhauses sowie einer Garage",
       "site_address": "Bernusstraße 17",
