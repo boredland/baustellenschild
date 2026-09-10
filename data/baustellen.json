@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-09T23:43:46.684090Z",
+    "last_updated": "2026-09-10T01:32:54.686466Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22632,7 +22632,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "47",
       "flurstueck": "80/0",
-      "fetched_at": "2026-06-12T11:53:45.877178+00:00",
+      "fetched_at": "2026-09-10T01:23:59.984474+00:00",
       "permit_number": "B-2024-699-6",
       "description": "Rückbau- und Wiedererrichten des Dachs in geänderter Form zur Wohnraumerweiterung eines Einfamilienhauses mit inneren Umbauten",
       "site_address": "Libellenweg 68",
