@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-11T06:33:35.731913Z",
+    "last_updated": "2026-09-11T11:55:25.581771Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17603,7 +17603,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "9",
       "flurstueck": "125/0",
-      "fetched_at": "2026-06-13T21:55:57.233838+00:00",
+      "fetched_at": "2026-09-11T11:43:54.594048+00:00",
       "permit_number": "B-2019-805-4",
       "description": "Errichten eines Anbaus zur Wohnraumerweiterung der Wohneinheiten im EG und 1.OG, sowie Rückbau und Wiedererrichten der Gaube im DG an einem denkmalgeschützten Mehrfamilienwohnhaus",
       "site_address": "Roseggerstraße 21",
