@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-11T19:10:57.685845Z",
+    "last_updated": "2026-09-11T21:44:22.725210Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 30,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -800,7 +800,7 @@
       "gemarkung_label": "Niederursel/H. Bezirk 48H",
       "flur": "5",
       "flurstueck": "36/6",
-      "fetched_at": "2026-06-14T21:30:35.004238+00:00",
+      "fetched_at": "2026-09-11T21:37:46.603851+00:00",
       "permit_number": "B-2022-766-6",
       "description": "brandschutz- und lüftungstechnische Grundrissänderungen im UG und EG eines Forschungsinstituts",
       "site_address": "Max-von-Laue-Straße 3",
@@ -841,9 +841,9 @@
       "gemarkung_label": "Niederursel/H. Bezirk 48H",
       "flur": "5",
       "flurstueck": "36/19",
-      "fetched_at": "2026-06-14T21:30:35.031066+00:00",
+      "fetched_at": "2026-09-11T21:37:23.398970+00:00",
       "permit_number": "B-2020-1457-6",
-      "description": "CH1 - Neubau Chemische Institute (1.BA) mit einer Technikzentrale (unterirdisch) auf dem Campus Riedberg, Goethe-Universität Frankfurt / Main",
+      "description": "CH1 - Neubau Chemische Institute (1.BA) mit einer Technikzentrale...",
       "site_address": "Alexander-Todd-Straße 7",
       "parcel_info": "Niederursel/H. Bezirk 48H (504), 5, 36/19",
       "builder_name": "LBIH Landesbetrieb Bau und Immobilien Hessen",
