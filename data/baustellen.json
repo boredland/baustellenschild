@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-11T21:44:22.725210Z",
+    "last_updated": "2026-09-11T23:43:57.905081Z",
     "total": 1165,
-    "errors": 30,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -821,7 +821,7 @@
       "gemarkung_label": "Niederursel/H. Bezirk 48H",
       "flur": "5",
       "flurstueck": "37/7",
-      "fetched_at": "2026-06-14T21:30:35.713262+00:00",
+      "fetched_at": "2026-09-11T23:27:29.487059+00:00",
       "permit_number": "B-2015-791-4",
       "description": "Errichtung eines Büros und Verwaltungsgebäudes mit Tiefgarage mit 31 Stellplätzen (Generalkonsulat der Republik Korea)",
       "site_address": "Konrad-Zuse-Straße 2",
