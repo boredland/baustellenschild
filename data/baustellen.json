@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-10T23:35:24.974836Z",
+    "last_updated": "2026-09-11T01:34:17.604057Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22895,7 +22895,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "42",
       "flurstueck": "57/0",
-      "fetched_at": "2026-06-11T12:47:50.450161+00:00",
+      "fetched_at": "2026-09-11T01:17:33.393494+00:00",
       "permit_number": "B-2022-875-3",
       "description": "Schliessen des Balkons im EG als Wohnraumerweiterung \nan einem Einfamilienwohnhaus",
       "site_address": "Stettiner Straße 14",
