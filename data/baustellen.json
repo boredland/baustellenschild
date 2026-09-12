@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-12T14:32:59.471648Z",
+    "last_updated": "2026-09-12T17:36:49.004478Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12476,7 +12476,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "49",
       "flurstueck": "16/29",
-      "fetched_at": "2026-06-14T18:56:26.971967+00:00",
+      "fetched_at": "2026-09-12T17:35:15.106829+00:00",
       "permit_number": "B-2025-253-4",
       "description": "Brandschutz- und statischrelevante Änderung im 4. OG durch Errichten einer Dachterrasse in einem Bürogebäude",
       "site_address": "Bleichstraße 1",
@@ -12497,9 +12497,9 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "49",
       "flurstueck": "16/5",
-      "fetched_at": "2026-06-14T18:56:27.515307+00:00",
+      "fetched_at": "2026-09-12T17:36:48.997104+00:00",
       "permit_number": "B-2015-239-4",
-      "description": "Nutzungsänderung von Hausmeisterwohnung in Büroräume im 4. OG. der Betriebsleitstelle der VGF\n(ohne bauliche Veränderung)",
+      "description": "Nutzungsänderung von Hausmeisterwohnung in Büroräume im 4. OG....",
       "site_address": "Elefantengasse 4 - 6",
       "parcel_info": "Frankfurt Bezirk 01 (460), 49, 16/5",
       "builder_name": "Stadtwerke Verkehrsgesellschaft Frankfurt am Main mbH",
@@ -21459,7 +21459,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "12",
       "flurstueck": "173/6",
-      "fetched_at": "2026-06-14T20:31:24.572386+00:00",
+      "fetched_at": "2026-09-12T17:20:39.104246+00:00",
       "permit_number": "B-2019-1476-6",
       "description": "2 Anbauten an eine Sporthalle, Errichtung von 7 Stellplätzen",
       "site_address": "Geißspitzweg 15",
