@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-12T01:37:55.682005Z",
+    "last_updated": "2026-09-12T06:19:37.272202Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5116,7 +5116,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "1",
       "flurstueck": "826/73",
-      "fetched_at": "2026-06-12T23:33:30.523884+00:00",
+      "fetched_at": "2026-09-12T06:19:34.278308+00:00",
       "permit_number": "B-2019-378-6",
       "description": "Ausbau des Dachgeschosses zur Wohnraumerweiterung und Änderung der tragenden Konstruktion, an einem Einfamilienhaus",
       "site_address": "Schrimpegasse 3",
@@ -19566,9 +19566,9 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "7",
       "flurstueck": "65/5",
-      "fetched_at": "2026-06-13T17:04:20.858861+00:00",
+      "fetched_at": "2026-09-12T06:08:51.198467+00:00",
       "permit_number": "B-2022-1152-5",
-      "description": "Brandschutzrelevante Grundrissänderungen sowie Umbau von 13 PKW- in 114 Fahrradabstellplätze in einer Tiefgarage",
+      "description": "Brandschutzrelevante Grundrissänderungen sowie Umbau von 13 PKW-...",
       "site_address": "Niddagaustraße 42",
       "parcel_info": "Rödelheim Bezirk 40 (510), 7, 65/5",
       "builder_name": "Cube Asset Mitte 1 GmbH",
