@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-12T19:49:13.871782Z",
+    "last_updated": "2026-09-12T22:08:30.378718Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17034,7 +17034,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "7",
       "flurstueck": "146/14",
-      "fetched_at": "2026-06-14T15:15:53.586004+00:00",
+      "fetched_at": "2026-09-12T21:50:07.274377+00:00",
       "permit_number": "B-2022-902-6",
       "description": "Errichtung eines Anbaus zur Wohnraumerweiterung sowie Herstellen einer Gaube an einem Reihenendhaus",
       "site_address": "Bernburger Weg 7",
