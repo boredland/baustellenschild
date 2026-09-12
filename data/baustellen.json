@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-12T11:18:56.006780Z",
+    "last_updated": "2026-09-12T14:32:59.471648Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21605,7 +21605,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "7",
       "flurstueck": "226/92",
-      "fetched_at": "2026-06-14T17:02:47.104594+00:00",
+      "fetched_at": "2026-09-12T14:25:27.502753+00:00",
       "permit_number": "B-2021-353-6",
       "description": "Errichtung eines Zwerchhauses zur Wohnraumerweiterung des Dachgeschosses eines Einfamilienhauses mit einem Raum zur freiberuflichen Nutzung nach § 13 BauNVO",
       "site_address": "Schaumburger Straße 50a",
