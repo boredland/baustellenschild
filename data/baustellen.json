@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-13T19:25:44.409388Z",
+    "last_updated": "2026-09-13T21:48:40.303708Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8560,7 +8560,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "3",
       "flurstueck": "14/66",
-      "fetched_at": "2026-06-14T20:30:27.747557+00:00",
+      "fetched_at": "2026-09-13T21:36:51.600237+00:00",
       "permit_number": "B-2023-452-5",
       "description": "Errichtung eines Einfamilienhauses mit Garage und Carport",
       "site_address": "Holzhecke 10",
@@ -14691,7 +14691,7 @@
       "gemarkung_label": "Nied Bezirk 56",
       "flur": "7",
       "flurstueck": "323/2",
-      "fetched_at": "2026-06-13T12:35:58.521689+00:00",
+      "fetched_at": "2026-09-13T21:32:57.669803+00:00",
       "permit_number": "B-2020-1367-6",
       "description": "Errichtung von drei Mehrfamilienhäusern mit 49 Wohnungen und einer Kita im Erdgeschoss auf einer gemeinsamen Tiefgarage mit 30 Stellplätzen",
       "site_address": "Nieder Kirchweg 123 - 123b",
