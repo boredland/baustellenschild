@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-14T20:10:55.199239Z",
+    "last_updated": "2026-09-14T23:10:14.709999Z",
     "total": 1165,
     "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -19692,7 +19692,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "8",
       "flurstueck": "3/3",
-      "fetched_at": "2026-06-13T17:58:34.791147+00:00",
+      "fetched_at": "2026-09-14T22:52:11.231622+00:00",
       "permit_number": "B-2019-1076-5",
       "description": "Nutzungsänderung von Büro- und Lagerflächen in eine Schule für Erwachsenenbildung vom EG bis 3.OG, Nutzungsänderung von Büro- in Lagerflächen im EG, Errichtung einer Dachterrasse und Fluchttreppe, Herstellung von 3 PKW-Stellplätzen",
       "site_address": "Westerbachstraße 59",
