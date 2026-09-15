@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-15T20:03:47.317559Z",
+    "last_updated": "2026-09-15T22:51:05.965362Z",
     "total": 1165,
-    "errors": 17,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19935,7 +19935,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "10",
       "flurstueck": "647/60",
-      "fetched_at": "2026-06-13T18:57:52.342541+00:00",
+      "fetched_at": "2026-09-15T22:36:54.498065+00:00",
       "permit_number": "B-2021-878-5",
       "description": "Aufteilen einer Wohnung in zwei Wohnungen im Dachgeschoss, Rückbau und Wiedererrichten Spitzboden in geänderter Form mit Ausbau als Wohnraumerweiterung der Wohnung im Dachgeschoss in einem Mehrfamilienhaus",
       "site_address": "Sophienstraße 31",
@@ -20156,7 +20156,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "10",
       "flurstueck": "814/42",
-      "fetched_at": "2026-06-13T19:34:20.400904+00:00",
+      "fetched_at": "2026-09-15T22:40:54.289718+00:00",
       "permit_number": "B-2024-777-5",
       "description": "Ausbau der Schwimmhalle zu einer Lager- und Abstellfläche, Aufteilung von einer Wohneinheit in zwei Wohneinheiten im EG, innere Umbauten sowie Erweitern von zwei Balkonen im EG",
       "site_address": "Zeppelinallee 73",
