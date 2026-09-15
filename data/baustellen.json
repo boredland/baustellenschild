@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-15T12:14:43.788997Z",
+    "last_updated": "2026-09-15T16:21:32.188493Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -4413,7 +4413,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "195",
       "flurstueck": "2/52",
-      "fetched_at": "2026-06-15T05:14:33.627583+00:00",
+      "fetched_at": "2026-09-15T16:03:18.394338+00:00",
       "permit_number": "B-2025-699-5",
       "description": "Errichten eines Mehrfamilienhauses mit 42 sozial-geförderten Wohnungen sowie Herstellen von 6 Stellplätzen",
       "site_address": "Herxheimerstraße 10",
@@ -12148,7 +12148,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "546",
       "flurstueck": "2/52",
-      "fetched_at": "2026-06-14T22:30:10.290644+00:00",
+      "fetched_at": "2026-09-15T16:13:57.524006+00:00",
       "permit_number": "B-2021-1082-5",
       "description": "Brandschutz- und lüftungsrelevante Grundrissänderung des Laborbereiches im Erdgeschoss,\nEinbau eines Formaldehyd-Lager im Untergeschoss,\nsowie Errichtung einer Technikzentrale auf dem Dach des Hörsaals, \nim Institut für Pathologie der Unikliniken, Haus 6",
       "site_address": "Theodor-Stern-Kai 7",
@@ -12169,7 +12169,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "546",
       "flurstueck": "22/3",
-      "fetched_at": "2026-06-14T22:30:12.988321+00:00",
+      "fetched_at": "2026-09-15T16:16:27.111187+00:00",
       "permit_number": "B-2022-210-5",
       "description": "Brandschutzrelevante Grundrissänderungen mit inneren Umbauten von KG-4.OG,\nErrichtung von Carports, Errichtung eines Abstellraumes und einer Außentreppe in und an einem\nChemotherapeutischen Forschungsinstitut- Georg-Speyer-Haus",
       "site_address": "Paul-Ehrlich-Straße 42 - 44",
