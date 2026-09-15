@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-15T06:36:38.895198Z",
+    "last_updated": "2026-09-15T12:14:43.788997Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -595,7 +595,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "416",
       "flurstueck": "33/2",
-      "fetched_at": "2026-06-14T19:33:57.986460+00:00",
+      "fetched_at": "2026-09-15T12:12:40.276244+00:00",
       "permit_number": "B-2024-1236-3",
       "description": "Errichtung einer Lagerhalle (0600M) mit Büro- und Technikräumen\nsowie Errichtung von Schwerlastregalen im Außenbereich",
       "site_address": "Franziusstraße 48",
@@ -7275,7 +7275,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "403",
       "flurstueck": "104/12",
-      "fetched_at": "2026-06-14T22:55:38.815393+00:00",
+      "fetched_at": "2026-09-15T12:07:16.194384+00:00",
       "permit_number": "B-2017-1333-3",
       "description": "Ausbau einer überdachten Abstellfläche in eine Wohnung im EG, \n3-geschossiger Anbau + Errichtung Zugang zur Dachterrasse \nvom 2. OG + innere Umbaumaßnahmen zur Wohnraumerweiterung\n+ Herstellung eines PKW-Stellplatzes",
       "site_address": "Bornheimer Landwehr 52",
