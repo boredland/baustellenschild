@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-15T16:21:32.188493Z",
+    "last_updated": "2026-09-15T20:03:47.317559Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 17,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22915,7 +22915,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "42",
       "flurstueck": "133/3",
-      "fetched_at": "2026-06-11T14:18:37.283878+00:00",
+      "fetched_at": "2026-09-15T19:56:47.470202+00:00",
       "permit_number": "B-2023-977-3",
       "description": "Nutzungsänderung mit Nutzungsaufteilung von Büro in \nzwei Wohneinheiten zur Erweiterung der Wohneinheiten \nim KG eines Mehrfamilienhauses",
       "site_address": "Schlesierstraße 20",
