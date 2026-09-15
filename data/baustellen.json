@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-14T23:10:14.709999Z",
+    "last_updated": "2026-09-15T01:22:28.701178Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12784,7 +12784,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "51",
       "flurstueck": "4/1",
-      "fetched_at": "2026-06-14T19:32:45.114854+00:00",
+      "fetched_at": "2026-09-15T01:20:25.616867+00:00",
       "permit_number": "B-2022-531-4",
       "description": "Brandschutz- und lüftungsrelevante Grundrissänderungen der Sanitäranlagen in allen Geschossen sowie Einbau einer Lüftungsanlage durch Abtrennung eines Lüftungsraums im Treppenhaus DG, Dachsanierung und Rückbau der Dachterrassenbrüstung und Wiederaufbau in der Julius-Leber-Schule",
       "site_address": "Seilerstraße 32",
@@ -12805,7 +12805,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "51",
       "flurstueck": "1/1",
-      "fetched_at": "2026-06-14T19:32:46.703382+00:00",
+      "fetched_at": "2026-09-15T01:20:07.525092+00:00",
       "permit_number": "B-2024-280-6",
       "description": "Brandschutz- und statischrelevante Grundrissänderung in allen Geschossen der Außenstelle Julius-Leber-Schule sowie Errichtung eines 3-geschossigen Erweiterungsbaus mit Kellergeschoss für die Berufliche Schule",
       "site_address": "Seilerstraße 36",
@@ -17435,7 +17435,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "8",
       "flurstueck": "45/18",
-      "fetched_at": "2026-06-14T16:04:54.008022+00:00",
+      "fetched_at": "2026-09-15T01:13:43.532614+00:00",
       "permit_number": "B-2017-541-6",
       "description": "Rückbau des Daches und  Aufstockung eines Staffelgeschosses mit 10 Wohneinheiten, 10 Balkonanlagen, und 10 Stellplätzen sowie energetische Fassadensanierung von 2 Mehrfamilienhäuser",
       "site_address": "Klosterhofstraße 116 - 124",
