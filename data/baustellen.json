@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-16T05:47:43.396040Z",
+    "last_updated": "2026-09-16T10:31:20.389086Z",
     "total": 1165,
-    "errors": 29,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9283,7 +9283,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "8",
       "flurstueck": "488/1",
-      "fetched_at": "2026-06-14T20:56:43.917914+00:00",
+      "fetched_at": "2026-09-16T10:22:58.276993+00:00",
       "permit_number": "B-2020-368-6",
       "description": "Nutzungsänderung im 2. OG von Büro zu 2 Wohneinheiten an einem Mehrfamilienhaus",
       "site_address": "Königsteiner Straße 40c",
