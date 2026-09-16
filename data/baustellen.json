@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-16T01:11:48.332752Z",
+    "last_updated": "2026-09-16T05:47:43.396040Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 29,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18094,7 +18094,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "9",
       "flurstueck": "714/112",
-      "fetched_at": "2026-06-13T22:52:08.771991+00:00",
+      "fetched_at": "2026-09-16T05:45:23.890662+00:00",
       "permit_number": "B-2024-313-4",
       "description": "Rückbau- und Wiedererrichten des Daches in geänderter Form, Anbau im KG und EG zur Wohnraumerweiterung mit Dachterrasse und Herstellen einer 2. Wohneinheit im KG sowie Nutzungsänderung von Fremdenzimmer in Wohnen im 1.OG und innere Umbauten in und an einem Zweifamilienhaus",
       "site_address": "Liliencronstraße 27",
@@ -19006,7 +19006,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "14",
       "flurstueck": "727/174",
-      "fetched_at": "2026-06-13T21:29:40.599496+00:00",
+      "fetched_at": "2026-09-16T05:36:47.677018+00:00",
       "permit_number": "B-2017-39-3",
       "description": "Neubau eines Einfamilien-Wohnhauses mit Carport",
       "site_address": "Am Mainbörnchen 1",
@@ -19046,7 +19046,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "14",
       "flurstueck": "752/182",
-      "fetched_at": "2026-06-13T21:29:41.834501+00:00",
+      "fetched_at": "2026-09-16T05:37:41.616816+00:00",
       "permit_number": "B-2021-326-3",
       "description": "Ausbau des Dachgeschosses zu einer Wohneinheit \nmit einem Zwerchhaus und einer Loggia\nErrichtung von 2 Balkonen an einem Mehrfamilienhaus",
       "site_address": "Schießhüttenstraße 8",
