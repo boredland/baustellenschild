@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-16T10:31:20.389086Z",
+    "last_updated": "2026-09-16T15:23:13.478440Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19026,7 +19026,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "14",
       "flurstueck": "751/62",
-      "fetched_at": "2026-06-13T21:29:42.642171+00:00",
+      "fetched_at": "2026-09-16T15:05:13.398467+00:00",
       "permit_number": "B-2023-1202-3",
       "description": "Umnutzung von einem Gewerbeobjekt (Druckerei) in ein Mehrfamilienhaus mit 5 Wohneinheiten, Abbruch des alten Eingangsbereiches, Erstellung einer Dachterrasse",
       "site_address": "Gründenseestraße 7",
