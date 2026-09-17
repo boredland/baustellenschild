@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-17T14:40:29.176300Z",
+    "last_updated": "2026-09-17T18:41:24.213390Z",
     "total": 1165,
-    "errors": 18,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -884,7 +884,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "13",
       "flurstueck": "50/73",
-      "fetched_at": "2026-06-14T21:31:22.376896+00:00",
+      "fetched_at": "2026-09-17T18:35:16.309557+00:00",
       "permit_number": "B-2024-416-6",
       "description": "Ausbau des Dachgeschosses zur Herstellung einer Wohneinheit sowie Errichten von Gauben und Einbau von Dachflächenfenstern an einem Mehrfamilienhaus",
       "site_address": "Loreleistraße 59",
@@ -21827,7 +21827,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "10",
       "flurstueck": "25/0",
-      "fetched_at": "2026-06-14T18:30:48.087199+00:00",
+      "fetched_at": "2026-09-17T18:27:40.521670+00:00",
       "permit_number": "B-2022-759-6",
       "description": "Nutzungsänderung von einer landwirtschaftlichen genutzten Halle in ein Einfamilienhaus (Hinterhaus), sowie Herstellung eines Stellplatzes",
       "site_address": "Michaelstraße 13a",
