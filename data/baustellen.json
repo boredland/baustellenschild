@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-17T00:16:41.584440Z",
+    "last_updated": "2026-09-17T04:04:50.884490Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19713,7 +19713,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "8",
       "flurstueck": "21/26",
-      "fetched_at": "2026-06-13T18:30:53.087465+00:00",
+      "fetched_at": "2026-09-17T04:03:25.700736+00:00",
       "permit_number": "B-2023-983-5",
       "description": "Errichtung einer Anlage für soziale Zwecke mit 123 Nutzungseinheiten (Unterbringung von Wohnungslosen und Geflüchteten) mit einer Tiefgarage mit 21 Stellplätzen",
       "site_address": "In der Au 18",
