@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-17T18:41:24.213390Z",
+    "last_updated": "2026-09-17T21:51:10.805257Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13025,7 +13025,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "52",
       "flurstueck": "10/1",
-      "fetched_at": "2026-06-14T20:27:31.802820+00:00",
+      "fetched_at": "2026-09-17T21:41:06.693198+00:00",
       "permit_number": "B-2024-1216-4",
       "description": "Nutzungsänderung von Büro in eine Schank- und Speisewirtschaft sowie innere Umbauten im KG und EG eines Wohn- und Geschäftshauses",
       "site_address": "Zeil 2",
@@ -15569,7 +15569,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "16",
       "flurstueck": "18/1",
-      "fetched_at": "2026-06-14T20:27:32.356319+00:00",
+      "fetched_at": "2026-09-17T21:40:06.895141+00:00",
       "permit_number": "B-2024-1022-4",
       "description": "Statisch- und brandschutzrelevante Änderungen im Kellergeschoss eines Parkhauses",
       "site_address": "Töngesgasse 8",
@@ -15590,7 +15590,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "16",
       "flurstueck": "1/23",
-      "fetched_at": "2026-06-14T20:27:20.912354+00:00",
+      "fetched_at": "2026-09-17T21:38:28.164860+00:00",
       "permit_number": "B-2024-1009-4",
       "description": "Nutzungsänderung von Büro in eine Anlage für gesundheitliche Zwecke (gewerbl. Praxis) im vierten Obergeschoss mit inneren Umbauten in einem Büro- und Geschäftshaus",
       "site_address": "Zeil 79",
@@ -17746,7 +17746,7 @@
       "gemarkung_label": "Zeilsheim Bezirk 61",
       "flur": "8",
       "flurstueck": "57/27",
-      "fetched_at": "2026-06-14T16:04:56.398131+00:00",
+      "fetched_at": "2026-09-17T21:36:48.599740+00:00",
       "permit_number": "B-2024-444-6",
       "description": "Anbau zu Wohnraumerweiterung mit inneren Umbauten und Errichten einer Terrasse im OG eines Einfamilienhauses\n\n3. Nachtrag in N-2025-21-6",
       "site_address": "Klosterhofstraße 47",
