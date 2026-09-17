@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-17T04:04:50.884490Z",
+    "last_updated": "2026-09-17T09:19:50.976050Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7562,7 +7562,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "1",
       "flurstueck": "1724/2",
-      "fetched_at": "2026-06-13T01:33:02.079041+00:00",
+      "fetched_at": "2026-09-17T09:08:53.971411+00:00",
       "permit_number": "B-2021-666-6",
       "description": "Rückbau und Wiedererrichten des Dachgeschosses in geänderter Form, Herstellen einer neuen Wohnung in einem Wohn- und Geschäftshaus (Hinterhaus)",
       "site_address": "Eifelstraße 23",
