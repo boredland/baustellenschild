@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-18T02:37:46.704886Z",
+    "last_updated": "2026-09-18T07:48:56.569395Z",
     "total": 1165,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -1459,7 +1459,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "366",
       "flurstueck": "51/2",
-      "fetched_at": "2026-06-14T20:28:42.406494+00:00",
+      "fetched_at": "2026-09-18T07:33:05.182404+00:00",
       "permit_number": "B-2023-1195-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 17 Wohneinheiten \nund einer Tiefgarage mit 18 Stellplätzen",
       "site_address": "Wingertstraße 11a",
@@ -1501,9 +1501,9 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "417",
       "flurstueck": "17/22",
-      "fetched_at": "2026-06-14T20:28:47.547216+00:00",
+      "fetched_at": "2026-09-18T07:32:47.903775+00:00",
       "permit_number": "B-2023-843-3",
-      "description": "Aufstellung von 6 Kältemaschinen auf bestehendes Rechenzentrum FRA 10",
+      "description": "Aufstellung von 6 Kältemaschinen auf bestehendes Rechenzentrum...",
       "site_address": "Weismüllerstraße 38",
       "parcel_info": "Frankfurt Bezirk 26 (478), 417, 17/22",
       "builder_name": "Digital Realty Germany GmbH",
