@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-18T00:06:32.467608Z",
+    "last_updated": "2026-09-18T02:37:46.704886Z",
     "total": 1165,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -1397,7 +1397,7 @@
       "gemarkung_label": "Frankfurt Bezirk 22",
       "flur": "336",
       "flurstueck": "15/8",
-      "fetched_at": "2026-06-14T20:28:27.056925+00:00",
+      "fetched_at": "2026-09-18T02:21:41.977723+00:00",
       "permit_number": "B-2018-1198-3",
       "description": "Statisch und brandschutzrelevante \nFassadensanierung an einem Wohnhochhaus",
       "site_address": "Gabelsbergerstraße 2",
@@ -1439,7 +1439,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "366",
       "flurstueck": "90/12",
-      "fetched_at": "2026-06-14T20:28:44.613682+00:00",
+      "fetched_at": "2026-09-18T02:27:35.970539+00:00",
       "permit_number": "B-2018-1391-3",
       "description": "Ausbau des Spitzbodens zur Wohnraumerweiterung der \nstraßenseitigen Dachgeschoßwohnung mit Einbau einer \nLoggia sowie innere Umbauten mit Neuaufteilung der \nbeiden Dachgeschoßwohnungen in einem Wohn- und Geschäftsgebäude",
       "site_address": "Sandweg 60",
@@ -5831,7 +5831,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "413",
       "flurstueck": "46/0",
-      "fetched_at": "2026-06-14T21:28:55.190232+00:00",
+      "fetched_at": "2026-09-18T02:32:23.999408+00:00",
       "permit_number": "B-2019-1123-3",
       "description": "Aufstockung und Anbau im DG zur Wohnraumerweiterung \nmit 3 Dachterrassen, sowie Errichtung von 5 Balkonanlagen, \nan einem Wohn- und Geschäftshaus",
       "site_address": "Sonnemannstraße 71",
@@ -8412,7 +8412,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "376",
       "flurstueck": "130/45",
-      "fetched_at": "2026-06-14T23:28:17.243230+00:00",
+      "fetched_at": "2026-09-18T02:30:29.985821+00:00",
       "permit_number": "B-2018-1046-3",
       "description": "Abbruch von 3 Schuppen und Errichtung \neines Zweifamilienhauses mit 2 Garagen",
       "site_address": "Geibelstraße 20",
