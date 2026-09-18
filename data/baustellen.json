@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-17T21:51:10.805257Z",
+    "last_updated": "2026-09-18T00:06:32.467608Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5733,7 +5733,7 @@
       "gemarkung_label": "Frankfurt Bezirk 20",
       "flur": "292",
       "flurstueck": "11/18",
-      "fetched_at": "2026-06-14T21:28:27.423125+00:00",
+      "fetched_at": "2026-09-17T23:53:58.299816+00:00",
       "permit_number": "B-2025-265-4",
       "description": "Lüftungs-, brandschutz- und statisch relevante Änderungen durch Einbau einer Lüftungsanlage auf dem Dach des Polizeipräsidiums",
       "site_address": "Adickesallee 70",
@@ -10887,7 +10887,7 @@
       "gemarkung_label": "Frankfurt Bezirk 20",
       "flur": "641",
       "flurstueck": "132/14",
-      "fetched_at": "2026-06-14T22:29:11.056747+00:00",
+      "fetched_at": "2026-09-17T23:58:22.466952+00:00",
       "permit_number": "B-2017-1679-4",
       "description": "Rückbau und Neuerrichtung des Dachgeschosses mit inneren Umbauten im 2. OG. in dem Mehrfamilienhaus, Errichtung eines Aufzuges und eines Müllstandortes",
       "site_address": "Cronstettenstraße 12",
@@ -13046,7 +13046,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "53",
       "flurstueck": "26/1",
-      "fetched_at": "2026-06-14T20:27:30.081217+00:00",
+      "fetched_at": "2026-09-17T23:49:46.406902+00:00",
       "permit_number": "B-2015-1516-4",
       "description": "Brandschutzrelevante Grundrissänderungen zwecks Einrichtung von 400 m²- Einheiten (EG. bis 5. OG.) in dem Büro- und Geschäftshaus",
       "site_address": "Zeil 5",
