@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-19T12:17:43.793944Z",
+    "last_updated": "2026-09-19T15:53:01.326581Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8602,7 +8602,7 @@
       "gemarkung_label": "Nieder-Erlenbach Bezirk 64",
       "flur": "1",
       "flurstueck": "36/0",
-      "fetched_at": "2026-06-14T23:30:20.529794+00:00",
+      "fetched_at": "2026-09-19T15:35:50.920538+00:00",
       "permit_number": "B-2017-1283-3",
       "description": "Rückbau und Wiedererrichten des Dachgeschosses in \nabgeänderter Form und Nutzungsänderung von Schlachthaus,\nWurstküche mit Nebenräumen in ein Zweifamilienwohnhaus\nsowie Errichten von 3 Stellplätzen",
       "site_address": "Alt-Erlenbach 36",
