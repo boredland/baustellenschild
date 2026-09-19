@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-19T21:11:10.016089Z",
+    "last_updated": "2026-09-19T22:53:04.478276Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18926,7 +18926,7 @@
       "gemarkung_label": "Sindlingen Bezirk 60",
       "flur": "14",
       "flurstueck": "59/2",
-      "fetched_at": "2026-06-13T21:30:57.854319+00:00",
+      "fetched_at": "2026-09-19T22:40:50.282959+00:00",
       "permit_number": "B-2022-697-6",
       "description": "(teilweise nachträgliche Legalisierung:)\nBT A Ausbau Spitzboden in eine Wohneinheit, Neuaufteilung von 3 Wohneinheiten in 2 Wohneinheiten im Obergeschoss und veränderter Ausführung der Außentreppe\nBT B Aufteilung von 1 Wohneinheit in 2 Wohneinheiten im Obergeschoss, Anbau Balkon im OG, Zusammenlegung von 2 Läden in 1 Laden im EG und veränderter Ausführung des Daches in und an einem Wohn- und Geschäftsgebäudes",
       "site_address": "Farbenstraße 46",
