@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-20T00:48:21.121739Z",
+    "last_updated": "2026-09-20T05:52:03.709118Z",
     "total": 1165,
     "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -13594,7 +13594,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "53",
       "flurstueck": "51/1",
-      "fetched_at": "2026-06-14T20:53:53.065530+00:00",
+      "fetched_at": "2026-09-20T05:51:04.783499+00:00",
       "permit_number": "X-2023-71-4",
       "description": "Abbruch eines Wohn- und Geschäftshauses",
       "site_address": "Allerheiligenstraße 20",
@@ -15868,9 +15868,9 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "16",
       "flurstueck": "32/5",
-      "fetched_at": "2026-06-14T20:53:50.312087+00:00",
+      "fetched_at": "2026-09-20T05:46:34.698567+00:00",
       "permit_number": "B-2019-1512-4",
-      "description": "Brandschutz- und statischrelevante Fassaden- und Grundrissänderungen, Aufteilung in 400 m² Nutzungseinheiten 2. OG - 10. OG, in einem Wohn-, Büro- und Geschäftshochhaus",
+      "description": "Brandschutz- und statischrelevante Fassaden- und...",
       "site_address": "Zeil 65 - 69",
       "parcel_info": "Frankfurt Bezirk 01 (460), 16, 32/5",
       "builder_name": "Objekt Zeil 65 GmbH",
