@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-20T10:37:30.792988Z",
+    "last_updated": "2026-09-20T14:36:02.188039Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 18,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11282,7 +11282,7 @@
       "gemarkung_label": "Frankfurt Bezirk 20",
       "flur": "642",
       "flurstueck": "62/10",
-      "fetched_at": "2026-06-14T22:55:23.491659+00:00",
+      "fetched_at": "2026-09-20T14:28:08.015973+00:00",
       "permit_number": "B-2023-719-4",
       "description": "Nutzungsänderung von Wohnen im EG sowie Ausbau der Räume im KG in Räume zur freiberuflichen Nutzung nach § 13 BauNVO ( GE2). Ausbau der Räume im KG zur Erweiterung der Räume zur freiberuflichen Nutzung im EG (G1). Ausbau des Dachgeschosses zu 2  Wohneinheiten und Errichten einer Gaube. Errichten einer Ausgrabung für eine Terrasse im UG. Rückbau von 7 Wintergärten zu 7 Balkonen. Innere Umbauten und Änderung der Freiflächen.",
       "site_address": "Eschersheimer Landstraße 154",
