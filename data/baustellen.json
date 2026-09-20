@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-20T20:18:44.689648Z",
+    "last_updated": "2026-09-20T22:53:09.602162Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22977,7 +22977,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "43",
       "flurstueck": "891/1",
-      "fetched_at": "2026-06-11T17:14:23.616666+00:00",
+      "fetched_at": "2026-09-20T22:47:05.970374+00:00",
       "permit_number": "B-2025-254-3",
       "description": "Neubau eines Einfamilienhauses mit einem Pkw-Stellplatz",
       "site_address": "Barbarossastraße 68",
@@ -23017,7 +23017,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "43",
       "flurstueck": "900/0",
-      "fetched_at": "2026-06-11T17:14:25.373328+00:00",
+      "fetched_at": "2026-09-20T22:48:00.289019+00:00",
       "permit_number": "B-2023-571-3",
       "description": "Neubau eines Mehrfamilienwohnhauses mit 24 Wohneinheiten \nsowie einer Tiefgarage mit 26 Stellplätzen",
       "site_address": "Auf der Sandkaute 4 - 6",
@@ -23038,7 +23038,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "43",
       "flurstueck": "891/3",
-      "fetched_at": "2026-06-11T17:14:25.028651+00:00",
+      "fetched_at": "2026-09-20T22:46:18.199937+00:00",
       "permit_number": "B-2025-229-3",
       "description": "Neubau eines Einfamilienwohnhauses mit einem Pkw-Stellplatz",
       "site_address": "Barbarossastraße 72",
@@ -23058,7 +23058,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "43",
       "flurstueck": "924/0",
-      "fetched_at": "2026-06-11T18:33:36.195270+00:00",
+      "fetched_at": "2026-09-20T22:49:23.966889+00:00",
       "permit_number": "B-2023-573-3",
       "description": "Neubau eines Mehrfamilienhauses mit 39 Wohneinheiten \nsowie einer Tiefgarage mit 39 Stellplätzen",
       "site_address": "Auf der Sandkaute 26 - 38",
