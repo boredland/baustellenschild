@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-20T14:36:02.188039Z",
+    "last_updated": "2026-09-20T17:50:38.995871Z",
     "total": 1165,
-    "errors": 18,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2596,9 +2596,9 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "367",
       "flurstueck": "3/1",
-      "fetched_at": "2026-06-14T20:55:10.133494+00:00",
+      "fetched_at": "2026-09-20T17:35:13.892444+00:00",
       "permit_number": "B-2016-1744-3",
-      "description": "Nachtrag zum Antrag B 2013-1946-3:\nErneuerung von Installation, Austausch Estrich, Anbringen eines WDVS, \nÄnderungen an Fenstern und Balkongeländern, Errichtung einer Solarthermie- Anlage",
+      "description": "Nachtrag zum Antrag B 2013-1946-3:\nErneuerung von Installation,...",
       "site_address": "Wingertstraße 21 - 23",
       "parcel_info": "Frankfurt Bezirk 25 (477), 367, 3/1",
       "builder_name": "Paz Ricardo",
@@ -2638,7 +2638,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "418",
       "flurstueck": "3/29",
-      "fetched_at": "2026-06-14T20:55:15.269443+00:00",
+      "fetched_at": "2026-09-20T17:50:17.682055+00:00",
       "permit_number": "B-2024-725-3",
       "description": "Brandschutz- und statisch relevante Grundrissänderungen \nin einer Lager- und Produktionshalle mit Büro, Fassadenänderungen,\nErrichten einer Überdachung",
       "site_address": "Daimlerstraße 22",
@@ -6907,7 +6907,7 @@
       "gemarkung_label": "Frankfurt Bezirk 16",
       "flur": "226",
       "flurstueck": "12/95",
-      "fetched_at": "2026-06-15T09:37:09.214059+00:00",
+      "fetched_at": "2026-09-20T17:32:46.494250+00:00",
       "permit_number": "B-2017-1262-5",
       "description": "Brandschutzrelevante Grundrissänderungen / Änderung der Rettungswege im EG\nin der \" Kommunikationsfabrik\" - Anlage für kulturelle Zwecke",
       "site_address": "Schmidtstraße 12",
