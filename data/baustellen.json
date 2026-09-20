@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-19T22:53:04.478276Z",
+    "last_updated": "2026-09-20T00:48:21.121739Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1829,7 +1829,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "13",
       "flurstueck": "409/20",
-      "fetched_at": "2026-06-14T22:00:35.343595+00:00",
+      "fetched_at": "2026-09-20T00:42:22.367547+00:00",
       "permit_number": "B-2022-787-6",
       "description": "Errichtung von 2 Wohn- und Geschäftshäusern mit drei Läden und 19 Wohnungen, sowie einer Tiefgarage mit 12 Stellplätzen",
       "site_address": "Wasgaustraße 19",
@@ -1850,7 +1850,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "14",
       "flurstueck": "1/5",
-      "fetched_at": "2026-06-14T22:00:36.185516+00:00",
+      "fetched_at": "2026-09-20T00:43:58.463894+00:00",
       "permit_number": "B-2021-793-6",
       "description": "Rückbau eines Anbaus und Anbau zur Wohnraumerweiterung an einer Doppelhaushälfte",
       "site_address": "Peter-Bied-Straße 20",
@@ -1862,9 +1862,9 @@
       "architect_name": "Meyer Dipl.-Ing. Andreas",
       "architect_address": "Im Niedergarten 12a",
       "architect_location": "55124 Mainz",
-      "site_manager_name": "Istel Dipl. Ing. Frank",
-      "site_manager_address": "Triftstraße 7",
-      "site_manager_location": "60528 Frankfurt am Main"
+      "site_manager_name": "Froels Simon",
+      "site_manager_address": "Schwedenpfad 17",
+      "site_manager_location": "65934 Frankfurt am Main"
     },
     {
       "gemarkung_id": 518,
