@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-21T00:58:45.405992Z",
+    "last_updated": "2026-09-21T06:00:05.390872Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12948,7 +12948,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "8",
       "flurstueck": "26/1",
-      "fetched_at": "2026-06-14T21:29:51.517581+00:00",
+      "fetched_at": "2026-09-21T05:51:55.403130+00:00",
       "permit_number": "B-2024-1041-4",
       "description": "Schließen der Balkone zur Wohnraumerweiterung mit inneren Umbauten in allen Geschossen in einem Mehrfamilienhaus (Bestandsgebäude) sowie Neubau eines Mehrfamilienhauses mit 12 Wohneinheiten und 4 Stellplätzen, Errichten eines Müllabstellplatzes im EG, Rückbau und Wiedererrichten einer Trafostation in veränderter Form",
       "site_address": "Klauerstraße 7",
@@ -12959,7 +12959,8 @@
       "represented_by": "vertr. d. Frau Clarissa Graz und Herrn Holger Hothum",
       "architect_name": "Hohendorf Jürgen",
       "architect_address": "Berger Straße 273",
-      "architect_location": "60385 Frankfurt"
+      "architect_location": "60385 Frankfurt",
+      "site_manager_name": "Buchendorf N.N"
     },
     {
       "gemarkung_id": 492,
