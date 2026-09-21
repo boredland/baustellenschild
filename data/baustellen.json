@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-21T06:00:05.390872Z",
+    "last_updated": "2026-09-21T11:48:58.325783Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18585,7 +18585,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "10",
       "flurstueck": "43/1",
-      "fetched_at": "2026-06-13T23:53:24.907553+00:00",
+      "fetched_at": "2026-09-21T11:41:31.215955+00:00",
       "permit_number": "B-2023-505-4",
       "description": "Errichtung einer Einfriedung (H = 2,00m und H= 3,00m)) für das Iranische Konsulat",
       "site_address": "Raimundstraße 90",
