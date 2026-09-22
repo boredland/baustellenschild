@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-22T19:18:48.003051Z",
+    "last_updated": "2026-09-22T22:38:45.331729Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22228,7 +22228,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "11",
       "flurstueck": "263/0",
-      "fetched_at": "2026-06-14T19:36:24.587143+00:00",
+      "fetched_at": "2026-09-22T22:37:41.425198+00:00",
       "permit_number": "B-2019-1611-6",
       "description": "Neubau Einfamilienwohnhaus in Holzbauweise mit Garage",
       "site_address": "Am Kunzengarten 40",
