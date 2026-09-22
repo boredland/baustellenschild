@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-22T15:22:58.877653Z",
+    "last_updated": "2026-09-22T19:18:48.003051Z",
     "total": 1165,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9344,7 +9344,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "1",
       "flurstueck": "8581/0",
-      "fetched_at": "2026-06-13T03:50:08.464472+00:00",
+      "fetched_at": "2026-09-22T19:05:54.020829+00:00",
       "permit_number": "B-2018-552-6",
       "description": "Errichtung eines Mehrfamilienwohnhauses mit 6 Wohneinheiten und einer Tiefgarage mit 10 Stellplätzen sowie dreier Reihenhäuser in zweiter Reihe",
       "site_address": "Martinskirchstraße 85 - 85c",
