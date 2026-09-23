@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-23T01:05:08.225542Z",
+    "last_updated": "2026-09-23T05:41:04.381559Z",
     "total": 1165,
-    "errors": 24,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14028,7 +14028,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "54",
       "flurstueck": "36/13",
-      "fetched_at": "2026-06-14T21:27:35.981785+00:00",
+      "fetched_at": "2026-09-23T05:37:30.479489+00:00",
       "permit_number": "B-2017-1646-4",
       "description": "Erweiterung eines Beherbergungsbetriebes durch teilweise Rückbau und Anbau sowie innere Umbauten und \nErrichtung von 9 Wohneinheiten im 2.+ 6. OG, eine Schank- und Speisewirtschaft und Ladengeschäft im EG und Diskothek im 1. UG, Errichtung einer Tiefgarage im 2. UG mit 26 Stellplätzen.\n\nVerlängert bis 23.07.2023",
       "site_address": "Albusstraße 9 - 11",
@@ -14048,7 +14048,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "54",
       "flurstueck": "23/1",
-      "fetched_at": "2026-06-14T21:27:35.876280+00:00",
+      "fetched_at": "2026-09-23T05:37:00.481258+00:00",
       "permit_number": "B-2020-454-4",
       "description": "Ausbau Dachgeschoß zu zwei Wohneinheiten und Herstellung einer Dachterrasse, Zusammenlegen von insgesamt 16 in 8 Wohnungen im 1.-4. OG mit inneren Umbauten in allen Geschossen eines Wohn- und Geschäftshauses",
       "site_address": "Zeil 15",
