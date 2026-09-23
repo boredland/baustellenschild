@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-23T15:25:54.690022Z",
+    "last_updated": "2026-09-23T19:26:05.705309Z",
     "total": 1165,
-    "errors": 21,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3687,7 +3687,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "419",
       "flurstueck": "2/6",
-      "fetched_at": "2026-06-14T21:28:52.761070+00:00",
+      "fetched_at": "2026-09-23T19:23:20.597511+00:00",
       "permit_number": "B-2023-638-3",
       "description": "Nutzungsänderung von Versammlungsstätte (> 200 Personen) in Räume für \nVeranstaltungen (< 200 Personen), Nutzungsänderung von 5 Garagen in Lagerräume,\n Anbau von 2 Lagern, Herstellen eines 2. RTW im EG, \nErrichtung eines Balkons im 1. OG, 2 Kühlzellen im EG, sowie \nHerstellen eines Stellplatzes an einer buddhistischen Begegnungsstätte mit Pagode",
       "site_address": "Hanauer Landstraße 443",
@@ -11637,7 +11637,7 @@
       "gemarkung_label": "Frankfurt Bezirk 20",
       "flur": "642",
       "flurstueck": "223/3",
-      "fetched_at": "2026-06-14T23:27:55.236310+00:00",
+      "fetched_at": "2026-09-23T19:09:14.298638+00:00",
       "permit_number": "B-2020-493-4",
       "description": "Abbruch einer Doppelgarage und Errichtung einer Garage an veränderter Position, Abbruch und Wiedererrichtung einer Kelleraußentreppe und Terrasse mit Stufenanlage in geänderter Form, sowie Erweiterung und Neugestaltung der Einfriedung (gartenseitig) an einem Einfamilienwohnhaus",
       "site_address": "Eysseneckstraße 50",
