@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-24T05:57:16.618848Z",
+    "last_updated": "2026-09-24T11:04:35.483193Z",
     "total": 1165,
-    "errors": 27,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13310,7 +13310,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "8",
       "flurstueck": "194/20",
-      "fetched_at": "2026-06-14T21:58:59.585325+00:00",
+      "fetched_at": "2026-09-24T10:55:19.386036+00:00",
       "permit_number": "B-2021-11-4",
       "description": "Rückbau des Daches und Aufstockung um ein Staffelgeschoss als Wohnraumerweiterung der Wohnung im 2. OG in einem 3-Familienwohnhaus (Vorderhaus) sowie einen Anbau als Verbindungsbau und Nutzungsänderung eines Praxisraumes von freiberuflicher Nutzung gemäß § 13 BauNVo in ein Esszimmer im EG zur Wohnraumerweiterung",
       "site_address": "An den Weiden 3",
@@ -23101,7 +23101,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "43",
       "flurstueck": "970/0",
-      "fetched_at": "2026-06-11T18:33:39.439268+00:00",
+      "fetched_at": "2026-09-24T10:47:04.799949+00:00",
       "permit_number": "B-2023-579-3",
       "description": "Neubau eines Mehrfamilienwohnhauses mit \n27 Wohneinheiten und einer Tiefgarage mit 27 Stellplätzen",
       "site_address": "Im Brandsee 4 - 6",
