@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-23T22:42:27.226230Z",
+    "last_updated": "2026-09-24T00:56:46.717002Z",
     "total": 1165,
-    "errors": 20,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23142,7 +23142,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "43",
       "flurstueck": "1017/0",
-      "fetched_at": "2026-06-11T19:52:29.146706+00:00",
+      "fetched_at": "2026-09-24T00:51:37.497476+00:00",
       "permit_number": "B-2024-537-3",
       "description": "Errichtung einer Seniorenwohnanlage und von 2 Mehrfamilienhäusern \nmit 68 Wohneinheiten und einer Tiefgarage mit 25 Stellplätzen",
       "site_address": "Auf der Sandkaute 19 - 23",
@@ -23163,7 +23163,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "43",
       "flurstueck": "1012/0",
-      "fetched_at": "2026-06-11T19:52:28.597120+00:00",
+      "fetched_at": "2026-09-24T00:51:13.302546+00:00",
       "permit_number": "B-2024-466-3",
       "description": "Errichtung eines Reihenmittelhauses mit 1 Stellplatz",
       "site_address": "Auf der Sandkaute 15",
@@ -23183,7 +23183,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "43",
       "flurstueck": "1011/0",
-      "fetched_at": "2026-06-11T19:52:28.359844+00:00",
+      "fetched_at": "2026-09-24T00:51:01.520292+00:00",
       "permit_number": "B-2024-881-3",
       "description": "Errichten eines Reihenhauses und Herstellen eines Stellplatzes",
       "site_address": "Auf der Sandkaute 9",
