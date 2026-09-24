@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-24T15:53:53.765833Z",
+    "last_updated": "2026-09-24T19:55:51.298101Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9884,7 +9884,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "9",
       "flurstueck": "508/11",
-      "fetched_at": "2026-06-14T22:31:06.219277+00:00",
+      "fetched_at": "2026-09-24T19:43:59.177205+00:00",
       "permit_number": "B-2020-635-6",
       "description": "Errichten von 2 Mehrfamilienhäusern mit insgesamt 21 Wohnungen, einer Tiefgarage mit 23 Stellplätzen und Herstellen von 3 Stellplätzen, verlängert bis 02.09.2025",
       "site_address": "Billtalstraße 28a - 28b",
@@ -15671,7 +15671,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "11",
       "flurstueck": "482/11",
-      "fetched_at": "2026-06-14T00:38:36.424012+00:00",
+      "fetched_at": "2026-09-24T19:41:35.023520+00:00",
       "permit_number": "B-2022-253-6",
       "description": "Rückbau von Nebenanlagen \nVorderhaus: Rückbau und Wiedererrichten des Daches, Aufstockung um ein Vollgeschoss, sowie Herstellen einer Wohneinheit im 2.OG, Errichten einer Balkonanlage im 1. und 2.OG an einem Mehrfamilienwohnhaus\nHinterhaus: Nutzungsänderung von einer Bettfederreinigung in Wohneinheit im EG eines Einfamilienhaus",
       "site_address": "Linkstraße 63",
