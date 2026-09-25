@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-25T17:41:05.611908Z",
+    "last_updated": "2026-09-25T20:54:21.887537Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9926,7 +9926,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "2",
       "flurstueck": "109/246",
-      "fetched_at": "2026-06-13T05:33:35.998699+00:00",
+      "fetched_at": "2026-09-25T20:39:14.464588+00:00",
       "permit_number": "B-2025-288-6",
       "description": "Anbau einer Balkonanlage sowie energetische Sanierung des Daches an einem Mehrfamilienhaus",
       "site_address": "Mauritiusstraße 6",
@@ -22736,7 +22736,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "48",
       "flurstueck": "144/0",
-      "fetched_at": "2026-06-12T17:01:39.561520+00:00",
+      "fetched_at": "2026-09-25T20:47:20.281926+00:00",
       "permit_number": "B-2022-65-6",
       "description": "Ausbau des Dachgeschosses zu einer Wohnung mit 3 Gauben an einem Mehrfamilienwohnhaus sowie Herstellen von 3 Stellplätzen",
       "site_address": "Libellenweg 38",
