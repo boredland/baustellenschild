@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-25T06:35:07.075121Z",
+    "last_updated": "2026-09-25T12:19:54.990479Z",
     "total": 1165,
-    "errors": 23,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18545,7 +18545,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "15",
       "flurstueck": "346/11",
-      "fetched_at": "2026-06-14T23:30:33.389822+00:00",
+      "fetched_at": "2026-09-25T12:14:34.892612+00:00",
       "permit_number": "B-2018-593-4",
       "description": "Rückbau und Wiedererrichten der Dachkonstruktion und Terrassenüberdachung, Absenken der Bodenplatte, Anbringung Wärmedämmverbundsystem, Änderung der äußeren Gestaltung und innere Umbauten an einem Reihenmittelhaus\n\nVerlängert bis 20.06.2023",
       "site_address": "Am Ebelfeld 260",
