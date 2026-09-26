@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-26T02:58:20.894269Z",
+    "last_updated": "2026-09-26T08:26:04.585508Z",
     "total": 1165,
-    "errors": 31,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14448,7 +14448,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "55",
       "flurstueck": "17/5",
-      "fetched_at": "2026-06-14T21:56:46.169277+00:00",
+      "fetched_at": "2026-09-26T08:20:30.682287+00:00",
       "permit_number": "B-2024-800-4",
       "description": "Errichtung eines Gerichtsgebäudes (Gebäude Z) mit Bürobereich und einer Tiefgarage mit 39 Stellplätzen",
       "site_address": "Heiligkreuzgasse 15",
@@ -16254,7 +16254,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "17",
       "flurstueck": "111/46",
-      "fetched_at": "2026-06-14T21:56:47.387781+00:00",
+      "fetched_at": "2026-09-26T08:19:30.816010+00:00",
       "permit_number": "B-2024-330-4",
       "description": "Brandschutzrelevante Grundrissänderungen im UG, lüftungsrelevante Änderungen mit Errichten von Schächten sowie Abluftschächten (oberirdisch), Rückbau und Wiedererrichten der Dachdeckung in veränderter Form (Halle). Errichten von 2 Vordächern sowie Fassadenänderungen. Temporäre Auslagerung von Lager und Läden in der Kleinmarkthalle",
       "site_address": "An der Kleinmarkthalle 2",
