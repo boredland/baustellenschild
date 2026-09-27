@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-27T18:09:57.707605Z",
+    "last_updated": "2026-09-27T20:55:24.696692Z",
     "total": 1165,
-    "errors": 25,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16012,7 +16012,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "11",
       "flurstueck": "679/13",
-      "fetched_at": "2026-06-14T01:49:13.081464+00:00",
+      "fetched_at": "2026-09-27T20:49:39.317091+00:00",
       "permit_number": "B-2023-747-6",
       "description": "Rückbau des Daches und Wiedererrichten in geänderter Form, Umbau und Erweiterung eines Zweifamilienhauses, Anbau einer Balkonanlage und Errichten eines Schuppens",
       "site_address": "Linkstraße 59",
