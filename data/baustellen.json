@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-27T20:55:24.696692Z",
+    "last_updated": "2026-09-27T23:48:19.892271Z",
     "total": 1165,
-    "errors": 26,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19068,7 +19068,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "5",
       "flurstueck": "146/2",
-      "fetched_at": "2026-06-14T16:03:45.024092+00:00",
+      "fetched_at": "2026-09-27T23:44:38.894853+00:00",
       "permit_number": "B-2024-1308-4",
       "description": "Errichtung eines Mehrfamilienhauses mit 25 Wohneinheiten und 7 PKW-Außenstellplätzen",
       "site_address": "In der Wink 0",
