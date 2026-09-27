@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-27T07:40:00.702341Z",
+    "last_updated": "2026-09-27T13:29:03.107097Z",
     "total": 1165,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13369,7 +13369,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "8",
       "flurstueck": "584/19",
-      "fetched_at": "2026-06-14T22:30:41.935684+00:00",
+      "fetched_at": "2026-09-27T13:29:03.099398+00:00",
       "permit_number": "B-2020-1442-4",
       "description": "Nutzungsänderung von freiberuflicher Nutzung gemäß § 13 BauNVO in jeweils eine Wohneinheit im EG und 1.OG, Rückbau des bestehenden Daches und Neubau eines Staffelgeschosses mit Dachterrasse zur Wohnraumerweiterung der Wohnung im 2. OG, Anbau eines Wintergartens im EG zur Wohnraumerweiterung, Anbau von einem Balkon im 1. und 2. OG an einem 3-Familienwohnhaus",
       "site_address": "An den Weiden 1",
