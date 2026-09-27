@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-26T23:20:30.107585Z",
+    "last_updated": "2026-09-27T01:54:46.997560Z",
     "total": 1165,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -4848,7 +4848,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "419",
       "flurstueck": "7/47",
-      "fetched_at": "2026-06-14T21:57:57.553029+00:00",
+      "fetched_at": "2026-09-27T01:36:56.093174+00:00",
       "permit_number": "B-2022-122-3",
       "description": "Nutzungsänderung von Lager zu Labor- und Prüfräumen im UG, \nKonferenzräume zur Verkaufsfläche im EG, \nLager in Laborräumen im 2. OG sowie \nbrandschutzrelevante Änderungen an einem Bürogebäude mit Labor und Laden",
       "site_address": "Daimlerstraße 40",
@@ -13761,7 +13761,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "548",
       "flurstueck": "18/2",
-      "fetched_at": "2026-06-15T00:39:37.667048+00:00",
+      "fetched_at": "2026-09-27T01:38:50.072290+00:00",
       "permit_number": "B-2021-511-5",
       "description": "Brandschutzrelevante Grundrissänderung und Änderung der Lüftungsanlage in allen Geschossen mit Ausbau Keller in Technikräume sowie Änderung der Fassade in allen Geschossen in einer Altenwohnanlage mit Gast- und Begegnungsstätte",
       "site_address": "Mörfelder Landstraße 210",
