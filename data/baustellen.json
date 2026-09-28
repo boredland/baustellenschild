@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-28T03:00:48.213717Z",
-    "total": 1165,
-    "errors": 25,
+    "last_updated": "2026-09-28T09:27:34.794711Z",
+    "total": 1166,
+    "errors": 18,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23895,6 +23895,27 @@
       "site_manager_name": "Schmidt Peter",
       "site_manager_address": "Eckdrift 83",
       "site_manager_location": "19061 Schwerin"
+    },
+    {
+      "gemarkung_id": 505,
+      "gemarkung_label": "Nieder-Erlenbach Bezirk 64",
+      "flur": "1",
+      "flurstueck": "153/1",
+      "fetched_at": "2026-09-28T09:26:13.693201+00:00",
+      "permit_number": "B-2023-1211-3",
+      "description": "Errichtung eines Zweifamilienwohnhauses mit 2 Stellplätzen",
+      "site_address": "Alte Fahrt 2 - 2a",
+      "parcel_info": "Nieder-Erlenbach Bezirk 64 (505), 1, 153/1",
+      "builder_name": "Davidovic Erika",
+      "builder_address": "Alt-Ginnheim 13",
+      "builder_location": "60431 Frankfurt am Main",
+      "represented_by": "vertr. d. Herrn Dragan Davidovic",
+      "architect_name": "Dietlmeier Albert",
+      "architect_address": "Donaustauferstraße 246",
+      "architect_location": "93055 Regensburg",
+      "site_manager_name": "Kornic Dragi",
+      "site_manager_address": "Feldstr. 42",
+      "site_manager_location": "61352 Bad Homburg"
     }
   ]
 }
