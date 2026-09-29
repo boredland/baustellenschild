@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-09-29T09:06:28.286760Z",
+    "last_updated": "2026-09-29T15:33:19.585552Z",
     "total": 1166,
     "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -4038,7 +4038,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "14",
       "flurstueck": "92/2",
-      "fetched_at": "2026-06-14T22:57:52.160911+00:00",
+      "fetched_at": "2026-09-29T15:27:04.683358+00:00",
       "permit_number": "B-2023-339-6",
       "description": "Nutzungsänderung von Sozialstation in ein Büro (Dienstleistungsgewerbe) im EG sowie Aufstocken eines Geschosses als Erweiterung an einem Bürogebäude mit 3 Stellplätzen",
       "site_address": "Gebeschusstraße 53",
