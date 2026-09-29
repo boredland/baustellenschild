@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-29T15:33:19.585552Z",
+    "last_updated": "2026-09-29T20:22:30.903022Z",
     "total": 1166,
-    "errors": 20,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -22290,7 +22290,7 @@
       "gemarkung_label": "Sossenheim Bezirk 63",
       "flur": "12",
       "flurstueck": "54/2",
-      "fetched_at": "2026-06-14T20:31:22.527772+00:00",
+      "fetched_at": "2026-09-29T20:05:09.604705+00:00",
       "permit_number": "B-2022-764-6",
       "description": "Errichten eines Anbaus im EG mit einer Dachterrasse im 1. OG sowie Nutzungsänderung von einem Handwerksbetrieb mit Verkaufsraum (Metzgerei) in Wohnräume im EG, Zusammenlegen mit den Wohnungen im 1. und 2. OG in ein Einfamilienhaus sowie Fassadenänderungen (Vorderhaus)",
       "site_address": "Alt-Sossenheim 38",
