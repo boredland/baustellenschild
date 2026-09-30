@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-30T10:10:35.306910Z",
+    "last_updated": "2026-09-30T16:27:47.393991Z",
     "total": 1166,
-    "errors": 25,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10948,7 +10948,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "383",
       "flurstueck": "41/15",
-      "fetched_at": "2026-06-15T03:07:40.058606+00:00",
+      "fetched_at": "2026-09-30T16:23:57.792393+00:00",
       "permit_number": "B-2018-1643-3",
       "description": "Dachgeschossausbau zu einer Wohneinheit, \nErrichtung einer Gaube und Dachfenster in einem Mehrfamilienhaus",
       "site_address": "Habsburgerallee 78",
@@ -10969,7 +10969,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "386",
       "flurstueck": "14/0",
-      "fetched_at": "2026-06-15T03:07:39.930081+00:00",
+      "fetched_at": "2026-09-30T16:25:24.396412+00:00",
       "permit_number": "B-2023-707-6",
       "description": "Erweiterung der KiTa Bereschit im 1.OG \ndurch Nutzungsänderung von 4 Wohneinheiten in Kita \nmit inneren Umbauten in einem Wohnhochhaus mit Kita",
       "site_address": "Röderbergweg 29",
