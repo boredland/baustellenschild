@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-30T16:27:47.393991Z",
+    "last_updated": "2026-09-30T21:12:53.030770Z",
     "total": 1166,
-    "errors": 27,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9760,7 +9760,7 @@
       "gemarkung_label": "Frankfurt Bezirk 27",
       "flur": "425",
       "flurstueck": "22/2",
-      "fetched_at": "2026-06-14T23:28:30.639200+00:00",
+      "fetched_at": "2026-09-30T21:12:01.918598+00:00",
       "permit_number": "B-2024-1316-3",
       "description": "Vorderhaus: \nErrichten einer Balkonanlage (EG - 3. OG), Nutzungsänderung einer \nSchankwirtschaft in eine Wohneinheit im EG, Rückbau und Wiedererrichten \ndes Daches in veränderter Form, Ausbau des Mansardengeschosses zu \neiner Wohneinheit sowie innere Umbauten in einem Mehrfamilienhaus\nHinterhaus: \nRückbau eines Hinterhauses mit Waschküche und Trockenraum und \nErrichtung einer Ferienwohnung",
       "site_address": "Wiesenstraße 18",
