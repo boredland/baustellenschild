@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-09-30T03:25:13.783808Z",
+    "last_updated": "2026-09-30T10:10:35.306910Z",
     "total": 1166,
-    "errors": 27,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9677,7 +9677,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "328",
       "flurstueck": "34/5",
-      "fetched_at": "2026-06-15T07:16:45.032204+00:00",
+      "fetched_at": "2026-09-30T10:03:22.804453+00:00",
       "permit_number": "B-2021-1129-4",
       "description": "Rückbau und Wiedererrichtung des Daches in veränderter Form mit Herstellen einer Dachterrasse und 4 veränderte Dachgauben und einer neuen Dachgaube an einem Einfamilienhaus",
       "site_address": "Schwarzburgstraße 28",
@@ -9697,7 +9697,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "329",
       "flurstueck": "14/3",
-      "fetched_at": "2026-06-15T07:16:47.933344+00:00",
+      "fetched_at": "2026-09-30T10:07:58.866751+00:00",
       "permit_number": "B-2021-229-6",
       "description": "Errichtung eines Hochschulgebäudes (Gebäude 7) mit Hörsaal, Errichtung einer Trafostation, Verwaltungsräumen, Herstellen von 2 Behinderten-Stellplätzen sowie Abbruch der verbliebenen Gebäudeteile im Keller des Bestandsgebäudes",
       "site_address": "Kleiststraße 1",
@@ -9718,9 +9718,9 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "329",
       "flurstueck": "23/3",
-      "fetched_at": "2026-06-15T07:16:50.177783+00:00",
+      "fetched_at": "2026-09-30T10:08:53.990854+00:00",
       "permit_number": "B-2021-1049-6",
-      "description": "Statisch- und lüftungsrelevante Grundrissänderungen mit veränderter Aufstellung eines Kältegeräts auf dem Dach, Rückbau und Wiedererrichtung des Dachaufbaus in geänderter Form für das Gebäude 2 der FUAS",
+      "description": "Statisch- und lüftungsrelevante Grundrissänderungen mit...",
       "site_address": "Nibelungenplatz 2",
       "parcel_info": "Frankfurt Bezirk 21 (473), 329, 23/3",
       "builder_name": "Land Hessen vertr. d. das Hessische Ministerium der Finanzen",
