@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-01T06:32:43.606250Z",
+    "last_updated": "2026-10-01T13:55:46.203625Z",
     "total": 1166,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13885,7 +13885,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "9",
       "flurstueck": "9/7",
-      "fetched_at": "2026-06-14T22:30:47.327898+00:00",
+      "fetched_at": "2026-10-01T13:54:28.981584+00:00",
       "permit_number": "B-2023-1258-4",
       "description": "Errichtung eines Mehrfamilienhauses mit 6 Wohnungen und Herstellen von 6 Stellplätzen",
       "site_address": "Eschersheimer Landstraße 568",
