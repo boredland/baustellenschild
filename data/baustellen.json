@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-01T00:34:46.396963Z",
+    "last_updated": "2026-10-01T06:32:43.606250Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20893,7 +20893,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "12",
       "flurstueck": "134/27",
-      "fetched_at": "2026-06-13T21:55:28.523574+00:00",
+      "fetched_at": "2026-10-01T06:27:14.901709+00:00",
       "permit_number": "B-2021-1153-5",
       "description": "Deckensanierung im Innenhof, Rückbau und Wiedererrichtung der Aussentreppe sowie statische\nErtüchtigungen an einem Wohn- und Geschäftshaus",
       "site_address": "Jordanstraße 11",
@@ -20913,7 +20913,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "12",
       "flurstueck": "131/30",
-      "fetched_at": "2026-06-13T21:55:28.246860+00:00",
+      "fetched_at": "2026-10-01T06:27:50.894736+00:00",
       "permit_number": "B-2022-637-5",
       "description": "Errichten einer Balkonanlage an einem Mehrfamilienhaus",
       "site_address": "Jordanstraße 5",
@@ -23306,7 +23306,7 @@
       "gemarkung_label": "Bergen-Enkheim Bezirk 68",
       "flur": "44",
       "flurstueck": "90/1",
-      "fetched_at": "2026-06-11T20:49:14.143016+00:00",
+      "fetched_at": "2026-10-01T06:20:08.905945+00:00",
       "permit_number": "B-2018-1057-3",
       "description": "Errichtung eines Mehrfamilienhauses mit \n4 Wohneinheiten und 2 Stellplätzen",
       "site_address": "Taschnerstraße 9",
