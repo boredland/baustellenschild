@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-01T13:55:46.203625Z",
+    "last_updated": "2026-10-01T19:28:21.497609Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 17,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19254,7 +19254,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "11",
       "flurstueck": "66/6",
-      "fetched_at": "2026-06-14T03:08:11.550801+00:00",
+      "fetched_at": "2026-10-01T19:26:26.755476+00:00",
       "permit_number": "B-2022-737-4",
       "description": "Anbau an ein Werkstattgebäude",
       "site_address": "Raimundstraße 28",
@@ -19998,7 +19998,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "17",
       "flurstueck": "50/10",
-      "fetched_at": "2026-06-13T23:53:20.303962+00:00",
+      "fetched_at": "2026-10-01T19:22:26.984304+00:00",
       "permit_number": "B-2022-878-3",
       "description": "Rückbau der Dächer und Aufstockung um ein Vollgeschoss und energetische\nSanierung mit inneren Umbauten von 8 Mehrfamilienwohnhäusern",
       "site_address": "Dietesheimer Straße 16",
