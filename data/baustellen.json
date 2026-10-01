@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-01T19:28:21.497609Z",
+    "last_updated": "2026-10-01T23:35:15.262251Z",
     "total": 1166,
-    "errors": 17,
+    "errors": 29,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10515,7 +10515,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "9",
       "flurstueck": "586/2",
-      "fetched_at": "2026-06-14T23:29:44.350191+00:00",
+      "fetched_at": "2026-10-01T23:33:52.844755+00:00",
       "permit_number": "B-2019-1462-6",
       "description": "Brandschutzrelevante Änderungen im Erdgeschoss und im 1. Obergeschoss des Gebäudeteils D, Klinikum Höchst",
       "site_address": "Gotenstraße 6 - 8",
@@ -19274,7 +19274,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "12",
       "flurstueck": "3/13",
-      "fetched_at": "2026-06-14T03:08:14.394870+00:00",
+      "fetched_at": "2026-10-01T23:21:46.838075+00:00",
       "permit_number": "B-2019-880-4",
       "description": "Errichtung von einem Wohn- und Geschäftshaus mit 18 Wohneinheiten, 1 Laden und einer Tiefgarage mit 39 Stellplätzen (Platensiedlung - Süd, Gebäude D)",
       "site_address": "Platenstraße 80",
