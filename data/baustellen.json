@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-02T02:40:47.611715Z",
+    "last_updated": "2026-10-02T09:02:31.826028Z",
     "total": 1166,
-    "errors": 19,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8580,9 +8580,9 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "3",
       "flurstueck": "14/116",
-      "fetched_at": "2026-06-14T23:30:04.516953+00:00",
+      "fetched_at": "2026-10-02T08:50:41.733678+00:00",
       "permit_number": "B-2019-1430-5",
-      "description": "Errichtung eines Gebäudes für eine Forschungseinrichtung auf dem Gelände der Goethe-Universität",
+      "description": "Errichtung eines Gebäudes für eine Forschungseinrichtung auf dem...",
       "site_address": "Sandhofstraße 0",
       "parcel_info": "Niederrad Bezirk 37 (502), 3, 14/116",
       "builder_name": "Land Hessen vertr. d. den Landesbetrieb Bau und Immobilien Hessen",
