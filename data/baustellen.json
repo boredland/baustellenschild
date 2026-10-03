@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-03T18:22:41.321381Z",
+    "last_updated": "2026-10-03T21:53:16.920636Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10047,7 +10047,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "200",
       "flurstueck": "4/4",
-      "fetched_at": "2026-06-14T18:27:20.934181+00:00",
+      "fetched_at": "2026-10-03T21:49:16.031662+00:00",
       "permit_number": "B-2021-1350-5",
       "description": "Errichtung einer Trafostation im 1.UG der Tiefgarage sowie Entfall von 5 Stellplätzen in einem Büro- und Verwaltungsgebäude",
       "site_address": "Weilburger Straße 48",
@@ -14856,7 +14856,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "60",
       "flurstueck": "7/0",
-      "fetched_at": "2026-06-14T22:54:41.227564+00:00",
+      "fetched_at": "2026-10-03T21:41:58.003879+00:00",
       "permit_number": "B-2016-1407-4",
       "description": "Nutzungsänderung von einer Schank- und Speisewirtschaft im EG und 1. OG und einer Wohnung im 1. bis  5. OG in einen Laden und Fassadenänderung im EG an einem Geschäftshaus",
       "site_address": "Große Friedberger Straße 8",
@@ -14876,9 +14876,9 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "59",
       "flurstueck": "2/8",
-      "fetched_at": "2026-06-14T22:54:48.149242+00:00",
+      "fetched_at": "2026-10-03T21:39:11.297456+00:00",
       "permit_number": "B-2019-609-4",
-      "description": "Änderung der Rettungswegführung und der Fassade im EG eines  Büro- und Geschäftsgebäudes mit Beherbergungsbetrieb",
+      "description": "Änderung der Rettungswegführung und der Fassade im EG eines...",
       "site_address": "Konrad-Adenauer-Straße 7",
       "parcel_info": "Frankfurt Bezirk 01 (460), 59, 2/8",
       "builder_name": "Bayerische Hasbau Immobilien GmbH & Co. KG",
