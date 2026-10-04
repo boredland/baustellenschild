@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-04T06:24:29.612880Z",
+    "last_updated": "2026-10-04T12:55:22.933497Z",
     "total": 1166,
-    "errors": 22,
+    "errors": 29,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7254,7 +7254,7 @@
       "gemarkung_label": "Frankfurt Bezirk 22",
       "flur": "337",
       "flurstueck": "37/2",
-      "fetched_at": "2026-06-14T22:55:29.552004+00:00",
+      "fetched_at": "2026-10-04T12:46:50.998788+00:00",
       "permit_number": "B-2023-612-3",
       "description": "Gartenseitige Errichtung einer Terrasse im EG\nErrichten von Balkonen im 1. - 3. OG sowie Austausch der Fenster vom EG bis DG,\nZusammenlegung von 4 Mansarde-Kammern zu einer Wohnung im DG, \nGrundrissänderung und Austausch der Heizungsanlage im EG und 1.OG \nan einem Mehrfamilienhaus",
       "site_address": "Rothschildallee 53",
