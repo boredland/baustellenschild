@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-04T00:33:29.109373Z",
+    "last_updated": "2026-10-04T06:24:29.612880Z",
     "total": 1166,
-    "errors": 20,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10231,7 +10231,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "329",
       "flurstueck": "36/17",
-      "fetched_at": "2026-06-15T09:37:35.594983+00:00",
+      "fetched_at": "2026-10-04T06:17:07.610386+00:00",
       "permit_number": "B-2017-1876-4",
       "description": "Nutzungsänderung von Funktionsabteilung des Marienkrankenhauses in eine Strahlentherapeutische Praxisklinik,  Ausbau im 2.OG zu Lagerraum und im 3.OG zu Praxisräumen eines Medizinischen Versorgungszentrums, bauliche Abtrennung vom Krankenhaus mit Errichtung eigener Trafostation",
       "site_address": "Nordendstraße 48",
@@ -10252,7 +10252,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "329",
       "flurstueck": "107/28",
-      "fetched_at": "2026-06-15T09:37:36.166583+00:00",
+      "fetched_at": "2026-10-04T06:19:01.814262+00:00",
       "permit_number": "B-2021-428-4",
       "description": "Errichten eines Mehrfamilienhauses mit 4 Wohnungen",
       "site_address": "Spohrstraße 41a",
@@ -10273,7 +10273,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "329",
       "flurstueck": "176/7",
-      "fetched_at": "2026-06-15T09:37:37.588516+00:00",
+      "fetched_at": "2026-10-04T06:22:25.618863+00:00",
       "permit_number": "B-2024-494-4",
       "description": "Rückbau- und Wiedererrichten des Daches in geänderter Form zur Erweiterung der bestehenden Wohnung im Dachgeschoss in einem Mehrfamilienhaus",
       "site_address": "Rat-Beil-Straße 71",
