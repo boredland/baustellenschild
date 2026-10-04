@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-03T21:53:16.920636Z",
+    "last_updated": "2026-10-04T00:33:29.109373Z",
     "total": 1166,
-    "errors": 27,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5653,7 +5653,7 @@
       "gemarkung_label": "Frankfurt Bezirk 19",
       "flur": "282",
       "flurstueck": "110/1",
-      "fetched_at": "2026-06-14T23:54:13.024927+00:00",
+      "fetched_at": "2026-10-04T00:26:13.330848+00:00",
       "permit_number": "B-2021-1064-4",
       "description": "Rückbau und Wiedererrichtung von Dachgauben in veränderter Form, Erweiterung zweier bestehender Wohnungen im Dachgeschoss in einem Mehrfamilienhaus, Anhebung des Flachdaches vom Garagenanbau im KG sowie Herstellen einer Dachterrasse im EG",
       "site_address": "Grüneburgweg 106",
@@ -10089,7 +10089,7 @@
       "gemarkung_label": "Frankfurt Bezirk 16",
       "flur": "231",
       "flurstueck": "17/0",
-      "fetched_at": "2026-06-14T21:57:12.029744+00:00",
+      "fetched_at": "2026-10-04T00:19:07.425263+00:00",
       "permit_number": "B-2022-964-5",
       "description": "Errichtung einer Anlage für sportliche Zwecke (Rebstockbad), mit einem Saunabereich, Räumen für Verwaltung, einem Laden sowie einer Schank- und Speisegaststätte und einem Wirtschaftsgarten befristet auf 5 Jahre, Herstellen von 190 Stellplätzen",
       "site_address": "Zum Rebstockbad 7",
