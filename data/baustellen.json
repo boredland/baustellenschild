@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-05T02:28:40.300096Z",
+    "last_updated": "2026-10-05T09:37:51.899304Z",
     "total": 1166,
-    "errors": 26,
+    "errors": 17,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14273,7 +14273,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "9",
       "flurstueck": "241/51",
-      "fetched_at": "2026-06-14T22:56:34.559601+00:00",
+      "fetched_at": "2026-10-05T09:29:20.194529+00:00",
       "permit_number": "B-2023-1246-4",
       "description": "Errichtung einer Balkonanlage 1. - 2. OG an einem Mehrfamilienhaus",
       "site_address": "Rhaban-Fröhlich-Straße 7",
@@ -14293,7 +14293,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "9",
       "flurstueck": "225/106",
-      "fetched_at": "2026-06-14T22:56:34.228002+00:00",
+      "fetched_at": "2026-10-05T09:27:50.608655+00:00",
       "permit_number": "B-2020-626-4",
       "description": "Errichtung von 2 Mehrfamilienhäusern mit 41 Wohneinheiten und einer Tiefgarage mit 15 Stellplätzen,mit einer Kindertagesstätte im EG und einer Werkstatt im UG.",
       "site_address": "Eschersheimer Landstraße 605",
