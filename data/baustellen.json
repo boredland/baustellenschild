@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-05T09:37:51.899304Z",
+    "last_updated": "2026-10-05T18:56:45.594714Z",
     "total": 1166,
-    "errors": 17,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19525,7 +19525,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "12",
       "flurstueck": "41/116",
-      "fetched_at": "2026-06-14T05:10:26.721731+00:00",
+      "fetched_at": "2026-10-05T18:48:23.585849+00:00",
       "permit_number": "B-2022-343-4",
       "description": "Neubau eines Mehrfamilienwohnhauses mit 11 Wohneinheiten und einer Kindertagesstätte im EG und 1. OG mit Nutzungsänderung in Zeile 15 im EG von einer Wohnung in Fläche für die Kita, Neubau Haus M",
       "site_address": "Sudermannstraße 6",
