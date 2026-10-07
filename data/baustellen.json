@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-07T17:24:56.060973Z",
+    "last_updated": "2026-10-07T22:26:11.298891Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10618,7 +10618,7 @@
       "gemarkung_label": "Wald Bezirk 71",
       "flur": "610",
       "flurstueck": "5/33",
-      "fetched_at": "2026-06-14T23:57:13.961762+00:00",
+      "fetched_at": "2026-10-07T22:17:14.000945+00:00",
       "permit_number": "B-2024-851-5",
       "description": "Errichtung einer Doppelhaushälfte (Haus A) mit 1 Wohneinheit und 1 Doppelgarage",
       "site_address": "Humperdinckstraße 26",
