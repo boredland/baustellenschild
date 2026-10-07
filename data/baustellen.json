@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-06T23:27:31.252090Z",
+    "last_updated": "2026-10-07T02:50:51.101050Z",
     "total": 1166,
-    "errors": 28,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20321,7 +20321,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "10",
       "flurstueck": "19/10",
-      "fetched_at": "2026-06-13T21:30:46.065004+00:00",
+      "fetched_at": "2026-10-07T02:47:02.225949+00:00",
       "permit_number": "B-2025-47-6",
       "description": "Anbau zur Erweiterung für die Unterbringung von 2 Hortgruppen, brandschutzrelevante Grundrissänderungen im Bestand, Rückbau von 2 Stellplätzen und Herstellen von 3 Stellplätzen,  Kinderzentrum 104",
       "site_address": "Biedenkopfer Weg 31",
