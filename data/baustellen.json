@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-07T22:26:11.298891Z",
+    "last_updated": "2026-10-08T02:25:32.330009Z",
     "total": 1166,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10639,7 +10639,7 @@
       "gemarkung_label": "Wald Bezirk 71",
       "flur": "610",
       "flurstueck": "5/34",
-      "fetched_at": "2026-06-14T23:57:13.982100+00:00",
+      "fetched_at": "2026-10-08T02:09:47.912809+00:00",
       "permit_number": "B-2024-853-5",
       "description": "Errichtung einer Doppelhaushälfte (Haus B) mit 1 Wohneinheit und 1 Doppelgarage",
       "site_address": "Humperdinckstraße 26",
@@ -15121,7 +15121,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "61",
       "flurstueck": "32/27",
-      "fetched_at": "2026-06-14T23:27:08.826617+00:00",
+      "fetched_at": "2026-10-08T02:20:36.042763+00:00",
       "permit_number": "B-2023-351-4",
       "description": "Nutzungsänderung von freiberuflicher Nutzung gemäß §13 BauNVO (Fitnesstudio) in Büroflächen im 4. OG, 5. OG und 6.OG eines Büro- und Geschäftshauses",
       "site_address": "Zeil 57",
