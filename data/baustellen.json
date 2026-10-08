@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-08T16:58:14.230466Z",
+    "last_updated": "2026-10-08T21:57:51.109717Z",
     "total": 1166,
-    "errors": 27,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10907,7 +10907,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "329",
       "flurstueck": "240/5",
-      "fetched_at": "2026-06-15T12:02:34.503796+00:00",
+      "fetched_at": "2026-10-08T21:46:49.925935+00:00",
       "permit_number": "B-2021-1417-4",
       "description": "Nutzungsänderung im EG von Schank- und Speisewirtschaft in Wohnen mit Fassadenänderungen, Rückbau- und Wiedererrichten des Daches in geänderter Form zur Erweiterung der Wohnung im DG mit Erhöhung der Brandwand, innere Umbauten von EG bis DG an einem Mehrfamilienhaus",
       "site_address": "Händelstraße 9",
