@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-08T21:57:51.109717Z",
+    "last_updated": "2026-10-09T01:52:12.414612Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10991,7 +10991,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "411",
       "flurstueck": "21/94",
-      "fetched_at": "2026-06-15T00:39:08.210445+00:00",
+      "fetched_at": "2026-10-09T01:47:04.931346+00:00",
       "permit_number": "B-2017-1801-3",
       "description": "Nachtrag zu B-2016-1118-3:\nNutzungsänderung im EG von einer Schank- und Speisewirtschaft und \n3 Läden in 5 Wohnungen, Zusammenlegung von 2 in eine Wohnung\nim 1. Obergeschoss und Dachgeschoss, Fassadenänderungen \nsowie innere Umbauten in allen Geschossen",
       "site_address": "Ostbahnhofstraße 13 - 15",
@@ -15163,7 +15163,7 @@
       "gemarkung_label": "Frankfurt Bezirk 22",
       "flur": "339",
       "flurstueck": "6/0",
-      "fetched_at": "2026-06-14T23:28:04.409588+00:00",
+      "fetched_at": "2026-10-09T01:38:46.833803+00:00",
       "permit_number": "B-2025-104-5",
       "description": "Nutzungsänderung eines Einzelhandels zu Wohnen im EG des Vorderhauses, Nutzungsänderung eines Handwerkerbetriebes zu einer Maisonette-Wohnung im KG und EG des Hinterhauses, Rückbau des Anbaus am Hinterhaus, Herabsetzen des Tiefhofs am Hinterhaus, Renovieren der Innenräume beider Häuser",
       "site_address": "Friedberger Landstraße 98",
