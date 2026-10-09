@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-09T01:52:12.414612Z",
+    "last_updated": "2026-10-09T08:30:06.621096Z",
     "total": 1166,
-    "errors": 27,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11012,7 +11012,7 @@
       "gemarkung_label": "Frankfurt Bezirk 27",
       "flur": "428",
       "flurstueck": "37/19",
-      "fetched_at": "2026-06-15T00:39:12.658166+00:00",
+      "fetched_at": "2026-10-09T08:18:53.033224+00:00",
       "permit_number": "B-2024-240-3",
       "description": "Rückbau und Wiedererrichten von Dachteilen in veränderter Form\nZusammenlegung der Wohneinheiten im 3. OG und Dachgeschoss \nsowie Errichten einer Dachloggia an einem Mehrfamilienwohnhaus",
       "site_address": "Rendeler Straße 51",
@@ -11658,7 +11658,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "390",
       "flurstueck": "5/2",
-      "fetched_at": "2026-06-15T07:17:03.825725+00:00",
+      "fetched_at": "2026-10-09T08:13:41.031750+00:00",
       "permit_number": "B-2024-1145-3",
       "description": "Errichten von 8 Balkonen sowie Neueindeckung \ndes Daches und energetische Fassadensanierung\nan einem Mehrfamilienwohngebäude",
       "site_address": "Habsburgerallee 102",
