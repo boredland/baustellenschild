@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-10T17:51:00.443514Z",
+    "last_updated": "2026-10-10T21:13:04.846333Z",
     "total": 1166,
     "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -16826,7 +16826,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "46",
       "flurstueck": "308/19",
-      "fetched_at": "2026-06-14T07:04:23.945632+00:00",
+      "fetched_at": "2026-10-10T21:04:27.023033+00:00",
       "permit_number": "B-2019-63-4",
       "description": "Errichtung eines Reihenhauses mit einer Gartenhütte und einem Freisitz - S4",
       "site_address": "Mart-Stam-Straße 18",
@@ -16931,7 +16931,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "46",
       "flurstueck": "308/18",
-      "fetched_at": "2026-06-14T07:04:23.101902+00:00",
+      "fetched_at": "2026-10-10T21:03:32.933642+00:00",
       "permit_number": "B-2019-64-4",
       "description": "Errichtung eines Reihenendhauses mit einer Gartenhütte und einem Freisitz - S5",
       "site_address": "Mart-Stam-Straße 16",
