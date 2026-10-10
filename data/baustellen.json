@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-10T13:05:37.311066Z",
+    "last_updated": "2026-10-10T17:51:00.443514Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11095,7 +11095,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "9",
       "flurstueck": "633/617",
-      "fetched_at": "2026-06-14T23:55:55.952003+00:00",
+      "fetched_at": "2026-10-10T17:44:32.137368+00:00",
       "permit_number": "B-2025-144-6",
       "description": "Brandschutz- und statisch relevante Änderungen im EG und 1. OG durch innere Umbauten und Errichten einer Außentreppe des Klinikum Frankfurt Höchst",
       "site_address": "Windthorststraße 21",
@@ -11116,9 +11116,9 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "9",
       "flurstueck": "633/619",
-      "fetched_at": "2026-06-14T23:56:01.845407+00:00",
+      "fetched_at": "2026-10-10T17:46:32.812326+00:00",
       "permit_number": "B-2022-82-6",
-      "description": "Brandschutz- und statischrelevante Grundrissänderungen im Klinikum Höchst (Bauteil K)",
+      "description": "Brandschutz- und statischrelevante Grundrissänderungen im...",
       "site_address": "Gotenstraße 6 - 8",
       "parcel_info": "Höchst Bezirk 57 (498), 9, 633/619",
       "builder_name": "ZEG mbH c/o varisano Klinikum Frankfurt Höchst GmbH",
@@ -17256,7 +17256,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "15",
       "flurstueck": "139/5",
-      "fetched_at": "2026-06-14T07:04:17.179298+00:00",
+      "fetched_at": "2026-10-10T17:40:32.177524+00:00",
       "permit_number": "B-2019-1325-6",
       "description": "Rückbau und Wiedererrichten Dachgeschoss in geänderter Form, Schließen der Loggia im EG und Aufstockung im 1. OG zur Wohnraumerweiterung, Errichten einer Außentreppe sowie Nutzungsänderung des Bürogebäudes in ein Dreifamilienwohnhaus",
       "site_address": "Lärchenstraße 21",
