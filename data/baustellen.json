@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-11T11:25:17.353735Z",
+    "last_updated": "2026-10-11T17:00:11.120700Z",
     "total": 1166,
-    "errors": 26,
+    "errors": 17,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18805,7 +18805,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "16",
       "flurstueck": "6/15",
-      "fetched_at": "2026-06-15T01:52:12.044829+00:00",
+      "fetched_at": "2026-10-11T16:47:00.143805+00:00",
       "permit_number": "B-2024-1067-6",
       "description": "MB §66S\nTemporäre Aufstellung einer Containeranlage für die Ebelfeldschule befristet für 3 Jahre ab Baugenehmigung",
       "site_address": "Ludwig-Landmann-Straße 145",
@@ -20363,7 +20363,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "10",
       "flurstueck": "53/1",
-      "fetched_at": "2026-06-13T21:30:46.772562+00:00",
+      "fetched_at": "2026-10-11T16:57:49.047271+00:00",
       "permit_number": "B-2019-1569-5",
       "description": "Anbau zur Wohnraumerweiterung an einem Einfamilienhaus",
       "site_address": "Biedenkopfer Weg 55",
@@ -20627,7 +20627,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "10",
       "flurstueck": "67/21",
-      "fetched_at": "2026-06-13T21:30:47.155034+00:00",
+      "fetched_at": "2026-10-11T16:58:06.152676+00:00",
       "permit_number": "B-2024-617-5",
       "description": "Errichtung eines Mehrfamilienwohnhauses mit 5 Wohneinheiten und Verlegen von 2 Stellplätzen und Herstellen von 2 Stellplätzen",
       "site_address": "Bottenhorner Weg 1",
