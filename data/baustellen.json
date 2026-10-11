@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-10T21:13:04.846333Z",
+    "last_updated": "2026-10-11T00:17:57.508592Z",
     "total": 1166,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -19631,7 +19631,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "6",
       "flurstueck": "57/4",
-      "fetched_at": "2026-06-14T18:29:39.439352+00:00",
+      "fetched_at": "2026-10-11T00:00:04.633092+00:00",
       "permit_number": "B-2022-1092-4",
       "description": "brandschutzrelevante Grundrissänderungen sowie Aufstellen von Klimageräten in einem Rechenzentrum",
       "site_address": "Heinrich-Lanz-Allee 47",
