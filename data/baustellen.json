@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-12T00:24:37.628110Z",
+    "last_updated": "2026-10-12T06:32:32.122428Z",
     "total": 1166,
     "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -8722,7 +8722,7 @@
       "gemarkung_label": "Unterliederbach Bezirk 62",
       "flur": "15",
       "flurstueck": "141/18",
-      "fetched_at": "2026-06-15T00:41:58.763374+00:00",
+      "fetched_at": "2026-10-12T06:28:00.416195+00:00",
       "permit_number": "B-2020-364-6",
       "description": "Rückbau des Daches und Wiedererrichtung in geänderter Form  mit 2 Gauben, zur Wohnraumerweiterung  mit Teilaufstockung, Errichtung einer Dachterrasse und eines Balkones an einem Wohn- und Geschäftshaus mit 2 Wohneinheiten. Rückbau einer Garage",
       "site_address": "Liederbacher Straße 72",
