@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-12T06:32:32.122428Z",
+    "last_updated": "2026-10-12T16:07:50.447328Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15407,7 +15407,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "62",
       "flurstueck": "62/1",
-      "fetched_at": "2026-06-14T23:53:36.043077+00:00",
+      "fetched_at": "2026-10-12T16:06:48.511289+00:00",
       "permit_number": "B-2024-1052-4",
       "description": "Nutzungsänderung von Büro in eine Schank- und Speisewirtschaft (Cafe) im EG eines Wohn- und Geschäftshauses",
       "site_address": "Klingerstraße 9",
