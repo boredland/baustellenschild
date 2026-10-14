@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-14T06:39:47.135573Z",
+    "last_updated": "2026-10-14T12:29:31.234736Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -9099,7 +9099,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "421",
       "flurstueck": "6/26",
-      "fetched_at": "2026-06-14T23:54:43.259434+00:00",
+      "fetched_at": "2026-10-14T12:12:32.003201+00:00",
       "permit_number": "B-2025-400-3",
       "description": "Anbauten zur Wohnraumerweiterung\nim EG + OG an einem Mehrfamilienhaus",
       "site_address": "Johanna-Tesch-Platz 4",
@@ -14898,7 +14898,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "550",
       "flurstueck": "4/156",
-      "fetched_at": "2026-06-15T07:17:37.454888+00:00",
+      "fetched_at": "2026-10-14T12:25:50.035172+00:00",
       "permit_number": "B-2024-1361-5",
       "description": "Rückbau Garage, Errichten eines 2-geschossigen Anbaus sowie Dachgeschossausbau mit zwei Zwerchhäusern zur Wohnraumerweiterung eines Einfamilienwohnhauses, Herstellen eines Stellplatzes",
       "site_address": "Bodenbacher Weg 17",
