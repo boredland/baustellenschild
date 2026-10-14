@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-14T01:36:05.714660Z",
+    "last_updated": "2026-10-14T06:39:47.135573Z",
     "total": 1166,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -511,7 +511,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "329",
       "flurstueck": "465/11",
-      "fetched_at": "2026-06-14T21:57:38.080410+00:00",
+      "fetched_at": "2026-10-14T06:21:57.826933+00:00",
       "permit_number": "B-2025-459-4",
       "description": "Rückbau- und Wiedererrichten der Balkone in selber Form an einem Mehrfamilienhaus",
       "site_address": "Kreutzerstraße 22",
@@ -11429,7 +11429,7 @@
       "gemarkung_label": "Frankfurt Bezirk 27",
       "flur": "429",
       "flurstueck": "12/9",
-      "fetched_at": "2026-06-15T01:50:15.701653+00:00",
+      "fetched_at": "2026-10-14T06:34:15.698006+00:00",
       "permit_number": "B-2018-615-3",
       "description": "Brandschutzrelevante Grundrissänderungen und \nFassadensanierung Kinderzentrum Rendeler Straße",
       "site_address": "Rendeler Straße 9 - 11",
