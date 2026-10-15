@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-15T02:46:11.421767Z",
+    "last_updated": "2026-10-15T07:56:52.435714Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 35,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17624,7 +17624,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "15",
       "flurstueck": "196/48",
-      "fetched_at": "2026-06-14T08:47:14.283701+00:00",
+      "fetched_at": "2026-10-15T07:52:12.434693+00:00",
       "permit_number": "B-2021-1312-6",
       "description": "Errichtung eines Wohn- und Geschäftshauses mit 8 Wohneinheiten und einer Tiefgarage mit 19 Stellplätzen, eines Wohn- und Geschäftshauses mit 6 Wohneinheiten sowie Teilabbruch und Neubau eines Wohn- und Geschäftshauses mit 12 Wohneinheiten",
       "site_address": "Autogenstraße 12 - 16",
@@ -19735,7 +19735,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "13",
       "flurstueck": "139/6",
-      "fetched_at": "2026-06-14T08:47:12.699584+00:00",
+      "fetched_at": "2026-10-15T07:48:18.418370+00:00",
       "permit_number": "B-2022-1192-4",
       "description": "Abbruch der bestehenden Garage, Anbau an ein Wohnhaus zu Wohnzwecken sowie Abbruch Garage und Herstellung eines PKW-Stellplatzes",
       "site_address": "Ginnheimer Stadtweg 145",
