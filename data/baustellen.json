@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-15T13:15:38.640493Z",
+    "last_updated": "2026-10-15T17:53:51.613446Z",
     "total": 1166,
-    "errors": 26,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12722,7 +12722,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "9",
       "flurstueck": "230/5",
-      "fetched_at": "2026-06-15T09:39:49.202067+00:00",
+      "fetched_at": "2026-10-15T17:52:21.299898+00:00",
       "permit_number": "B-2023-506-5",
       "description": "Herstellung einer Wohneinheit im Dachgeschoss mit Erneuerung des Dachstuhls, Aufbringen einer Aufsparrendämmung sowie innere Umbauten im 3.OG und Herstellung einer Wohneinheit im KG eines Mehrfamilienhauses",
       "site_address": "Bruchfeldstraße 7",
@@ -16763,7 +16763,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "46",
       "flurstueck": "308/27",
-      "fetched_at": "2026-06-14T07:04:23.694704+00:00",
+      "fetched_at": "2026-10-15T17:39:57.622210+00:00",
       "permit_number": "B-2019-61-4",
       "description": "Errichtung eines Reihenhauses mit einer Gartenhütte - N5",
       "site_address": "Ernst-Balser-Straße 3",
@@ -16910,7 +16910,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "46",
       "flurstueck": "308/26",
-      "fetched_at": "2026-06-14T07:04:23.698365+00:00",
+      "fetched_at": "2026-10-15T17:37:45.518855+00:00",
       "permit_number": "B-2019-59-4",
       "description": "Errichtung eines Reihenhauses mit einer Gartenhütte - N4",
       "site_address": "Ernst-Balser-Straße 5",
@@ -19776,7 +19776,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "7",
       "flurstueck": "10/24",
-      "fetched_at": "2026-06-14T18:59:12.751069+00:00",
+      "fetched_at": "2026-10-15T17:37:48.593152+00:00",
       "permit_number": "B-2018-231-4",
       "description": "Errichtung einer Lagerhalle mit Büroetage und Verbindungsbauteil und Tiefgarage mit 10 Stellplätzen",
       "site_address": "Anton-Schlüter-Straße 1",
