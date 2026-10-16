@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-15T23:44:51.621743Z",
+    "last_updated": "2026-10-16T01:51:34.634874Z",
     "total": 1166,
-    "errors": 27,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21050,7 +21050,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "5",
       "flurstueck": "58/4",
-      "fetched_at": "2026-06-13T17:58:25.618928+00:00",
+      "fetched_at": "2026-10-16T01:44:06.027329+00:00",
       "permit_number": "B-2021-1494-4",
       "description": "Errichtung von 3 Mehrfamilienhäusern mit 153 Wohnungen für Bedienstete von Krankenhäusern und Krankenhauspersonal, sowie einer 6-zügigen öffentlichen Kita im EG und 1. OG und einer gemeinsamen Tiefragage mit 79 Stellplätzen",
       "site_address": "Steinbacher Hohl 72",
