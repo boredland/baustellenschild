@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-17T21:30:30.616219Z",
+    "last_updated": "2026-10-17T23:32:52.509216Z",
     "total": 1166,
-    "errors": 25,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -4952,7 +4952,7 @@
       "gemarkung_label": "Frankfurt Bezirk 28",
       "flur": "457",
       "flurstueck": "957/277",
-      "fetched_at": "2026-06-15T03:07:57.889359+00:00",
+      "fetched_at": "2026-10-17T23:30:17.793248+00:00",
       "permit_number": "B-2021-1167-3",
       "description": "Rückbau von Balkonen und Errichtung einer Balkonanlage \nvom EG - 3. OG an einem Mehrfamilienhaus",
       "site_address": "Freiligrathstraße 52",
@@ -9740,7 +9740,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "421",
       "flurstueck": "123/4",
-      "fetched_at": "2026-06-15T00:39:05.073027+00:00",
+      "fetched_at": "2026-10-17T23:18:47.820797+00:00",
       "permit_number": "B-2022-465-3",
       "description": "Anbau zur Wohnraumerweiterung für ein Einfamilienhaus",
       "site_address": "Rümelinstraße 39",
