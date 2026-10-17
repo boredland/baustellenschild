@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-17T09:49:41.251251Z",
+    "last_updated": "2026-10-17T13:40:18.543064Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1254,9 +1254,9 @@
       "gemarkung_label": "Frankfurt Bezirk 17",
       "flur": "247",
       "flurstueck": "9/2",
-      "fetched_at": "2026-06-15T00:38:21.552256+00:00",
+      "fetched_at": "2026-10-17T13:31:49.941283+00:00",
       "permit_number": "B-2023-247-4",
-      "description": "Brandschutztechnische Grundrissveränderung mit Anbau von Balkonen und Einbau einer Aufzugsanlage in einem Studierendenwohnheim",
+      "description": "Brandschutztechnische Grundrissveränderung mit Anbau von Balkonen...",
       "site_address": "Beethovenplatz 4",
       "parcel_info": "Frankfurt Bezirk 17 (469), 247, 9/2",
       "builder_name": "MainSWerk, Studierendenwerk Frankfurt am Main",
@@ -6868,7 +6868,7 @@
       "gemarkung_label": "Frankfurt Bezirk 13",
       "flur": "149",
       "flurstueck": "21/0",
-      "fetched_at": "2026-06-15T09:36:56.285058+00:00",
+      "fetched_at": "2026-10-17T13:21:52.435254+00:00",
       "permit_number": "B-2022-1012-3",
       "description": "Vergrößerung der Fensteröffnungen und Errichtung von Balkonen \nauf der Gebäuderückseite an einem Wohngebäude",
       "site_address": "Musikantenweg 5",
