@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-17T05:30:24.045111Z",
+    "last_updated": "2026-10-17T09:49:41.251251Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1195,7 +1195,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "171",
       "flurstueck": "31/1",
-      "fetched_at": "2026-06-15T00:38:01.552348+00:00",
+      "fetched_at": "2026-10-17T09:36:20.040626+00:00",
       "permit_number": "B-2016-1727-3",
       "description": "Nutzungsänderung eines Lagers der Büros in einen\nFitnessraum mit baulichen Änderungen in einem \nGebäude mit Dampfumformstation und Büros",
       "site_address": "Oskar-von-Miller-Straße 14",
@@ -6829,7 +6829,7 @@
       "gemarkung_label": "Frankfurt Bezirk 13",
       "flur": "149",
       "flurstueck": "38/0",
-      "fetched_at": "2026-06-15T09:36:58.018696+00:00",
+      "fetched_at": "2026-10-17T09:33:05.243091+00:00",
       "permit_number": "B-2023-647-3",
       "description": "Rückbau Dachgeschoss, Errichten eines 5. Obergeschosses, \nHerstellen von 5 Wohnungen auf einem Mehrfamilienhaus",
       "site_address": "Berger Straße 38",
