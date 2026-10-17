@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-17T19:15:15.231305Z",
+    "last_updated": "2026-10-17T21:30:30.616219Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12557,7 +12557,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "394",
       "flurstueck": "1/1",
-      "fetched_at": "2026-06-15T12:02:51.886800+00:00",
+      "fetched_at": "2026-10-17T21:21:09.330936+00:00",
       "permit_number": "B-2018-1707-3",
       "description": "Errichtung von 2 Gauben sowie Aufbringung einer Aufsparrendämmung \nauf dem Walmdach des Mehrfamilienhauses",
       "site_address": "Röderbergweg 180",
