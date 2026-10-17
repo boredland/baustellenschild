@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-16T22:38:31.136251Z",
+    "last_updated": "2026-10-17T00:56:26.727049Z",
     "total": 1166,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -986,7 +986,7 @@
       "gemarkung_label": "Frankfurt Bezirk 09",
       "flur": "86",
       "flurstueck": "14/2",
-      "fetched_at": "2026-06-15T00:37:45.515340+00:00",
+      "fetched_at": "2026-10-17T00:40:57.628973+00:00",
       "permit_number": "B-2023-1026-5",
       "description": "Ausbau von Keller- in Nebenräume für einen Beherbergungsbetrieb, Aufteilen im EG von einer Schankwirtschaft in eine Schank- und Speisewirtschaft und Rezeption, Nutzungsänderung von Vergnügungsstätte in einen Laden, Nutzungsänderung im 1. OG  von Büro und und Wohnen in einen Beherbergungsbetrieb, im 2.OG von einer Wohnung in Beherbergungsbetrieb sowie Nutzungsänderung im 3.OG von einem Beherbergungsbetrieb in 3 Wohnungen, innere Umbauten im 4. und 5. OG in einem Wohnhaus mit Beherbergungsbetrieb (24 Gastbetten) , 3 Läden und einer Speisegaststätte.",
       "site_address": "Taunusstraße 43",
@@ -1007,7 +1007,7 @@
       "gemarkung_label": "Frankfurt Bezirk 09",
       "flur": "87",
       "flurstueck": "16/16",
-      "fetched_at": "2026-06-15T00:37:45.099250+00:00",
+      "fetched_at": "2026-10-17T00:44:15.434105+00:00",
       "permit_number": "B-2020-1518-5",
       "description": "Statisch-relevante Grundrissänderungen im UG eines Bürogebäudes",
       "site_address": "Karlstraße 4",
@@ -1028,7 +1028,7 @@
       "gemarkung_label": "Frankfurt Bezirk 09",
       "flur": "87",
       "flurstueck": "7/9",
-      "fetched_at": "2026-06-15T00:37:45.213081+00:00",
+      "fetched_at": "2026-10-17T00:45:27.633230+00:00",
       "permit_number": "B-2019-293-5",
       "description": "Nutzungsänderung von Büro in eine Schank- und Speisewirtschaft im EG sowie Herstellen von Lagerflächen durch Nutzungsänderung von Teilen der Tiefgarage im 3. UG, Entfall von 7 Stellplätzen in einem Büro- und Geschäftshaus sowie Herstellung von 18 Farradabstellplätzen",
       "site_address": "Am Hauptbahnhof 18",
@@ -1049,7 +1049,7 @@
       "gemarkung_label": "Frankfurt Bezirk 09",
       "flur": "86",
       "flurstueck": "10/2",
-      "fetched_at": "2026-06-15T00:37:45.497528+00:00",
+      "fetched_at": "2026-10-17T00:41:33.740085+00:00",
       "permit_number": "B-2016-538-5",
       "description": "Nachträgliche Legalisierung einer Nutzungsänderung von Sprachschule mit Unterkunft in einen Beherbergungsbetrieb vom 2. OG. bis 6. OG. in dem Geschäftshaus sowie Nutzungsänderung von Kino in Bürofläche im 1. OG.",
       "site_address": "Kaiserstraße 74",
