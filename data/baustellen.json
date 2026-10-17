@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-17T13:40:18.543064Z",
+    "last_updated": "2026-10-17T16:50:26.944336Z",
     "total": 1166,
-    "errors": 20,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8995,7 +8995,7 @@
       "gemarkung_label": "Frankfurt Bezirk 19",
       "flur": "274",
       "flurstueck": "26/3",
-      "fetched_at": "2026-06-15T03:07:09.961750+00:00",
+      "fetched_at": "2026-10-17T16:40:09.382337+00:00",
       "permit_number": "B-2023-348-4",
       "description": "Nachträgliche Legalisierung:\nInnere Umbauten im Mansardgeschoss, Ausbau des Spitzbodens zur Wohnraumerweiterung sowie Einbau eines Dachflächenfensters mit Austritt an einem Mehrfamilienhaus",
       "site_address": "Wolfsgangstraße 87",
