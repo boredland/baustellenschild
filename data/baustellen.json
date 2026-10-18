@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-18T17:58:50.637668Z",
+    "last_updated": "2026-10-18T20:11:04.031532Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17852,7 +17852,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "15",
       "flurstueck": "463/270",
-      "fetched_at": "2026-06-14T10:12:37.655511+00:00",
+      "fetched_at": "2026-10-18T20:07:35.928521+00:00",
       "permit_number": "B-2015-2082-6",
       "description": "Aufstockung eines Zweifamilienhauses",
       "site_address": "Jungmannstraße 28",
