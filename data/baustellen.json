@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-18T06:30:09.218049Z",
+    "last_updated": "2026-10-18T11:46:30.062139Z",
     "total": 1166,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3873,7 +3873,7 @@
       "gemarkung_label": "Berkersheim Bezirk 50",
       "flur": "16",
       "flurstueck": "96/7",
-      "fetched_at": "2026-06-15T03:08:32.512048+00:00",
+      "fetched_at": "2026-10-18T11:35:04.223280+00:00",
       "permit_number": "B-2021-687-3",
       "description": "Errichten einer Doppelhaushälfte als Einfamilienhaus mit einer Garage\nund einem Stellplatz (Haus 1), sowie die Verlegung vom seitlichen \nHauseingang vom Vorderhaus/Bestandshaus straßenseitig",
       "site_address": "Am Dachsberg 104a",
@@ -21235,7 +21235,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "13",
       "flurstueck": "958/87",
-      "fetched_at": "2026-06-13T23:26:33.410308+00:00",
+      "fetched_at": "2026-10-18T11:41:39.524264+00:00",
       "permit_number": "B-2019-730-5",
       "description": "Rückbau und Wiedererrichten Dachgeschoss in geänderter Form, Ausbau zu einer neuen Wohnung, Änderung der Wohnungsaufteilung in den Geschossen 2-5 aus brandschutztechnischen Gründen sowie Errichtung einer Balkonanlage an einem Mehrfamilienhaus",
       "site_address": "Hamburger Allee 90",
