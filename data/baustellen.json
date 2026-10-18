@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-18T15:02:10.716413Z",
+    "last_updated": "2026-10-18T17:58:50.637668Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14652,7 +14652,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "10",
       "flurstueck": "378/31",
-      "fetched_at": "2026-06-14T23:55:42.873721+00:00",
+      "fetched_at": "2026-10-18T17:45:11.418080+00:00",
       "permit_number": "B-2022-696-4",
       "description": "Anbau zur Wohnraumerweiterung im EG an ein Zweifamilienhaus, sowie Errichtung eines Carport",
       "site_address": "Lindenring 52",
