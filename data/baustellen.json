@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-18T20:11:04.031532Z",
+    "last_updated": "2026-10-18T22:22:47.640237Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17685,7 +17685,7 @@
       "gemarkung_label": "Nied Bezirk 56",
       "flur": "17",
       "flurstueck": "1250/11",
-      "fetched_at": "2026-06-13T20:30:15.115459+00:00",
+      "fetched_at": "2026-10-18T22:21:01.202419+00:00",
       "permit_number": "B-2017-1141-6",
       "description": "Rückbau des Nebengebäudes einer Schank- und Speisewirtschaft,\nErrichtung eines Anbaus mit Küche und Toilette für Schank- und Speisewirtschaft im EG und 3 Wohneinheiten im 1. OG, 2. OG, 3.OG + DG, Innere Umbauten in einer Schank- und Speisewirtschaft, Herstellen von 3 Stellplätzen",
       "site_address": "Im Ziegelfeld 2",
@@ -19978,7 +19978,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "16",
       "flurstueck": "41/2",
-      "fetched_at": "2026-06-14T10:12:19.741363+00:00",
+      "fetched_at": "2026-10-18T22:04:52.552506+00:00",
       "permit_number": "B-2025-293-4",
       "description": "Rückbau und Wiedererrichten der Garage in veränderter Form mit einer Terrasse, Herstellen einer Außentreppe höher 1.00m. Innere Umbauten und Fassadenänderungen an einem Einfamilienhaus (Doppelhaushälfte)",
       "site_address": "Im Uhrig 55a",
@@ -20019,7 +20019,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "7",
       "flurstueck": "68/29",
-      "fetched_at": "2026-06-14T19:35:19.517627+00:00",
+      "fetched_at": "2026-10-18T22:19:25.221101+00:00",
       "permit_number": "B-2022-514-4",
       "description": "Erweiterung der vorhandenen Werkstatthalle durch einen Anbau",
       "site_address": "Max-Holder-Straße 9",
