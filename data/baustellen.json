@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-18T11:46:30.062139Z",
+    "last_updated": "2026-10-18T15:02:10.716413Z",
     "total": 1166,
     "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -3894,7 +3894,7 @@
       "gemarkung_label": "Berkersheim Bezirk 50",
       "flur": "16",
       "flurstueck": "97/14",
-      "fetched_at": "2026-06-15T03:08:33.497996+00:00",
+      "fetched_at": "2026-10-18T14:45:26.823588+00:00",
       "permit_number": "B-2024-846-3",
       "description": "Errichten einer Aufstockung und einer Außentreppe\nHerstellen einer neuen Wohnung an einem Zweifamilienhaus",
       "site_address": "Am Dachsberg 110c",
@@ -15650,7 +15650,7 @@
       "gemarkung_label": "Bonames Bezirk 49",
       "flur": "23",
       "flurstueck": "50/0",
-      "fetched_at": "2026-06-14T14:16:45.026555+00:00",
+      "fetched_at": "2026-10-18T14:52:56.817565+00:00",
       "permit_number": "B-2024-518-3",
       "description": "Aufteilen von einem Einfamilienwohnhaus in ein Wohnhaus mit zwei Wohneinheiten, Absenken der Decke über Kellergeschoss, Öffnen der Decke über Obergeschoss, Errichten einer Photovolltaikanlage",
       "site_address": "Bonameser Mittelgasse 3",
