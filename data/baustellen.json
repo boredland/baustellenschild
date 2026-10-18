@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-17T23:32:52.509216Z",
+    "last_updated": "2026-10-18T01:36:18.132678Z",
     "total": 1166,
-    "errors": 26,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7335,15 +7335,15 @@
       "gemarkung_label": "Frankfurt Bezirk 29",
       "flur": "466",
       "flurstueck": "383/2",
-      "fetched_at": "2026-06-15T09:38:21.132717+00:00",
+      "fetched_at": "2026-10-18T01:29:50.635391+00:00",
       "permit_number": "B-2020-1520-6",
       "description": "Brandschutzrelevante Grundrissänderung durch \nEinbau einer Bühne und einer Wendeltreppe zur Empore \nals 2. Rettungsweg in der Aula der Charles-Hallgarten-Schule",
       "site_address": "Am Bornheimer Hang 10",
       "parcel_info": "Frankfurt Bezirk 29 (481), 466, 383/2",
       "builder_name": "Stadt Frankfurt am Main, der Magistrat",
-      "builder_address": "Gutleutstraße 7",
-      "builder_location": "60329 Frankfurt am Main",
-      "represented_by": "vertr. d. Frau Sigrid Eichler",
+      "builder_address": "Solmsstraße 27",
+      "builder_location": "60486 Frankfurt am Main",
+      "represented_by": "vertr. d. Herrn André Strube",
       "architect_name": "Dirschl Dipl.-Ing. Kristinc/o Dirschl.Federle_Architekten GmbH",
       "architect_address": "Gutleutstraße 169",
       "architect_location": "60327 Frankfurt am Main",
