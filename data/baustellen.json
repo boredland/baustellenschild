@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-19T05:17:27.497096Z",
+    "last_updated": "2026-10-19T10:53:52.224203Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 18,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -17358,7 +17358,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "5",
       "flurstueck": "638/2",
-      "fetched_at": "2026-06-14T07:04:44.699816+00:00",
+      "fetched_at": "2026-10-19T10:45:25.641626+00:00",
       "permit_number": "B-2019-816-3",
       "description": "Errichtung einer landwirtschaftlichen Lagerhalle mit Solartrocknung",
       "site_address": "Unbenannte Straße 0",
@@ -17378,7 +17378,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "5",
       "flurstueck": "629/1",
-      "fetched_at": "2026-06-14T07:04:44.602440+00:00",
+      "fetched_at": "2026-10-19T10:46:44.051797+00:00",
       "permit_number": "B-2023-294-3",
       "description": "Erweiterung einer Rettungsstation durch  Aufstockung zwecks Errichtung eines Schulungsraumes \nsowie Schließen der Terrasse für einen Gruppenraum",
       "site_address": "Heinrich-Becker-Straße 23a",
