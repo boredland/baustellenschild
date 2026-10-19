@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-18T22:22:47.640237Z",
+    "last_updated": "2026-10-19T00:36:19.396903Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12743,7 +12743,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "10",
       "flurstueck": "9/0",
-      "fetched_at": "2026-06-15T12:04:43.328081+00:00",
+      "fetched_at": "2026-10-19T00:31:48.192215+00:00",
       "permit_number": "B-2023-330-5",
       "description": "Teilabbruch des Dachstuhls und Errichten in veränderter Form sowie Herstellen eines 3-geschossigen Anbaus zur Wohnraumerweiterung an einem Mehrfamilienhaus",
       "site_address": "Schwanheimer Straße 9",
@@ -12984,9 +12984,9 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "10",
       "flurstueck": "20/3",
-      "fetched_at": "2026-06-15T12:04:45.592781+00:00",
+      "fetched_at": "2026-10-19T00:32:54.920458+00:00",
       "permit_number": "B-2022-672-5",
-      "description": "Errichtung von 2 Mehrfamilienhäusern mit 13 Wohneinheiten und einer Tiefgarage mit 15 Stellplätzen",
+      "description": "Errichtung von 2 Mehrfamilienhäusern mit 13 Wohneinheiten und...",
       "site_address": "Schwarzwaldstraße 4",
       "parcel_info": "Niederrad Bezirk 37 (502), 10, 20/3",
       "builder_name": "Delom Servic GmbH",
