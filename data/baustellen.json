@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-20T19:47:30.130896Z",
+    "last_updated": "2026-10-20T22:49:22.640296Z",
     "total": 1166,
-    "errors": 25,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -283,7 +283,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "165",
       "flurstueck": "18/1",
-      "fetched_at": "2026-06-15T12:02:03.342815+00:00",
+      "fetched_at": "2026-10-20T22:47:44.719550+00:00",
       "permit_number": "B-2024-315-3",
       "description": "Nachtrag zu B-2020-350-3: \nReduzierung von 19 auf 17 Wohneinheiten mit inneren Umbauten\nund Fassadenänderungen an einem Wohngebäude",
       "site_address": "Uhlandstraße 50a",
@@ -1933,9 +1933,9 @@
       "gemarkung_label": "Frankfurt Bezirk 10",
       "flur": "108",
       "flurstueck": "1/2",
-      "fetched_at": "2026-06-15T01:49:00.503187+00:00",
+      "fetched_at": "2026-10-20T22:34:21.731141+00:00",
       "permit_number": "B-2020-615-4",
-      "description": "Rückbau eines Anbaus mit Tiefgarage und Neuerrichtung eines Büro- und Geschäftshauses mit einer Tiefgarage mit 30 Stellplätzen",
+      "description": "Rückbau eines Anbaus mit Tiefgarage und Neuerrichtung eines Büro-...",
       "site_address": "Niedenau 84",
       "parcel_info": "Frankfurt Bezirk 10 (462), 108, 1/2",
       "builder_name": "GE Management und Service GmbH",
@@ -5345,7 +5345,7 @@
       "gemarkung_label": "Frankfurt Bezirk 12",
       "flur": "140",
       "flurstueck": "151/17",
-      "fetched_at": "2026-06-15T05:14:17.625075+00:00",
+      "fetched_at": "2026-10-20T22:35:50.705563+00:00",
       "permit_number": "B-2018-1289-4",
       "description": "Rückbau des Daches und Wiedererrichten in geändeter Form, Dachgeschossausbau zu Wohnraum, Errichtung eines Aufzuges sowie Anbau von Balkonen in einem Mehrfamilienhaus",
       "site_address": "Eckenheimer Landstraße 24",
