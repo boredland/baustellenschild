@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-20T22:49:22.640296Z",
+    "last_updated": "2026-10-21T01:27:17.105873Z",
     "total": 1166,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -304,7 +304,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "165",
       "flurstueck": "27/0",
-      "fetched_at": "2026-06-15T12:02:04.236795+00:00",
+      "fetched_at": "2026-10-21T01:10:59.416245+00:00",
       "permit_number": "B-2015-1611-3",
       "description": "Nachtrag zu B-2010-422-3:\nVeränderte Ausführung durch Grundrißänderung im EG und Reduzierung der Gastzimmer von 9 auf 8 im 1.OG / 2.OG Vorder- u. Mittelhaus",
       "site_address": "Hanauer Landstraße 14",
@@ -1215,9 +1215,9 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "175",
       "flurstueck": "8/1",
-      "fetched_at": "2026-06-15T09:37:08.189734+00:00",
+      "fetched_at": "2026-10-21T01:17:14.102830+00:00",
       "permit_number": "B-2024-114-6",
-      "description": "Temporäre Nutzungsänderung einer Turnhalle und Büro im KG, EG und 1. OG in eine Kindertagesstätte (Auslagerung KiZ 12) mit brandschutz- und statisch relevanten Grundrissänderungen im EG und 1. OG befristet für 24 Monate ab Baugenehmigung",
+      "description": "Temporäre Nutzungsänderung einer Turnhalle und Büro im KG, EG und 1. OG in eine Kindertagesstätte (Auslagerung KiZ 12) mit brandschutz- und statisch relevanten Grundrissänderungen im EG und 1. OG befristet für 24 Monate ab Baugenehmigung\nVerlängerung der befristeten Baugenehmigung um weitere 3 Jahre bis zum 08.10.29",
       "site_address": "Wiesenhüttenplatz 33",
       "parcel_info": "Frankfurt Bezirk 15 (467), 175, 8/1",
       "builder_name": "Kita Frankfurt - Die städischen Kinderzentren",
