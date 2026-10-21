@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-21T06:29:57.632397Z",
+    "last_updated": "2026-10-21T12:24:57.437151Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1335,7 +1335,7 @@
       "gemarkung_label": "Frankfurt Bezirk 20",
       "flur": "297",
       "flurstueck": "15/0",
-      "fetched_at": "2026-06-15T09:37:30.136199+00:00",
+      "fetched_at": "2026-10-21T12:22:10.722721+00:00",
       "permit_number": "B-2023-634-4",
       "description": "Anbau zur Wohnraumerweiterung mit inneren Umbauten eines Einfamilienhauses sowie Errichtung eines Schwimmbeckens und eines Doppelparkers",
       "site_address": "Holzhausenstraße 28",
@@ -9634,7 +9634,7 @@
       "gemarkung_label": "Frankfurt Bezirk 19",
       "flur": "275",
       "flurstueck": "3/1",
-      "fetched_at": "2026-06-15T05:14:52.706961+00:00",
+      "fetched_at": "2026-10-21T12:12:58.715086+00:00",
       "permit_number": "B-2022-290-4",
       "description": "Statisch- und brandschutzrelevante Grundrissänderungen, Errichten von zwei Dachterrassen mit einer Außentreppe, Veränderung der Lüftungsanlage und Fassadenänderungen an einem Bürohochhaus, sowie Ersetzen von 2 PKW-Stellplätzen im 1. UG durch 12 Fahrradstellplätze",
       "site_address": "Im Trutz Frankfurt 53 - 55",
@@ -9655,9 +9655,9 @@
       "gemarkung_label": "Frankfurt Bezirk 19",
       "flur": "275",
       "flurstueck": "5/2",
-      "fetched_at": "2026-06-15T05:14:52.435051+00:00",
+      "fetched_at": "2026-10-21T12:13:29.420820+00:00",
       "permit_number": "B-2016-1584-4",
-      "description": "Brandschutzrelevante Grundrissänderung durch Nutzungserweiterung eines Aufzugsvorraumes als Empfang im 2. und 4.OG, (Haus 3)  eines Büro- und Verwaltungsgebäudes",
+      "description": "Brandschutzrelevante Grundrissänderung durch Nutzungserweiterung...",
       "site_address": "Grüneburgweg 14",
       "parcel_info": "Frankfurt Bezirk 19 (471), 275, 5/2",
       "builder_name": "Westendcarree GmbH & Co.KG vertr. d. Westendcarree",
