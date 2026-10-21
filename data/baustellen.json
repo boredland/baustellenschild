@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-21T01:27:17.105873Z",
+    "last_updated": "2026-10-21T06:29:57.632397Z",
     "total": 1166,
-    "errors": 21,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -366,7 +366,7 @@
       "gemarkung_label": "Frankfurt Bezirk 16",
       "flur": "234",
       "flurstueck": "4/11",
-      "fetched_at": "2026-06-14T23:53:59.647676+00:00",
+      "fetched_at": "2026-10-21T06:14:55.837913+00:00",
       "permit_number": "B-2025-260-6",
       "description": "Messehalle 10: Brandschutzrelevante Grundrissänderungen in den Ebenen 0,2 und 5 zur Herstellung von BOS-Räumen",
       "site_address": "Theodor-Heuss-Allee 51",
@@ -408,9 +408,9 @@
       "gemarkung_label": "Frankfurt Bezirk 16",
       "flur": "234",
       "flurstueck": "6/9",
-      "fetched_at": "2026-06-14T23:54:02.590318+00:00",
+      "fetched_at": "2026-10-21T06:17:38.706399+00:00",
       "permit_number": "B-2024-1212-6",
-      "description": "Messehalle 9: Erneuerung der Verdunstungskühlanlagen auf den Hallendächern Ebene 9.4 und 9.5",
+      "description": "Messehalle 9: Erneuerung der Verdunstungskühlanlagen auf den...",
       "site_address": "Theodor-Heuss-Allee 51",
       "parcel_info": "Frankfurt Bezirk 16 (468), 234, 6/9",
       "builder_name": "Messe Frankfurt Venue GmbH",
@@ -2387,7 +2387,7 @@
       "gemarkung_label": "Frankfurt Bezirk 17",
       "flur": "248",
       "flurstueck": "63/33",
-      "fetched_at": "2026-06-15T01:49:31.794629+00:00",
+      "fetched_at": "2026-10-21T06:23:31.780500+00:00",
       "permit_number": "B-2020-348-4",
       "description": "Rückbau eines Daches und Wiedererrichten in geänderter Form an einem Mehrfamilienhaus",
       "site_address": "Beethovenstraße 43",
