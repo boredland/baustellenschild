@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-21T12:24:57.437151Z",
+    "last_updated": "2026-10-23T15:34:14.305948Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1376,7 +1376,7 @@
       "gemarkung_label": "Frankfurt Bezirk 20",
       "flur": "298",
       "flurstueck": "66/8",
-      "fetched_at": "2026-06-15T09:37:32.863903+00:00",
+      "fetched_at": "2026-10-23T15:19:22.524555+00:00",
       "permit_number": "B-2018-326-4",
       "description": "Nachtrag zu B-2012-2099-4:\nAusführung von 4 Dachflächenfenstern anstelle von Gauben, einer Gaube anstelle einer Loggia, Aufsparrendämmung mit Erhöhung von Dachkanten sowie Fassadenänderung in allen Etagen",
       "site_address": "Klettenbergstraße 8",
@@ -2514,7 +2514,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "332",
       "flurstueck": "1/6",
-      "fetched_at": "2026-06-14T22:55:23.862930+00:00",
+      "fetched_at": "2026-10-23T15:25:10.587448+00:00",
       "permit_number": "B-2024-893-3",
       "description": "Aufstellung eines Trafogebäudes\nErrichten von zwei Elektroladesäulen\nVersetzen ein Staubsauger mit einem Staubsaugerplatz\nVersetzen ein Staubsauger mit 2 Staubsaugerplätzen",
       "site_address": "Friedberger Landstraße 325",
@@ -2535,7 +2535,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "332",
       "flurstueck": "127/10",
-      "fetched_at": "2026-06-14T22:55:26.754034+00:00",
+      "fetched_at": "2026-10-23T15:27:58.599378+00:00",
       "permit_number": "B-2025-195-3",
       "description": "Errichtung eines Wohnheims für soziale Zwecke Haus A & B\nsowie Errichten einer Tiefgarage mit 28 Stellplätzen",
       "site_address": "Homburger Landstraße 5",
