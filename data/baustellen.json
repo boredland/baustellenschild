@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-23T15:34:14.305948Z",
+    "last_updated": "2026-10-23T19:40:59.930975Z",
     "total": 1166,
-    "errors": 20,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2556,7 +2556,7 @@
       "gemarkung_label": "Frankfurt Bezirk 23",
       "flur": "350",
       "flurstueck": "40/0",
-      "fetched_at": "2026-06-15T05:15:10.264173+00:00",
+      "fetched_at": "2026-10-23T19:32:34.112789+00:00",
       "permit_number": "B-2016-620-3",
       "description": "Spitzbodenausbau zur Wohnraumerweiterung, Anbau Zwerchhaus,\nEinbau einer Loggia, Errichtung einer Balkonanlage und innere \nUmbauten an einem Wohn- und Geschäftshaus",
       "site_address": "Burgstraße 56",
@@ -2576,7 +2576,7 @@
       "gemarkung_label": "Frankfurt Bezirk 23",
       "flur": "350",
       "flurstueck": "53/0",
-      "fetched_at": "2026-06-15T05:15:11.054243+00:00",
+      "fetched_at": "2026-10-23T19:30:46.150000+00:00",
       "permit_number": "B-2017-1634-3",
       "description": "Nachträgliche Legalisierung:\nAusbau von Kellerräumen zu Wohnräumen als Erweiterung \nder Wohnung im EG, Zusammenlegen von zwei Wohnungen\nim EG und 1. OG mit inneren Umbauten in einem Mehrfamilienhaus",
       "site_address": "Heidestraße 41",
@@ -10293,7 +10293,7 @@
       "gemarkung_label": "Frankfurt Bezirk 22",
       "flur": "342",
       "flurstueck": "38/6",
-      "fetched_at": "2026-06-15T01:49:50.754241+00:00",
+      "fetched_at": "2026-10-23T19:24:52.109582+00:00",
       "permit_number": "B-2021-1212-3",
       "description": "Nutzungsänderung von einem Handwerksbetrieb \nin ein Gebäude mit 14 Einheiten \nzur freiberuflichen Nutzung gem. § 13 BauNVO, \nHerstellen einer außenliegenden notwendigen Treppe",
       "site_address": "Bornheimer Landstraße 52",
@@ -10313,7 +10313,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "376",
       "flurstueck": "69/2",
-      "fetched_at": "2026-06-15T01:50:06.423218+00:00",
+      "fetched_at": "2026-10-23T19:38:34.130952+00:00",
       "permit_number": "B-2024-1293-3",
       "description": "Rückbau und Wiedererrichten Dachgeschoss\nin geänderter Form auf einem Mehrfamilienhaus",
       "site_address": "Droysenstraße 16",
