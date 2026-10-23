@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-23T19:40:59.930975Z",
+    "last_updated": "2026-10-23T22:43:41.017318Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -10333,7 +10333,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "423",
       "flurstueck": "5/27",
-      "fetched_at": "2026-06-15T01:50:13.604732+00:00",
+      "fetched_at": "2026-10-23T22:35:43.630685+00:00",
       "permit_number": "B-2022-647-3",
       "description": "Nutzungsänderung mit statisch- und brandschutzrelevanten \nÄnderungen von Lagerhalle mit Büro in Autohaus \nmit Ausstellung und Werkstatt",
       "site_address": "Am Riederbruch 7",
@@ -12126,9 +12126,9 @@
       "gemarkung_label": "Frankfurt Bezirk 27",
       "flur": "433",
       "flurstueck": "35/1",
-      "fetched_at": "2026-06-15T05:15:32.232565+00:00",
+      "fetched_at": "2026-10-23T22:40:26.218722+00:00",
       "permit_number": "B-2023-1277-3",
-      "description": "Brandschutzrelevante Grundrissänderung in der Klima-/Technikzentrale\nim UG, Haus G, Agaplesion Bethanien Krankenhaus",
+      "description": "Brandschutzrelevante Grundrissänderung in der...",
       "site_address": "Im Prüfling 21",
       "parcel_info": "Frankfurt Bezirk 27 (479), 433, 35/1",
       "builder_name": "AGAPLESION",
@@ -12887,7 +12887,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "396",
       "flurstueck": "130/9",
-      "fetched_at": "2026-06-14T18:57:37.611760+00:00",
+      "fetched_at": "2026-10-23T22:28:19.692170+00:00",
       "permit_number": "B-2024-265-3",
       "description": "Nutzungsänderung von 6 Wohneinheiten zu 3 Wohneinheiten\nAusbau des Dachgeschosses zur Wohnraumerweiterung im EG und 1. OG\nErrichten einer Terrasse und Außentreppe im EG\nHerstellen von zwei Gauben und einer Dachloggia\nInnere Umbauten mit Einbau eines Personenaufzuges\nFassadenänderungen in einem Mehrfamilienhaus",
       "site_address": "Parlamentsstraße 14",
