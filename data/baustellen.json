@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-24T09:57:40.053756Z",
+    "last_updated": "2026-10-24T14:01:51.432398Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -678,7 +678,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "13",
       "flurstueck": "1178/119",
-      "fetched_at": "2026-06-13T23:53:01.280075+00:00",
+      "fetched_at": "2026-10-24T13:47:40.434035+00:00",
       "permit_number": "B-2023-444-5",
       "description": "Herstellen einer neuen Wohnung durch Ausbau Dachraum im Dachgeschoss eines Mehrfamilienhauses",
       "site_address": "Robert-Mayer-Straße 52",
@@ -699,7 +699,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "13",
       "flurstueck": "1280/231",
-      "fetched_at": "2026-06-14T00:38:03.129582+00:00",
+      "fetched_at": "2026-10-24T13:53:28.328130+00:00",
       "permit_number": "B-2019-914-5",
       "description": "Rückbau des Daches und Wiedererrichten in geänderter Form, Dachgeschossausbau zu einer Wohneinheit straßenseitig, Aufstockung zur Wohnraumerweiterung sowie Errichten eines  2. Rettungweges und Balkon gartenseitig in einem Wohn- und Geschäftshaus",
       "site_address": "Schloßstraße 123",
