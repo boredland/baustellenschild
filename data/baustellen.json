@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-23T22:43:41.017318Z",
+    "last_updated": "2026-10-24T01:11:03.014898Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5852,7 +5852,7 @@
       "gemarkung_label": "Frankfurt Bezirk 28",
       "flur": "458",
       "flurstueck": "221/1",
-      "fetched_at": "2026-06-15T05:15:36.593098+00:00",
+      "fetched_at": "2026-10-24T00:59:32.711533+00:00",
       "permit_number": "B-2021-277-3",
       "description": "Eissporthalle, brandschutzrelevante Grundrissänderungen,\nErweiterung der Zuschauerkapazität auf 6.990 Plätze sowie \nHerstellen von 38 Fahrradabstellplätzen",
       "site_address": "Am Bornheimer Hang 4",
