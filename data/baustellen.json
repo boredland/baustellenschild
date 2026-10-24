@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-24T19:54:08.614719Z",
+    "last_updated": "2026-10-24T22:26:28.325764Z",
     "total": 1166,
-    "errors": 26,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2800,7 +2800,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "2",
       "flurstueck": "3/56",
-      "fetched_at": "2026-06-14T16:03:28.444130+00:00",
+      "fetched_at": "2026-10-24T22:08:14.123377+00:00",
       "permit_number": "B-2022-84-3",
       "description": "Brandschutzrelevante Änderung in einem Lagergebäude",
       "site_address": "Adam-Opel-Straße 10",
