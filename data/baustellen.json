@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-24T17:24:26.312538Z",
+    "last_updated": "2026-10-24T19:54:08.614719Z",
     "total": 1166,
-    "errors": 23,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20197,7 +20197,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "13",
       "flurstueck": "586/152",
-      "fetched_at": "2026-06-14T11:21:15.644889+00:00",
+      "fetched_at": "2026-10-24T19:47:18.994464+00:00",
       "permit_number": "B-2021-813-4",
       "description": "Neubau eines Einfamilienwohnhauses, sowie Neubau eines Mehrfamilienwohnhauses mit fünf Wohneinheiten und Herstellung von 4 PKW-Stellplätzen",
       "site_address": "Ginnheimer Stadtweg 155 - 155a",
