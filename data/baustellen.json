@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-25T18:01:16.840494Z",
+    "last_updated": "2026-10-25T20:28:31.096255Z",
     "total": 1166,
     "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -22817,7 +22817,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "49",
       "flurstueck": "42/0",
-      "fetched_at": "2026-06-12T21:36:10.922257+00:00",
+      "fetched_at": "2026-10-25T20:22:32.312417+00:00",
       "permit_number": "B-2023-118-6",
       "description": "Anbau zur Wohnraumerweiterung im EG und DG, \nRückbau und Wiedererrichten des Daches in veränderter Form\nRückbau und Wiedererrichten der Garage in veränderter Form, \nVeränderung der Außenanlagen an einem Einfamilienhaus",
       "site_address": "Am Wiesenhof 31",
