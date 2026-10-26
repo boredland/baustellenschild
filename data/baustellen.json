@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-26T01:10:21.137164Z",
+    "last_updated": "2026-10-26T05:54:38.238104Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 29,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -946,7 +946,7 @@
       "gemarkung_label": "Flughafen Bezirk 72",
       "flur": "1",
       "flurstueck": "266/92",
-      "fetched_at": "2026-06-15T12:05:54.729996+00:00",
+      "fetched_at": "2026-10-26T05:51:55.532607+00:00",
       "permit_number": "B-2018-1199-6",
       "description": "Entfall ELA-Anlage, Umbau und Herstellung von Büroräumen, Aufstellung  von Containern, Herstellung einer Lagerfläche und eines Raucherbereichs jeweils mit Gitterzaunabtrennung in einer Frachtumschlaghalle, Flughafen Gebäude 571",
       "site_address": "Flughafen Frankfurt Main 0",
