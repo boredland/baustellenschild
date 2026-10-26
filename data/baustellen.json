@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-26T05:54:38.238104Z",
+    "last_updated": "2026-10-26T12:12:47.127921Z",
     "total": 1166,
-    "errors": 29,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -964,9 +964,9 @@
       "gemarkung_label": "Flughafen Bezirk 72",
       "flur": "1",
       "flurstueck": "266/122",
-      "fetched_at": "2026-06-15T12:05:55.248370+00:00",
+      "fetched_at": "2026-10-26T11:57:17.185931+00:00",
       "permit_number": "B-2018-551-6",
-      "description": "Nutzungsspezifischer Umbau Gebäude 587 mit Aufteilung in Nutzungs- und Büroeinheiten und Herstellen von 16 Carports",
+      "description": "Nutzungsspezifischer Umbau Gebäude 587 mit Aufteilung in...",
       "site_address": "Hugo-Eckener-Ring 0",
       "parcel_info": "Flughafen Bezirk 72 (518), 1, 266/122",
       "builder_name": "Fraport AG",
@@ -3110,7 +3110,7 @@
       "gemarkung_label": "Frankfurt Bezirk 09",
       "flur": "75",
       "flurstueck": "6/2",
-      "fetched_at": "2026-06-15T03:06:25.390047+00:00",
+      "fetched_at": "2026-10-26T12:10:47.322312+00:00",
       "permit_number": "B-2023-1006-5",
       "description": "Rückbau- und Wiedererrichten in geänderter Form von 2 Bürogebäuden",
       "site_address": "Mainzer Landstraße 49",
@@ -17076,9 +17076,9 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "21",
       "flurstueck": "2/1",
-      "fetched_at": "2026-06-15T03:06:27.154874+00:00",
+      "fetched_at": "2026-10-26T12:04:46.622022+00:00",
       "permit_number": "B-2021-1096-4",
-      "description": "Aufteilung von einer Nutzungseinheit Anlage für Sportliche Zwecke (Fitnesstudio) im EG und ZG in einen Laden und einen überdachten Innenhof \n\nVerlängert bis zun 07.03.2026",
+      "description": "Aufteilung von einer Nutzungseinheit Anlage für Sportliche Zwecke...",
       "site_address": "Große Gallusstraße 1 - 7",
       "parcel_info": "Frankfurt Bezirk 01 (460), 21, 2/1",
       "builder_name": "Grundstücksverwaltung Kaiserstraße 10 GmbH",
