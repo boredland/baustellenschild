@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-27T19:05:15.730356Z",
+    "last_updated": "2026-10-27T23:04:17.550980Z",
     "total": 1166,
-    "errors": 26,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3626,7 +3626,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "319",
       "flurstueck": "4/0",
-      "fetched_at": "2026-06-14T23:28:00.777374+00:00",
+      "fetched_at": "2026-10-27T22:51:08.423215+00:00",
       "permit_number": "B-2018-1448-4",
       "description": "Nachtrag: veränderte Ausführung zu B-2008-1540-4:\nAbriss und Neubau der Treppe, Fassadenänderung, veränderte Ausführung des Außenaufzuges, Nutzungsänderung von einem Handwerksbetrieb in ein Einfamilienwohnhaus",
       "site_address": "Neuhofstraße 31",
@@ -10927,7 +10927,7 @@
       "gemarkung_label": "Frankfurt Bezirk 22",
       "flur": "335",
       "flurstueck": "239/64",
-      "fetched_at": "2026-06-15T03:07:26.499758+00:00",
+      "fetched_at": "2026-10-27T22:55:56.424595+00:00",
       "permit_number": "B-2021-495-3",
       "description": "Ausbau Spitzboden mit Errichten eines Zwerchhauses \nund einer Loggia zur Wohnraumerweiterung der Wohnung\nim DG mit inneren Umbauten an einem Mehrfamilienhaus",
       "site_address": "Rothschildallee 30",
