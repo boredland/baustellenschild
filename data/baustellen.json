@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-27T01:50:51.633250Z",
+    "last_updated": "2026-10-27T07:22:20.306521Z",
     "total": 1166,
-    "errors": 27,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3437,7 +3437,7 @@
       "gemarkung_label": "Frankfurt Bezirk 17",
       "flur": "235",
       "flurstueck": "3/28",
-      "fetched_at": "2026-06-15T03:06:59.545582+00:00",
+      "fetched_at": "2026-10-27T07:19:30.103117+00:00",
       "permit_number": "B-2024-1198-6",
       "description": "Brandschutz- und lüftungsrelevante Änderungen der Treppenhäuser 1 und 3 in einem Beherbergungsbetrieb",
       "site_address": "Theodor-Heuss-Allee 3",
