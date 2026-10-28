@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-28T15:00:29.455119Z",
+    "last_updated": "2026-10-28T20:17:26.056222Z",
     "total": 1166,
-    "errors": 24,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21667,7 +21667,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "564",
       "flurstueck": "153/92",
-      "fetched_at": "2026-06-13T20:56:26.297089+00:00",
+      "fetched_at": "2026-10-28T20:15:03.026129+00:00",
       "permit_number": "B-2025-175-3",
       "description": "Rückbau - und  Wiedererrichten des Betriebshofes in geänderter \nForm mit Betriebsgebäude, Lager/Werkstatt sowie Lager/Carport\nTrauerhalle und Totenhaus: \nRückbau Zwischenbau und Kühlzellen sowie innere Umbauten\nVerwaltung: \nNutzungsänderung von Kammern in Wohnräume im DG, \nErrichten eines Plattformliftes sowie innere Umbauten\nSüd-östl. Ecke: \nRückbau der Schuppen, Errichtung eines Lager/Carport \nsowie Neuordnung des Lagerplatzes auf dem Südfriedhof",
       "site_address": "Darmstädter Landstraße 229",
