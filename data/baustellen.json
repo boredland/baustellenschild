@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-28T02:13:54.313831Z",
+    "last_updated": "2026-10-28T08:04:52.113457Z",
     "total": 1166,
-    "errors": 22,
+    "errors": 16,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7315,7 +7315,7 @@
       "gemarkung_label": "Frankfurt Bezirk 28",
       "flur": "450",
       "flurstueck": "28/1",
-      "fetched_at": "2026-06-15T07:17:18.388647+00:00",
+      "fetched_at": "2026-10-28T08:00:16.329278+00:00",
       "permit_number": "X-2015-44-3",
       "description": "Abbruch eines Büro- und Verwaltungsgebäudes (Postamt 60) \neinschl. Tiefgarage und 2 Untergeschossen",
       "site_address": "Saalburgallee 15 - 19",
@@ -12597,7 +12597,7 @@
       "gemarkung_label": "Frankfurt Bezirk 27",
       "flur": "435",
       "flurstueck": "45/1",
-      "fetched_at": "2026-06-15T07:17:11.938594+00:00",
+      "fetched_at": "2026-10-28T07:47:34.402406+00:00",
       "permit_number": "B-2025-86-3",
       "description": "Dachgeschossausbau zu einer Wohnung und als \nErweiterung der Wohnung im 2. OG, mit Nutzungsaufteilung \nvon einem EFH in 3 Wohneinheiten sowie Veränderung \nder Gauben an einem Mehrfamilienhaus \nmit freiberuflicher Nutzung im EG",
       "site_address": "Im Prüfling 35",
@@ -12617,7 +12617,7 @@
       "gemarkung_label": "Frankfurt Bezirk 27",
       "flur": "435",
       "flurstueck": "68/1",
-      "fetched_at": "2026-06-15T07:17:12.727185+00:00",
+      "fetched_at": "2026-10-28T07:49:31.638849+00:00",
       "permit_number": "B-2023-1084-3",
       "description": "Vergrößerung und Neuerrichtung von Gauben, Errichtung einer Dachterrasse und Dachflächenfenster, Austausch der Fenster, Innere Umbauten und Neueinndeckung des Daches mit Aufbringen einer Aufsparrendämmung an einem Mehrfamilienhaus",
       "site_address": "Obernhainer Straße 4",
