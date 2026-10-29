@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-28T20:17:26.056222Z",
-    "total": 1166,
-    "errors": 19,
+    "last_updated": "2026-10-29T00:12:56.320493Z",
+    "total": 1167,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -719,7 +719,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "13",
       "flurstueck": "1338/178",
-      "fetched_at": "2026-06-14T00:38:04.248799+00:00",
+      "fetched_at": "2026-10-29T00:11:03.327557+00:00",
       "permit_number": "B-2024-194-5",
       "description": "Rückbau und Wiedererrichten von Balkonanlagen, Austausch von Fenstern, Zusammenlegen von 9 in 7 Wohnungen in einem Mehrfamilienhaus",
       "site_address": "Jungstraße 3",
@@ -23916,6 +23916,27 @@
       "site_manager_name": "Kornic Dragi",
       "site_manager_address": "Feldstr. 42",
       "site_manager_location": "61352 Bad Homburg"
+    },
+    {
+      "gemarkung_id": 484,
+      "gemarkung_label": "Frankfurt Bezirk 32",
+      "flur": "553",
+      "flurstueck": "3/7",
+      "fetched_at": "2026-10-28T23:55:06.134813+00:00",
+      "permit_number": "B-2023-901-5",
+      "description": "Errichtung einer Anlage für soziale Zwecke (Haus St. Aposteln im Sozialpastorlen Zentrum) mit 22 Einheiten für inklusives Wohnen und Gemeinschaftsräume im EG sowie Herstellung von 2 Stellplätzen",
+      "site_address": "Ziegelhüttenweg 149",
+      "parcel_info": "Frankfurt Bezirk 32 (484), 553, 3/7",
+      "builder_name": "Caritasverband Frankfurt e.V.",
+      "builder_address": "Alte Mainzer Gasse 10",
+      "builder_location": "60311 Frankfurt am Main",
+      "represented_by": "vertr. d. Frau Gaby Hagmanns und Herrn Dr. Jörg Fingerle-Beckensträter",
+      "architect_name": "Pauly Dipl.-Ing. Utec/o Mende Architekten",
+      "architect_address": "Martin-Luther-Straße 59",
+      "architect_location": "60389 Frankfurt am Main",
+      "site_manager_name": "Mende Andreas",
+      "site_manager_address": "Martin-Luther-Straße 59",
+      "site_manager_location": "60389 Frankfurt"
     }
   ]
 }
