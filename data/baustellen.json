@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-29T10:53:05.325883Z",
+    "last_updated": "2026-10-29T17:30:08.847327Z",
     "total": 1167,
     "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -3914,7 +3914,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "3",
       "flurstueck": "9/2",
-      "fetched_at": "2026-06-14T17:01:07.163453+00:00",
+      "fetched_at": "2026-10-29T17:15:08.823558+00:00",
       "permit_number": "B-2021-246-3",
       "description": "Errichtung einer unbeheizten Lagerhalle für Container\nund Arbeitsmaschinen und Neuordnung von 37 Stellplätzen",
       "site_address": "Carl-Benz-Straße 7",
