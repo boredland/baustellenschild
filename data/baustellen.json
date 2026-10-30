@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-10-30T14:45:03.335597Z",
+    "last_updated": "2026-10-30T19:51:41.655036Z",
     "total": 1167,
     "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -1749,7 +1749,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "6",
       "flurstueck": "2/6",
-      "fetched_at": "2026-06-13T19:35:50.569222+00:00",
+      "fetched_at": "2026-10-30T19:43:34.818157+00:00",
       "permit_number": "B-2020-648-4",
       "description": "Errichtung von 3 Mehrfamilienhäusern und 5 Wohn- und Geschäftshäusern mit insgesamt 141 Wohneinheiten, einer Kita, einem Laden, vier Einheiten zur freiberuflichen Nutzung gemäß § 13 BauNVO und einer Tiefgarage mit 156 Stellplätzen",
       "site_address": "Am Stockborn 1",
@@ -1770,7 +1770,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "6",
       "flurstueck": "1/94",
-      "fetched_at": "2026-06-13T19:35:50.090422+00:00",
+      "fetched_at": "2026-10-30T19:44:10.661423+00:00",
       "permit_number": "B-2024-41-4",
       "description": "Errichtung eines Einfamilienhauses und einer Garage",
       "site_address": "Oberfeldstraße 25",
