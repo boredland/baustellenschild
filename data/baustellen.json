@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-30T07:46:57.931502Z",
+    "last_updated": "2026-10-30T14:45:03.335597Z",
     "total": 1167,
-    "errors": 23,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13471,7 +13471,7 @@
       "gemarkung_label": "Nieder-Erlenbach Bezirk 64",
       "flur": "1",
       "flurstueck": "545/32",
-      "fetched_at": "2026-06-14T00:39:15.163867+00:00",
+      "fetched_at": "2026-10-30T14:33:06.851036+00:00",
       "permit_number": "B-2017-965-3",
       "description": "Abbruch einer Doppelgarage und 2 Nebengebäude, \nNeubau eines 2-Familienhauses mit einer Treppenanlage,\nErrichtung eines Doppelparkers und eines Stellplatzes",
       "site_address": "Egerländer Straße 25a",
