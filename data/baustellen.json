@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-01T01:59:50.833914Z",
+    "last_updated": "2026-11-01T08:44:45.815969Z",
     "total": 1167,
-    "errors": 22,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2200,7 +2200,7 @@
       "gemarkung_label": "Frankfurt Bezirk 13",
       "flur": "144",
       "flurstueck": "22/8",
-      "fetched_at": "2026-06-15T01:49:11.884705+00:00",
+      "fetched_at": "2026-11-01T08:37:41.811649+00:00",
       "permit_number": "B-2019-1210-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 8 Wohneinheiten \nund einer Tiefgarage mit 8 Stellplätzen und PKW-Lift",
       "site_address": "Merianstraße 39a",
