@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-10-31T22:56:08.037346Z",
+    "last_updated": "2026-11-01T01:59:50.833914Z",
     "total": 1167,
-    "errors": 29,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1112,7 +1112,7 @@
       "gemarkung_label": "Frankfurt Bezirk 11",
       "flur": "117",
       "flurstueck": "16/0",
-      "fetched_at": "2026-06-15T09:36:44.874386+00:00",
+      "fetched_at": "2026-11-01T01:50:30.620350+00:00",
       "permit_number": "B-2023-1299-4",
       "description": "Errichten eines Gebäudes mit einer Kindertagesstätte, 12 Wohnungen und einer Tiefgarage mit 9 Stellplätzen",
       "site_address": "Leerbachstraße 18",
@@ -4289,7 +4289,7 @@
       "gemarkung_label": "Frankfurt Bezirk 12",
       "flur": "125",
       "flurstueck": "4/1",
-      "fetched_at": "2026-06-15T05:14:19.936464+00:00",
+      "fetched_at": "2026-11-01T01:59:22.544646+00:00",
       "permit_number": "B-2023-196-4",
       "description": "Nutzungsänderung im EG mit Grundrissumgestaltung von Gastronomie in Zahnarztpraxis, an einem gewerblich genutzten Gebäude mit Wohneinheiten",
       "site_address": "Eschersheimer Landstraße 42 - 44",
