@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-01T08:44:45.815969Z",
+    "last_updated": "2026-11-01T15:40:18.398566Z",
     "total": 1167,
-    "errors": 24,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2221,7 +2221,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "159",
       "flurstueck": "4/4",
-      "fetched_at": "2026-06-15T01:49:20.362882+00:00",
+      "fetched_at": "2026-11-01T15:24:23.890213+00:00",
       "permit_number": "B-2024-550-3",
       "description": "Nutzungsänderung von Radiologie (UG - 1. OG)  und einer Wohneinheit \n(Staffelgeschoss) in eine Einrichtung für soziale Zwecke\n(Wohnheim für Jugendliche), Errichten eines Lichthofes, Fassadenänderungen\nsowie innere Umbauten in einer Anlage für soziale Zwecke",
       "site_address": "Pfingstweidstraße 11a",
@@ -2263,7 +2263,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "159",
       "flurstueck": "51/14",
-      "fetched_at": "2026-06-15T01:49:19.293681+00:00",
+      "fetched_at": "2026-11-01T15:28:02.595705+00:00",
       "permit_number": "B-2024-782-3",
       "description": "Rückbau und Wiedererrichten von 3 Balkonanlagen \nin veränderter Form an einem Mehrfamilienhaus",
       "site_address": "Sandweg 6b",
@@ -12867,7 +12867,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "215",
       "flurstueck": "6/0",
-      "fetched_at": "2026-06-14T21:57:08.340073+00:00",
+      "fetched_at": "2026-11-01T15:36:20.895425+00:00",
       "permit_number": "B-2019-324-5",
       "description": "Errichten eines Anbaus im UG mit Untergeschossausbau zu einer Wohneinheit, Errichtung einer Terrasse und eines Fahrradabstellplatzes im EG an einem Wohn- und Geschäftshaus",
       "site_address": "Niddastraße 94",
