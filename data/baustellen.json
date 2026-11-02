@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-02T10:37:34.110396Z",
+    "last_updated": "2026-11-02T20:44:54.645212Z",
     "total": 1167,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -1480,7 +1480,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "412",
       "flurstueck": "25/0",
-      "fetched_at": "2026-06-15T09:38:04.636137+00:00",
+      "fetched_at": "2026-11-02T20:39:27.015396+00:00",
       "permit_number": "B-2021-976-3",
       "description": "Errichtung eines Aufzuges vom EG bis DG, \nWohnraumerweiterung 1. OG - DG durch Anbauten straßen- und hofseitig, \nErrichtung von 4 Gauben und 10 Balkonen mit Spindeltreppe\nan einem Wohn- und Geschäftshaus",
       "site_address": "Ostendstraße 61",
@@ -11366,7 +11366,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "361",
       "flurstueck": "76/6",
-      "fetched_at": "2026-06-15T05:15:23.553173+00:00",
+      "fetched_at": "2026-11-02T20:32:38.731227+00:00",
       "permit_number": "B-2021-1402-3",
       "description": "Ausbau des Spitzbodens in eine Wohnung, \nHerstellen einer Loggia in einem Mehrfamilienhaus",
       "site_address": "Linnéstraße 30",
@@ -11387,7 +11387,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "414",
       "flurstueck": "69/2",
-      "fetched_at": "2026-06-15T05:15:27.407596+00:00",
+      "fetched_at": "2026-11-02T20:40:56.731421+00:00",
       "permit_number": "B-2024-432-3",
       "description": "Errichtung eines eingeschossigen Trafogebäudes für LKW-Ladeinfrastruktur",
       "site_address": "Schmickstraße 0",
