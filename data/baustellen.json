@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-02T02:57:19.713716Z",
+    "last_updated": "2026-11-02T10:37:34.110396Z",
     "total": 1167,
-    "errors": 18,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -574,7 +574,7 @@
       "gemarkung_label": "Frankfurt Bezirk 24",
       "flur": "355",
       "flurstueck": "9/0",
-      "fetched_at": "2026-06-15T05:15:12.718138+00:00",
+      "fetched_at": "2026-11-02T10:30:41.861258+00:00",
       "permit_number": "B-2023-1105-3",
       "description": "Errichten einer neuen Wohnung durch Ausbau des\nSpitzbodens und Errichten einer Dachloggia am Mehrfamilienhaus",
       "site_address": "Burgstraße 76",
@@ -4763,7 +4763,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "321",
       "flurstueck": "12/13",
-      "fetched_at": "2026-06-14T23:54:23.189316+00:00",
+      "fetched_at": "2026-11-02T10:21:47.804382+00:00",
       "permit_number": "B-2023-752-4",
       "description": "Nutzungsänderung im EG von Kindertagesstätte in eine Wohnung, Zusammenlegen von je zwei Wohnungen in eine Wohnung im 2. bis 4. OG, innere Umbauten in allen Geschossen sowie Errichten einer Balkonanlage und Anbringen eines Wärmedämmverbundsystems an einem Mehrfamilienhaus",
       "site_address": "Marschnerstraße 1",
