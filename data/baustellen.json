@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-03T17:44:10.517196Z",
+    "last_updated": "2026-11-03T22:43:23.921362Z",
     "total": 1167,
     "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -15428,7 +15428,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "1",
       "flurstueck": "450/70",
-      "fetched_at": "2026-06-14T21:58:48.127643+00:00",
+      "fetched_at": "2026-11-03T22:40:07.311176+00:00",
       "permit_number": "B-2020-338-5",
       "description": "Errichten von 2 Geschossen und einem Dachgeschoss mit Herstellen einer Wohneinheit bei einem Wohn- und Geschäftshaus mit inneren Umbauten",
       "site_address": "Konrad-Broßwitz-Straße 11",
