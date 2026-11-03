@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-02T20:44:54.645212Z",
+    "last_updated": "2026-11-03T02:48:18.149118Z",
     "total": 1167,
-    "errors": 21,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7295,7 +7295,7 @@
       "gemarkung_label": "Frankfurt Bezirk 28",
       "flur": "461",
       "flurstueck": "86/0",
-      "fetched_at": "2026-06-15T09:38:10.792464+00:00",
+      "fetched_at": "2026-11-03T02:43:22.759656+00:00",
       "permit_number": "B-2023-624-3",
       "description": "Rückbau Dachgeschoss, Aufstockung 3. OG und\nErrichten Dachgeschoss in geänderter Form, \nHerstellen einer Wohnung in einem Mehrfamilienhaus",
       "site_address": "Buchwaldstraße 36",
