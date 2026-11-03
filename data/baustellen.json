@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-03T10:12:28.846896Z",
+    "last_updated": "2026-11-03T17:44:10.517196Z",
     "total": 1167,
-    "errors": 25,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21767,7 +21767,7 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "567",
       "flurstueck": "12/9",
-      "fetched_at": "2026-06-13T21:29:11.064528+00:00",
+      "fetched_at": "2026-11-03T17:37:25.953734+00:00",
       "permit_number": "B-2025-93-3",
       "description": "Nutzungsänderung von 3 Produktionshallen zu Lagerhallen \nsowie brandschutzrelevante Grundrissänderungen sowie\nHerstellen von 40 PKW-Stellplätzen als E-Ladestation",
       "site_address": "Darmstädter Landstraße 185",
