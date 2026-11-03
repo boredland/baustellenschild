@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-03T02:48:18.149118Z",
+    "last_updated": "2026-11-03T10:12:28.846896Z",
     "total": 1167,
-    "errors": 24,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1628,7 +1628,7 @@
       "gemarkung_label": "Frankfurt Bezirk 31",
       "flur": "476",
       "flurstueck": "79/0",
-      "fetched_at": "2026-06-15T09:38:28.804497+00:00",
+      "fetched_at": "2026-11-03T10:07:17.507273+00:00",
       "permit_number": "B-2019-1002-5",
       "description": "Teilrückbau des Daches und Wiedererrichten in geänderter Form sowie Herstellen von 2 Maisonettewohnungen im 4.OG/DG und DG/Spitzboden, Anbau eines Außenaufzuges an einem Wohn- und Geschäftshauses",
       "site_address": "Dreieichstraße 6",
