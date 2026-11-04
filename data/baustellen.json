@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-04T02:47:24.871659Z",
+    "last_updated": "2026-11-04T10:00:28.444657Z",
     "total": 1167,
-    "errors": 27,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5052,7 +5052,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "3",
       "flurstueck": "49/2",
-      "fetched_at": "2026-06-14T17:38:08.667231+00:00",
+      "fetched_at": "2026-11-04T09:57:31.645441+00:00",
       "permit_number": "B-2022-864-3",
       "description": "Errichtung eines Rechenzentrums (FRA 23) \nmit Büroräumen, sowie einer Generatorenbühne\n(ohne Technik) und 12 Stellplätzen",
       "site_address": "Hugo-Junkers-Straße 5",
@@ -5073,9 +5073,9 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "3",
       "flurstueck": "18/39",
-      "fetched_at": "2026-06-14T17:38:08.180282+00:00",
+      "fetched_at": "2026-11-04T09:57:08.468497+00:00",
       "permit_number": "B-2019-1486-3",
-      "description": "Nutzungsänderung von Teilen des Erdgeschosses, \nvon dienender Büronutzung für einen Logistikbetrieb \nzu Erwachsenenbildung, mit brandschutzrelevanten Grundrissänderungen",
+      "description": "Nutzungsänderung von Teilen des Erdgeschosses, \nvon dienender...",
       "site_address": "Hanauer Landstraße 360",
       "parcel_info": "Fechenheim Bezirk 51 (492), 3, 18/39",
       "builder_name": "OSWE Real Estate GmbH",
