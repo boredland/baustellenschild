@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-04T17:58:03.441207Z",
+    "last_updated": "2026-11-04T23:18:10.754620Z",
     "total": 1167,
-    "errors": 19,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13926,7 +13926,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "13",
       "flurstueck": "205/749",
-      "fetched_at": "2026-06-14T01:49:16.784074+00:00",
+      "fetched_at": "2026-11-04T23:11:28.032727+00:00",
       "permit_number": "B-2023-1245-6",
       "description": "Ausbau des Dachgeschosses zu einer neuen Wohnung sowie Errichtung von 2 Dachgauben an einem Mehrfamilienhaus",
       "site_address": "Gebeschusstraße 4",
