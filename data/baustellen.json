@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-04T10:00:28.444657Z",
+    "last_updated": "2026-11-04T17:58:03.441207Z",
     "total": 1167,
-    "errors": 23,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -739,7 +739,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "14",
       "flurstueck": "43/24",
-      "fetched_at": "2026-06-14T13:08:13.047670+00:00",
+      "fetched_at": "2026-11-04T17:48:07.851106+00:00",
       "permit_number": "B-2023-972-4",
       "description": "Schließen der Loggia im 1. OG, Ausbau des Dachraumes und Errichten von zwei Gauben zur Wohnraumerweiterung in einem Reihenhaus.",
       "site_address": "Karl-Kotzenberg-Straße 29",
@@ -5095,7 +5095,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "3",
       "flurstueck": "76/19",
-      "fetched_at": "2026-06-14T17:38:10.795877+00:00",
+      "fetched_at": "2026-11-04T17:41:55.431620+00:00",
       "permit_number": "B-2022-882-3",
       "description": "Nachtrag zu B-2020-1065-3:\nBrandschutzrelevante Grundrissänderung durch Nutzungsänderung \nvon Lagerfläche in Technikfläche (Sprinklerversorgungszentrale) \nim UG eines Lager- und Bürogebäudes, Gebäude 110 (ehemals NHL) \nsowie geänderte Ausführung des Aufzugs Nr. 3 in den Geschossen UG - 5. OG",
       "site_address": "Adam-Opel-Straße 7",
@@ -18603,7 +18603,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "16",
       "flurstueck": "25/14",
-      "fetched_at": "2026-06-14T13:08:20.426979+00:00",
+      "fetched_at": "2026-11-04T17:56:43.633376+00:00",
       "permit_number": "B-2024-1259-6",
       "description": "Wiedererrichten einer Lagerhalle ab OK Kellerdecke",
       "site_address": "Lärchenstraße 78",
