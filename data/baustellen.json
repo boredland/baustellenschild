@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-05T03:37:54.827205Z",
+    "last_updated": "2026-11-05T11:35:03.123926Z",
     "total": 1167,
-    "errors": 25,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13946,7 +13946,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "12",
       "flurstueck": "21/0",
-      "fetched_at": "2026-06-14T01:49:36.092625+00:00",
+      "fetched_at": "2026-11-05T11:19:01.462330+00:00",
       "permit_number": "B-2023-410-5",
       "description": "Errichtung einer Dachloggia im DG sowie einer Balkonanlage im 1. und 2.OG, innere Umbauten und Fassadenänderungen an einem Mehrfamilienhaus",
       "site_address": "Schwanheimer Straße 69",
