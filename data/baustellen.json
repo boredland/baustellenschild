@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-05T11:35:03.123926Z",
+    "last_updated": "2026-11-05T19:10:27.921477Z",
     "total": 1167,
-    "errors": 22,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -18173,7 +18173,7 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "7",
       "flurstueck": "217/8",
-      "fetched_at": "2026-06-14T11:22:04.688180+00:00",
+      "fetched_at": "2026-11-05T19:08:26.231035+00:00",
       "permit_number": "B-2023-603-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 5 Wohneinheiten und einer Tiefgarage mit 9 Stellplätzen",
       "site_address": "Urseler Weg 35",
@@ -18194,9 +18194,9 @@
       "gemarkung_label": "Nieder-Eschbach Bezirk 67",
       "flur": "7",
       "flurstueck": "216/47",
-      "fetched_at": "2026-06-14T11:22:06.331422+00:00",
+      "fetched_at": "2026-11-05T19:07:20.769445+00:00",
       "permit_number": "B-2020-654-3",
-      "description": "Temporäre Aufstellung einer 3-geschossigen Containeranlage\nfür die Otto-Hahn-Schule, Frankfurt am Main Niedereschbach\nbefristet für 5 Jahre ab Baugenehmigung",
+      "description": "Temporäre Aufstellung einer 3-geschossigen Containeranlage\nfür...",
       "site_address": "Urseler Weg 27",
       "parcel_info": "Nieder-Eschbach Bezirk 67 (506), 7, 216/47",
       "builder_name": "Stadt Frankfurt am Main, der Magistrat",
