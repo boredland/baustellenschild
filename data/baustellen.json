@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-06T12:36:59.673231Z",
+    "last_updated": "2026-11-06T19:53:42.819418Z",
     "total": 1167,
-    "errors": 20,
+    "errors": 24,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5136,7 +5136,7 @@
       "gemarkung_label": "Sindlingen Bezirk 60",
       "flur": "1",
       "flurstueck": "196/254",
-      "fetched_at": "2026-06-14T17:39:29.468009+00:00",
+      "fetched_at": "2026-11-06T19:39:38.665401+00:00",
       "permit_number": "B-2021-1359-6",
       "description": "Anbau zur Wohnraumerweiterung im KG und EG, Erstellen einer Terrasse im EG,\nUmbaumaßnahmen im EG und OG, Ausbau DG in eine Wohneinheit und\nErrichtung von 2 Gauben im DG an einem Mehrfamilienhaus",
       "site_address": "Hesselbergweg 1",
