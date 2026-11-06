@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-06T04:38:00.351342Z",
+    "last_updated": "2026-11-06T12:36:59.673231Z",
     "total": 1167,
-    "errors": 23,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -11858,7 +11858,7 @@
       "gemarkung_label": "Schwanheim Bezirk 53",
       "flur": "8",
       "flurstueck": "27/0",
-      "fetched_at": "2026-06-13T11:39:22.572723+00:00",
+      "fetched_at": "2026-11-06T12:22:57.107294+00:00",
       "permit_number": "B-2025-210-6",
       "description": "Anbau zur Wohnraumerweiterung im EG und 1.OG mit inneren Umbauten in einem Einfamilienhaus",
       "site_address": "Schwarzbachstraße 7",
