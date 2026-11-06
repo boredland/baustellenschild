@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-05T19:10:27.921477Z",
+    "last_updated": "2026-11-06T00:11:44.651915Z",
     "total": 1167,
-    "errors": 23,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -13966,7 +13966,7 @@
       "gemarkung_label": "Oberrad Bezirk 38",
       "flur": "5",
       "flurstueck": "394/3",
-      "fetched_at": "2026-06-14T17:39:05.479353+00:00",
+      "fetched_at": "2026-11-06T00:03:20.162400+00:00",
       "permit_number": "B-2023-872-3",
       "description": "Errichtung von drei Mehrfamilienwohnhäusern mit \ninsgesamt 29 Wohnungen und einer Tiefgarage mit\n20 Stellplätzen sowie Herstellung von 2 ebenerdigen Stellplätzen",
       "site_address": "Offenbacher Landstraße 445",
