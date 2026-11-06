@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-06T00:11:44.651915Z",
+    "last_updated": "2026-11-06T04:38:00.351342Z",
     "total": 1167,
-    "errors": 20,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20950,7 +20950,7 @@
       "gemarkung_label": "Rödelheim Bezirk 40",
       "flur": "12",
       "flurstueck": "54/1",
-      "fetched_at": "2026-06-13T22:53:16.939386+00:00",
+      "fetched_at": "2026-11-06T04:32:01.728745+00:00",
       "permit_number": "B-2024-732-5",
       "description": "Errichten eines Mehrfamilienhauses (Hinterhaus) mit 3 Wohneinheiten",
       "site_address": "Biedenkopfer Weg 4 - 4a",
