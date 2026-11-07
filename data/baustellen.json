@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-07T11:05:58.199771Z",
+    "last_updated": "2026-11-07T16:59:25.267353Z",
     "total": 1167,
-    "errors": 26,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1976,7 +1976,7 @@
       "gemarkung_label": "Frankfurt Bezirk 11",
       "flur": "119",
       "flurstueck": "4/2",
-      "fetched_at": "2026-06-15T12:01:45.146280+00:00",
+      "fetched_at": "2026-11-07T16:49:57.539287+00:00",
       "permit_number": "B-2023-1100-4",
       "description": "Ausbau und Nutzungsaufteilung von zwei Wohnungen im DG eines Mehrfamilienhauses mit Einbau von Loggien und Gauben sowie inneren Umbauten",
       "site_address": "Reuterweg 66",
@@ -2166,7 +2166,7 @@
       "gemarkung_label": "Frankfurt Bezirk 11",
       "flur": "120",
       "flurstueck": "28/2",
-      "fetched_at": "2026-06-15T12:01:51.345193+00:00",
+      "fetched_at": "2026-11-07T16:55:04.022421+00:00",
       "permit_number": "B-2024-180-4",
       "description": "Nutzungsänderung von Laden in Schank- und Speisewirtschaft mit Verkauf, sowie Zusammenlegung mit einer bestehenden Schank- und Speisewirtschaft im EG eines Wohn- und Geschäftshauses",
       "site_address": "Eschersheimer Landstraße 41",
@@ -5324,7 +5324,7 @@
       "gemarkung_label": "Frankfurt Bezirk 10",
       "flur": "94",
       "flurstueck": "16/1",
-      "fetched_at": "2026-06-15T07:16:01.877068+00:00",
+      "fetched_at": "2026-11-07T16:44:03.572897+00:00",
       "permit_number": "B-2022-305-4",
       "description": "statischrelevante Änderungen im Bereich der Tiefgarage in einem Büro- und Verwaltungsgebäude",
       "site_address": "Erlenstraße 2",
@@ -5366,7 +5366,7 @@
       "gemarkung_label": "Frankfurt Bezirk 12",
       "flur": "125",
       "flurstueck": "28/2",
-      "fetched_at": "2026-06-15T07:16:05.864208+00:00",
+      "fetched_at": "2026-11-07T16:56:39.539076+00:00",
       "permit_number": "B-2020-812-4",
       "description": "Aufstellung und Einhausen von 6 Klimageräten auf dem Dach eines Bürogebäudes",
       "site_address": "Querstraße 8",
