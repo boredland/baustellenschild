@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-08T00:23:01.599181Z",
+    "last_updated": "2026-11-08T06:42:31.004325Z",
     "total": 1167,
-    "errors": 26,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5512,7 +5512,7 @@
       "gemarkung_label": "Frankfurt Bezirk 17",
       "flur": "238",
       "flurstueck": "137/28",
-      "fetched_at": "2026-06-15T07:16:29.004817+00:00",
+      "fetched_at": "2026-11-08T06:35:41.928039+00:00",
       "permit_number": "B-2023-1283-4",
       "description": "Brandschutz- und statisch relevante Grundrissänderungen vom EG bis 6. OG; Fassadenänderungen; Errichtung eines Eingangsportals, sowie Errichten von einer Terrasse im 6. OG eines bestehenden Bürogebäudes",
       "site_address": "Friedrich-Ebert-Anlage 54",
@@ -5554,7 +5554,7 @@
       "gemarkung_label": "Frankfurt Bezirk 17",
       "flur": "238",
       "flurstueck": "183/42",
-      "fetched_at": "2026-06-15T07:16:32.258709+00:00",
+      "fetched_at": "2026-11-08T06:39:05.959827+00:00",
       "permit_number": "B-2023-939-4",
       "description": "Vorderhaus: Ausbau von Kellerräumen in Wohnräume als Erweiterung der Wohnungen im Erdgeschoss, Zusammenlegen von 10  in 8 Wohnungen, Rückbau und Wiedererrichten Dachgeschoss in geänderter Form, Anbau von Balkoanlagen und Errichten eines Personenaufzuges  im Innenhof an einem Mehrfamilienhaus\nHinterhofbebauung: Bauliche Änderung des Hinterhofgebäudes zur Errichtung eines Einfamilienhauses, Errichtung eines Parklliftsystems mit 2 Stellplätzen im Hinterhof sowie Abbruch der Garagenanlage (<300m³)",
       "site_address": "Rheinstraße 16b",
@@ -5575,7 +5575,7 @@
       "gemarkung_label": "Frankfurt Bezirk 17",
       "flur": "238",
       "flurstueck": "147/33",
-      "fetched_at": "2026-06-15T07:16:29.236603+00:00",
+      "fetched_at": "2026-11-08T06:37:59.958776+00:00",
       "permit_number": "B-2023-226-4",
       "description": "Abbruch und Wiedererrichtung des Dachgeschosses in veränderter Form; Errichtung einer neuen Wohneinheit im Dachgeschoss, sowie Erweiterung des bestehenden 1-Zimmerwohnung; Errichtung einer Wohnung im Kellergeschoss und Herstellung der benötigten neuen Fahrradabstellplätze",
       "site_address": "Mendelssohnstraße 41",
