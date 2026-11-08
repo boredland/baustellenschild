@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-07T20:54:58.107983Z",
+    "last_updated": "2026-11-08T00:23:01.599181Z",
     "total": 1167,
-    "errors": 23,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3357,7 +3357,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "159",
       "flurstueck": "52/14",
-      "fetched_at": "2026-06-15T03:06:43.560305+00:00",
+      "fetched_at": "2026-11-08T00:06:19.182128+00:00",
       "permit_number": "B-2024-410-3",
       "description": "Rückbau und Wiedererrichtung von 2 Balkonanlagen\nvom 1. OG bis 4. OG  in geänderter Form an einem Mehrfamilienhaus",
       "site_address": "Sandweg 6c",
@@ -4434,7 +4434,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "178",
       "flurstueck": "8/0",
-      "fetched_at": "2026-06-14T18:27:23.655285+00:00",
+      "fetched_at": "2026-11-08T00:13:49.186942+00:00",
       "permit_number": "B-2020-1353-5",
       "description": "Nutzungsänderung im Souterrain von Lager- und Technikräumen in Büro als Erweiterung der bestehenden Nutzung, sowie Einbau eines Aufzuges in Souterrain und EG in einem Wohn- und Geschäftshaus",
       "site_address": "Untermainkai 83",
@@ -4454,7 +4454,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "177",
       "flurstueck": "24/4",
-      "fetched_at": "2026-06-14T18:27:23.141567+00:00",
+      "fetched_at": "2026-11-08T00:13:07.180659+00:00",
       "permit_number": "B-2017-209-5",
       "description": "Brandschutzrelevante Grundrissänderungen im EG - 6. OG und 8. OG,  Aufteilung in 400m²- Einheiten im 1. OG - 6. OG eines Wohn- Büro und Geschäftshauses",
       "site_address": "Baseler Straße 10",
@@ -13068,7 +13068,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "215",
       "flurstueck": "13/0",
-      "fetched_at": "2026-06-14T22:28:47.206524+00:00",
+      "fetched_at": "2026-11-08T00:14:13.174669+00:00",
       "permit_number": "B-2019-532-5",
       "description": "Rückbau des Daches und Wiedererrichtung in geänderter Form mit Aufstockung um ein Vollgeschoss mit 6 Wohneinheiten, ein Dachgeschoss mit 2 Wohneinheiten und einer Loggia, Nutzungsänderung von Laden in Handwerksbetrieb im EG, Innere Umbauten und Nutzungsänderung von Bürofläche und 11 Wohneinheiten(1.OG/ 2.OG) und Neuaufteillung (3.OG/ 4.OG/ 5.OG) in 18 Wohneinheiten, Fassadenänderungen an einem Wohn- und Geschäftshaus mit 37 Wohneinheiten. \nRückbau von 3 Garagen und Errichtung eines Stellplatzes",
       "site_address": "Mainzer Landstraße 127a",
