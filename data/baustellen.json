@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-08T18:53:20.091284Z",
+    "last_updated": "2026-11-08T22:54:09.557205Z",
     "total": 1167,
     "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -5751,7 +5751,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "322",
       "flurstueck": "7/0",
-      "fetched_at": "2026-06-15T00:38:40.474252+00:00",
+      "fetched_at": "2026-11-08T22:36:54.352019+00:00",
       "permit_number": "B-2024-842-4",
       "description": "Errichtung von zwei Balkonanlagen an einem Mehrfamilienwohnhaus",
       "site_address": "Gluckstraße 13",
@@ -5789,7 +5789,7 @@
       "gemarkung_label": "Frankfurt Bezirk 23",
       "flur": "347",
       "flurstueck": "6/0",
-      "fetched_at": "2026-06-15T12:02:47.426579+00:00",
+      "fetched_at": "2026-11-08T22:45:48.077873+00:00",
       "permit_number": "B-2021-40-3",
       "description": "Rückbau und Wiedererrichten Dachgeschoss in geänderter \nForm mit Herstellen einer neuen Wohnung, Errichten von \nLoggien sowie Anbau in allen Geschossen zur \nWohnraumerweiterung bei einem Wohn- und Geschäftshaus",
       "site_address": "Berger Straße 86",
