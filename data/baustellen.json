@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-09T10:17:33.223483Z",
+    "last_updated": "2026-11-09T20:49:07.410528Z",
     "total": 1167,
-    "errors": 25,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5873,7 +5873,7 @@
       "gemarkung_label": "Frankfurt Bezirk 29",
       "flur": "466",
       "flurstueck": "566/4",
-      "fetched_at": "2026-06-15T07:17:20.439613+00:00",
+      "fetched_at": "2026-11-09T20:40:29.494347+00:00",
       "permit_number": "B-2021-26-3",
       "description": "Nutzungsänderung von einem Sonnenstudio \nin eine Anlage für sportliche Zwecke\nin einem Wohn- und Geschäftshaus",
       "site_address": "Inheidener Straße 67",
