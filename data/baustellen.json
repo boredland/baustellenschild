@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-10T11:46:14.708041Z",
+    "last_updated": "2026-11-10T19:02:51.717757Z",
     "total": 1167,
     "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -2681,7 +2681,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "14",
       "flurstueck": "647/0",
-      "fetched_at": "2026-06-14T03:07:47.640427+00:00",
+      "fetched_at": "2026-11-10T18:51:13.403342+00:00",
       "permit_number": "B-2022-699-5",
       "description": "Errichtung eines Mehrfamilienhauses mit 137 Wohneinheiten und einer Anlage für soziale Zwecke und einer Tiefgarage mit 73 PKW- Stellplätzen",
       "site_address": "Karoline-Veith-Straße 1",
@@ -2702,7 +2702,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "14",
       "flurstueck": "658/0",
-      "fetched_at": "2026-06-14T03:07:47.697556+00:00",
+      "fetched_at": "2026-11-10T18:51:25.382240+00:00",
       "permit_number": "B-2023-70-6",
       "description": "Errichtung einer Grundschule EG + 1. OG und Turnhalle im UG \nsowie 134 Wohneinheiten 2. OG - 6. OG und einer \nTiefgarage mit 89 Stellplätzen, Schönhofviertel, Baufeld G",
       "site_address": "Joachim-Biermann-Straße 7 - 9",
@@ -17180,7 +17180,7 @@
       "gemarkung_label": "Bonames Bezirk 49",
       "flur": "2",
       "flurstueck": "2/14",
-      "fetched_at": "2026-06-14T17:37:55.192959+00:00",
+      "fetched_at": "2026-11-10T19:02:01.411577+00:00",
       "permit_number": "B-2024-988-3",
       "description": "Veränderte Ausführung zu B-1974-1865-2: \nNeuordnung der Stellplätze sowie Veränderung der Freiflächen",
       "site_address": "Ben-Gurion-Ring 102",
