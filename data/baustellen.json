@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-09T20:49:07.410528Z",
+    "last_updated": "2026-11-10T03:21:50.571885Z",
     "total": 1167,
-    "errors": 19,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -21788,9 +21788,9 @@
       "gemarkung_label": "Frankfurt Bezirk 33",
       "flur": "572",
       "flurstueck": "15/19",
-      "fetched_at": "2026-06-13T21:55:13.855523+00:00",
+      "fetched_at": "2026-11-10T03:18:25.368476+00:00",
       "permit_number": "B-2018-1647-3",
-      "description": "Errichtung eines Mehrfamilienhauses mit 4 Wohneinheiten \nund Errichtung von 2 Pkw-Stellplätzen",
+      "description": "Errichtung eines Mehrfamilienhauses mit 4 Wohneinheiten \nund...",
       "site_address": "Darmstädter Landstraße 95",
       "parcel_info": "Frankfurt Bezirk 33 (485), 572, 15/19",
       "builder_name": "LIH Projektentwicklung GmbH",
