@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-10T19:02:51.717757Z",
+    "last_updated": "2026-11-11T00:08:13.049528Z",
     "total": 1167,
     "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -15489,7 +15489,7 @@
       "gemarkung_label": "Eschersheim Bezirk 45",
       "flur": "12",
       "flurstueck": "35/4",
-      "fetched_at": "2026-06-15T05:16:28.440701+00:00",
+      "fetched_at": "2026-11-11T00:05:18.606450+00:00",
       "permit_number": "B-2020-1376-4",
       "description": "Nutzungsänderung von einem Büro in eine Wohnung im EG und Errichtung von 2 Balkonen und 3 Stellplätzen eines Mehrfamilienhauses",
       "site_address": "Alt-Eschersheim 2",
