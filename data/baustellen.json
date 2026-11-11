@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-11T00:08:13.049528Z",
+    "last_updated": "2026-11-11T04:10:31.833904Z",
     "total": 1167,
-    "errors": 23,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1686,7 +1686,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "14",
       "flurstueck": "102/6",
-      "fetched_at": "2026-06-14T14:17:04.463405+00:00",
+      "fetched_at": "2026-11-11T04:06:21.263560+00:00",
       "permit_number": "B-2024-1151-6",
       "description": "Rückbau des Daches und Wiedererrichtung in geänderter Form sowie Dämmung der Fassade an der KIZ 132 \"Am Wiesenrain\"",
       "site_address": "Am Wiesenrain 20",
@@ -6034,7 +6034,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "3",
       "flurstueck": "76/27",
-      "fetched_at": "2026-06-14T18:29:18.871228+00:00",
+      "fetched_at": "2026-11-11T03:55:51.693495+00:00",
       "permit_number": "B-2020-1065-3",
       "description": "Brandschutzrelevante Grundrissänderungen\nin einem Lager- und Bürogebäude, \nGebäude 110 (ehemals als NLH bezeichnet)",
       "site_address": "Adam-Opel-Straße 7",
