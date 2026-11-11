@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-11T11:53:13.099064Z",
+    "last_updated": "2026-11-11T19:20:06.812011Z",
     "total": 1167,
-    "errors": 27,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -2862,7 +2862,7 @@
       "gemarkung_label": "Main Bezirk 70",
       "flur": "606",
       "flurstueck": "2/58",
-      "fetched_at": "2026-06-15T12:04:33.784166+00:00",
+      "fetched_at": "2026-11-11T19:16:47.785585+00:00",
       "permit_number": "B-2025-255-5",
       "description": "Brandschutzrelevante Grundrissänderung im 15. OG. eines Hochhauses (Westhafen Tower)",
       "site_address": "Westhafenplatz 1",
@@ -6055,7 +6055,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "5",
       "flurstueck": "32/73",
-      "fetched_at": "2026-06-14T18:29:19.971009+00:00",
+      "fetched_at": "2026-11-11T19:01:45.026679+00:00",
       "permit_number": "B-2021-981-3",
       "description": "Aufstellung von neuen Büroräumen im Raum E77 Frischfleischversand, \nStatischrelevante Grundrissänderungen durch Einbau einer aufgeständerten Containeranlage \n(dienende Büronutzung) im EG einer Produktionshalle",
       "site_address": "Wächtersbacher Straße 101",
