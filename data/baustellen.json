@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-11T04:10:31.833904Z",
+    "last_updated": "2026-11-11T11:53:13.099064Z",
     "total": 1167,
-    "errors": 25,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14354,7 +14354,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "13",
       "flurstueck": "749/26",
-      "fetched_at": "2026-06-14T03:08:27.821294+00:00",
+      "fetched_at": "2026-11-11T11:51:49.638892+00:00",
       "permit_number": "B-2021-1375-6",
       "description": "Anbau von Balkonen an einem Mehrfamilienhaus sowie Erweiterung von zwei Dachgauben",
       "site_address": "Königsteiner Straße 57",
@@ -15324,7 +15324,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "1",
       "flurstueck": "281/115",
-      "fetched_at": "2026-06-15T12:04:23.271386+00:00",
+      "fetched_at": "2026-11-11T11:47:49.672793+00:00",
       "permit_number": "B-2023-1157-6",
       "description": "Rückbau der Balkonanlage, sowie Wintergärten und Errichten von Balkonen im 1. - 3. Obergeschoss eines Wohn- und Geschäftshauses",
       "site_address": "Königsteiner Straße 1",
@@ -18744,7 +18744,7 @@
       "gemarkung_label": "Griesheim Bezirk 54",
       "flur": "16",
       "flurstueck": "159/6",
-      "fetched_at": "2026-06-14T14:17:11.721329+00:00",
+      "fetched_at": "2026-11-11T11:46:19.951307+00:00",
       "permit_number": "B-2018-1806-6",
       "description": "Rückbau des Daches und Wiederrichtung in geänderter Form, mit 3 Gauben und Erweiterung Zwerchhaus und Ausbau zu 2 Wohneinheiten in einem Mehrfamilienhaus mit Laden, Errichtung einer Balkonanlage",
       "site_address": "Waldschulstraße 63",
