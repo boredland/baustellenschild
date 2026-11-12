@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-11T19:20:06.812011Z",
+    "last_updated": "2026-11-12T01:54:13.730009Z",
     "total": 1167,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14391,7 +14391,7 @@
       "gemarkung_label": "Niederrad Bezirk 37",
       "flur": "12",
       "flurstueck": "77/0",
-      "fetched_at": "2026-06-14T03:08:43.115191+00:00",
+      "fetched_at": "2026-11-12T01:49:48.228503+00:00",
       "permit_number": "B-2020-1181-5",
       "description": "Erstellen einer neuen Wohnung im Spitzboden eines Mehrfamilienwohnhauses",
       "site_address": "Goldsteinstraße 58",
