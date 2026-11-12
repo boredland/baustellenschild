@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-12T17:44:19.485005Z",
+    "last_updated": "2026-11-12T23:06:24.695545Z",
     "total": 1167,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3997,7 +3997,7 @@
       "gemarkung_label": "Praunheim Bezirk 42",
       "flur": "6",
       "flurstueck": "9/27",
-      "fetched_at": "2026-06-13T20:57:57.651588+00:00",
+      "fetched_at": "2026-11-12T23:00:07.732150+00:00",
       "permit_number": "B-2016-327-4",
       "description": "Errichtung eines Mehrfamilienwohnhauses mit 5 Wohneinheiten und einer Tiefgarage mit 5 Stellplätzen",
       "site_address": "Kransberger Weg 24",
