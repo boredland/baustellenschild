@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-14T14:10:27.115428Z",
+    "last_updated": "2026-11-14T19:11:46.089354Z",
     "total": 1167,
-    "errors": 23,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3277,7 +3277,7 @@
       "gemarkung_label": "Frankfurt Bezirk 11",
       "flur": "123",
       "flurstueck": "9/4",
-      "fetched_at": "2026-06-15T03:06:30.357987+00:00",
+      "fetched_at": "2026-11-14T19:04:27.991152+00:00",
       "permit_number": "B-2018-228-4",
       "description": "Nutzungsänderung der Betriebswohnung in Büroräume in dem Bürogebäude,\nverlängert bis 23.04.2023",
       "site_address": "Eschersheimer Landstraße 25 - 27",
@@ -6539,7 +6539,7 @@
       "gemarkung_label": "Frankfurt Bezirk 09",
       "flur": "81",
       "flurstueck": "1/4",
-      "fetched_at": "2026-06-15T09:36:44.812693+00:00",
+      "fetched_at": "2026-11-14T18:57:09.982525+00:00",
       "permit_number": "B-2021-1215-5",
       "description": "Brandschutzrelevante Grundrissänderungen in der Tiefgarage, Änderung der Rauchabschnitte sowie Änderung der Lüftungsanlage in den innenliegenden Lagerbereichen >20 m² in den Untergeschossen eines Wohn- und Geschäftshauses",
       "site_address": "Wilhelm-Leuschner-Straße 27",
@@ -6686,7 +6686,7 @@
       "gemarkung_label": "Frankfurt Bezirk 10",
       "flur": "97",
       "flurstueck": "39/10",
-      "fetched_at": "2026-06-15T09:36:44.680279+00:00",
+      "fetched_at": "2026-11-14T18:59:03.987546+00:00",
       "permit_number": "B-2015-1756-4",
       "description": "Rückbau des Daches und Wiedererrichten in geänderten Form, Dachgeschossausbau zu einer Wohneinheit, Errichten von 8 Gauben und einer Dachloggia, Innere Umbauten und Errichten eines Personenaufzuges in einem Wohn- und Geschäftshaus",
       "site_address": "Arndtstraße 18",
