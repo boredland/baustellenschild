@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-14T19:11:46.089354Z",
+    "last_updated": "2026-11-14T23:07:46.772275Z",
     "total": 1167,
-    "errors": 28,
+    "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -4330,7 +4330,7 @@
       "gemarkung_label": "Frankfurt Bezirk 13",
       "flur": "146",
       "flurstueck": "45/5",
-      "fetched_at": "2026-06-15T05:14:25.457788+00:00",
+      "fetched_at": "2026-11-14T22:57:56.902066+00:00",
       "permit_number": "B-2025-74-4",
       "description": "Rückbau und Wiedererrichten des Daches in veränderter Form\nAusbau des Spitzbodens zu einer Wohneinheit in einem Mehrfamilienhaus",
       "site_address": "Bornheimer Landstraße 51",
@@ -4350,7 +4350,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "161",
       "flurstueck": "1/0",
-      "fetched_at": "2026-06-15T05:14:27.515745+00:00",
+      "fetched_at": "2026-11-14T23:02:02.896145+00:00",
       "permit_number": "B-2021-521-3",
       "description": "Nutzungsänderung des 2. OG von Anlage des \nzivilen Bevölkerungsschutzes in Ausstellungsfläche",
       "site_address": "Friedberger Anlage 5 - 6",
