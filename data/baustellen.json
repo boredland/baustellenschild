@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-14T23:07:46.772275Z",
+    "last_updated": "2026-11-15T02:35:55.171036Z",
     "total": 1167,
     "errors": 20,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -6808,7 +6808,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "168",
       "flurstueck": "75/8",
-      "fetched_at": "2026-06-15T09:36:59.250228+00:00",
+      "fetched_at": "2026-11-15T02:19:22.707158+00:00",
       "permit_number": "B-2023-473-3",
       "description": "Nutzungsänderung von einer Druckerei mit Büro in 3 Wohneinheiten; \nHerstellen von einer Terrasse und 2 Balkonen;\nErrichten von einer Dachgaube im DG, sowie \nAusbau des Spitzbodens und Herstellen einer Loggia im Hinterhaus",
       "site_address": "Windeckstraße 21a",
@@ -6886,7 +6886,7 @@
       "gemarkung_label": "Frankfurt Bezirk 14",
       "flur": "168",
       "flurstueck": "99/14",
-      "fetched_at": "2026-06-15T09:36:59.584326+00:00",
+      "fetched_at": "2026-11-15T02:20:01.979848+00:00",
       "permit_number": "B-2024-978-3",
       "description": "Statisch relevante Änderung im Bereich der \nTiefgarage in einer Wohnanlage mit Läden",
       "site_address": "Martin-Elsässer-Weg 3",
@@ -13615,7 +13615,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "217",
       "flurstueck": "13/8",
-      "fetched_at": "2026-06-14T22:55:03.026420+00:00",
+      "fetched_at": "2026-11-15T02:25:58.596364+00:00",
       "permit_number": "B-2021-276-5",
       "description": "Nutzungsänderung und Aufteilung im Erdgeschoss von Läden, Schank- und Speisewirtschaft und Diskothek in einen Laden, 2 Läden mit Verzehr, 3 Schank- und Speisewirtschaften und Büro sowie brandschutzrelevante Grundrissänderung im Zwischengeschoss und 1.-5. OG in einem Büro- und Geschäftshaus",
       "site_address": "Düsseldorfer Straße 1",
