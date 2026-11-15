@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-15T17:00:30.400804Z",
+    "last_updated": "2026-11-15T21:42:39.726445Z",
     "total": 1167,
-    "errors": 24,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -7233,7 +7233,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "324",
       "flurstueck": "20/0",
-      "fetched_at": "2026-06-15T01:49:49.691788+00:00",
+      "fetched_at": "2026-11-15T21:34:42.190318+00:00",
       "permit_number": "B-2025-168-4",
       "description": "Errichtung eines Balkonturms mit 4 Balkonen (Vorderhaus) und eines Balkonturms mit 2 Balkonen (Hinterhaus) - Anbau an bestehende Wohnhäuser",
       "site_address": "Schwarzburgstraße 7",
@@ -12002,7 +12002,7 @@
       "gemarkung_label": "Frankfurt Bezirk 22",
       "flur": "335",
       "flurstueck": "429/51",
-      "fetched_at": "2026-06-15T09:37:38.971434+00:00",
+      "fetched_at": "2026-11-15T21:37:59.907227+00:00",
       "permit_number": "B-2022-6-3",
       "description": "Zusammenlegen der Wohnungen im 3. OG und 4. OG\nsowie Spitzbodenausbau mit Dachloggia zur \nWohnraumerweiterung an Mehrfamilienhaus",
       "site_address": "Martin-Luther-Straße 65",
@@ -12022,7 +12022,7 @@
       "gemarkung_label": "Frankfurt Bezirk 22",
       "flur": "335",
       "flurstueck": "500/51",
-      "fetched_at": "2026-06-15T09:37:40.833518+00:00",
+      "fetched_at": "2026-11-15T21:40:23.893469+00:00",
       "permit_number": "B-2024-903-3",
       "description": "Nutzungsänderung eines Einfamilienhauses mit freiberuflicher \nNutzung (Praxis) gemäß § 13 BauNVO im EG zu einem \nMehrfamilienhaus mit 5 Wohneinheiten sowie \nErrichtung von 2 Gauben im DG und einer Loggia im Spitzboden",
       "site_address": "Arnsteiner Straße 13",
