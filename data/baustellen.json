@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-15T21:42:39.726445Z",
+    "last_updated": "2026-11-16T01:31:40.336133Z",
     "total": 1167,
     "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -553,7 +553,7 @@
       "gemarkung_label": "Frankfurt Bezirk 23",
       "flur": "347",
       "flurstueck": "42/0",
-      "fetched_at": "2026-06-15T01:49:55.570654+00:00",
+      "fetched_at": "2026-11-16T01:16:25.507995+00:00",
       "permit_number": "B-2021-4-3",
       "description": "Wohn- und Geschäftshaus Bestand: \nNutzungsänderung von Werkstatt im EG in Laden, \nim 1. OG in Wohnung, Errichtung einer Balkonanlage vom 1. - 4. OG, \nNeuaufteilung der Wohnung im 4. OG,  \nAusbau DG zu Wohnung mit Dachterrasse \nsowie Errichtung eines Wohn- und Geschäftshauses \nmit 29 Wohnungen, 1 Laden im EG und Tiefgarage mit 14 Stellplätzen",
       "site_address": "Musikantenweg 78 - 78a",
