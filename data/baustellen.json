@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-16T08:29:00.619969Z",
+    "last_updated": "2026-11-16T19:02:04.832322Z",
     "total": 1167,
-    "errors": 21,
+    "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -637,7 +637,7 @@
       "gemarkung_label": "Frankfurt Bezirk 28",
       "flur": "454",
       "flurstueck": "11/0",
-      "fetched_at": "2026-06-14T23:28:33.550097+00:00",
+      "fetched_at": "2026-11-16T18:56:51.921342+00:00",
       "permit_number": "B-2017-148-3",
       "description": "Rückbau und Wiedererrichtung zweier Balkonanlagen und Rückbau und \nWiedererrichtung des Daches in veränderter Form mit Ausbau des \nDachgeschosses zu einer Wohneinheit an einem Wohn- und Geschäftshaus, \nsowie Herstellen eines Stellplatzes",
       "site_address": "Mainkurstraße 20",
@@ -657,7 +657,7 @@
       "gemarkung_label": "Frankfurt Bezirk 28",
       "flur": "453",
       "flurstueck": "63/21",
-      "fetched_at": "2026-06-14T23:28:32.761957+00:00",
+      "fetched_at": "2026-11-16T18:53:03.929124+00:00",
       "permit_number": "B-2024-1194-3",
       "description": "Errichtung eines Mehrfamilienhauses mit 29 Wohneinheiten \nund einer Tiefgarage mit 9 Stellplätzen",
       "site_address": "Spessartstraße 24",
