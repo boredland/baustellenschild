@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-16T01:31:40.336133Z",
+    "last_updated": "2026-11-16T08:29:00.619969Z",
     "total": 1167,
-    "errors": 28,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -12042,7 +12042,7 @@
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "363",
       "flurstueck": "64/4",
-      "fetched_at": "2026-06-15T09:37:58.300871+00:00",
+      "fetched_at": "2026-11-16T08:15:34.009796+00:00",
       "permit_number": "B-2022-446-3",
       "description": "Abriss und Neuerrichtung des Dachstuhls sowie Einrichtung \neiner Wohnung im DG eines Wohn- und Geschäftshauses",
       "site_address": "Habsburgerallee 37",
@@ -12054,16 +12054,16 @@
       "architect_name": "Lemperle Dipl.-Ing. Andreas",
       "architect_address": "Mittlerer Hasenpfad 66",
       "architect_location": "60598 Frankfurt am Main",
-      "site_manager_name": "Trosdorf Dirk",
-      "site_manager_address": "Mörfelder Landstraße 66",
-      "site_manager_location": "60598 Frankfurt am Main"
+      "site_manager_name": "Plagemann Dipl. Ing. Sabine",
+      "site_manager_address": "Wolfsgangstraße 35",
+      "site_manager_location": "60322 Frankfurt am Main"
     },
     {
       "gemarkung_id": 477,
       "gemarkung_label": "Frankfurt Bezirk 25",
       "flur": "363",
       "flurstueck": "70/9",
-      "fetched_at": "2026-06-15T09:37:59.507241+00:00",
+      "fetched_at": "2026-11-16T08:16:03.938403+00:00",
       "permit_number": "B-2024-1185-3",
       "description": "Errichten einer Abgrabung und einer Außentreppe, Fassadenänderung und innere Umbauten in einem Mehrfamilienhaus",
       "site_address": "Wittelsbacherallee 57",
@@ -12083,7 +12083,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "414",
       "flurstueck": "203/66",
-      "fetched_at": "2026-06-15T09:38:02.432261+00:00",
+      "fetched_at": "2026-11-16T08:25:51.912022+00:00",
       "permit_number": "B-2023-996-3",
       "description": "Errichtung eines Büro- und Geschäftshochhauses mit \neiner Schank- und Speisewirtschaft auf einer Tiefgarage\nBaufeld Nord",
       "site_address": "Honsellstraße 29 - 29a",
