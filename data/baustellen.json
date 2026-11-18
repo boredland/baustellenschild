@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-18T02:05:16.814583Z",
+    "last_updated": "2026-11-18T09:48:19.983916Z",
     "total": 1167,
-    "errors": 22,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20930,7 +20930,7 @@
       "gemarkung_label": "Eckenheim Bezirk 46",
       "flur": "1",
       "flurstueck": "417/175",
-      "fetched_at": "2026-06-14T18:29:10.732734+00:00",
+      "fetched_at": "2026-11-18T09:40:55.680128+00:00",
       "permit_number": "B-2022-1070-4",
       "description": "Errichtung eines Einfamilienwohnhauses und Herstellung von 1 Stellplatz",
       "site_address": "Niedergärtenstraße 15",
