@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-18T18:36:44.837427Z",
+    "last_updated": "2026-11-19T00:55:23.716026Z",
     "total": 1167,
-    "errors": 21,
+    "errors": 16,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14469,7 +14469,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "13",
       "flurstueck": "765/5",
-      "fetched_at": "2026-06-14T05:10:35.825302+00:00",
+      "fetched_at": "2026-11-19T00:52:59.602354+00:00",
       "permit_number": "B-2022-1102-6",
       "description": "Errichtung einer Aufzugsanlage an einem bestehenden Wohn- und Geschäftshaus",
       "site_address": "Königsteiner Straße 61a",
