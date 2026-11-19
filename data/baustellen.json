@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-19T00:55:23.716026Z",
+    "last_updated": "2026-11-19T08:29:23.593673Z",
     "total": 1167,
-    "errors": 16,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -20770,7 +20770,7 @@
       "gemarkung_label": "Kalbach Bezirk 65",
       "flur": "9",
       "flurstueck": "24/0",
-      "fetched_at": "2026-06-14T21:59:25.580976+00:00",
+      "fetched_at": "2026-11-19T08:19:52.981499+00:00",
       "permit_number": "B-2024-807-4",
       "description": "Errichten  eines Einfamilienhauses auf bestehendem Keller und Herstellen eines Stellplatzes",
       "site_address": "Im Kirschenwäldchen 32",
