@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-20T14:08:00.897545Z",
+    "last_updated": "2026-11-20T21:55:54.997241Z",
     "total": 1168,
-    "errors": 19,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8622,7 +8622,7 @@
       "gemarkung_label": "Preungesheim Bezirk 47",
       "flur": "6",
       "flurstueck": "374/299",
-      "fetched_at": "2026-06-13T23:28:05.418447+00:00",
+      "fetched_at": "2026-11-20T21:45:04.401241+00:00",
       "permit_number": "B-2023-98-3",
       "description": "Errichtung eines Einfamilienwohnhauses mit einer Garage und 1 Stellplatz",
       "site_address": "Bilsteinweg 3",
