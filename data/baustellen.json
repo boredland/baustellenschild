@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-20T05:16:08.195154Z",
-    "total": 1167,
-    "errors": 23,
+    "last_updated": "2026-11-20T14:08:00.897545Z",
+    "total": 1168,
+    "errors": 19,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -23937,6 +23937,27 @@
       "site_manager_name": "Mende Andreas",
       "site_manager_address": "Martin-Luther-Straße 59",
       "site_manager_location": "60389 Frankfurt"
+    },
+    {
+      "gemarkung_id": 507,
+      "gemarkung_label": "Oberrad Bezirk 38",
+      "flur": "6",
+      "flurstueck": "267/0",
+      "fetched_at": "2026-11-20T13:54:10.484930+00:00",
+      "permit_number": "B-2025-704-3",
+      "description": "Ausbau von Kellerräumen als Wohnraumerweiterung, Errichten eines Aufzuges, Rückbau und Wiedererrichten Dachgeschoss in geänderter Form, Errichten von zwei Mehrfamilienhäusern mit 10 Wohnungen und einer Tiefgarage.",
+      "site_address": "Ludwig-Gallmeyer-Straße 10",
+      "parcel_info": "Oberrad Bezirk 38 (507), 6, 267/",
+      "builder_name": "B&G immobilien GmbH & Co.KG",
+      "builder_address": "Jean-Pierre-Jungels-Straße 2",
+      "builder_location": "55126 Mainz",
+      "represented_by": "Herr Josef Blodinger",
+      "architect_name": "Dudler Karl",
+      "architect_address": "Vogtstraße 50",
+      "architect_location": "60322 Frankfurt am Main",
+      "site_manager_name": "Ivankovic Ivan",
+      "site_manager_address": "Robert-Koch-Allee 11a",
+      "site_manager_location": "60438 Frankfurt am Main"
     }
   ]
 }
