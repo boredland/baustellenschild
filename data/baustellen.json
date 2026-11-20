@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-20T00:00:29.120666Z",
+    "last_updated": "2026-11-20T05:16:08.195154Z",
     "total": 1167,
-    "errors": 25,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14489,7 +14489,7 @@
       "gemarkung_label": "Nieder-Erlenbach Bezirk 64",
       "flur": "1",
       "flurstueck": "662/0",
-      "fetched_at": "2026-06-14T05:11:16.736155+00:00",
+      "fetched_at": "2026-11-20T05:04:31.974128+00:00",
       "permit_number": "B-2021-1163-3",
       "description": "Nutzungsänderung im EG von einer Wohnung in eine Einheit \nzur freiberuflichen Nutzung gem. § 13 BauNVO, \nErrichten von Anbauten im EG und 1.OG,\nDachgeschossausbau zu zwei Wohnungen mit Errichten von Gauben, \nHerstellen von Dachterrassen sowie Anbau von Balkonen, einer Außentreppe und zwei Stellplätzen\nfür ein Gebäude mit drei Wohnungen und freiberuflicher Nutzung.\nErrichten eines Carports für den bestehenden Stellplatz.",
       "site_address": "Hohe Stätte 13",
