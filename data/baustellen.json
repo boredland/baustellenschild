@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-21T18:01:35.962926Z",
+    "last_updated": "2026-11-21T22:54:50.809178Z",
     "total": 1168,
-    "errors": 21,
+    "errors": 27,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -8763,7 +8763,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "3",
       "flurstueck": "199/40",
-      "fetched_at": "2026-06-15T12:01:44.665360+00:00",
+      "fetched_at": "2026-11-21T22:53:35.301337+00:00",
       "permit_number": "B-2024-418-4",
       "description": "Austausch und Erneuerung der Gebäudehülle mit brandschutz- und statischrelevanten Änderungen in allen Geschossen  in einer Anlage für kulturelle Zwecke der Kunsthalle Schirn",
       "site_address": "Bendergasse 1",
@@ -8784,7 +8784,7 @@
       "gemarkung_label": "Frankfurt Bezirk 01",
       "flur": "3",
       "flurstueck": "199/28",
-      "fetched_at": "2026-06-15T12:01:47.839007+00:00",
+      "fetched_at": "2026-11-21T22:52:41.202819+00:00",
       "permit_number": "B-2019-334-4",
       "description": "Erneuerung der Kellerdecke im Durchgang Nürnberger Hofgäßchen, Herstellen eines Müllraums durch Einbau einer neuen Decke",
       "site_address": "Braubachstraße 33",
