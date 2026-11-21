@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-21T03:13:30.030827Z",
+    "last_updated": "2026-11-21T10:47:07.176599Z",
     "total": 1168,
     "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -7582,7 +7582,7 @@
       "gemarkung_label": "Sindlingen Bezirk 60",
       "flur": "1",
       "flurstueck": "196/456",
-      "fetched_at": "2026-06-14T19:00:25.374369+00:00",
+      "fetched_at": "2026-11-21T10:33:47.212417+00:00",
       "permit_number": "B-2020-1293-6",
       "description": "Rückbau und Wiedererrichtung des Daches und Anbau vom KG bis DG zur Wohnraumerweiterung eines Einfamilienhauses sowie Neubau einer Garage",
       "site_address": "Risselsteinweg 64",
