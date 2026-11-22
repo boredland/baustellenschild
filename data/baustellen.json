@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-22T03:03:24.508008Z",
+    "last_updated": "2026-11-22T10:49:46.589052Z",
     "total": 1168,
-    "errors": 19,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -4162,7 +4162,7 @@
       "gemarkung_label": "Frankfurt Bezirk 11",
       "flur": "110",
       "flurstueck": "2/9",
-      "fetched_at": "2026-06-15T05:14:10.956119+00:00",
+      "fetched_at": "2026-11-22T10:38:24.710640+00:00",
       "permit_number": "B-2024-1368-4",
       "description": "Brandschutz-, statisch- und lüftungsrelevante Grundrissänderungen durch innere Umbauten, Rückbau und Wiedererrichten der Fassade in geänderter Form sowie Aufstockung mit einer Schank- und Speisewirtschaft und  Dachterrasse in und an einem Bürohochhaus mit Schank- und Speisewirtschaft",
       "site_address": "Bockenheimer Anlage 44",
@@ -4225,7 +4225,7 @@
       "gemarkung_label": "Frankfurt Bezirk 11",
       "flur": "111",
       "flurstueck": "1/34",
-      "fetched_at": "2026-06-15T05:14:10.630008+00:00",
+      "fetched_at": "2026-11-22T10:41:54.715638+00:00",
       "permit_number": "B-2024-143-4",
       "description": "Brandschutz- und statisch relevante Grundrissänderungen, Errichten einer Aufstockung, Veränderung der Lüftungsanlage und der Fassade an einem Büro- und Geschäftshochhaus",
       "site_address": "Bockenheimer Landstraße 10",
@@ -8016,7 +8016,7 @@
       "gemarkung_label": "Frankfurt Bezirk 10",
       "flur": "98",
       "flurstueck": "64/14",
-      "fetched_at": "2026-06-15T12:01:48.099810+00:00",
+      "fetched_at": "2026-11-22T10:33:48.906679+00:00",
       "permit_number": "B-2017-1710-4",
       "description": "Verglasung der straßenseitigen Loggien und Errichten hofseitiger Balkone von EG-5.OG an einem Mehrfamilienhaus, sowie Abbruch Einzel- und Doppelgarage und Herstellen von 5 Stellplätzen und Nutzungsänderung im UG von Büro- und Abstellräumen in 2 Wohneinheiten",
       "site_address": "Brentanostraße 17",
