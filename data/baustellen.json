@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-23T05:10:30.350931Z",
+    "last_updated": "2026-11-23T15:51:01.810845Z",
     "total": 1168,
-    "errors": 21,
+    "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -3502,7 +3502,7 @@
       "gemarkung_label": "Frankfurt Bezirk 19",
       "flur": "280",
       "flurstueck": "116/55",
-      "fetched_at": "2026-06-14T22:55:18.458782+00:00",
+      "fetched_at": "2026-11-23T15:38:59.204508+00:00",
       "permit_number": "B-2023-463-4",
       "description": "Nutzungsänderung von einer Beherbergungsstätte im KG in eine Schank- und Speisegaststätte sowie im EG, 1. und 2. OG in 7 Wohnungen, Rückbau und Wiedererrichten des Daches in geänderter Form mit Aufstockung eines Geschosses, Herstellen von 2 Wohneinheiten, Errichten einer Balkonanlage, innere Umbauten mit Einbau eines Personenaufzuges sowie Fassadenänderungen an einem Mehrfamilienhaus",
       "site_address": "Grüneburgweg 98",
@@ -3523,7 +3523,7 @@
       "gemarkung_label": "Frankfurt Bezirk 19",
       "flur": "281",
       "flurstueck": "3/2",
-      "fetched_at": "2026-06-14T22:55:18.558748+00:00",
+      "fetched_at": "2026-11-23T15:38:53.205893+00:00",
       "permit_number": "B-2017-79-4",
       "description": "Nutzungsänderung von Bürofläche mit Tiefgarage in Wohnungen und einer Kita im EG sowie Bürofläche in Beherbergungsbetrieb und einer Schank- und Speisewirtschaft, Verlegung der Tiefgaragenausfahrt, Änderung der Fassade und Neugestaltung der Aussenanlage, Errichtung eines Wirtschaftsgartens, befristet auf 5 Jahre ab Baugenehmigung",
       "site_address": "Fürstenbergerstraße 235",
@@ -7213,7 +7213,7 @@
       "gemarkung_label": "Frankfurt Bezirk 20",
       "flur": "309",
       "flurstueck": "13/0",
-      "fetched_at": "2026-06-14T19:33:29.829154+00:00",
+      "fetched_at": "2026-11-23T15:49:53.201911+00:00",
       "permit_number": "B-2023-1049-4",
       "description": "Nutzungsänderung eines Gewerbegebäudes in ein Einfamilienhaus mit Rückbau des Daches und Wiedererrichten in geänderter Form; Errichten einer Dachterrasse; Einbau eines Personalaufzuges, Errichten einer Außentreppe und inneren Umbauten",
       "site_address": "Humboldtstraße 47a",
