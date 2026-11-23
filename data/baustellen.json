@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-23T00:00:12.016050Z",
+    "last_updated": "2026-11-23T05:10:30.350931Z",
     "total": 1168,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -1236,7 +1236,7 @@
       "gemarkung_label": "Frankfurt Bezirk 17",
       "flur": "248",
       "flurstueck": "306/44",
-      "fetched_at": "2026-06-14T23:54:02.520416+00:00",
+      "fetched_at": "2026-11-23T05:05:03.899858+00:00",
       "permit_number": "B-2017-525-6",
       "description": "Nutzungsänderung eines Bürogebäudes in eine Grundschule und Kindertagesstätte mit brandschutz- und statisch relevanten Grundrissänderungen, Fassadenänderung sowie Errichtung von zwei zusätzlichen Rettungswegen, Wegfall von 4 Stellplätzen und Neuordnung von 3 Stellplätzen",
       "site_address": "Senckenberganlage 20",
@@ -8266,7 +8266,7 @@
       "gemarkung_label": "Frankfurt Bezirk 18",
       "flur": "262",
       "flurstueck": "41/18",
-      "fetched_at": "2026-06-15T12:02:18.991833+00:00",
+      "fetched_at": "2026-11-23T05:04:27.704469+00:00",
       "permit_number": "B-2020-813-4",
       "description": "Nutzungsänderung von Büroflächen im 1. OG und 2. OG in 18 Wohneinheiten mit baulichen Veränderungen in einem Wohn- und Geschäftshaus sowie Entfall von 9 Stellplätzen und Errichten von 34 Fahrradabstellplätzen",
       "site_address": "Friedrichstraße 10 - 12",
