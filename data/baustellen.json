@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-22T18:27:04.390310Z",
+    "last_updated": "2026-11-23T00:00:12.016050Z",
     "total": 1168,
-    "errors": 22,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14090,7 +14090,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "188",
       "flurstueck": "36/23",
-      "fetched_at": "2026-06-14T23:27:31.515782+00:00",
+      "fetched_at": "2026-11-22T23:52:47.605085+00:00",
       "permit_number": "B-2015-704-5",
       "description": "Errichtung eines Studentenwohnheims mit 342 Wohneinheiten auf einer Tiefgarage mit 84 Stellplätzen",
       "site_address": "Gutleutstraße 285",
@@ -14111,7 +14111,7 @@
       "gemarkung_label": "Frankfurt Bezirk 15",
       "flur": "188",
       "flurstueck": "19/18",
-      "fetched_at": "2026-06-14T23:27:30.677274+00:00",
+      "fetched_at": "2026-11-22T23:51:17.624136+00:00",
       "permit_number": "B-2021-749-5",
       "description": "Erweiterung einer Werkstatthalle",
       "site_address": "Heilbronner Straße 5",
