@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-24T13:24:02.491990Z",
+    "last_updated": "2026-11-24T23:26:59.360312Z",
     "total": 1168,
-    "errors": 23,
+    "errors": 25,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -1418,7 +1418,7 @@
       "gemarkung_label": "Frankfurt Bezirk 23",
       "flur": "348",
       "flurstueck": "73/23",
-      "fetched_at": "2026-06-15T03:07:30.108261+00:00",
+      "fetched_at": "2026-11-24T23:09:17.635738+00:00",
       "permit_number": "B-2022-220-3",
       "description": "Ausbau Dachgeschoss zu 2 Wohneinheiten in einem Mehrfamilienhaus \n(Vorderhaus) und die Errichtung von 2 Schleppgauben als 2. Rettungsweg",
       "site_address": "Bornheimer Landstraße 14",
@@ -12577,7 +12577,7 @@
       "gemarkung_label": "Frankfurt Bezirk 26",
       "flur": "416",
       "flurstueck": "3/20",
-      "fetched_at": "2026-06-15T12:03:00.188353+00:00",
+      "fetched_at": "2026-11-24T23:26:59.354449+00:00",
       "permit_number": "B-2024-950-3",
       "description": "Statisch relevante Änderung durch Wiederaufbau der abgebrannten Hofüberdachung für Recyclinganlage",
       "site_address": "Intzestraße 24",
