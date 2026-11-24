@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-24T02:59:23.032371Z",
+    "last_updated": "2026-11-24T13:24:02.491990Z",
     "total": 1168,
     "errors": 23,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -3666,7 +3666,7 @@
       "gemarkung_label": "Frankfurt Bezirk 24",
       "flur": "354",
       "flurstueck": "4/0",
-      "fetched_at": "2026-06-15T12:02:49.148332+00:00",
+      "fetched_at": "2026-11-24T13:18:38.683745+00:00",
       "permit_number": "B-2017-1639-3",
       "description": "Nachträgliche Legalisierung des Spitzbodenausbaus zur\nErweiterung zweier DG-Wohnungen und Herstellen des\n2. Rettungswegs in DG und Spitzboden in einem Mehrfamilienhaus",
       "site_address": "Heidestraße 50",
@@ -5769,7 +5769,7 @@
       "gemarkung_label": "Frankfurt Bezirk 23",
       "flur": "352",
       "flurstueck": "9/0",
-      "fetched_at": "2026-06-15T07:16:54.771421+00:00",
+      "fetched_at": "2026-11-24T13:17:50.989881+00:00",
       "permit_number": "B-2021-89-3",
       "description": "Teilabbruch und Wiedererrichten des Dachgeschosses in veränderter Form, \nzur Erweiterung der vorhandenen Gewerbeeinheit im 2. OG (Hinterhaus), \nNutzungsänderung von Spitzboden zu Gewerberaum (Hinterhaus) \nsowie Fassadenänderung im 1. OG (Hinterhaus)",
       "site_address": "Berger Straße 118",
@@ -8350,7 +8350,7 @@
       "gemarkung_label": "Frankfurt Bezirk 21",
       "flur": "325",
       "flurstueck": "10/0",
-      "fetched_at": "2026-06-15T03:07:20.516869+00:00",
+      "fetched_at": "2026-11-24T13:06:14.698527+00:00",
       "permit_number": "B-2018-373-4",
       "description": "Nutzungsänderung von Backhaus in eine Wohneinheit, Anbau eines Eingangsbereichs, sowie Rückbau und Wiedererrichtung des Dachgeschosses in abgeänderter Form",
       "site_address": "Glauburgstraße 36",
