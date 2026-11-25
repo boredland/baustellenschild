@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-24T23:26:59.360312Z",
+    "last_updated": "2026-11-25T05:50:44.984401Z",
     "total": 1168,
-    "errors": 25,
+    "errors": 28,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -14132,7 +14132,7 @@
       "gemarkung_label": "Frankfurt Bezirk 27",
       "flur": "438",
       "flurstueck": "319/109",
-      "fetched_at": "2026-06-14T07:03:32.655846+00:00",
+      "fetched_at": "2026-11-25T05:38:57.276659+00:00",
       "permit_number": "B-2023-916-3",
       "description": "Dachgeschossausbau und Errichtung von Gauben als Erweiterung\nder Wohnung im 1. Obergeschoss in einem Zweifamilienhaus",
       "site_address": "Dortelweiler Straße 52",
