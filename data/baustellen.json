@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-26T09:19:42.720946Z",
+    "last_updated": "2026-11-26T19:28:57.434804Z",
     "total": 1168,
-    "errors": 21,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -5934,7 +5934,7 @@
       "gemarkung_label": "Bockenheim Bezirk 34",
       "flur": "16",
       "flurstueck": "156/15",
-      "fetched_at": "2026-06-14T07:03:59.626944+00:00",
+      "fetched_at": "2026-11-26T19:25:54.800879+00:00",
       "permit_number": "B-2020-1288-5",
       "description": "Brandschutzrelevante Grundrissänderungen \nAusbau einer Durchfahrt zu Büroflächen, Rückbau eines Windfangs im Innenhof, Änderung der Eingangsbereiche im EG, Errichtung von 2 Dachterrassen, Herstellen von 2 weiteren Stellplätzen in der Tiefgarage in einem Büro- und Verwaltungsgebäude, sowie brandschutzrelevante Änderungen im 6. und 7. OG",
       "site_address": "Lise-Meitner-Straße 4",
