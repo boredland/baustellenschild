@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-25T16:48:21.614750Z",
+    "last_updated": "2026-11-26T01:04:11.311902Z",
     "total": 1168,
-    "errors": 20,
+    "errors": 22,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -16519,7 +16519,7 @@
       "gemarkung_label": "Frankfurt Bezirk 32",
       "flur": "554",
       "flurstueck": "140/0",
-      "fetched_at": "2026-06-12T22:32:25.035510+00:00",
+      "fetched_at": "2026-11-26T00:59:36.197457+00:00",
       "permit_number": "B-2025-375-5",
       "description": "Schließen eines Balkons zur Wohnraumerweiterung im 1.OG eines Einfamilienhauses",
       "site_address": "Nobelring 21",
