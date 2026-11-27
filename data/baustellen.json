@@ -1,8 +1,8 @@
 {
   "meta": {
-    "last_updated": "2026-11-27T11:23:09.617144Z",
+    "last_updated": "2026-11-27T20:24:16.855319Z",
     "total": 1168,
-    "errors": 26,
+    "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
   },
   "sites": [
@@ -15691,7 +15691,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "2",
       "flurstueck": "102/126",
-      "fetched_at": "2026-06-14T01:49:19.779742+00:00",
+      "fetched_at": "2026-11-27T20:24:16.849897+00:00",
       "permit_number": "B-2023-697-6",
       "description": "Aufteilung und Nutzungsänderung eines Ladens in eine Laden- und in eine Wettannahmestelle (Wettvermittlung) ohne Verweilcharakter im EG eines Wohn- und Geschäftshauses",
       "site_address": "Königsteiner Straße 15",
@@ -15711,7 +15711,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "2",
       "flurstueck": "23/136",
-      "fetched_at": "2026-06-14T01:49:21.135369+00:00",
+      "fetched_at": "2026-11-27T20:21:02.832008+00:00",
       "permit_number": "B-2023-297-6",
       "description": "Nutzungsänderung von einem Laden in eine Schank- und Speisewirtschaft im EG eines Wohn- und Geschäftshauses",
       "site_address": "Königsteiner Straße 4",
