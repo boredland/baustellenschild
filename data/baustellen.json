@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-27T02:36:52.818810Z",
+    "last_updated": "2026-11-27T11:23:09.617144Z",
     "total": 1168,
     "errors": 26,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -3935,7 +3935,7 @@
       "gemarkung_label": "Ginnheim Bezirk 44",
       "flur": "15",
       "flurstueck": "21/36",
-      "fetched_at": "2026-06-14T16:03:30.535313+00:00",
+      "fetched_at": "2026-11-27T11:22:12.294944+00:00",
       "permit_number": "B-2025-484-4",
       "description": "Fassadenänderungen sowie Aufbringen einer Flachdachdämmung an einem Wohnhochhaus",
       "site_address": "Guaitastraße 33a",
@@ -8539,7 +8539,7 @@
       "gemarkung_label": "Fechenheim Bezirk 51",
       "flur": "5",
       "flurstueck": "32/242",
-      "fetched_at": "2026-06-14T19:35:02.470335+00:00",
+      "fetched_at": "2026-11-27T11:15:28.619609+00:00",
       "permit_number": "B-2018-1398-3",
       "description": "Brandschutzrelevante Grundrissänderungen in 400 m² Einheiten EG \nbis 3. OG und Nutzungsänderung im EG von Ausstellungsfläche \nin Lagerfläche in einem Bürogebäude sowie Ausbau von\nTechnikräumen im 4. OG zu Büro mit Nebenräumen",
       "site_address": "Sontraer Straße 27",
