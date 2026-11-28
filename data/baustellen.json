@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "2026-11-27T20:24:16.855319Z",
+    "last_updated": "2026-11-28T03:08:56.019161Z",
     "total": 1168,
     "errors": 21,
     "source": "https://www.bauaufsicht-frankfurt.de/service/bauschild"
@@ -15751,7 +15751,7 @@
       "gemarkung_label": "Höchst Bezirk 57",
       "flur": "2",
       "flurstueck": "128/2",
-      "fetched_at": "2026-06-14T01:49:19.932651+00:00",
+      "fetched_at": "2026-11-28T02:52:25.617112+00:00",
       "permit_number": "B-2021-2-6",
       "description": "Nutzungsänderung eines Handwerksbetriebes mit Lager in drei Wohnungen Abbruch und Wiederaufbau des Daches. Errichtung einer Außentreppe mit Terrasse",
       "site_address": "Königsteiner Straße 20",
